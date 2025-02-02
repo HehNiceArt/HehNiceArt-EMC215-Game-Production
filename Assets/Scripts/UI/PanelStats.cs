@@ -7,11 +7,8 @@ public class PanelStats : MonoBehaviour
     [SerializeField] TextMeshProUGUI playerLevel;
     [SerializeField] TextMeshProUGUI cost;
     [SerializeField] TextMeshProUGUI incomeRate;
-    Interactions interactions;
-    private void Start()
+    public void UpdateStats(SO_AreaDetails so_AreaDetails)
     {
-        interactions = GetComponent<Interactions>();
-        SO_AreaDetails so_AreaDetails = interactions.so_AreaDetails;
         areaName.text = so_AreaDetails.areaName;
         playerLevel.text = so_AreaDetails.playerLevelToUnlock.ToString();
         cost.text = so_AreaDetails.costToUnlock.ToString();

@@ -14,9 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   whichArea: 0
   areaName: First Area
-  areaGameObject: {fileID: 7668130035053449691, guid: 7956fd84a09594956a154cf54c8cdbf2, type: 3}
   slotsPerArea: 3
   playerLevelToUnlock: 1
   costToUnlock: 1000
-  passiveBonuseIncome: 100
+  incomeRate: 100
   isLocked: 1

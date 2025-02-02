@@ -5,6 +5,7 @@ public class Interactions : MonoBehaviour
 {
     public SO_AreaDetails so_AreaDetails;
     [SerializeField] GameObject areaPanel;
+    [SerializeField] PanelStats panelStats;
     public bool isShowing = false;
     private void Start()
     {
@@ -12,15 +13,11 @@ public class Interactions : MonoBehaviour
     }
     private void OnMouseDown()
     {
-        if (!isShowing)
+        isShowing = !isShowing;
+        areaPanel.SetActive(isShowing);
+        if (isShowing && panelStats != null)
         {
-            areaPanel.SetActive(true);
-            isShowing = !isShowing;
-        }
-        else
-        {
-            areaPanel.SetActive(false);
-            isShowing = !isShowing;
+            panelStats.UpdateStats(so_AreaDetails);
         }
     }
 }
