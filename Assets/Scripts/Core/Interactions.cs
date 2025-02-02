@@ -4,6 +4,7 @@ using UnityEngine;
 public class Interactions : MonoBehaviour
 {
     public SO_AreaDetails so_AreaDetails;
+    [SerializeField] SO_PlayerDetails playerDetails;
     [SerializeField] GameObject areaPanel;
     [SerializeField] PanelStats panelStats;
     public bool isShowing = false;
