@@ -1,6 +1,7 @@
 using TMPro;
 using UnityEngine;
 
+[RequireComponent(typeof(CurrencyEconomy))]
 public class PlayerStats : MonoBehaviour
 {
     [SerializeField] SO_PlayerDetails so_PlayerDetails;

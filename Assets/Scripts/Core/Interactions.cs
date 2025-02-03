@@ -28,6 +28,7 @@ public class Interactions : MonoBehaviour
         if (so_AreaDetails.isLocked)
         {
             s_current_interaction = this;
+            currencyEconomy.coinsUI.text = so_AreaDetails.costToUnlock.ToString();
             currencyEconomy.DisplayConfirmPurchase(so_AreaDetails.isLocked, this.gameObject.name);
         }
         if (!so_AreaDetails.isLocked)
