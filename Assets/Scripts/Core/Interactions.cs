@@ -9,7 +9,7 @@ public class Interactions : MonoBehaviour
     [SerializeField] Button buyBTN;
     [SerializeField] Button cancelBTN;
     private static Interactions s_current_interaction;
-    bool isPressed = false;
+    static bool isPressed = false;
 
     private void Start()
     {
@@ -18,10 +18,11 @@ public class Interactions : MonoBehaviour
     }
     private void OnMouseDown()
     {
-        isPressed = !isPressed;
+        if (isPressed) return;
         //true if player coins > area lvl to unlock && isLocked
-        if (so_AreaDetails.isLocked && isPressed)
+        if (so_AreaDetails.isLocked)
         {
+            isPressed = true;
             s_current_interaction = this;
             currencyEconomy.coinsUI.text = so_AreaDetails.costToUnlock.ToString();
             currencyEconomy.DisplayConfirmPurchase(so_AreaDetails.isLocked, this.gameObject.name);
@@ -34,11 +35,13 @@ public class Interactions : MonoBehaviour
             s_current_interaction.so_AreaDetails.isLocked = false;
             currencyEconomy.purchaseUI.SetActive(false);
             s_current_interaction = null;
+            isPressed = false;
         }
     }
     void OnCancel()
     {
         currencyEconomy.purchaseUI.SetActive(false);
         s_current_interaction = null;
+        isPressed = false;
     }
 }
