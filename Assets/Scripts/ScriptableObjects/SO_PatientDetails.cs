@@ -1,13 +1,14 @@
 using UnityEngine;
 
-public enum PatientSex
+public enum PatientType
 {
-    male,
-    female
+    common,
+    highProfile
 }
 [CreateAssetMenu(fileName = "SO_PatientDetails", menuName = "Hospital Cats/SO_PatientDetails")]
 public class SO_PatientDetails : ScriptableObject
 {
+    public PatientType patientType;
     public Texture2D[] patientProfile;
     public string[] patientName;
     public float treatmentTime;

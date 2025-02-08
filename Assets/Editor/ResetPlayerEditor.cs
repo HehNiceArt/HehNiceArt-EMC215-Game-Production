@@ -1,13 +1,24 @@
 using UnityEngine;
 using UnityEditor;
 
-[CustomEditor(typeof(ResetPlayerStats))]
-public class ResetPlayerEditor : Editor
+public class ResetPlayerEditor : EditorWindow
 {
-    public override void OnInspectorGUI()
+    private ResetPlayerStats resetPlayerStats;
+    [MenuItem("Hospital Cats/Reset Player Stats")]
+    public static void ShowWindow()
     {
-        base.OnInspectorGUI();
-        ResetPlayerStats resetPlayerStats = (ResetPlayerStats)target;
+        GetWindow<ResetPlayerEditor>("Reset Player Stats");
+    }
+
+    private void OnGUI()
+    {
+        GUILayout.Label("Reset Player Stats", EditorStyles.boldLabel);
+        resetPlayerStats = (ResetPlayerStats)EditorGUILayout.ObjectField("Reset Player Stats", resetPlayerStats, typeof(ResetPlayerStats), true);
+
+        if (resetPlayerStats == null)
+        {
+            EditorGUILayout.HelpBox("Assign a ResetPlayerStats script", MessageType.Warning);
+        }
         if (GUILayout.Button("Reset Coins"))
         {
             resetPlayerStats.ResetCoins();
@@ -16,7 +27,7 @@ public class ResetPlayerEditor : Editor
         {
             resetPlayerStats.ResetCoinGen();
         }
-        if (GUILayout.Button("Reset Reputaiton"))
+        if (GUILayout.Button("Reset Reputation"))
         {
             resetPlayerStats.ResetReputation();
         }
@@ -24,5 +35,6 @@ public class ResetPlayerEditor : Editor
         {
             resetPlayerStats.ResetLevel();
         }
+
     }
 }
