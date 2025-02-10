@@ -19,7 +19,6 @@ public class Interactions : MonoBehaviour
     private void OnMouseDown()
     {
         if (isPressed) return;
-        //true if player coins > area lvl to unlock && isLocked
         if (so_AreaDetails.isLocked)
         {
             isPressed = true;
