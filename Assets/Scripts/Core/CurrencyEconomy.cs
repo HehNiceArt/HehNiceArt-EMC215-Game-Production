@@ -9,6 +9,7 @@ public class CurrencyEconomy : MonoBehaviour
     public TextMeshProUGUI coinsUI;
     PlayerStats playerStats;
 
+
     private void Start()
     {
         playerStats = GetComponent<PlayerStats>();

@@ -917,7 +917,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 99bbb19181c1b4266891a96edfa3be13, type: 2}
+  - {fileID: 2100000, guid: 0f85a7668e6704533a96af633389276c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -959,7 +959,10 @@ Transform:
   m_LocalPosition: {x: 1.1993, y: 0, z: 0.3149}
   m_LocalScale: {x: 8, y: 1, z: 8}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1529427687}
+  - {fileID: 894158510}
+  - {fileID: 1110186957}
   m_Father: {fileID: 383424527}
   m_LocalEulerAnglesHint: {x: 0, y: 30, z: 0}
 --- !u!114 &452615441
@@ -978,6 +981,8 @@ MonoBehaviour:
   currencyEconomy: {fileID: 1297521480}
   buyBTN: {fileID: 174374007}
   cancelBTN: {fileID: 36951573}
+  changeMat: {fileID: 2100000, guid: 99bbb19181c1b4266891a96edfa3be13, type: 2}
+  tableSpawnPoints: []
 --- !u!1 &508273320
 GameObject:
   m_ObjectHideFlags: 0
@@ -1287,6 +1292,8 @@ MonoBehaviour:
   currencyEconomy: {fileID: 1297521480}
   buyBTN: {fileID: 174374007}
   cancelBTN: {fileID: 36951573}
+  changeMat: {fileID: 2100000, guid: 99bbb19181c1b4266891a96edfa3be13, type: 2}
+  tableSpawnPoints: []
 --- !u!65 &583072578
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1331,7 +1338,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 99bbb19181c1b4266891a96edfa3be13, type: 2}
+  - {fileID: 2100000, guid: 0f85a7668e6704533a96af633389276c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1732,6 +1739,68 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 759897460}
   m_CullTransparentMesh: 1
+--- !u!1 &894158509
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 894158510}
+  m_Layer: 0
+  m_Name: tableSpawnPoint (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &894158510
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 894158509}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0.2588191, z: -0, w: 0.9659258}
+  m_LocalPosition: {x: -0.022, y: 0.69, z: 0.355}
+  m_LocalScale: {x: 0.125, y: 1, z: 0.125}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 452615440}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1110186956
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1110186957}
+  m_Layer: 0
+  m_Name: tableSpawnPoint (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1110186957
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1110186956}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0.2588191, z: -0, w: 0.9659258}
+  m_LocalPosition: {x: 0.33, y: 0.69, z: 0.372}
+  m_LocalScale: {x: 0.125, y: 1, z: 0.125}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 452615440}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1297521476
 GameObject:
   m_ObjectHideFlags: 0
@@ -1944,6 +2013,8 @@ MonoBehaviour:
   currencyEconomy: {fileID: 1297521480}
   buyBTN: {fileID: 174374007}
   cancelBTN: {fileID: 36951573}
+  changeMat: {fileID: 2100000, guid: 99bbb19181c1b4266891a96edfa3be13, type: 2}
+  tableSpawnPoints: []
 --- !u!65 &1472521262
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1988,7 +2059,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 99bbb19181c1b4266891a96edfa3be13, type: 2}
+  - {fileID: 2100000, guid: 0f85a7668e6704533a96af633389276c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2069,6 +2140,8 @@ MonoBehaviour:
   currencyEconomy: {fileID: 1297521480}
   buyBTN: {fileID: 174374007}
   cancelBTN: {fileID: 36951573}
+  changeMat: {fileID: 2100000, guid: 99bbb19181c1b4266891a96edfa3be13, type: 2}
+  tableSpawnPoints: []
 --- !u!65 &1515145237
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2113,7 +2186,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 99bbb19181c1b4266891a96edfa3be13, type: 2}
+  - {fileID: 2100000, guid: 0f85a7668e6704533a96af633389276c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2158,6 +2231,37 @@ Transform:
   m_Children: []
   m_Father: {fileID: 383424527}
   m_LocalEulerAnglesHint: {x: 0, y: 30, z: 0}
+--- !u!1 &1529427686
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1529427687}
+  m_Layer: 0
+  m_Name: tableSpawnPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1529427687
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1529427686}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0.2588191, z: -0, w: 0.9659258}
+  m_LocalPosition: {x: -0.36639684, y: 0.69, z: 0.3347928}
+  m_LocalScale: {x: 0.125, y: 1, z: 0.125}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 452615440}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1687339655
 GameObject:
   m_ObjectHideFlags: 0
@@ -2330,6 +2434,8 @@ MonoBehaviour:
   currencyEconomy: {fileID: 1297521480}
   buyBTN: {fileID: 174374007}
   cancelBTN: {fileID: 36951573}
+  changeMat: {fileID: 2100000, guid: 99bbb19181c1b4266891a96edfa3be13, type: 2}
+  tableSpawnPoints: []
 --- !u!65 &1731341208
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2374,7 +2480,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 99bbb19181c1b4266891a96edfa3be13, type: 2}
+  - {fileID: 2100000, guid: 0f85a7668e6704533a96af633389276c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

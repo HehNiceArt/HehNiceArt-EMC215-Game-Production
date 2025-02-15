@@ -14,9 +14,10 @@ public class SO_AreaDetails : ScriptableObject
 {
     public WhichArea whichArea;
     public string areaName;
-    public int slotsPerArea = 3;
+    public GameObject[] stations;
     public float playerLevelToUnlock = 1;
     public float costToUnlock = 1000;
     public float incomeRate = 100;
     public bool isLocked = true;
+    public Material areaMat;
 }
