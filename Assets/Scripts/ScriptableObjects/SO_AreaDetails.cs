@@ -13,7 +13,6 @@ public enum WhichArea
 public class SO_AreaDetails : ScriptableObject
 {
     public WhichArea whichArea;
-    public string areaName;
     public GameObject[] stations;
     public float playerLevelToUnlock = 1;
     public float costToUnlock = 1000;

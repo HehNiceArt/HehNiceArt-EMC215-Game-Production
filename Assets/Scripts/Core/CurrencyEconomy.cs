@@ -9,12 +9,12 @@ public class CurrencyEconomy : MonoBehaviour
     public TextMeshProUGUI coinsUI;
     PlayerStats playerStats;
 
-
     private void Start()
     {
         playerStats = GetComponent<PlayerStats>();
         purchaseUI.SetActive(false);
     }
+
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.Equals))
@@ -22,11 +22,11 @@ public class CurrencyEconomy : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Minus))
             playerStats.UpdatePlayerDetail(-1000f);
     }
+
     public bool CheckAreaPurchase(float areaCost)
     {
         if (so_PlayerDetails.coins >= areaCost)
         {
-            Debug.Log("Purchase!");
             playerStats.UpdatePlayerDetail(-areaCost);
             return true;
         }
@@ -36,6 +36,7 @@ public class CurrencyEconomy : MonoBehaviour
             return false;
         }
     }
+
     public void DisplayConfirmPurchase(bool isLocked, string areaName)
     {
         if (isLocked)
