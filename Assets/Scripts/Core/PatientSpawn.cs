@@ -7,7 +7,6 @@ public class PatientSpawn : MonoBehaviour
     [SerializeField] Transform patientSpawnPoint;
     [SerializeField] SO_PlayerDetails playerDetails;
     [SerializeField] float baseSpawnRate = 30f;
-    [SerializeField] float patientSpawnRate = 7f;
     [SerializeField] float[] spawnWeights = new float[] { 50, 25, 15, 7, 3 };
 
     void Start()
@@ -48,7 +47,6 @@ public class PatientSpawn : MonoBehaviour
         while (true)
         {
             float currentSpawnRate = baseSpawnRate;
-            Debug.Log(currentSpawnRate);
 
             if (currentSpawnRate <= 0)
             {

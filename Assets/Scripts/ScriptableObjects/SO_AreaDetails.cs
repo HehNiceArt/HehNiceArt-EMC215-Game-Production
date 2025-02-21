@@ -19,4 +19,5 @@ public class SO_AreaDetails : ScriptableObject
     public float xpGain = 0;
     public bool isLocked = true;
     public Material areaMat;
+    public bool hasPharmacy = false;
 }

@@ -12,12 +12,14 @@ public class Patient : MonoBehaviour
     [SerializeField] SO_PatientDetails patientDetails;
     [SerializeField] SO_PlayerDetails sO_PlayerDetails;
     LevelExperience levelExperience;
+    Pharmacy currentPharmacy;
 
     bool isWaiting = false;
     float actualTreatmentDuration;
     bool hasReachedTable = false;
     public float waitingTimer = 0f;
     public bool hasStartedWaiting = false;
+    private bool hasReachedPharmacyPosition = false;
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
@@ -29,7 +31,7 @@ public class Patient : MonoBehaviour
     }
     void Update()
     {
-        if (isWaiting && hasStartedWaiting && !hasReachedTable)
+        if (isWaiting && hasStartedWaiting && !hasReachedTable && currentPharmacy == null)
         {
             waitingTimer += Time.deltaTime;
             if (waitingTimer >= patientDetails.waitingPeriod)
@@ -37,6 +39,33 @@ public class Patient : MonoBehaviour
                 LeaveHospital();
             }
         }
+    }
+    public void AssignToPharmacy(Pharmacy pharmacy)
+    {
+        currentPharmacy = pharmacy;
+        isWaiting = false;
+        pharmacy.AddPatientToQueue(this);
+    }
+    public void OnPharmacyServiceComplete()
+    {
+        if (levelExperience != null)
+        {
+            levelExperience.UpdateReputation(patientDetails.reputation);
+            FindObjectOfType<PlayerStats>()?.UpdatePlayerDetail(patientDetails.coinDrops);
+            levelExperience.AddExperience(patientDetails.xpDrop);
+        }
+
+        // Handle patient leaving
+        Destroy(gameObject);
+    }
+    public void OnReachedPharmacyPosition()
+    {
+        hasReachedPharmacyPosition = true;
+    }
+
+    public bool HasReachedPharmacyPosition()
+    {
+        return hasReachedPharmacyPosition;
     }
     void LeaveHospital()
     {

@@ -5,6 +5,7 @@ using UnityEngine.AI;
 using UnityEditor.UIElements;
 using Unity.VisualScripting;
 using System.Linq;
+using NUnit.Framework.Constraints;
 
 public class Room : MonoBehaviour
 {
@@ -14,6 +15,7 @@ public class Room : MonoBehaviour
     [SerializeField] float spaceBetweenPatients = 1.5f;
     [SerializeField] int patientsPerRow = 3;
     [SerializeField] int maxWaitingPatients = 6;
+    [SerializeField] Pharmacy pharmacy;
     public Transform waitingArea;
 
     Queue<GameObject> waitingPatients = new Queue<GameObject>();
@@ -46,10 +48,23 @@ public class Room : MonoBehaviour
         return hasAvailableSpot || hasAvailableTable;
     }
 
-    public void AddPatientToQueue(GameObject patient)
+    public void AddPatientToQueue(GameObject patientObj)
     {
         if (patientWaitingArea == null) return;
 
+        Patient patient = patientObj.GetComponent<Patient>();
+        if (patient == null) return;
+
+        if (areaDetails != null && areaDetails.whichArea == WhichArea.secondArea || areaDetails.whichArea == WhichArea.fourthArea || areaDetails.whichArea == WhichArea.fifthArea)
+            if (ShouldVisitPharmacy())
+            {
+                Debug.Log("wdawd");
+                if (pharmacy != null && pharmacy.CanAcceptPatient())
+                {
+                    patient.AssignToPharmacy(pharmacy);
+                    return;
+                }
+            }
         if (waitingPatients.Count == 0)
         {
             bool tableFound = false;
@@ -70,8 +85,8 @@ public class Room : MonoBehaviour
         if (spotIndex == -1) return;
 
         waitingSpots[spotIndex] = true;
-        patientPositions[patient] = spotIndex;
-        waitingPatients.Enqueue(patient);
+        patientPositions[patient.gameObject] = spotIndex;
+        waitingPatients.Enqueue(patient.gameObject);
 
         if (patient.TryGetComponent<NavMeshAgent>(out NavMeshAgent agent))
         {
@@ -82,6 +97,21 @@ public class Room : MonoBehaviour
         {
             patientComponent.hasStartedWaiting = true;
             patientComponent.waitingTimer = 0f;
+        }
+    }
+    bool ShouldVisitPharmacy()
+    {
+        if (areaDetails == null) return false;
+        switch (areaDetails.whichArea)
+        {
+            case WhichArea.secondArea:
+                return Random.value < 0.4f;
+            case WhichArea.fourthArea:
+                return Random.value < 0.5f;
+            case WhichArea.fifthArea:
+                return Random.value < 0.6f;
+            default:
+                return false;
         }
     }
     int FindFirstAvailableSpot()
