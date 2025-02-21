@@ -13,9 +13,6 @@ public class Patient : MonoBehaviour
     {
         agent = GetComponent<NavMeshAgent>();
         FindAvailableRoom();
-    }
-    void Update()
-    {
         StartCoroutine(FindRoomTimer());
     }
     IEnumerator FindRoomTimer()
@@ -26,29 +23,29 @@ public class Patient : MonoBehaviour
     void FindAvailableRoom()
     {
         Room[] rooms = FindObjectsOfType<Room>();
-        Debug.Log($"Found {rooms.Length} rooms"); // Debug line
-
+        Debug.Log($"Found {rooms.Length} rooms");
 
         foreach (Room room in rooms)
         {
-            Debug.Log($"Checking room: {room.gameObject.name}, CanAcceptPatient: {room.CanAcceptPatient()}"); // Debug line
+            Debug.Log($"Checking room: {room.gameObject.name}, CanAcceptPatient: {room.CanAcceptPatient()}");
 
             if (room.CanAcceptPatient())
             {
                 currentRoom = room;
                 currentRoom.AddPatientToQueue(gameObject);
-                break;
+                return;
             }
         }
+
         if (currentRoom == null)
         {
             Debug.Log("Cannot find a room!");
-            //Destroy(gameObject);
         }
     }
     public void AssignToTable(TableInteraction table)
     {
         assignedTable = table;
+        table.OccupyTable();
         agent.SetDestination(table.transform.position);
         StartCoroutine(StartTreatment());
     }
@@ -61,9 +58,10 @@ public class Patient : MonoBehaviour
 
         if (assignedTable != null && assignedTable.so_TableBehavior != null)
         {
-            FindObjectOfType<PlayerStats>()?.UpdatePlayerDetail(patientDetails.coinDrops);
+            assignedTable.VacateTable();
+            if (assignedTable.so_TableBehavior != null)
+                FindObjectOfType<PlayerStats>()?.UpdatePlayerDetail(patientDetails.coinDrops);
         }
-        ;
         Destroy(gameObject);
     }
 }

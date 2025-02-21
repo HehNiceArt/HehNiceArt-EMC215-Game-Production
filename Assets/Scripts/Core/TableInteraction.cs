@@ -11,6 +11,7 @@ public class TableInteraction : MonoBehaviour
 
     private MeshRenderer meshRenderer;
     public bool isTableLocked = true;
+    public bool isOccupied = false;
     private static TableInteraction s_current_table;
 
     void Start()
@@ -25,6 +26,8 @@ public class TableInteraction : MonoBehaviour
         buyBTN.onClick.AddListener(PurchaseTable);
         cancelBTN.onClick.AddListener(OnCancel);
     }
+    public void OccupyTable() => isOccupied = true;
+    public void VacateTable() => isOccupied = false;
 
     private void OnMouseDown()
     {

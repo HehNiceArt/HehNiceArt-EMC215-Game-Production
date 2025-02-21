@@ -947,7 +947,7 @@ GameObject:
   m_Layer: 0
   m_Name: WaitingArea
   m_TagString: Untagged
-  m_Icon: {fileID: 2974397684917235467, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -959,8 +959,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 413862579}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0.2588191, z: -0, w: 0.9659258}
-  m_LocalPosition: {x: -0.02, y: 0, z: -0.331}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.394, y: 0, z: -0.284}
   m_LocalScale: {x: 0.125, y: 1, z: 0.125}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1116,6 +1116,10 @@ MonoBehaviour:
   - {fileID: 1710539569}
   patientWaitingArea: {fileID: 413862580}
   areaDetails: {fileID: 11400000, guid: 84ec580aedd0e48c4ac4950a6a40158e, type: 2}
+  spaceBetweenPatients: 1
+  patientsPerRow: 7
+  maxWaitingPatients: 14
+  waitingArea: {fileID: 413862580}
 --- !u!114 &452615443
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2634,7 +2638,7 @@ MonoBehaviour:
   - {fileID: 3138346505213940523, guid: 3d6d3f12e547f9a4aad72a13dce91ee8, type: 3}
   - {fileID: 3138346505213940523, guid: 3d754de42ceecdc409711612ca9c578d, type: 3}
   patientSpawnPoint: {fileID: 938495627}
-  patientSpawnRate: 10
+  patientSpawnRate: 1
 --- !u!1 &1335490475
 GameObject:
   m_ObjectHideFlags: 0
@@ -3296,6 +3300,7 @@ MonoBehaviour:
   cancelBTN: {fileID: 36951573}
   interactions: {fileID: 0}
   isTableLocked: 1
+  isOccupied: 0
 --- !u!114 &1547066344
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3848,6 +3853,7 @@ MonoBehaviour:
   cancelBTN: {fileID: 36951573}
   interactions: {fileID: 0}
   isTableLocked: 1
+  isOccupied: 0
 --- !u!114 &1710539570
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4160,6 +4166,7 @@ MonoBehaviour:
   cancelBTN: {fileID: 36951573}
   interactions: {fileID: 0}
   isTableLocked: 1
+  isOccupied: 0
 --- !u!114 &1883924481
 MonoBehaviour:
   m_ObjectHideFlags: 0
