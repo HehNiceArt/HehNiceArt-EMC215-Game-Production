@@ -3,13 +3,13 @@ using UnityEngine.UI;
 
 public class TableInteraction : MonoBehaviour
 {
-    [SerializeField] private SO_TableBehavior so_TableBehavior;
+    public SO_TableBehavior so_TableBehavior;
     [SerializeField] private CurrencyEconomy currencyEconomy;
     [SerializeField] private Button buyBTN;
     [SerializeField] private Button cancelBTN;
 
     private MeshRenderer meshRenderer;
-    private bool isTableLocked = true;
+    public bool isTableLocked = true;
     private static TableInteraction s_current_table;
 
     void Start()
@@ -20,7 +20,7 @@ public class TableInteraction : MonoBehaviour
             meshRenderer.material = so_TableBehavior.tableIsLocked ? so_TableBehavior.notPurchased : meshRenderer.material;
             isTableLocked = so_TableBehavior.tableIsLocked;
         }
-        buyBTN.onClick.AddListener(OnButtonPressed);
+        buyBTN.onClick.AddListener(PurchaseTable);
         cancelBTN.onClick.AddListener(OnCancel);
     }
 
@@ -32,14 +32,13 @@ public class TableInteraction : MonoBehaviour
         currencyEconomy.coinsUI.text = so_TableBehavior.costToHire.ToString();
         currencyEconomy.DisplayConfirmPurchase(isTableLocked, gameObject.name);
     }
-    void OnButtonPressed()
+    void PurchaseTable()
     {
         if (s_current_table != null && currencyEconomy.CheckAreaPurchase(s_current_table.so_TableBehavior.costToHire))
         {
             s_current_table.isTableLocked = false;
             s_current_table.so_TableBehavior.tableIsLocked = false;
-            if (s_current_table.meshRenderer = null)
-                s_current_table.meshRenderer.material = s_current_table.so_TableBehavior.purchasedMaterial;
+            s_current_table.meshRenderer.material = s_current_table.so_TableBehavior.purchasedMaterial;
 
             currencyEconomy.purchaseUI.SetActive(false);
             s_current_table = null;

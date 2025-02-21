@@ -25,6 +25,7 @@ public class CurrencyEconomy : MonoBehaviour
 
     public bool CheckAreaPurchase(float areaCost)
     {
+        Debug.Log("Cost: " + areaCost);
         if (so_PlayerDetails.coins >= areaCost)
         {
             playerStats.UpdatePlayerDetail(-areaCost);

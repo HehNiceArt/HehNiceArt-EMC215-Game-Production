@@ -4,80 +4,51 @@ using TMPro;
 
 public class TableUpgrade : MonoBehaviour
 {
-    [SerializeField] private SO_TableBehavior so_TableBehavior;
-    [SerializeField] private CurrencyEconomy currencyEconomy;
-    [SerializeField] private Button upgradeBTN;
-    [SerializeField] private TextMeshProUGUI upgradeCostText;
-    [SerializeField] private TextMeshProUGUI currentLevelText;
+    [SerializeField] SO_TableBehavior[] so_TableBehavior;
+    TableInteraction tableInteraction;
+    private int currentTableLevel = 0;
 
-    private MeshRenderer meshRenderer;
+    [SerializeField] CurrencyEconomy currencyEconomy;
+    [SerializeField] Button upgradeBTN;
+    [SerializeField] Button cancelBTN;
+    [SerializeField] GameObject upgradeUI;
+    [SerializeField] TextMeshProUGUI upgradeString;
+    [SerializeField] TextMeshProUGUI cost;
 
-    private void Start()
+    private static TableUpgrade s_tableUpgrade;
+    void Start()
     {
-        meshRenderer = GetComponent<MeshRenderer>();
-        upgradeBTN.onClick.AddListener(OnUpgradeButtonPressed);
-        UpdateUI();
+        s_tableUpgrade = this;
+        tableInteraction = GetComponent<TableInteraction>();
+        upgradeBTN.onClick.AddListener(UpgradeTable);
+        cancelBTN.onClick.AddListener(OnCancel);
     }
 
-    public void SetupReferences(SO_TableBehavior tableBehavior, CurrencyEconomy economy)
+    void OnMouseDown()
     {
-        so_TableBehavior = tableBehavior;
-        currencyEconomy = economy;
+        if (tableInteraction.isTableLocked)
+            return;
+        s_tableUpgrade = this;
+        s_tableUpgrade.upgradeUI.SetActive(true);
+        upgradeString.text = $"Upgrade to {so_TableBehavior[currentTableLevel + 1].tableLevels}?";
+        cost.text = so_TableBehavior[currentTableLevel + 1].costToHire.ToString();
     }
-
-    private void UpdateUI()
+    public void UpgradeTable()
     {
-        if (so_TableBehavior != null)
+        if (currentTableLevel < s_tableUpgrade.so_TableBehavior.Length - 1 && currencyEconomy.CheckAreaPurchase(s_tableUpgrade.so_TableBehavior[currentTableLevel + 1].costToHire))
         {
-            upgradeCostText.text = CalculateUpgradeCost().ToString();
-            currentLevelText.text = $"Current Level: {so_TableBehavior.tableLevels}";
+            Debug.Log("Upgrade table!");
+            s_tableUpgrade.tableInteraction.so_TableBehavior = s_tableUpgrade.so_TableBehavior[currentTableLevel + 1];
+            currentTableLevel++;
+        }
+        else
+        {
+            upgradeString.text = "Not enough coins!";
         }
     }
-
-    private float CalculateUpgradeCost()
+    void OnCancel()
     {
-        // Increase cost based on current level
-        return so_TableBehavior.costToHire * 1.5f;
-    }
-
-    private void OnUpgradeButtonPressed()
-    {
-        float upgradeCost = CalculateUpgradeCost();
-
-        if (currencyEconomy.CheckAreaPurchase(upgradeCost))
-        {
-            UpgradeTable();
-            UpdateUI();
-        }
-    }
-
-    private void UpgradeTable()
-    {
-        switch (so_TableBehavior.tableLevels)
-        {
-            case TableLevels.medicalStudent:
-                so_TableBehavior.tableLevels = TableLevels.internDoctor;
-                break;
-            case TableLevels.internDoctor:
-                so_TableBehavior.tableLevels = TableLevels.resident;
-                break;
-            case TableLevels.resident:
-                so_TableBehavior.tableLevels = TableLevels.fellow;
-                break;
-            case TableLevels.fellow:
-                so_TableBehavior.tableLevels = TableLevels.attendingPhysician;
-                break;
-        }
-
-        // Update table properties
-        so_TableBehavior.treatmentCost *= 1.5f;
-        so_TableBehavior.salary *= 1.25f;
-        so_TableBehavior.costToHire *= 2f;
-
-        // Update visual if needed
-        if (meshRenderer != null && so_TableBehavior.staffProfile.Length > (int)so_TableBehavior.tableLevels)
-        {
-            meshRenderer.material.mainTexture = so_TableBehavior.staffProfile[(int)so_TableBehavior.tableLevels];
-        }
+        s_tableUpgrade.upgradeUI.SetActive(false);
+        s_tableUpgrade = null;
     }
 }
