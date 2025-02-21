@@ -6,7 +6,7 @@ public class TableUpgrade : MonoBehaviour
 {
     [SerializeField] SO_TableBehavior[] so_TableBehavior;
     TableInteraction tableInteraction;
-    public int currentTableLevel = 0;
+    int currentTableLevel = 0;
 
     [SerializeField] CurrencyEconomy currencyEconomy;
     [SerializeField] Button upgradeBTN;
@@ -14,6 +14,7 @@ public class TableUpgrade : MonoBehaviour
     [SerializeField] GameObject upgradeUI;
     [SerializeField] TextMeshProUGUI upgradeString;
     [SerializeField] TextMeshProUGUI cost;
+    [SerializeField] TextMeshProUGUI costText;
 
     private static TableUpgrade s_tableUpgrade;
     void Start()
@@ -31,11 +32,21 @@ public class TableUpgrade : MonoBehaviour
             return;
         if (currentTableLevel == so_TableBehavior.Length - 1)
         {
-            Debug.Log("awdaw");
+            s_tableUpgrade.upgradeUI.SetActive(true);
+            upgradeString.text = "Max Level!";
+            s_tableUpgrade.upgradeBTN.gameObject.SetActive(false);
+            s_tableUpgrade.costText.gameObject.SetActive(false);
+            cost.text = "";
+            return;
         }
-        s_tableUpgrade.upgradeUI.SetActive(true);
-        upgradeString.text = $"Upgrade to {so_TableBehavior[currentTableLevel + 1].tableLevels}?";
-        cost.text = so_TableBehavior[currentTableLevel + 1].costToHire.ToString();
+        else
+        {
+            s_tableUpgrade.upgradeUI.SetActive(true);
+            s_tableUpgrade.upgradeBTN.gameObject.SetActive(true);
+            s_tableUpgrade.costText.gameObject.SetActive(true);
+            upgradeString.text = $"Upgrade to {so_TableBehavior[currentTableLevel + 1].tableLevels}?";
+            cost.text = so_TableBehavior[currentTableLevel + 1].costToHire.ToString();
+        }
     }
     public void UpgradeTable()
     {

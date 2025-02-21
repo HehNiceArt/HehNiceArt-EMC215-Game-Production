@@ -1211,6 +1211,7 @@ GameObject:
   - component: {fileID: 519420031}
   - component: {fileID: 519420029}
   - component: {fileID: 519420030}
+  - component: {fileID: 519420033}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1330,12 +1331,30 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0.2588191, y: 0, z: 0, w: 0.9659258}
-  m_LocalPosition: {x: 1.7, y: 22.12, z: -34.43}
+  m_LocalPosition: {x: 1.7, y: 27.75, z: -34.43}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 30, y: 0, z: 0}
+--- !u!114 &519420033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e0197b463d9845cabc65b6c82fb4210, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 20
+  smoothTime: 0.3
+  movementBounds: {x: 20, y: 15.8}
+  zoomSpeed: 5
+  minZoom: 2
+  maxZoom: 15
 --- !u!1 &583072575
 GameObject:
   m_ObjectHideFlags: 0
@@ -3062,6 +3081,7 @@ MonoBehaviour:
   upgradeUI: {fileID: 305418998}
   upgradeString: {fileID: 627738469}
   cost: {fileID: 726079538}
+  costText: {fileID: 1335490477}
 --- !u!1 &1580017808
 GameObject:
   m_ObjectHideFlags: 0
@@ -3470,6 +3490,7 @@ MonoBehaviour:
   upgradeUI: {fileID: 305418998}
   upgradeString: {fileID: 627738469}
   cost: {fileID: 726079538}
+  costText: {fileID: 1335490477}
 --- !u!1 &1731341205
 GameObject:
   m_ObjectHideFlags: 0
@@ -3747,6 +3768,7 @@ MonoBehaviour:
   upgradeUI: {fileID: 305418998}
   upgradeString: {fileID: 627738469}
   cost: {fileID: 726079538}
+  costText: {fileID: 1335490477}
 --- !u!1 &1943319977
 GameObject:
   m_ObjectHideFlags: 0
