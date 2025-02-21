@@ -13,4 +13,5 @@ public class SO_PatientDetails : ScriptableObject
     public string[] patientName;
     public float treatmentTime;
     public float coinDrops;
+    public float XPDrop;
 }

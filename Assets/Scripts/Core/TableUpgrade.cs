@@ -36,7 +36,7 @@ public class TableUpgrade : MonoBehaviour
             upgradeString.text = "Max Level!";
             s_tableUpgrade.upgradeBTN.gameObject.SetActive(false);
             s_tableUpgrade.costText.gameObject.SetActive(false);
-            cost.text = "";
+            s_tableUpgrade.cost.gameObject.SetActive(false);
             return;
         }
         else
@@ -44,6 +44,7 @@ public class TableUpgrade : MonoBehaviour
             s_tableUpgrade.upgradeUI.SetActive(true);
             s_tableUpgrade.upgradeBTN.gameObject.SetActive(true);
             s_tableUpgrade.costText.gameObject.SetActive(true);
+            s_tableUpgrade.cost.gameObject.SetActive(true);
             upgradeString.text = $"Upgrade to {so_TableBehavior[currentTableLevel + 1].tableLevels}?";
             cost.text = so_TableBehavior[currentTableLevel + 1].costToHire.ToString();
         }

@@ -7,6 +7,7 @@ public class TableInteraction : MonoBehaviour
     [SerializeField] private CurrencyEconomy currencyEconomy;
     [SerializeField] private Button buyBTN;
     [SerializeField] private Button cancelBTN;
+    public Interactions interactions;
 
     private MeshRenderer meshRenderer;
     public bool isTableLocked = true;
@@ -14,6 +15,7 @@ public class TableInteraction : MonoBehaviour
 
     void Start()
     {
+        interactions = GetComponentInParent<Interactions>();
         meshRenderer = GetComponent<MeshRenderer>();
         if (meshRenderer != null && so_TableBehavior != null)
         {
@@ -27,6 +29,7 @@ public class TableInteraction : MonoBehaviour
     private void OnMouseDown()
     {
         if (!isTableLocked) return;
+        if (interactions.so_AreaDetails.isLocked) return;
 
         s_current_table = this;
         currencyEconomy.coinsUI.text = so_TableBehavior.costToHire.ToString();
