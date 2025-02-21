@@ -8,6 +8,8 @@ public class TableInteraction : MonoBehaviour
     [SerializeField] private Button buyBTN;
     [SerializeField] private Button cancelBTN;
     Interactions interactions;
+    float salaryTimer = 0f;
+    const float SALARY_INTERVAL = 300f;
 
     private MeshRenderer meshRenderer;
     public bool isTableLocked = true;
@@ -25,6 +27,23 @@ public class TableInteraction : MonoBehaviour
         }
         buyBTN.onClick.AddListener(PurchaseTable);
         cancelBTN.onClick.AddListener(OnCancel);
+    }
+    void Update()
+    {
+        if (!isTableLocked)
+        {
+            salaryTimer += Time.deltaTime;
+            if (salaryTimer >= SALARY_INTERVAL)
+            {
+                PayStaffSalary();
+                salaryTimer = 0;
+            }
+        }
+    }
+#pragma warning disable
+    void PayStaffSalary()
+    {
+        FindObjectOfType<PlayerStats>()?.UpdatePlayerDetail(-so_TableBehavior.salary);
     }
     public void OccupyTable() => isOccupied = true;
     public void VacateTable() => isOccupied = false;
@@ -46,7 +65,6 @@ public class TableInteraction : MonoBehaviour
             s_current_table.so_TableBehavior.tableIsLocked = false;
             s_current_table.meshRenderer.material = s_current_table.so_TableBehavior.purchasedMaterial;
 
-#pragma warning disable
             FindObjectOfType<LevelExperience>()?.AddExperience(so_TableBehavior.xpGain);
 #pragma warning restore
             currencyEconomy.purchaseUI.SetActive(false);

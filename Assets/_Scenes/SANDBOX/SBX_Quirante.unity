@@ -2252,7 +2252,7 @@ GameObject:
   - component: {fileID: 761422162}
   m_Layer: 0
   m_Name: Table1
-  m_TagString: Untagged
+  m_TagString: table
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2828,6 +2828,7 @@ GameObject:
   - component: {fileID: 1297521482}
   - component: {fileID: 1297521483}
   - component: {fileID: 1297521484}
+  - component: {fileID: 1297521485}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -2932,7 +2933,7 @@ MonoBehaviour:
   - {fileID: 3138346505213940523, guid: 3d754de42ceecdc409711612ca9c578d, type: 3}
   patientSpawnPoint: {fileID: 938495627}
   playerDetails: {fileID: 11400000, guid: ccfcf005a25e6492488d0de429ae0381, type: 2}
-  baseSpawnRate: 10
+  baseSpawnRate: 5
   spawnWeights:
   - 50
   - 25
@@ -2955,6 +2956,22 @@ MonoBehaviour:
   levelUI: {fileID: 1943319979}
   reputationUI: {fileID: 1241153141}
   currentXP: 0
+--- !u!114 &1297521485
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1297521476}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff813b6cc0ae92d45a42f640f60d6266, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maintenanceInterval: 600
+  maintenanceDuration: 30
+  maintenanceCost: 1500
+  affectedObjects: []
 --- !u!1 &1334419134
 GameObject:
   m_ObjectHideFlags: 0
@@ -2967,7 +2984,7 @@ GameObject:
   - component: {fileID: 1334419136}
   m_Layer: 0
   m_Name: Pharmacy
-  m_TagString: Untagged
+  m_TagString: table
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3163,7 +3180,7 @@ GameObject:
   - component: {fileID: 1401624071}
   m_Layer: 0
   m_Name: Table3
-  m_TagString: Untagged
+  m_TagString: table
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3742,7 +3759,7 @@ GameObject:
   - component: {fileID: 1518147732}
   m_Layer: 0
   m_Name: Table2
-  m_TagString: Untagged
+  m_TagString: table
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4509,7 +4526,7 @@ GameObject:
   - component: {fileID: 1710539570}
   m_Layer: 6
   m_Name: Table3
-  m_TagString: Untagged
+  m_TagString: table
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
