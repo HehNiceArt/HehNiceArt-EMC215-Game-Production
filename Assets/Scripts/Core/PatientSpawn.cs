@@ -23,6 +23,5 @@ public class PatientSpawn : MonoBehaviour
     {
         int rand = Random.Range(0, patientPrefab.Length);
         Instantiate(patientPrefab[rand], patientSpawnPoint.position, Quaternion.identity);
-        Debug.Log("Patient Spawning!");
     }
 }

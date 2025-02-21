@@ -9,30 +9,25 @@ public class Patient : MonoBehaviour
     public Room currentRoom;
     public TableInteraction assignedTable;
     [SerializeField] SO_PatientDetails patientDetails;
+    bool isWaiting = false;
+    float actualTreatmentDuration;
+    bool hasReachedTable = false;
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
         FindAvailableRoom();
-        StartCoroutine(FindRoomTimer());
-    }
-    IEnumerator FindRoomTimer()
-    {
-        yield return new WaitForSeconds(5);
-        FindAvailableRoom();
     }
     void FindAvailableRoom()
     {
+        if (isWaiting) return;
         Room[] rooms = FindObjectsOfType<Room>();
-        Debug.Log($"Found {rooms.Length} rooms");
-
         foreach (Room room in rooms)
         {
-            Debug.Log($"Checking room: {room.gameObject.name}, CanAcceptPatient: {room.CanAcceptPatient()}");
-
             if (room.CanAcceptPatient())
             {
                 currentRoom = room;
                 currentRoom.AddPatientToQueue(gameObject);
+                isWaiting = true;
                 return;
             }
         }
@@ -46,21 +41,43 @@ public class Patient : MonoBehaviour
     {
         assignedTable = table;
         table.OccupyTable();
+        hasReachedTable = false;
+
+        CalculateTreatmentDuration();
         agent.SetDestination(table.transform.position);
-        StartCoroutine(StartTreatment());
+        StartCoroutine(CheckReachedTable());
+    }
+    void CalculateTreatmentDuration()
+    {
+        actualTreatmentDuration = patientDetails.treatmentTime;
+        if (assignedTable != null && assignedTable.so_TableBehavior != null)
+            actualTreatmentDuration /= assignedTable.so_TableBehavior.treatmentCost;
+        Debug.Log($"Calculated treatment duration: {actualTreatmentDuration} seconds");
+    }
+    IEnumerator CheckReachedTable()
+    {
+        yield return new WaitForSeconds(0.1f);
+
+        while (!hasReachedTable)
+        {
+            if (agent.remainingDistance <= agent.stoppingDistance && !agent.pathPending)
+            {
+                hasReachedTable = true;
+                StartCoroutine(StartTreatment());
+                break;
+            }
+            yield return new WaitForSeconds(0.1f);
+        }
     }
     IEnumerator StartTreatment()
     {
-        while (agent.pathStatus == NavMeshPathStatus.PathPartial || agent.remainingDistance > 0.1f)
-            yield return null;
-
-        yield return new WaitForSeconds(patientDetails.treatmentTime);
+        Debug.Log("Treatment: " + actualTreatmentDuration);
+        yield return new WaitForSeconds(actualTreatmentDuration);
 
         if (assignedTable != null && assignedTable.so_TableBehavior != null)
         {
             assignedTable.VacateTable();
-            if (assignedTable.so_TableBehavior != null)
-                FindObjectOfType<PlayerStats>()?.UpdatePlayerDetail(patientDetails.coinDrops);
+            FindObjectOfType<PlayerStats>()?.UpdatePlayerDetail(patientDetails.coinDrops);
         }
         Destroy(gameObject);
     }

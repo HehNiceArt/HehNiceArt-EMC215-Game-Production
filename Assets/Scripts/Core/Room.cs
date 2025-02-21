@@ -3,6 +3,8 @@ using System.Collections;
 using UnityEngine;
 using UnityEngine.AI;
 using UnityEditor.UIElements;
+using Unity.VisualScripting;
+using System.Linq;
 
 public class Room : MonoBehaviour
 {
@@ -15,8 +17,8 @@ public class Room : MonoBehaviour
     public Transform waitingArea;
 
     Queue<GameObject> waitingPatients = new Queue<GameObject>();
-    Dictionary<GameObject, Vector3> waitingPositions = new Dictionary<GameObject, Vector3>();
-    bool isRoomLocked = false;
+    Dictionary<GameObject, int> patientPositions = new Dictionary<GameObject, int>();
+    bool[] waitingSpots;
     void OnValidate()
     {
         treatmentTables.Clear();
@@ -28,55 +30,60 @@ public class Room : MonoBehaviour
         {
             treatmentTables.AddRange(GetComponentsInChildren<TableInteraction>());
         }
+        waitingSpots = new bool[maxWaitingPatients];
         StartCoroutine(CheckWaitingPatients());
 
-        Debug.Log($"Room {gameObject.name} has {treatmentTables.Count} tables"); // Debug line
     }
     public bool CanAcceptPatient()
     {
         if (areaDetails != null && areaDetails.isLocked)
         {
-            Debug.Log($"Room {gameObject.name} is locked"); // Debug line
             return false;
         }
+        bool hasAvailableSpot = FindFirstAvailableSpot() != -1;
+        bool hasAvailableTable = treatmentTables.Any(table => !table.isTableLocked && !table.isOccupied);
 
-        return true;
+        return hasAvailableSpot || hasAvailableTable;
     }
 
     public void AddPatientToQueue(GameObject patient)
     {
-        if (patientWaitingArea == null)
+        if (patientWaitingArea == null) return;
+
+        if (waitingPatients.Count == 0)
         {
-            Debug.LogError($"Room {gameObject.name} has no waiting area assigned!");
-            return;
+            bool tableFound = false;
+            foreach (TableInteraction table in treatmentTables)
+            {
+                if (table != null && !table.isTableLocked && !table.isOccupied)
+                {
+                    patient.GetComponent<Patient>()?.AssignToTable(table);
+                    tableFound = true;
+                    break;
+                }
+            }
+            if (tableFound) return;
         }
 
-        bool tableFound = false;
-        foreach (TableInteraction table in treatmentTables)
-        {
-            if (table != null && !table.isTableLocked && !table.isOccupied)
-            {
-                patient.GetComponent<Patient>()?.AssignToTable(table);
-                tableFound = true;
-                break;
-            }
-        }
-        if (!tableFound)
-        {
-            if (waitingPatients.Count >= maxWaitingPatients)
-            {
-                Debug.Log($"Waiting area full in {gameObject.name}");
-                return;
-            }
+        // If no table availbale or there are waiting patients, add to waiting area
+        int spotIndex = FindFirstAvailableSpot();
+        if (spotIndex == -1) return;
 
-            waitingPatients.Enqueue(patient);
-            Vector3 waitingPosition = CalculateWaitingPosition(waitingPatients.Count - 1);
-            waitingPositions[patient] = waitingPosition;
-            if (patient.TryGetComponent<NavMeshAgent>(out NavMeshAgent agent))
-            {
-                agent.SetDestination(waitingPosition);
-            }
+        waitingSpots[spotIndex] = true;
+        patientPositions[patient] = spotIndex;
+        waitingPatients.Enqueue(patient);
+
+        if (patient.TryGetComponent<NavMeshAgent>(out NavMeshAgent agent))
+        {
+            agent.SetDestination(CalculateWaitingPosition(spotIndex));
         }
+    }
+    int FindFirstAvailableSpot()
+    {
+        for (int i = 0; i < waitingSpots.Length; i++)
+            if (!waitingSpots[i]) return i;
+
+        return -1;
     }
     Vector3 CalculateWaitingPosition(int queueIndex)
     {
@@ -101,24 +108,14 @@ public class Room : MonoBehaviour
                 {
                     if (table != null && !table.isTableLocked && !table.isOccupied)
                     {
-                        GameObject patient = waitingPatients.Dequeue();
+                        GameObject patient = waitingPatients.Peek();
                         if (patient != null)
                         {
-                            waitingPositions.Remove(patient);
+                            int spotIndex = patientPositions[patient];
+                            waitingSpots[spotIndex] = false;
+                            patientPositions.Remove(patient);
+                            waitingPatients.Dequeue();
                             patient.GetComponent<Patient>()?.AssignToTable(table);
-
-                            // Reorganize remaining waiting patients
-                            int index = 0;
-                            foreach (GameObject waitingPatient in waitingPatients)
-                            {
-                                Vector3 newPosition = CalculateWaitingPosition(index);
-                                waitingPositions[waitingPatient] = newPosition;
-                                if (waitingPatient.TryGetComponent<NavMeshAgent>(out NavMeshAgent agent))
-                                {
-                                    agent.SetDestination(newPosition);
-                                }
-                                index++;
-                            }
                         }
                         break;
                     }
