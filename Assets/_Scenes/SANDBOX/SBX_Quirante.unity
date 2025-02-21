@@ -1350,8 +1350,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 20
-  smoothTime: 0.3
   movementBounds: {x: 20, y: 15.8}
+  mousePanSpeed: 1
   zoomSpeed: 5
   minZoom: 2
   maxZoom: 15
