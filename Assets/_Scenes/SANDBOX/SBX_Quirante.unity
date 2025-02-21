@@ -928,6 +928,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 938495627}
   - {fileID: 1555496940}
   - {fileID: 452615440}
   - {fileID: 1472521265}
@@ -2412,12 +2413,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 938495626}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -7.18, y: 0, z: -4.86}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 383424527}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1241153139
 GameObject:
@@ -3006,7 +3007,7 @@ MonoBehaviour:
   tellerSpacing: 3
   tellerPrefab: {fileID: 7092390114610965426, guid: 1fba30ac37dc56940a6ad258cce70e23, type: 3}
   numberOfTellers: 3
-  incomePerPatient: 10
+  incomePerPatient: 50
   spaceBetweenPatients: 1.5
   patientsPerRow: 3
   maxWaitingPatients: 9
@@ -5270,4 +5271,3 @@ SceneRoots:
   - {fileID: 1432627525}
   - {fileID: 383424527}
   - {fileID: 1297521478}
-  - {fileID: 938495627}

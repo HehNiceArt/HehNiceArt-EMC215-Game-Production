@@ -72,6 +72,7 @@ public class Patient : MonoBehaviour
         if (currentRoom != null)
         {
             currentRoom.RemovePatientFromQueue(gameObject);
+            FindObjectOfType<PlayerStats>()?.UpdatePlayerDetail(-patientDetails.coinDrops / 2);
             levelExperience?.UpdateReputation(-(patientDetails.reputation / 1.25f));
         }
         Destroy(gameObject);
