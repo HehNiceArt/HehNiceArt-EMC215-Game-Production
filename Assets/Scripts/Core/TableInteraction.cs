@@ -7,7 +7,7 @@ public class TableInteraction : MonoBehaviour
     [SerializeField] private CurrencyEconomy currencyEconomy;
     [SerializeField] private Button buyBTN;
     [SerializeField] private Button cancelBTN;
-    public Interactions interactions;
+    Interactions interactions;
 
     private MeshRenderer meshRenderer;
     public bool isTableLocked = true;
