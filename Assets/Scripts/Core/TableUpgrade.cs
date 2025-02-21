@@ -20,25 +20,26 @@ public class TableUpgrade : MonoBehaviour
     {
         s_tableUpgrade = this;
         tableInteraction = GetComponent<TableInteraction>();
-        upgradeBTN.onClick.AddListener(UpgradeTable);
-        cancelBTN.onClick.AddListener(OnCancel);
+        s_tableUpgrade.upgradeBTN.onClick.AddListener(UpgradeTable);
+        s_tableUpgrade.cancelBTN.onClick.AddListener(OnCancel);
     }
 
     void OnMouseDown()
     {
+        s_tableUpgrade = this;
         if (tableInteraction.isTableLocked)
             return;
-        s_tableUpgrade = this;
         s_tableUpgrade.upgradeUI.SetActive(true);
         upgradeString.text = $"Upgrade to {so_TableBehavior[currentTableLevel + 1].tableLevels}?";
         cost.text = so_TableBehavior[currentTableLevel + 1].costToHire.ToString();
     }
     public void UpgradeTable()
     {
-        if (currentTableLevel < s_tableUpgrade.so_TableBehavior.Length - 1 && currencyEconomy.CheckAreaPurchase(s_tableUpgrade.so_TableBehavior[currentTableLevel + 1].costToHire))
+        s_tableUpgrade = this;
+        if (currentTableLevel < s_tableUpgrade.so_TableBehavior.Length - 1 && s_tableUpgrade.currencyEconomy.CheckAreaPurchase(s_tableUpgrade.so_TableBehavior[currentTableLevel + 1].costToHire))
         {
-            Debug.Log("Upgrade table!");
             s_tableUpgrade.tableInteraction.so_TableBehavior = s_tableUpgrade.so_TableBehavior[currentTableLevel + 1];
+            s_tableUpgrade.upgradeUI.SetActive(false);
             currentTableLevel++;
         }
         else

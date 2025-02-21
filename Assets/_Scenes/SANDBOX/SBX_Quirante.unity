@@ -3453,18 +3453,23 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1710539564}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1f40ebf75bcae4b1aad98d07a360df9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  so_TableBehavior: []
-  currencyEconomy: {fileID: 0}
-  upgradeBTN: {fileID: 0}
-  cancelBTN: {fileID: 0}
-  upgradeUI: {fileID: 0}
-  upgradeString: {fileID: 0}
-  cost: {fileID: 0}
+  so_TableBehavior:
+  - {fileID: 11400000, guid: 18aebbc406152427794968073f85dfc3, type: 2}
+  - {fileID: 11400000, guid: 1c8a0b8d3acc348858aa0983382cdcab, type: 2}
+  - {fileID: 11400000, guid: edc77d6d3ca0a4ef1b6aae25c3afcd8f, type: 2}
+  - {fileID: 11400000, guid: df10b6fe7bdb64937b71b845658e8522, type: 2}
+  - {fileID: 11400000, guid: 71981c6976ee74c6cafbb832f6bae6e8, type: 2}
+  currencyEconomy: {fileID: 1297521480}
+  upgradeBTN: {fileID: 1293725536}
+  cancelBTN: {fileID: 1580017810}
+  upgradeUI: {fileID: 305418998}
+  upgradeString: {fileID: 627738469}
+  cost: {fileID: 726079538}
 --- !u!1 &1731341205
 GameObject:
   m_ObjectHideFlags: 0
@@ -3725,18 +3730,23 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1883924475}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1f40ebf75bcae4b1aad98d07a360df9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  so_TableBehavior: []
-  currencyEconomy: {fileID: 0}
-  upgradeBTN: {fileID: 0}
-  cancelBTN: {fileID: 0}
-  upgradeUI: {fileID: 0}
-  upgradeString: {fileID: 0}
-  cost: {fileID: 0}
+  so_TableBehavior:
+  - {fileID: 11400000, guid: 0fb5d69be32f040feb780255a3e8a69f, type: 2}
+  - {fileID: 11400000, guid: cc06eb15eaa0346caaaeeb17e13d2824, type: 2}
+  - {fileID: 11400000, guid: 4ebd29b2080634a019cd153940112191, type: 2}
+  - {fileID: 11400000, guid: b9c99927c19c74607ad29ef0833e8852, type: 2}
+  - {fileID: 11400000, guid: c35a9abb568c64396aa641a4aa3a2662, type: 2}
+  currencyEconomy: {fileID: 1297521480}
+  upgradeBTN: {fileID: 1293725536}
+  cancelBTN: {fileID: 1580017810}
+  upgradeUI: {fileID: 305418998}
+  upgradeString: {fileID: 627738469}
+  cost: {fileID: 726079538}
 --- !u!1 &1943319977
 GameObject:
   m_ObjectHideFlags: 0
