@@ -16,6 +16,7 @@ public class SO_AreaDetails : ScriptableObject
     public float playerLevelToUnlock = 1;
     public float costToUnlock = 1000;
     public float incomeRate = 100;
+    public float xpGain = 0;
     public bool isLocked = true;
     public Material areaMat;
 }

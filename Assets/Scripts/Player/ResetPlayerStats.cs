@@ -8,10 +8,6 @@ public class ResetPlayerStats : MonoBehaviour
     {
         sO_PlayerDetails.coins = 1500f;
     }
-    public void ResetCoinGen()
-    {
-        sO_PlayerDetails.passiveCoinGen = 60f;
-    }
     public void ResetReputation()
     {
         sO_PlayerDetails.reputation = 0;

@@ -5,20 +5,64 @@ public class PatientSpawn : MonoBehaviour
 {
     [SerializeField] GameObject[] patientPrefab;
     [SerializeField] Transform patientSpawnPoint;
-    [SerializeField] float patientSpawnRate = 30f;
-    [SerializeField] float[] spawnWeights = new float[] { 60, 20, 10, 7, 3 };
+    [SerializeField] SO_PlayerDetails playerDetails;
+    [SerializeField] float baseSpawnRate = 30f;
+    [SerializeField] float patientSpawnRate = 7f;
+    [SerializeField] float[] spawnWeights = new float[] { 50, 25, 15, 7, 3 };
 
     void Start()
     {
         StartCoroutine(SpawnPatients());
     }
+    float GetSpawnRateMultiplier()
+    {
+        if (playerDetails.reputation <= SO_PlayerDetails.MIN_REPUTATION)
+        {
+            return 0f;
+        }
+        else if (playerDetails.reputation <= 0)
+        {
+            return 0.3f;
+        }
+        else if (playerDetails.reputation >= SO_PlayerDetails.REPUTATION_TIER_4)
+        {
+            return 0.8f;
+        }
+        else if (playerDetails.reputation >= SO_PlayerDetails.REPUTATION_TIER_3)
+        {
+            return 0.7f;
+        }
+        else if (playerDetails.reputation >= SO_PlayerDetails.REPUTATION_TIER_2)
+        {
+            return 0.6f;
+        }
+        else if (playerDetails.reputation >= SO_PlayerDetails.REPUTATION_TIER_1)
+        {
+            return 0.5f;
+        }
+
+        return 0.4f;
+    }
     IEnumerator SpawnPatients()
     {
         while (true)
         {
-            yield return new WaitForSeconds(patientSpawnRate);
+            float currentSpawnRate = baseSpawnRate;
+            Debug.Log(currentSpawnRate);
+
+            if (currentSpawnRate <= 0)
+            {
+                GameOver();
+                yield break;
+            }
+
+            yield return new WaitForSeconds(currentSpawnRate);
             SpawnPatient();
         }
+    }
+    void GameOver()
+    {
+        Debug.Log("Game Over - The Hospital has declared bankruptcy!");
     }
     void SpawnPatient()
     {

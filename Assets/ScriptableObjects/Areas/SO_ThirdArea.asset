@@ -13,10 +13,9 @@ MonoBehaviour:
   m_Name: SO_ThirdArea
   m_EditorClassIdentifier: 
   whichArea: 2
-  areaName: Third Area
-  slotsPerArea: 7
   playerLevelToUnlock: 30
   costToUnlock: 15000
   incomeRate: 225
+  xpGain: 195
   isLocked: 1
   areaMat: {fileID: 2100000, guid: 0f85a7668e6704533a96af633389276c, type: 2}

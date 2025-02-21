@@ -23,10 +23,6 @@ public class ResetPlayerEditor : EditorWindow
         {
             resetPlayerStats.ResetCoins();
         }
-        if (GUILayout.Button("Reset Passive Coin Generation"))
-        {
-            resetPlayerStats.ResetCoinGen();
-        }
         if (GUILayout.Button("Reset Reputation"))
         {
             resetPlayerStats.ResetReputation();

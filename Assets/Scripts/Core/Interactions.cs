@@ -32,6 +32,8 @@ public class Interactions : MonoBehaviour
         if (s_current_interaction != null && currencyEconomy.CheckAreaPurchase(s_current_interaction.so_AreaDetails.costToUnlock))
         {
             s_current_interaction.so_AreaDetails.isLocked = false;
+#pragma warning disable
+            FindObjectOfType<LevelExperience>()?.AddExperience(s_current_interaction.so_AreaDetails.xpGain);
 
             MeshRenderer meshRenderer = s_current_interaction.GetComponent<MeshRenderer>();
             if (meshRenderer != null)

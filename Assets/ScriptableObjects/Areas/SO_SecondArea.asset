@@ -13,10 +13,9 @@ MonoBehaviour:
   m_Name: SO_SecondArea
   m_EditorClassIdentifier: 
   whichArea: 1
-  areaName: Second Area
-  slotsPerArea: 5
   playerLevelToUnlock: 10
   costToUnlock: 5000
   incomeRate: 175
+  xpGain: 114
   isLocked: 1
   areaMat: {fileID: 2100000, guid: 0f85a7668e6704533a96af633389276c, type: 2}

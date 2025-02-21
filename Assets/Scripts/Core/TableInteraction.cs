@@ -46,6 +46,9 @@ public class TableInteraction : MonoBehaviour
             s_current_table.so_TableBehavior.tableIsLocked = false;
             s_current_table.meshRenderer.material = s_current_table.so_TableBehavior.purchasedMaterial;
 
+#pragma warning disable
+            FindObjectOfType<LevelExperience>()?.AddExperience(so_TableBehavior.xpGain);
+#pragma warning restore
             currencyEconomy.purchaseUI.SetActive(false);
             s_current_table = null;
         }

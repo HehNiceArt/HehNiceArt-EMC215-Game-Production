@@ -10,6 +10,9 @@ public class Patient : MonoBehaviour
     public Room currentRoom;
     public TableInteraction assignedTable;
     [SerializeField] SO_PatientDetails patientDetails;
+    [SerializeField] SO_PlayerDetails sO_PlayerDetails;
+    LevelExperience levelExperience;
+
     bool isWaiting = false;
     float actualTreatmentDuration;
     bool hasReachedTable = false;
@@ -18,6 +21,10 @@ public class Patient : MonoBehaviour
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
+
+#pragma warning disable
+        levelExperience = FindObjectOfType<LevelExperience>();
+
         FindAvailableRoom();
     }
     void Update()
@@ -34,7 +41,10 @@ public class Patient : MonoBehaviour
     void LeaveHospital()
     {
         if (currentRoom != null)
+        {
             currentRoom.RemovePatientFromQueue(gameObject);
+            levelExperience?.UpdateReputation(-(patientDetails.reputation / 1.25f));
+        }
         Destroy(gameObject);
     }
     void FindAvailableRoom()
@@ -77,7 +87,6 @@ public class Patient : MonoBehaviour
         actualTreatmentDuration = patientDetails.treatmentTime;
         if (assignedTable != null && assignedTable.so_TableBehavior != null)
             actualTreatmentDuration /= assignedTable.so_TableBehavior.treatmentCost;
-        Debug.Log($"Calculated treatment duration: {actualTreatmentDuration} seconds");
     }
     IEnumerator CheckReachedTable()
     {
@@ -96,13 +105,18 @@ public class Patient : MonoBehaviour
     }
     IEnumerator StartTreatment()
     {
-        Debug.Log("Treatment: " + actualTreatmentDuration);
         yield return new WaitForSeconds(actualTreatmentDuration);
 
         if (assignedTable != null && assignedTable.so_TableBehavior != null)
         {
             assignedTable.VacateTable();
-            FindObjectOfType<PlayerStats>()?.UpdatePlayerDetail(patientDetails.coinDrops);
+            if (levelExperience != null)
+            {
+                levelExperience.UpdateReputation(patientDetails.reputation);
+                FindObjectOfType<PlayerStats>()?.UpdatePlayerDetail(patientDetails.coinDrops);
+                levelExperience.AddExperience(patientDetails.xpDrop);
+            }
+#pragma warning restore
         }
         Destroy(gameObject);
     }

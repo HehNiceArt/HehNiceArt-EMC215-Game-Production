@@ -50,6 +50,11 @@ public class TableUpgrade : MonoBehaviour
     {
         if (currentTableLevel < so_TableBehavior.Length - 1 && currencyEconomy.CheckAreaPurchase(so_TableBehavior[currentTableLevel + 1].costToHire))
         {
+            float xpGain = so_TableBehavior[currentTableLevel + 1].xpGain;
+#pragma warning disable
+            FindObjectOfType<LevelExperience>()?.AddExperience(xpGain);
+#pragma warning restore
+
             tableInteraction.so_TableBehavior = so_TableBehavior[currentTableLevel + 1];
             tableInteraction.so_TableBehavior.tableIsLocked = false;
             upgradeUI.SetActive(false);

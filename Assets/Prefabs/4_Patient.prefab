@@ -127,6 +127,9 @@ MonoBehaviour:
   currentRoom: {fileID: 0}
   assignedTable: {fileID: 0}
   patientDetails: {fileID: 11400000, guid: 3db11b064c7c38f4dac14848a5bdc1e7, type: 2}
+  sO_PlayerDetails: {fileID: 11400000, guid: ccfcf005a25e6492488d0de429ae0381, type: 2}
+  waitingTimer: 0
+  hasStartedWaiting: 0
 --- !u!195 &4830073196985155282
 NavMeshAgent:
   m_ObjectHideFlags: 0

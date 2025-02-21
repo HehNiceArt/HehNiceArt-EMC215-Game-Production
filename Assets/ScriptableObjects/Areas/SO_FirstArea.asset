@@ -13,13 +13,9 @@ MonoBehaviour:
   m_Name: SO_FirstArea
   m_EditorClassIdentifier: 
   whichArea: 0
-  areaName: First Area
-  stations:
-  - {fileID: 3550217839476861558, guid: 391664590153243cb8da3b0c6c6bfa85, type: 3}
-  - {fileID: 3550217839476861558, guid: 391664590153243cb8da3b0c6c6bfa85, type: 3}
-  - {fileID: 3550217839476861558, guid: 391664590153243cb8da3b0c6c6bfa85, type: 3}
   playerLevelToUnlock: 1
   costToUnlock: 1000
   incomeRate: 100
+  xpGain: 50
   isLocked: 0
   areaMat: {fileID: 2100000, guid: 0f85a7668e6704533a96af633389276c, type: 2}

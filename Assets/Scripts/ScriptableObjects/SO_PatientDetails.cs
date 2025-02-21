@@ -14,5 +14,6 @@ public class SO_PatientDetails : ScriptableObject
     public float waitingPeriod;
     public float treatmentTime;
     public float coinDrops;
-    public float XPDrop;
+    public float xpDrop;
+    public float reputation;
 }

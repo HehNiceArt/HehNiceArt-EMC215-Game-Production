@@ -4,7 +4,12 @@ using UnityEngine;
 public class SO_PlayerDetails : ScriptableObject
 {
     public float coins = 1500f;
-    public float passiveCoinGen = 60f;
     public float reputation = 0;
     public float playerLevel = 1;
+
+    public const float MIN_REPUTATION = -100f;
+    public const float REPUTATION_TIER_1 = 50f;
+    public const float REPUTATION_TIER_2 = 150f;
+    public const float REPUTATION_TIER_3 = 300f;
+    public const float REPUTATION_TIER_4 = 500f;
 }
