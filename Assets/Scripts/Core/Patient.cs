@@ -13,10 +13,29 @@ public class Patient : MonoBehaviour
     bool isWaiting = false;
     float actualTreatmentDuration;
     bool hasReachedTable = false;
+    public float waitingTimer = 0f;
+    public bool hasStartedWaiting = false;
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
         FindAvailableRoom();
+    }
+    void Update()
+    {
+        if (isWaiting && hasStartedWaiting && !hasReachedTable)
+        {
+            waitingTimer += Time.deltaTime;
+            if (waitingTimer >= patientDetails.waitingPeriod)
+            {
+                LeaveHospital();
+            }
+        }
+    }
+    void LeaveHospital()
+    {
+        if (currentRoom != null)
+            currentRoom.RemovePatientFromQueue(gameObject);
+        Destroy(gameObject);
     }
     void FindAvailableRoom()
     {

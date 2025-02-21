@@ -14,13 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   patientType: 0
   patientProfile: []
-  patientPrefab: {fileID: 0}
   patientName:
   - Milo Whiskers
   - Luna Pawsley
   - Simba Felton
   - Oliver Meowson
   - Nala Clawford
+  waitingPeriod: 40
   treatmentTime: 8
   coinDrops: 300
   XPDrop: 78

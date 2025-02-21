@@ -11,6 +11,7 @@ public class SO_PatientDetails : ScriptableObject
     public PatientType patientType;
     public Texture2D[] patientProfile;
     public string[] patientName;
+    public float waitingPeriod;
     public float treatmentTime;
     public float coinDrops;
     public float XPDrop;

@@ -77,6 +77,12 @@ public class Room : MonoBehaviour
         {
             agent.SetDestination(CalculateWaitingPosition(spotIndex));
         }
+
+        if (patient.TryGetComponent<Patient>(out Patient patientComponent))
+        {
+            patientComponent.hasStartedWaiting = true;
+            patientComponent.waitingTimer = 0f;
+        }
     }
     int FindFirstAvailableSpot()
     {
@@ -95,6 +101,15 @@ public class Room : MonoBehaviour
         offset = patientWaitingArea.rotation * offset;
 
         return basePosition + offset;
+    }
+    public void RemovePatientFromQueue(GameObject patient)
+    {
+        if (patientPositions.TryGetValue(patient, out int spotIndex))
+        {
+            waitingSpots[spotIndex] = false;
+            patientPositions.Remove(patient);
+            waitingPatients = new Queue<GameObject>(waitingPatients.Where(p => p != patient));
+        }
     }
 
     IEnumerator CheckWaitingPatients()
