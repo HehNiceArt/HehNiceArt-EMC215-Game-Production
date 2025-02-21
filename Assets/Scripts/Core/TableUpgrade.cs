@@ -39,6 +39,7 @@ public class TableUpgrade : MonoBehaviour
         if (currentTableLevel < s_tableUpgrade.so_TableBehavior.Length - 1 && s_tableUpgrade.currencyEconomy.CheckAreaPurchase(s_tableUpgrade.so_TableBehavior[currentTableLevel + 1].costToHire))
         {
             s_tableUpgrade.tableInteraction.so_TableBehavior = s_tableUpgrade.so_TableBehavior[currentTableLevel + 1];
+            s_tableUpgrade.tableInteraction.so_TableBehavior.tableIsLocked = false;
             s_tableUpgrade.upgradeUI.SetActive(false);
             currentTableLevel++;
         }
