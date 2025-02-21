@@ -1355,6 +1355,7 @@ MonoBehaviour:
   zoomSpeed: 5
   minZoom: 2
   maxZoom: 15
+  currencyEconomy: {fileID: 1297521480}
 --- !u!1 &583072575
 GameObject:
   m_ObjectHideFlags: 0

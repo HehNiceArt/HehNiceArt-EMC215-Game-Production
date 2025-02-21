@@ -11,7 +11,7 @@ public class TableUpgrade : MonoBehaviour
     [SerializeField] CurrencyEconomy currencyEconomy;
     [SerializeField] Button upgradeBTN;
     [SerializeField] Button cancelBTN;
-    [SerializeField] GameObject upgradeUI;
+    public GameObject upgradeUI;
     [SerializeField] TextMeshProUGUI upgradeString;
     [SerializeField] TextMeshProUGUI cost;
     [SerializeField] TextMeshProUGUI costText;

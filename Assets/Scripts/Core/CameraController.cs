@@ -12,6 +12,9 @@ public class CameraController : MonoBehaviour
     [SerializeField] private float zoomSpeed = 5f;
     [SerializeField] private float minZoom = 2f;
     [SerializeField] private float maxZoom = 15f;
+    [Space(10f)]
+    [SerializeField] CurrencyEconomy currencyEconomy;
+    [SerializeField] TableUpgrade[] tableUpgrade;
 
     private Camera mainCamera;
     private Vector3 boundsCenter;
@@ -31,13 +34,23 @@ public class CameraController : MonoBehaviour
 
         boundsCenter = new Vector3(0, transform.position.y, transform.position.z);
     }
-
+    void Start()
+    {
+        tableUpgrade = FindObjectsByType<TableUpgrade>(FindObjectsSortMode.None);
+    }
     private void Update()
     {
+        if (currencyEconomy.purchaseUI.activeSelf)
+            return;
+
+        foreach (TableUpgrade table in tableUpgrade)
+        {
+            if (table.upgradeUI.activeSelf)
+                return;
+        }
         Vector3 movement = Vector3.zero;
 
         movement += HandleKeyboardMovement();
-
         movement += HandleMousePanning();
 
         if (movement != Vector3.zero)
