@@ -46,7 +46,7 @@ public class PatientSpawn : MonoBehaviour
     {
         while (true)
         {
-            float currentSpawnRate = baseSpawnRate;
+            float currentSpawnRate = baseSpawnRate * GetSpawnRateMultiplier();
 
             if (currentSpawnRate <= 0)
             {
