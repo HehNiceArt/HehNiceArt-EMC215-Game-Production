@@ -1,4 +1,5 @@
 using System.Collections;
+using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.AI;
@@ -21,18 +22,23 @@ public class Patient : MonoBehaviour
     {
         if (isWaiting) return;
         Room[] rooms = FindObjectsOfType<Room>();
+        List<Room> availableRooms = new List<Room>();
         foreach (Room room in rooms)
         {
             if (room.CanAcceptPatient())
             {
-                currentRoom = room;
-                currentRoom.AddPatientToQueue(gameObject);
-                isWaiting = true;
-                return;
+                availableRooms.Add(room);
             }
         }
 
-        if (currentRoom == null)
+        if (availableRooms.Count > 0)
+        {
+            int rand = Random.Range(0, availableRooms.Count);
+            currentRoom = availableRooms[rand];
+            currentRoom.AddPatientToQueue(gameObject);
+            isWaiting = true;
+        }
+        else
         {
             Debug.Log("Cannot find a room!");
         }
