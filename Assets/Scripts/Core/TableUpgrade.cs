@@ -6,7 +6,7 @@ public class TableUpgrade : MonoBehaviour
 {
     [SerializeField] SO_TableBehavior[] so_TableBehavior;
     TableInteraction tableInteraction;
-    private int currentTableLevel = 0;
+    public int currentTableLevel = 0;
 
     [SerializeField] CurrencyEconomy currencyEconomy;
     [SerializeField] Button upgradeBTN;
@@ -29,6 +29,10 @@ public class TableUpgrade : MonoBehaviour
         s_tableUpgrade = this;
         if (tableInteraction.isTableLocked)
             return;
+        if (currentTableLevel == so_TableBehavior.Length - 1)
+        {
+            Debug.Log("awdaw");
+        }
         s_tableUpgrade.upgradeUI.SetActive(true);
         upgradeString.text = $"Upgrade to {so_TableBehavior[currentTableLevel + 1].tableLevels}?";
         cost.text = so_TableBehavior[currentTableLevel + 1].costToHire.ToString();
