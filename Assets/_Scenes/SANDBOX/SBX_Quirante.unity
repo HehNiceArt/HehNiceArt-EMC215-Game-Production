@@ -960,7 +960,7 @@ Transform:
   m_GameObject: {fileID: 413862579}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.394, y: 0, z: -0.284}
+  m_LocalPosition: {x: 0.3251096, y: 0, z: -0.36293125}
   m_LocalScale: {x: 0.125, y: 1, z: 0.125}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1117,8 +1117,8 @@ MonoBehaviour:
   patientWaitingArea: {fileID: 413862580}
   areaDetails: {fileID: 11400000, guid: 84ec580aedd0e48c4ac4950a6a40158e, type: 2}
   spaceBetweenPatients: 1
-  patientsPerRow: 7
-  maxWaitingPatients: 14
+  patientsPerRow: 6
+  maxWaitingPatients: 6
   waitingArea: {fileID: 413862580}
 --- !u!114 &452615443
 MonoBehaviour:
@@ -1441,7 +1441,7 @@ MonoBehaviour:
   moveSpeed: 20
   movementBounds: {x: 20, y: 15.8}
   mousePanSpeed: 1
-  zoomSpeed: 10
+  zoomSpeed: 50
   minZoom: 2
   maxZoom: 15
   currencyEconomy: {fileID: 1297521480}
@@ -2253,7 +2253,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &761422161
 Transform:
   m_ObjectHideFlags: 0
@@ -2282,11 +2282,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   so_TableBehavior:
-  - {fileID: 11400000, guid: 60b023d522e530f498a1d0510c074b10, type: 2}
-  - {fileID: 11400000, guid: 9cc74e6e2906bdc44814833ba9e69c92, type: 2}
-  - {fileID: 11400000, guid: dce363c3343fa024cb3fedeb5e0d415d, type: 2}
-  - {fileID: 11400000, guid: 62d7cc09b30634940b41a999d9193a20, type: 2}
-  - {fileID: 11400000, guid: 30ec1336a09f6de478e5f5b46013ea5d, type: 2}
+  - {fileID: 11400000, guid: 289444cc42bbaab44b0a074f90d9e3a0, type: 2}
+  - {fileID: 11400000, guid: bfe83565104e9684b9a5eff1e42519f1, type: 2}
+  - {fileID: 11400000, guid: 00f2710b8d3dfcf46860f3278c3bf6ee, type: 2}
+  - {fileID: 11400000, guid: 397f3b2436d9a694b8e4b4a6d16390a8, type: 2}
+  - {fileID: 11400000, guid: 44224e9ded48daf45ab651c1607be8bd, type: 2}
   currencyEconomy: {fileID: 1297521480}
   upgradeBTN: {fileID: 1293725536}
   cancelBTN: {fileID: 1580017810}
@@ -2306,7 +2306,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fcea81cb8f68b41649391dfecd425766, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  so_TableBehavior: {fileID: 11400000, guid: 60b023d522e530f498a1d0510c074b10, type: 2}
+  so_TableBehavior: {fileID: 11400000, guid: 289444cc42bbaab44b0a074f90d9e3a0, type: 2}
   currencyEconomy: {fileID: 1297521480}
   buyBTN: {fileID: 1293725536}
   cancelBTN: {fileID: 1580017810}
@@ -2792,6 +2792,12 @@ MonoBehaviour:
   - {fileID: 3138346505213940523, guid: 3d754de42ceecdc409711612ca9c578d, type: 3}
   patientSpawnPoint: {fileID: 938495627}
   patientSpawnRate: 5
+  spawnWeights:
+  - 50
+  - 25
+  - 15
+  - 7
+  - 3
 --- !u!1 &1335490475
 GameObject:
   m_ObjectHideFlags: 0
@@ -2948,7 +2954,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1401624070
 Transform:
   m_ObjectHideFlags: 0
@@ -2977,11 +2983,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   so_TableBehavior:
-  - {fileID: 11400000, guid: 60b023d522e530f498a1d0510c074b10, type: 2}
-  - {fileID: 11400000, guid: 9cc74e6e2906bdc44814833ba9e69c92, type: 2}
-  - {fileID: 11400000, guid: dce363c3343fa024cb3fedeb5e0d415d, type: 2}
-  - {fileID: 11400000, guid: 62d7cc09b30634940b41a999d9193a20, type: 2}
-  - {fileID: 11400000, guid: 30ec1336a09f6de478e5f5b46013ea5d, type: 2}
+  - {fileID: 11400000, guid: c16815f202b1aa046ae8cf77de1d9661, type: 2}
+  - {fileID: 11400000, guid: 1c6c69a12ab2cc343830581b69722004, type: 2}
+  - {fileID: 11400000, guid: 6a9bc3a2dc2f1a44eb6cf0f0b0a0f81b, type: 2}
+  - {fileID: 11400000, guid: 3656d8aea46bf2e40b4e00ada10c687a, type: 2}
+  - {fileID: 11400000, guid: 2eff6efde2ae4bc479f6d03609f693c4, type: 2}
   currencyEconomy: {fileID: 1297521480}
   upgradeBTN: {fileID: 1293725536}
   cancelBTN: {fileID: 1580017810}
@@ -3001,7 +3007,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fcea81cb8f68b41649391dfecd425766, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  so_TableBehavior: {fileID: 11400000, guid: 60b023d522e530f498a1d0510c074b10, type: 2}
+  so_TableBehavior: {fileID: 11400000, guid: 289444cc42bbaab44b0a074f90d9e3a0, type: 2}
   currencyEconomy: {fileID: 1297521480}
   buyBTN: {fileID: 1293725536}
   cancelBTN: {fileID: 1580017810}
@@ -3525,7 +3531,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1518147731
 Transform:
   m_ObjectHideFlags: 0
@@ -3554,11 +3560,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   so_TableBehavior:
-  - {fileID: 11400000, guid: 60b023d522e530f498a1d0510c074b10, type: 2}
-  - {fileID: 11400000, guid: 9cc74e6e2906bdc44814833ba9e69c92, type: 2}
-  - {fileID: 11400000, guid: dce363c3343fa024cb3fedeb5e0d415d, type: 2}
-  - {fileID: 11400000, guid: 62d7cc09b30634940b41a999d9193a20, type: 2}
-  - {fileID: 11400000, guid: 30ec1336a09f6de478e5f5b46013ea5d, type: 2}
+  - {fileID: 11400000, guid: 948050c1f7e6ca1459d86d819e90f564, type: 2}
+  - {fileID: 11400000, guid: 516b99f970c075741b3e603101df238f, type: 2}
+  - {fileID: 11400000, guid: b4b02971f55211249ae3ba17bcbbc94e, type: 2}
+  - {fileID: 11400000, guid: 3cc8defb8d16e23488ef477e1efe5c6b, type: 2}
+  - {fileID: 11400000, guid: fb63126508c419b458b2bc870873ad1d, type: 2}
   currencyEconomy: {fileID: 1297521480}
   upgradeBTN: {fileID: 1293725536}
   cancelBTN: {fileID: 1580017810}
@@ -3578,7 +3584,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fcea81cb8f68b41649391dfecd425766, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  so_TableBehavior: {fileID: 11400000, guid: 60b023d522e530f498a1d0510c074b10, type: 2}
+  so_TableBehavior: {fileID: 11400000, guid: 289444cc42bbaab44b0a074f90d9e3a0, type: 2}
   currencyEconomy: {fileID: 1297521480}
   buyBTN: {fileID: 1293725536}
   cancelBTN: {fileID: 1580017810}
@@ -3836,7 +3842,7 @@ Transform:
   m_GameObject: {fileID: 1552310024}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.4029687, y: 0, z: -0.09353875}
+  m_LocalPosition: {x: 0.3175921, y: 0, z: -0.083371386}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
