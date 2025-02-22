@@ -1443,7 +1443,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 20
   movementBounds: {x: 20, y: 15.8}
-  mousePanSpeed: 1
+  mousePanSpeed: 2
   zoomSpeed: 50
   minZoom: 2
   maxZoom: 15
@@ -2829,6 +2829,7 @@ GameObject:
   - component: {fileID: 1297521483}
   - component: {fileID: 1297521484}
   - component: {fileID: 1297521485}
+  - component: {fileID: 1297521486}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -2972,6 +2973,19 @@ MonoBehaviour:
   maintenanceDuration: 30
   maintenanceCost: 1500
   affectedObjects: []
+--- !u!114 &1297521486
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1297521476}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dab283ba6662a4d88b51f81ac6b48307, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tableBehaviors: []
 --- !u!1 &1334419134
 GameObject:
   m_ObjectHideFlags: 0

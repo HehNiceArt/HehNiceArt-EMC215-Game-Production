@@ -25,19 +25,19 @@ public class PatientSpawn : MonoBehaviour
         }
         else if (playerDetails.reputation >= SO_PlayerDetails.REPUTATION_TIER_4)
         {
-            return 0.8f;
+            return 1f;
         }
         else if (playerDetails.reputation >= SO_PlayerDetails.REPUTATION_TIER_3)
         {
-            return 0.7f;
+            return 0.9f;
         }
         else if (playerDetails.reputation >= SO_PlayerDetails.REPUTATION_TIER_2)
         {
-            return 0.6f;
+            return 0.7f;
         }
         else if (playerDetails.reputation >= SO_PlayerDetails.REPUTATION_TIER_1)
         {
-            return 0.5f;
+            return 0.6f;
         }
 
         return 0.4f;
