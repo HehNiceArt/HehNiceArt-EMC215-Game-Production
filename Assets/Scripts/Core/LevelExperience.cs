@@ -5,8 +5,8 @@ public class LevelExperience : MonoBehaviour
 {
     [SerializeField] SO_PlayerDetails playerDetails;
     [SerializeField] TextMeshProUGUI levelUI;
+    [SerializeField] TextMeshProUGUI xpToLevelUp;
     [SerializeField] TextMeshProUGUI reputationUI;
-    const float XP_MULTIPLIER = 100f; // This gives us exactly 100 XP for level 1, 400 for level 2, etc.
     public float currentXP = 0f;
 
     void Start()
@@ -23,12 +23,13 @@ public class LevelExperience : MonoBehaviour
 
     void UpdateLevel()
     {
-        // Calculate new level using sqrt(XP/100)
-        float newLevel = Mathf.Floor(Mathf.Sqrt(currentXP / XP_MULTIPLIER));
+        float requiredXP = GetRequiredXPForLevel(playerDetails.playerLevel + 1);
+        xpToLevelUp.text = currentXP.ToString();
 
-        if (newLevel != playerDetails.playerLevel)
+        if (currentXP >= requiredXP)
         {
-            playerDetails.playerLevel = newLevel;
+            playerDetails.playerLevel++;
+            currentXP -= requiredXP;
             if (levelUI != null)
                 levelUI.text = playerDetails.playerLevel.ToString();
         }
@@ -65,7 +66,7 @@ public class LevelExperience : MonoBehaviour
     // Helper method to calculate required XP for a specific level
     public float GetRequiredXPForLevel(float level)
     {
-        return level * level * XP_MULTIPLIER;
+        return 100 + (50f * level) + 2 * (level * level);
     }
 
     // Helper method to get current XP progress towards next level

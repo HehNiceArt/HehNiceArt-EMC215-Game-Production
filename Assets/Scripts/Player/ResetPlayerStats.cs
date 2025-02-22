@@ -14,6 +14,6 @@ public class ResetPlayerStats : MonoBehaviour
     }
     public void ResetLevel()
     {
-        sO_PlayerDetails.playerLevel = 1;
+        sO_PlayerDetails.playerLevel = 0;
     }
 }
