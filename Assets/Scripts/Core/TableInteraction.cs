@@ -48,7 +48,7 @@ public class TableInteraction : MonoBehaviour
     public void OccupyTable() => isOccupied = true;
     public void VacateTable() => isOccupied = false;
 
-    private void OnMouseDown()
+    private void OnMouseUp()
     {
         if (!isTableLocked) return;
         if (interactions.so_AreaDetails.isLocked) return;

@@ -16,7 +16,7 @@ public class Interactions : MonoBehaviour
         buyBTN.onClick.AddListener(OnButtonPressed);
         cancelBTN.onClick.AddListener(OnCancel);
     }
-    private void OnMouseDown()
+    private void OnMouseUp()
     {
         if (isPressed) return;
         if (so_AreaDetails.isLocked)

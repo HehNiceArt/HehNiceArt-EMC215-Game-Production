@@ -23,7 +23,7 @@ public class TableUpgrade : MonoBehaviour
         cancelBTN.onClick.AddListener(OnCancel);
     }
 
-    void OnMouseDown()
+    void OnMouseUp()
     {
         if (tableInteraction.isTableLocked)
             return;
