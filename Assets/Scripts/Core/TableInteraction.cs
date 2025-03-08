@@ -1,9 +1,10 @@
 using UnityEngine;
 using UnityEngine.UI;
 
+[RequireComponent(typeof(TableUpgrade))]
 public class TableInteraction : MonoBehaviour
 {
-    public SO_TableBehavior so_TableBehavior;
+    [HideInInspector] public SO_TableBehavior so_TableBehavior;
     [SerializeField] private CurrencyEconomy currencyEconomy;
     [SerializeField] private Button buyBTN;
     [SerializeField] private Button cancelBTN;
@@ -15,11 +16,14 @@ public class TableInteraction : MonoBehaviour
     public bool isTableLocked = true;
     public bool isOccupied = false;
     private static TableInteraction s_current_table;
+    TableUpgrade tableUpgrade;
 
     void Start()
     {
+        tableUpgrade = GetComponent<TableUpgrade>();
         interactions = GetComponentInParent<Interactions>();
         meshRenderer = GetComponent<MeshRenderer>();
+        so_TableBehavior = tableUpgrade.so_TableBehavior[0];
         if (meshRenderer != null && so_TableBehavior != null)
         {
             meshRenderer.material = so_TableBehavior.tableIsLocked ? so_TableBehavior.notPurchased : meshRenderer.material;

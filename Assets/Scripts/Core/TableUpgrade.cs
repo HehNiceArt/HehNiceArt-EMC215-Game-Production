@@ -4,7 +4,7 @@ using TMPro;
 
 public class TableUpgrade : MonoBehaviour
 {
-    [SerializeField] SO_TableBehavior[] so_TableBehavior;
+    public SO_TableBehavior[] so_TableBehavior;
     TableInteraction tableInteraction;
     int currentTableLevel = 0;
 
