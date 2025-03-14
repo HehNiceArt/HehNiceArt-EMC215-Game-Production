@@ -16,7 +16,6 @@ public class Room : MonoBehaviour
     [SerializeField] int patientsPerRow = 3;
     [SerializeField] int maxWaitingPatients = 6;
     [SerializeField] Pharmacy pharmacy;
-    public Transform waitingArea;
 
     Queue<GameObject> waitingPatients = new Queue<GameObject>();
     Dictionary<GameObject, int> patientPositions = new Dictionary<GameObject, int>();
