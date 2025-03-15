@@ -259,7 +259,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fcea81cb8f68b41649391dfecd425766, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  so_TableBehavior: {fileID: 0}
   currencyEconomy: {fileID: 1297521480}
   buyBTN: {fileID: 1293725536}
   cancelBTN: {fileID: 1580017810}
@@ -277,7 +276,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f40ebf75bcae4b1aad98d07a360df9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  so_TableBehavior: []
+  tableInfo: {fileID: 0}
+  tableCategory: 
+  tableType: 
   currencyEconomy: {fileID: 1297521480}
   upgradeBTN: {fileID: 1293725536}
   cancelBTN: {fileID: 1580017810}
@@ -407,7 +408,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fcea81cb8f68b41649391dfecd425766, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  so_TableBehavior: {fileID: 0}
   currencyEconomy: {fileID: 1297521480}
   buyBTN: {fileID: 1293725536}
   cancelBTN: {fileID: 1580017810}
@@ -425,7 +425,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f40ebf75bcae4b1aad98d07a360df9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  so_TableBehavior: []
+  tableInfo: {fileID: 0}
+  tableCategory: 
+  tableType: 
   currencyEconomy: {fileID: 1297521480}
   upgradeBTN: {fileID: 1293725536}
   cancelBTN: {fileID: 1580017810}
@@ -707,7 +709,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fcea81cb8f68b41649391dfecd425766, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  so_TableBehavior: {fileID: 0}
   currencyEconomy: {fileID: 1297521480}
   buyBTN: {fileID: 1293725536}
   cancelBTN: {fileID: 1580017810}
@@ -725,7 +726,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f40ebf75bcae4b1aad98d07a360df9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  so_TableBehavior: []
+  tableInfo: {fileID: 0}
+  tableCategory: 
+  tableType: 
   currencyEconomy: {fileID: 1297521480}
   upgradeBTN: {fileID: 1293725536}
   cancelBTN: {fileID: 1580017810}
@@ -855,7 +858,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fcea81cb8f68b41649391dfecd425766, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  so_TableBehavior: {fileID: 0}
   currencyEconomy: {fileID: 1297521480}
   buyBTN: {fileID: 1293725536}
   cancelBTN: {fileID: 1580017810}
@@ -873,7 +875,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f40ebf75bcae4b1aad98d07a360df9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  so_TableBehavior: []
+  tableInfo: {fileID: 0}
+  tableCategory: 
+  tableType: 
   currencyEconomy: {fileID: 1297521480}
   upgradeBTN: {fileID: 1293725536}
   cancelBTN: {fileID: 1580017810}
@@ -1306,7 +1310,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fcea81cb8f68b41649391dfecd425766, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  so_TableBehavior: {fileID: 0}
   currencyEconomy: {fileID: 1297521480}
   buyBTN: {fileID: 1293725536}
   cancelBTN: {fileID: 1580017810}
@@ -1324,7 +1327,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f40ebf75bcae4b1aad98d07a360df9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  so_TableBehavior: []
+  tableInfo: {fileID: 0}
+  tableCategory: 
+  tableType: 
   currencyEconomy: {fileID: 1297521480}
   upgradeBTN: {fileID: 1293725536}
   cancelBTN: {fileID: 1580017810}
@@ -1454,7 +1459,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fcea81cb8f68b41649391dfecd425766, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  so_TableBehavior: {fileID: 0}
   currencyEconomy: {fileID: 1297521480}
   buyBTN: {fileID: 1293725536}
   cancelBTN: {fileID: 1580017810}
@@ -1472,7 +1476,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f40ebf75bcae4b1aad98d07a360df9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  so_TableBehavior: []
+  tableInfo: {fileID: 0}
+  tableCategory: 
+  tableType: 
   currencyEconomy: {fileID: 1297521480}
   upgradeBTN: {fileID: 1293725536}
   cancelBTN: {fileID: 1580017810}
@@ -1805,7 +1811,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fcea81cb8f68b41649391dfecd425766, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  so_TableBehavior: {fileID: 0}
   currencyEconomy: {fileID: 1297521480}
   buyBTN: {fileID: 1293725536}
   cancelBTN: {fileID: 1580017810}
@@ -1823,7 +1828,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f40ebf75bcae4b1aad98d07a360df9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  so_TableBehavior: []
+  tableInfo: {fileID: 0}
+  tableCategory: 
+  tableType: 
   currencyEconomy: {fileID: 1297521480}
   upgradeBTN: {fileID: 1293725536}
   cancelBTN: {fileID: 1580017810}
@@ -2178,12 +2185,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f40ebf75bcae4b1aad98d07a360df9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  so_TableBehavior:
-  - {fileID: 11400000, guid: ab1ee7e5ca09e46ddab5c6ae1de092a0, type: 2}
-  - {fileID: 11400000, guid: 998651b000b5648ffb9190b3595eb3a8, type: 2}
-  - {fileID: 11400000, guid: c208ebdfd87f745c7addc28a2ecaf005, type: 2}
-  - {fileID: 11400000, guid: 9ea4a69431e3e47b7b5b4d9a283ff910, type: 2}
-  - {fileID: 11400000, guid: 096ab13d1aae64c5ea1384e6fbac2efd, type: 2}
+  tableInfo: {fileID: 0}
+  tableCategory: 
+  tableType: 
   currencyEconomy: {fileID: 1297521480}
   upgradeBTN: {fileID: 1293725536}
   cancelBTN: {fileID: 1580017810}
@@ -2203,7 +2207,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fcea81cb8f68b41649391dfecd425766, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  so_TableBehavior: {fileID: 0}
   currencyEconomy: {fileID: 1297521480}
   buyBTN: {fileID: 174374007}
   cancelBTN: {fileID: 36951573}
@@ -2311,7 +2314,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fcea81cb8f68b41649391dfecd425766, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  so_TableBehavior: {fileID: 0}
   currencyEconomy: {fileID: 1297521480}
   buyBTN: {fileID: 1293725536}
   cancelBTN: {fileID: 1580017810}
@@ -2329,7 +2331,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f40ebf75bcae4b1aad98d07a360df9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  so_TableBehavior: []
+  tableInfo: {fileID: 0}
+  tableCategory: 
+  tableType: 
   currencyEconomy: {fileID: 1297521480}
   upgradeBTN: {fileID: 1293725536}
   cancelBTN: {fileID: 1580017810}
@@ -2660,12 +2664,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f40ebf75bcae4b1aad98d07a360df9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  so_TableBehavior:
-  - {fileID: 11400000, guid: 10c97deb8f9c047e8b4ac6a465311f2f, type: 2}
-  - {fileID: 11400000, guid: 532ef1b8477ae434fb5aeba156373371, type: 2}
-  - {fileID: 11400000, guid: 7d35d99613022445fad0a9d52cc9d680, type: 2}
-  - {fileID: 11400000, guid: 6f6c2c4c3314b4028af40dc9e66fdf5b, type: 2}
-  - {fileID: 11400000, guid: eea8168ad47b244859567a318cf3fd33, type: 2}
+  tableInfo: {fileID: 0}
+  tableCategory: 
+  tableType: 
   currencyEconomy: {fileID: 1297521480}
   upgradeBTN: {fileID: 1293725536}
   cancelBTN: {fileID: 1580017810}
@@ -2685,7 +2686,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fcea81cb8f68b41649391dfecd425766, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  so_TableBehavior: {fileID: 0}
   currencyEconomy: {fileID: 1297521480}
   buyBTN: {fileID: 1293725536}
   cancelBTN: {fileID: 1580017810}
@@ -3533,7 +3533,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fcea81cb8f68b41649391dfecd425766, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  so_TableBehavior: {fileID: 0}
   currencyEconomy: {fileID: 1297521480}
   buyBTN: {fileID: 1293725536}
   cancelBTN: {fileID: 1580017810}
@@ -3551,7 +3550,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f40ebf75bcae4b1aad98d07a360df9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  so_TableBehavior: []
+  tableInfo: {fileID: 0}
+  tableCategory: 
+  tableType: 
   currencyEconomy: {fileID: 1297521480}
   upgradeBTN: {fileID: 1293725536}
   cancelBTN: {fileID: 1580017810}
@@ -4089,7 +4090,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fcea81cb8f68b41649391dfecd425766, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  so_TableBehavior: {fileID: 0}
   currencyEconomy: {fileID: 1297521480}
   buyBTN: {fileID: 1293725536}
   cancelBTN: {fileID: 1580017810}
@@ -4107,7 +4107,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f40ebf75bcae4b1aad98d07a360df9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  so_TableBehavior: []
+  tableInfo: {fileID: 0}
+  tableCategory: 
+  tableType: 
   currencyEconomy: {fileID: 1297521480}
   upgradeBTN: {fileID: 1293725536}
   cancelBTN: {fileID: 1580017810}
@@ -4252,12 +4254,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f40ebf75bcae4b1aad98d07a360df9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  so_TableBehavior:
-  - {fileID: 11400000, guid: 6bd8c406f0caf4e9f8b4f7e6b830f7d8, type: 2}
-  - {fileID: 11400000, guid: c7c02eac48cd945878d3a8a9ef6621bd, type: 2}
-  - {fileID: 11400000, guid: a4e2f4a1754cd428e80759305830ef48, type: 2}
-  - {fileID: 11400000, guid: c7ce5aaa35a184968bfdeb7476eb216d, type: 2}
-  - {fileID: 11400000, guid: 5d7a8ce3867b34e4eac15220615f3ffc, type: 2}
+  tableInfo: {fileID: 0}
+  tableCategory: 
+  tableType: 
   currencyEconomy: {fileID: 1297521480}
   upgradeBTN: {fileID: 1293725536}
   cancelBTN: {fileID: 1580017810}
@@ -4277,7 +4276,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fcea81cb8f68b41649391dfecd425766, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  so_TableBehavior: {fileID: 0}
   currencyEconomy: {fileID: 1297521480}
   buyBTN: {fileID: 1293725536}
   cancelBTN: {fileID: 1580017810}
@@ -4390,7 +4388,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fcea81cb8f68b41649391dfecd425766, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  so_TableBehavior: {fileID: 0}
   currencyEconomy: {fileID: 1297521480}
   buyBTN: {fileID: 1293725536}
   cancelBTN: {fileID: 1580017810}
@@ -4408,7 +4405,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f40ebf75bcae4b1aad98d07a360df9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  so_TableBehavior: []
+  tableInfo: {fileID: 0}
+  tableCategory: 
+  tableType: 
   currencyEconomy: {fileID: 1297521480}
   upgradeBTN: {fileID: 1293725536}
   cancelBTN: {fileID: 1580017810}
@@ -4627,12 +4626,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f40ebf75bcae4b1aad98d07a360df9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  so_TableBehavior:
-  - {fileID: 11400000, guid: 48c681de251d34710ab4a36de401049e, type: 2}
-  - {fileID: 11400000, guid: b3ec31b6672a64c91a4073dd43446dae, type: 2}
-  - {fileID: 11400000, guid: 5266e223e629c401f8c9d6286ee9eec6, type: 2}
-  - {fileID: 11400000, guid: b3ec31b6672a64c91a4073dd43446dae, type: 2}
-  - {fileID: 11400000, guid: f4fbc5ee59fb64e3fa585d2123d06ccc, type: 2}
+  tableInfo: {fileID: 0}
+  tableCategory: 
+  tableType: 
   currencyEconomy: {fileID: 1297521480}
   upgradeBTN: {fileID: 1293725536}
   cancelBTN: {fileID: 1580017810}
@@ -4652,7 +4648,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fcea81cb8f68b41649391dfecd425766, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  so_TableBehavior: {fileID: 0}
   currencyEconomy: {fileID: 1297521480}
   buyBTN: {fileID: 174374007}
   cancelBTN: {fileID: 36951573}
@@ -5040,12 +5035,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f40ebf75bcae4b1aad98d07a360df9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  so_TableBehavior:
-  - {fileID: 11400000, guid: 289444cc42bbaab44b0a074f90d9e3a0, type: 2}
-  - {fileID: 11400000, guid: bfe83565104e9684b9a5eff1e42519f1, type: 2}
-  - {fileID: 11400000, guid: 00f2710b8d3dfcf46860f3278c3bf6ee, type: 2}
-  - {fileID: 11400000, guid: 397f3b2436d9a694b8e4b4a6d16390a8, type: 2}
-  - {fileID: 11400000, guid: 44224e9ded48daf45ab651c1607be8bd, type: 2}
+  tableInfo: {fileID: 0}
+  tableCategory: 
+  tableType: 
   currencyEconomy: {fileID: 1297521480}
   upgradeBTN: {fileID: 1293725536}
   cancelBTN: {fileID: 1580017810}
@@ -5065,7 +5057,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fcea81cb8f68b41649391dfecd425766, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  so_TableBehavior: {fileID: 0}
   currencyEconomy: {fileID: 1297521480}
   buyBTN: {fileID: 1293725536}
   cancelBTN: {fileID: 1580017810}
@@ -5178,7 +5169,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fcea81cb8f68b41649391dfecd425766, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  so_TableBehavior: {fileID: 0}
   currencyEconomy: {fileID: 1297521480}
   buyBTN: {fileID: 1293725536}
   cancelBTN: {fileID: 1580017810}
@@ -5196,7 +5186,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f40ebf75bcae4b1aad98d07a360df9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  so_TableBehavior: []
+  tableInfo: {fileID: 0}
+  tableCategory: 
+  tableType: 
   currencyEconomy: {fileID: 1297521480}
   upgradeBTN: {fileID: 1293725536}
   cancelBTN: {fileID: 1580017810}
@@ -5357,7 +5349,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fcea81cb8f68b41649391dfecd425766, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  so_TableBehavior: {fileID: 0}
   currencyEconomy: {fileID: 1297521480}
   buyBTN: {fileID: 1293725536}
   cancelBTN: {fileID: 1580017810}
@@ -5375,7 +5366,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f40ebf75bcae4b1aad98d07a360df9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  so_TableBehavior: []
+  tableInfo: {fileID: 0}
+  tableCategory: 
+  tableType: 
   currencyEconomy: {fileID: 1297521480}
   upgradeBTN: {fileID: 1293725536}
   cancelBTN: {fileID: 1580017810}
@@ -5672,7 +5665,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fcea81cb8f68b41649391dfecd425766, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  so_TableBehavior: {fileID: 0}
   currencyEconomy: {fileID: 1297521480}
   buyBTN: {fileID: 1293725536}
   cancelBTN: {fileID: 1580017810}
@@ -5690,7 +5682,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f40ebf75bcae4b1aad98d07a360df9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  so_TableBehavior: []
+  tableInfo: {fileID: 0}
+  tableCategory: 
+  tableType: 
   currencyEconomy: {fileID: 1297521480}
   upgradeBTN: {fileID: 1293725536}
   cancelBTN: {fileID: 1580017810}
@@ -5909,12 +5903,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f40ebf75bcae4b1aad98d07a360df9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  so_TableBehavior:
-  - {fileID: 11400000, guid: 70df6ecca310746958f79166b18e69fb, type: 2}
-  - {fileID: 11400000, guid: 27d29c4ad8f1b4bb1baee769ec210f5f, type: 2}
-  - {fileID: 11400000, guid: b7a6fef4c38cc4a00b83f11d3ad9a0b9, type: 2}
-  - {fileID: 11400000, guid: 083b40d8c6bc84ddfa92fb2784d609bc, type: 2}
-  - {fileID: 11400000, guid: b7a6fef4c38cc4a00b83f11d3ad9a0b9, type: 2}
+  tableInfo: {fileID: 0}
+  tableCategory: 
+  tableType: 
   currencyEconomy: {fileID: 1297521480}
   upgradeBTN: {fileID: 1293725536}
   cancelBTN: {fileID: 1580017810}
@@ -5934,7 +5925,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fcea81cb8f68b41649391dfecd425766, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  so_TableBehavior: {fileID: 0}
   currencyEconomy: {fileID: 1297521480}
   buyBTN: {fileID: 174374007}
   cancelBTN: {fileID: 36951573}
@@ -5973,7 +5963,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fcea81cb8f68b41649391dfecd425766, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  so_TableBehavior: {fileID: 0}
   currencyEconomy: {fileID: 1297521480}
   buyBTN: {fileID: 1293725536}
   cancelBTN: {fileID: 1580017810}
@@ -5991,7 +5980,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f40ebf75bcae4b1aad98d07a360df9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  so_TableBehavior: []
+  tableInfo: {fileID: 0}
+  tableCategory: 
+  tableType: 
   currencyEconomy: {fileID: 1297521480}
   upgradeBTN: {fileID: 1293725536}
   cancelBTN: {fileID: 1580017810}
@@ -6121,7 +6112,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fcea81cb8f68b41649391dfecd425766, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  so_TableBehavior: {fileID: 0}
   currencyEconomy: {fileID: 1297521480}
   buyBTN: {fileID: 1293725536}
   cancelBTN: {fileID: 1580017810}
@@ -6139,7 +6129,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f40ebf75bcae4b1aad98d07a360df9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  so_TableBehavior: []
+  tableInfo: {fileID: 0}
+  tableCategory: 
+  tableType: 
   currencyEconomy: {fileID: 1297521480}
   upgradeBTN: {fileID: 1293725536}
   cancelBTN: {fileID: 1580017810}
@@ -6358,7 +6350,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fcea81cb8f68b41649391dfecd425766, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  so_TableBehavior: {fileID: 0}
   currencyEconomy: {fileID: 1297521480}
   buyBTN: {fileID: 1293725536}
   cancelBTN: {fileID: 1580017810}
@@ -6376,7 +6367,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f40ebf75bcae4b1aad98d07a360df9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  so_TableBehavior: []
+  tableInfo: {fileID: 0}
+  tableCategory: 
+  tableType: 
   currencyEconomy: {fileID: 1297521480}
   upgradeBTN: {fileID: 1293725536}
   cancelBTN: {fileID: 1580017810}
@@ -6985,12 +6978,7 @@ MonoBehaviour:
   serializationData:
     SerializedFormat: 2
     SerializedBytes: 
-    ReferencedUnityObjects:
-    - {fileID: 11400000, guid: 60b023d522e530f498a1d0510c074b10, type: 2}
-    - {fileID: 11400000, guid: 9cc74e6e2906bdc44814833ba9e69c92, type: 2}
-    - {fileID: 11400000, guid: dce363c3343fa024cb3fedeb5e0d415d, type: 2}
-    - {fileID: 11400000, guid: 62d7cc09b30634940b41a999d9193a20, type: 2}
-    - {fileID: 11400000, guid: 30ec1336a09f6de478e5f5b46013ea5d, type: 2}
+    ReferencedUnityObjects: []
     SerializedBytesString: 
     Prefab: {fileID: 0}
     PrefabModificationsReferencedUnityObjects: []
@@ -7049,20 +7037,170 @@ MonoBehaviour:
       Entry: 12
       Data: 5
     - Name: 
-      Entry: 10
+      Entry: 7
+      Data: 5|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
       Data: 0
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 1.5
+    - Name: salary
+      Entry: 4
+      Data: 167
+    - Name: costToHire
+      Entry: 4
+      Data: 250
+    - Name: xpGain
+      Entry: 4
+      Data: 158
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
     - Name: 
-      Entry: 10
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 6|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
       Data: 1
-    - Name: 
-      Entry: 10
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
       Data: 2
+    - Name: salary
+      Entry: 4
+      Data: 467
+    - Name: costToHire
+      Entry: 4
+      Data: 700
+    - Name: xpGain
+      Entry: 4
+      Data: 264
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
     - Name: 
-      Entry: 10
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 7|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 2
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 2.75
+    - Name: salary
+      Entry: 4
+      Data: 667
+    - Name: costToHire
+      Entry: 4
+      Data: 1000
+    - Name: xpGain
+      Entry: 4
+      Data: 316
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 8|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
       Data: 3
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 3.75
+    - Name: salary
+      Entry: 4
+      Data: 2333
+    - Name: costToHire
+      Entry: 4
+      Data: 3500
+    - Name: xpGain
+      Entry: 4
+      Data: 592
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
     - Name: 
-      Entry: 10
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 9|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
       Data: 4
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 4.75
+    - Name: salary
+      Entry: 4
+      Data: 4000
+    - Name: costToHire
+      Entry: 4
+      Data: 6000
+    - Name: xpGain
+      Entry: 4
+      Data: 775
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
     - Name: 
       Entry: 13
       Data: 
@@ -7080,11 +7218,176 @@ MonoBehaviour:
       Data: Table2
     - Name: $v
       Entry: 7
-      Data: 5|System.Collections.Generic.List`1[[SO_TableBehavior, Assembly-CSharp]],
+      Data: 10|System.Collections.Generic.List`1[[SO_TableBehavior, Assembly-CSharp]],
         mscorlib
     - Name: 
       Entry: 12
+      Data: 5
+    - Name: 
+      Entry: 7
+      Data: 11|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
       Data: 0
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 1.5
+    - Name: salary
+      Entry: 4
+      Data: 167
+    - Name: costToHire
+      Entry: 4
+      Data: 250
+    - Name: xpGain
+      Entry: 4
+      Data: 158
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 12|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 1
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 2
+    - Name: salary
+      Entry: 4
+      Data: 467
+    - Name: costToHire
+      Entry: 4
+      Data: 700
+    - Name: xpGain
+      Entry: 4
+      Data: 264
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 13|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 2
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 2.75
+    - Name: salary
+      Entry: 4
+      Data: 667
+    - Name: costToHire
+      Entry: 4
+      Data: 1000
+    - Name: xpGain
+      Entry: 4
+      Data: 316
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 14|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 3
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 3.75
+    - Name: salary
+      Entry: 4
+      Data: 2333
+    - Name: costToHire
+      Entry: 4
+      Data: 3500
+    - Name: xpGain
+      Entry: 4
+      Data: 592
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 15|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 4
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 4.75
+    - Name: salary
+      Entry: 4
+      Data: 4000
+    - Name: costToHire
+      Entry: 4
+      Data: 6000
+    - Name: xpGain
+      Entry: 4
+      Data: 775
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
     - Name: 
       Entry: 13
       Data: 
@@ -7102,11 +7405,176 @@ MonoBehaviour:
       Data: Table3
     - Name: $v
       Entry: 7
-      Data: 6|System.Collections.Generic.List`1[[SO_TableBehavior, Assembly-CSharp]],
+      Data: 16|System.Collections.Generic.List`1[[SO_TableBehavior, Assembly-CSharp]],
         mscorlib
     - Name: 
       Entry: 12
+      Data: 5
+    - Name: 
+      Entry: 7
+      Data: 17|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
       Data: 0
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 1.5
+    - Name: salary
+      Entry: 4
+      Data: 167
+    - Name: costToHire
+      Entry: 4
+      Data: 250
+    - Name: xpGain
+      Entry: 4
+      Data: 158
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 18|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 1
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 2
+    - Name: salary
+      Entry: 4
+      Data: 467
+    - Name: costToHire
+      Entry: 4
+      Data: 700
+    - Name: xpGain
+      Entry: 4
+      Data: 264
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 19|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 2
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 2.75
+    - Name: salary
+      Entry: 4
+      Data: 667
+    - Name: costToHire
+      Entry: 4
+      Data: 1000
+    - Name: xpGain
+      Entry: 4
+      Data: 316
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 20|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 3
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 3.75
+    - Name: salary
+      Entry: 4
+      Data: 2333
+    - Name: costToHire
+      Entry: 4
+      Data: 3500
+    - Name: xpGain
+      Entry: 4
+      Data: 592
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 21|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 4
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 4.75
+    - Name: salary
+      Entry: 4
+      Data: 4000
+    - Name: costToHire
+      Entry: 4
+      Data: 6000
+    - Name: xpGain
+      Entry: 4
+      Data: 775
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
     - Name: 
       Entry: 13
       Data: 
@@ -7139,7 +7607,7 @@ MonoBehaviour:
       Data: Area2
     - Name: $v
       Entry: 7
-      Data: 7|System.Collections.Generic.List`1[[System.Collections.Generic.Dictionary`2[[System.String,
+      Data: 22|System.Collections.Generic.List`1[[System.Collections.Generic.Dictionary`2[[System.String,
         mscorlib],[System.Collections.Generic.List`1[[SO_TableBehavior, Assembly-CSharp]],
         mscorlib]], mscorlib]], mscorlib
     - Name: 
@@ -7147,14 +7615,14 @@ MonoBehaviour:
       Data: 1
     - Name: 
       Entry: 7
-      Data: 8|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Collections.Generic.List`1[[SO_TableBehavior,
+      Data: 23|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Collections.Generic.List`1[[SO_TableBehavior,
         Assembly-CSharp]], mscorlib]], mscorlib
     - Name: comparer
       Entry: 9
       Data: 1
     - Name: 
       Entry: 12
-      Data: 1
+      Data: 5
     - Name: 
       Entry: 7
       Data: 
@@ -7163,11 +7631,924 @@ MonoBehaviour:
       Data: Table1
     - Name: $v
       Entry: 7
-      Data: 9|System.Collections.Generic.List`1[[SO_TableBehavior, Assembly-CSharp]],
+      Data: 24|System.Collections.Generic.List`1[[SO_TableBehavior, Assembly-CSharp]],
         mscorlib
     - Name: 
       Entry: 12
+      Data: 5
+    - Name: 
+      Entry: 7
+      Data: 25|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
       Data: 0
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 1.5
+    - Name: salary
+      Entry: 4
+      Data: 167
+    - Name: costToHire
+      Entry: 4
+      Data: 250
+    - Name: xpGain
+      Entry: 4
+      Data: 158
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 26|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 1
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 2
+    - Name: salary
+      Entry: 4
+      Data: 467
+    - Name: costToHire
+      Entry: 4
+      Data: 700
+    - Name: xpGain
+      Entry: 4
+      Data: 264
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 27|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 2
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 2.75
+    - Name: salary
+      Entry: 4
+      Data: 667
+    - Name: costToHire
+      Entry: 4
+      Data: 1000
+    - Name: xpGain
+      Entry: 4
+      Data: 316
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 28|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 3
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 3.75
+    - Name: salary
+      Entry: 4
+      Data: 2333
+    - Name: costToHire
+      Entry: 4
+      Data: 3500
+    - Name: xpGain
+      Entry: 4
+      Data: 592
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 29|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 4
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 4.75
+    - Name: salary
+      Entry: 4
+      Data: 4000
+    - Name: costToHire
+      Entry: 4
+      Data: 6000
+    - Name: xpGain
+      Entry: 4
+      Data: 775
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Table2
+    - Name: $v
+      Entry: 7
+      Data: 30|System.Collections.Generic.List`1[[SO_TableBehavior, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 5
+    - Name: 
+      Entry: 7
+      Data: 31|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 0
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 1.5
+    - Name: salary
+      Entry: 4
+      Data: 167
+    - Name: costToHire
+      Entry: 4
+      Data: 250
+    - Name: xpGain
+      Entry: 4
+      Data: 158
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 32|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 1
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 2
+    - Name: salary
+      Entry: 4
+      Data: 467
+    - Name: costToHire
+      Entry: 4
+      Data: 700
+    - Name: xpGain
+      Entry: 4
+      Data: 264
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 33|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 2
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 2.75
+    - Name: salary
+      Entry: 4
+      Data: 667
+    - Name: costToHire
+      Entry: 4
+      Data: 1000
+    - Name: xpGain
+      Entry: 4
+      Data: 316
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 34|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 3
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 3.75
+    - Name: salary
+      Entry: 4
+      Data: 2333
+    - Name: costToHire
+      Entry: 4
+      Data: 3500
+    - Name: xpGain
+      Entry: 4
+      Data: 592
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 35|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 4
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 4.75
+    - Name: salary
+      Entry: 4
+      Data: 4000
+    - Name: costToHire
+      Entry: 4
+      Data: 6000
+    - Name: xpGain
+      Entry: 4
+      Data: 775
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Table3
+    - Name: $v
+      Entry: 7
+      Data: 36|System.Collections.Generic.List`1[[SO_TableBehavior, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 5
+    - Name: 
+      Entry: 7
+      Data: 37|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 0
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 1.5
+    - Name: salary
+      Entry: 4
+      Data: 167
+    - Name: costToHire
+      Entry: 4
+      Data: 250
+    - Name: xpGain
+      Entry: 4
+      Data: 158
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 38|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 1
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 2
+    - Name: salary
+      Entry: 4
+      Data: 467
+    - Name: costToHire
+      Entry: 4
+      Data: 700
+    - Name: xpGain
+      Entry: 4
+      Data: 264
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 39|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 2
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 2.75
+    - Name: salary
+      Entry: 4
+      Data: 667
+    - Name: costToHire
+      Entry: 4
+      Data: 1000
+    - Name: xpGain
+      Entry: 4
+      Data: 316
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 40|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 3
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 3.75
+    - Name: salary
+      Entry: 4
+      Data: 2333
+    - Name: costToHire
+      Entry: 4
+      Data: 3500
+    - Name: xpGain
+      Entry: 4
+      Data: 592
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 41|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 4
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 4.75
+    - Name: salary
+      Entry: 4
+      Data: 4000
+    - Name: costToHire
+      Entry: 4
+      Data: 6000
+    - Name: xpGain
+      Entry: 4
+      Data: 775
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Table4
+    - Name: $v
+      Entry: 7
+      Data: 42|System.Collections.Generic.List`1[[SO_TableBehavior, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 5
+    - Name: 
+      Entry: 7
+      Data: 43|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 0
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 1.5
+    - Name: salary
+      Entry: 4
+      Data: 167
+    - Name: costToHire
+      Entry: 4
+      Data: 250
+    - Name: xpGain
+      Entry: 4
+      Data: 158
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 44|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 1
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 2
+    - Name: salary
+      Entry: 4
+      Data: 467
+    - Name: costToHire
+      Entry: 4
+      Data: 700
+    - Name: xpGain
+      Entry: 4
+      Data: 264
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 45|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 2
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 2.75
+    - Name: salary
+      Entry: 4
+      Data: 667
+    - Name: costToHire
+      Entry: 4
+      Data: 1000
+    - Name: xpGain
+      Entry: 4
+      Data: 316
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 46|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 3
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 3.75
+    - Name: salary
+      Entry: 4
+      Data: 2333
+    - Name: costToHire
+      Entry: 4
+      Data: 3500
+    - Name: xpGain
+      Entry: 4
+      Data: 592
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 47|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 4
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 4.75
+    - Name: salary
+      Entry: 4
+      Data: 4000
+    - Name: costToHire
+      Entry: 4
+      Data: 6000
+    - Name: xpGain
+      Entry: 4
+      Data: 775
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Table5
+    - Name: $v
+      Entry: 7
+      Data: 48|System.Collections.Generic.List`1[[SO_TableBehavior, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 5
+    - Name: 
+      Entry: 7
+      Data: 49|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 0
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 1.5
+    - Name: salary
+      Entry: 4
+      Data: 167
+    - Name: costToHire
+      Entry: 4
+      Data: 250
+    - Name: xpGain
+      Entry: 4
+      Data: 158
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 50|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 1
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 2
+    - Name: salary
+      Entry: 4
+      Data: 467
+    - Name: costToHire
+      Entry: 4
+      Data: 700
+    - Name: xpGain
+      Entry: 4
+      Data: 264
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 51|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 2
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 2.75
+    - Name: salary
+      Entry: 4
+      Data: 667
+    - Name: costToHire
+      Entry: 4
+      Data: 1000
+    - Name: xpGain
+      Entry: 4
+      Data: 316
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 52|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 3
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 3.75
+    - Name: salary
+      Entry: 4
+      Data: 2333
+    - Name: costToHire
+      Entry: 4
+      Data: 3500
+    - Name: xpGain
+      Entry: 4
+      Data: 592
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 53|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 4
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 4.75
+    - Name: salary
+      Entry: 4
+      Data: 4000
+    - Name: costToHire
+      Entry: 4
+      Data: 6000
+    - Name: xpGain
+      Entry: 4
+      Data: 775
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
     - Name: 
       Entry: 13
       Data: 
@@ -7200,7 +8581,7 @@ MonoBehaviour:
       Data: Area3
     - Name: $v
       Entry: 7
-      Data: 10|System.Collections.Generic.List`1[[System.Collections.Generic.Dictionary`2[[System.String,
+      Data: 54|System.Collections.Generic.List`1[[System.Collections.Generic.Dictionary`2[[System.String,
         mscorlib],[System.Collections.Generic.List`1[[SO_TableBehavior, Assembly-CSharp]],
         mscorlib]], mscorlib]], mscorlib
     - Name: 
@@ -7208,14 +8589,14 @@ MonoBehaviour:
       Data: 1
     - Name: 
       Entry: 7
-      Data: 11|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Collections.Generic.List`1[[SO_TableBehavior,
+      Data: 55|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Collections.Generic.List`1[[SO_TableBehavior,
         Assembly-CSharp]], mscorlib]], mscorlib
     - Name: comparer
       Entry: 9
       Data: 1
     - Name: 
       Entry: 12
-      Data: 1
+      Data: 5
     - Name: 
       Entry: 7
       Data: 
@@ -7224,11 +8605,924 @@ MonoBehaviour:
       Data: Table1
     - Name: $v
       Entry: 7
-      Data: 12|System.Collections.Generic.List`1[[SO_TableBehavior, Assembly-CSharp]],
+      Data: 56|System.Collections.Generic.List`1[[SO_TableBehavior, Assembly-CSharp]],
         mscorlib
     - Name: 
       Entry: 12
+      Data: 5
+    - Name: 
+      Entry: 7
+      Data: 57|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
       Data: 0
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 1.5
+    - Name: salary
+      Entry: 4
+      Data: 167
+    - Name: costToHire
+      Entry: 4
+      Data: 250
+    - Name: xpGain
+      Entry: 4
+      Data: 158
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 58|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 1
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 2
+    - Name: salary
+      Entry: 4
+      Data: 467
+    - Name: costToHire
+      Entry: 4
+      Data: 700
+    - Name: xpGain
+      Entry: 4
+      Data: 264
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 59|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 2
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 2.75
+    - Name: salary
+      Entry: 4
+      Data: 667
+    - Name: costToHire
+      Entry: 4
+      Data: 1000
+    - Name: xpGain
+      Entry: 4
+      Data: 316
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 60|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 3
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 3.75
+    - Name: salary
+      Entry: 4
+      Data: 2333
+    - Name: costToHire
+      Entry: 4
+      Data: 3500
+    - Name: xpGain
+      Entry: 4
+      Data: 592
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 61|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 4
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 4.75
+    - Name: salary
+      Entry: 4
+      Data: 4000
+    - Name: costToHire
+      Entry: 4
+      Data: 6000
+    - Name: xpGain
+      Entry: 4
+      Data: 775
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Table2
+    - Name: $v
+      Entry: 7
+      Data: 62|System.Collections.Generic.List`1[[SO_TableBehavior, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 5
+    - Name: 
+      Entry: 7
+      Data: 63|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 0
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 1.5
+    - Name: salary
+      Entry: 4
+      Data: 167
+    - Name: costToHire
+      Entry: 4
+      Data: 250
+    - Name: xpGain
+      Entry: 4
+      Data: 158
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 64|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 1
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 2
+    - Name: salary
+      Entry: 4
+      Data: 467
+    - Name: costToHire
+      Entry: 4
+      Data: 700
+    - Name: xpGain
+      Entry: 4
+      Data: 264
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 65|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 2
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 2.75
+    - Name: salary
+      Entry: 4
+      Data: 667
+    - Name: costToHire
+      Entry: 4
+      Data: 1000
+    - Name: xpGain
+      Entry: 4
+      Data: 316
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 66|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 3
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 3.75
+    - Name: salary
+      Entry: 4
+      Data: 2333
+    - Name: costToHire
+      Entry: 4
+      Data: 3500
+    - Name: xpGain
+      Entry: 4
+      Data: 592
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 67|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 4
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 4.75
+    - Name: salary
+      Entry: 4
+      Data: 4000
+    - Name: costToHire
+      Entry: 4
+      Data: 6000
+    - Name: xpGain
+      Entry: 4
+      Data: 775
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Table3
+    - Name: $v
+      Entry: 7
+      Data: 68|System.Collections.Generic.List`1[[SO_TableBehavior, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 5
+    - Name: 
+      Entry: 7
+      Data: 69|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 0
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 1.5
+    - Name: salary
+      Entry: 4
+      Data: 167
+    - Name: costToHire
+      Entry: 4
+      Data: 250
+    - Name: xpGain
+      Entry: 4
+      Data: 158
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 70|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 1
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 2
+    - Name: salary
+      Entry: 4
+      Data: 467
+    - Name: costToHire
+      Entry: 4
+      Data: 700
+    - Name: xpGain
+      Entry: 4
+      Data: 264
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 71|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 2
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 2.75
+    - Name: salary
+      Entry: 4
+      Data: 667
+    - Name: costToHire
+      Entry: 4
+      Data: 1000
+    - Name: xpGain
+      Entry: 4
+      Data: 316
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 72|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 3
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 3.75
+    - Name: salary
+      Entry: 4
+      Data: 2333
+    - Name: costToHire
+      Entry: 4
+      Data: 3500
+    - Name: xpGain
+      Entry: 4
+      Data: 592
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 73|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 4
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 4.75
+    - Name: salary
+      Entry: 4
+      Data: 4000
+    - Name: costToHire
+      Entry: 4
+      Data: 6000
+    - Name: xpGain
+      Entry: 4
+      Data: 775
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Table4
+    - Name: $v
+      Entry: 7
+      Data: 74|System.Collections.Generic.List`1[[SO_TableBehavior, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 5
+    - Name: 
+      Entry: 7
+      Data: 75|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 0
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 1.5
+    - Name: salary
+      Entry: 4
+      Data: 167
+    - Name: costToHire
+      Entry: 4
+      Data: 250
+    - Name: xpGain
+      Entry: 4
+      Data: 158
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 76|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 1
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 2
+    - Name: salary
+      Entry: 4
+      Data: 467
+    - Name: costToHire
+      Entry: 4
+      Data: 700
+    - Name: xpGain
+      Entry: 4
+      Data: 264
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 77|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 2
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 2.75
+    - Name: salary
+      Entry: 4
+      Data: 667
+    - Name: costToHire
+      Entry: 4
+      Data: 1000
+    - Name: xpGain
+      Entry: 4
+      Data: 316
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 78|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 3
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 3.75
+    - Name: salary
+      Entry: 4
+      Data: 2333
+    - Name: costToHire
+      Entry: 4
+      Data: 3500
+    - Name: xpGain
+      Entry: 4
+      Data: 592
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 79|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 4
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 4.75
+    - Name: salary
+      Entry: 4
+      Data: 4000
+    - Name: costToHire
+      Entry: 4
+      Data: 6000
+    - Name: xpGain
+      Entry: 4
+      Data: 775
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Table5
+    - Name: $v
+      Entry: 7
+      Data: 80|System.Collections.Generic.List`1[[SO_TableBehavior, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 5
+    - Name: 
+      Entry: 7
+      Data: 81|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 0
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 1.5
+    - Name: salary
+      Entry: 4
+      Data: 167
+    - Name: costToHire
+      Entry: 4
+      Data: 250
+    - Name: xpGain
+      Entry: 4
+      Data: 158
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 82|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 1
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 2
+    - Name: salary
+      Entry: 4
+      Data: 467
+    - Name: costToHire
+      Entry: 4
+      Data: 700
+    - Name: xpGain
+      Entry: 4
+      Data: 264
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 83|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 2
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 2.75
+    - Name: salary
+      Entry: 4
+      Data: 667
+    - Name: costToHire
+      Entry: 4
+      Data: 1000
+    - Name: xpGain
+      Entry: 4
+      Data: 316
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 84|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 3
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 3.75
+    - Name: salary
+      Entry: 4
+      Data: 2333
+    - Name: costToHire
+      Entry: 4
+      Data: 3500
+    - Name: xpGain
+      Entry: 4
+      Data: 592
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 85|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 4
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 4.75
+    - Name: salary
+      Entry: 4
+      Data: 4000
+    - Name: costToHire
+      Entry: 4
+      Data: 6000
+    - Name: xpGain
+      Entry: 4
+      Data: 775
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
     - Name: 
       Entry: 13
       Data: 
@@ -7261,7 +9555,7 @@ MonoBehaviour:
       Data: Area4
     - Name: $v
       Entry: 7
-      Data: 13|System.Collections.Generic.List`1[[System.Collections.Generic.Dictionary`2[[System.String,
+      Data: 86|System.Collections.Generic.List`1[[System.Collections.Generic.Dictionary`2[[System.String,
         mscorlib],[System.Collections.Generic.List`1[[SO_TableBehavior, Assembly-CSharp]],
         mscorlib]], mscorlib]], mscorlib
     - Name: 
@@ -7269,14 +9563,14 @@ MonoBehaviour:
       Data: 1
     - Name: 
       Entry: 7
-      Data: 14|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Collections.Generic.List`1[[SO_TableBehavior,
+      Data: 87|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Collections.Generic.List`1[[SO_TableBehavior,
         Assembly-CSharp]], mscorlib]], mscorlib
     - Name: comparer
       Entry: 9
       Data: 1
     - Name: 
       Entry: 12
-      Data: 1
+      Data: 11
     - Name: 
       Entry: 7
       Data: 
@@ -7285,13 +9579,2045 @@ MonoBehaviour:
       Data: Table1
     - Name: $v
       Entry: 7
-      Data: 15|System.Collections.Generic.List`1[[SO_TableBehavior, Assembly-CSharp]],
+      Data: 88|System.Collections.Generic.List`1[[SO_TableBehavior, Assembly-CSharp]],
         mscorlib
     - Name: 
       Entry: 12
-      Data: 1
+      Data: 5
     - Name: 
+      Entry: 7
+      Data: 89|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 0
+    - Name: staffProfile
       Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 1.5
+    - Name: salary
+      Entry: 4
+      Data: 167
+    - Name: costToHire
+      Entry: 4
+      Data: 250
+    - Name: xpGain
+      Entry: 4
+      Data: 158
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 90|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 1
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 2
+    - Name: salary
+      Entry: 4
+      Data: 467
+    - Name: costToHire
+      Entry: 4
+      Data: 700
+    - Name: xpGain
+      Entry: 4
+      Data: 264
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 91|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 2
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 2.75
+    - Name: salary
+      Entry: 4
+      Data: 667
+    - Name: costToHire
+      Entry: 4
+      Data: 1000
+    - Name: xpGain
+      Entry: 4
+      Data: 316
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 92|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 3
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 3.75
+    - Name: salary
+      Entry: 4
+      Data: 2333
+    - Name: costToHire
+      Entry: 4
+      Data: 3500
+    - Name: xpGain
+      Entry: 4
+      Data: 592
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 93|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 4
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 4.75
+    - Name: salary
+      Entry: 4
+      Data: 4000
+    - Name: costToHire
+      Entry: 4
+      Data: 6000
+    - Name: xpGain
+      Entry: 4
+      Data: 775
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Table2
+    - Name: $v
+      Entry: 7
+      Data: 94|System.Collections.Generic.List`1[[SO_TableBehavior, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 5
+    - Name: 
+      Entry: 7
+      Data: 95|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 0
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 1.5
+    - Name: salary
+      Entry: 4
+      Data: 167
+    - Name: costToHire
+      Entry: 4
+      Data: 250
+    - Name: xpGain
+      Entry: 4
+      Data: 158
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 96|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 1
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 2
+    - Name: salary
+      Entry: 4
+      Data: 467
+    - Name: costToHire
+      Entry: 4
+      Data: 700
+    - Name: xpGain
+      Entry: 4
+      Data: 264
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 97|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 2
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 2.75
+    - Name: salary
+      Entry: 4
+      Data: 667
+    - Name: costToHire
+      Entry: 4
+      Data: 1000
+    - Name: xpGain
+      Entry: 4
+      Data: 316
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 98|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 3
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 3.75
+    - Name: salary
+      Entry: 4
+      Data: 2333
+    - Name: costToHire
+      Entry: 4
+      Data: 3500
+    - Name: xpGain
+      Entry: 4
+      Data: 592
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 99|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 4
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 4.75
+    - Name: salary
+      Entry: 4
+      Data: 4000
+    - Name: costToHire
+      Entry: 4
+      Data: 6000
+    - Name: xpGain
+      Entry: 4
+      Data: 775
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Table3
+    - Name: $v
+      Entry: 7
+      Data: 100|System.Collections.Generic.List`1[[SO_TableBehavior, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 5
+    - Name: 
+      Entry: 7
+      Data: 101|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 0
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 1.5
+    - Name: salary
+      Entry: 4
+      Data: 167
+    - Name: costToHire
+      Entry: 4
+      Data: 250
+    - Name: xpGain
+      Entry: 4
+      Data: 158
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 102|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 1
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 2
+    - Name: salary
+      Entry: 4
+      Data: 467
+    - Name: costToHire
+      Entry: 4
+      Data: 700
+    - Name: xpGain
+      Entry: 4
+      Data: 264
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 103|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 2
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 2.75
+    - Name: salary
+      Entry: 4
+      Data: 667
+    - Name: costToHire
+      Entry: 4
+      Data: 1000
+    - Name: xpGain
+      Entry: 4
+      Data: 316
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 104|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 3
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 3.75
+    - Name: salary
+      Entry: 4
+      Data: 2333
+    - Name: costToHire
+      Entry: 4
+      Data: 3500
+    - Name: xpGain
+      Entry: 4
+      Data: 592
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 105|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 4
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 4.75
+    - Name: salary
+      Entry: 4
+      Data: 4000
+    - Name: costToHire
+      Entry: 4
+      Data: 6000
+    - Name: xpGain
+      Entry: 4
+      Data: 775
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Table4
+    - Name: $v
+      Entry: 7
+      Data: 106|System.Collections.Generic.List`1[[SO_TableBehavior, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 5
+    - Name: 
+      Entry: 7
+      Data: 107|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 0
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 1.5
+    - Name: salary
+      Entry: 4
+      Data: 167
+    - Name: costToHire
+      Entry: 4
+      Data: 250
+    - Name: xpGain
+      Entry: 4
+      Data: 158
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 108|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 1
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 2
+    - Name: salary
+      Entry: 4
+      Data: 467
+    - Name: costToHire
+      Entry: 4
+      Data: 700
+    - Name: xpGain
+      Entry: 4
+      Data: 264
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 109|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 2
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 2.75
+    - Name: salary
+      Entry: 4
+      Data: 667
+    - Name: costToHire
+      Entry: 4
+      Data: 1000
+    - Name: xpGain
+      Entry: 4
+      Data: 316
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 110|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 3
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 3.75
+    - Name: salary
+      Entry: 4
+      Data: 2333
+    - Name: costToHire
+      Entry: 4
+      Data: 3500
+    - Name: xpGain
+      Entry: 4
+      Data: 592
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 111|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 4
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 4.75
+    - Name: salary
+      Entry: 4
+      Data: 4000
+    - Name: costToHire
+      Entry: 4
+      Data: 6000
+    - Name: xpGain
+      Entry: 4
+      Data: 775
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Table5
+    - Name: $v
+      Entry: 7
+      Data: 112|System.Collections.Generic.List`1[[SO_TableBehavior, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 5
+    - Name: 
+      Entry: 7
+      Data: 113|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 0
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 1.5
+    - Name: salary
+      Entry: 4
+      Data: 167
+    - Name: costToHire
+      Entry: 4
+      Data: 250
+    - Name: xpGain
+      Entry: 4
+      Data: 158
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 114|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 1
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 2
+    - Name: salary
+      Entry: 4
+      Data: 467
+    - Name: costToHire
+      Entry: 4
+      Data: 700
+    - Name: xpGain
+      Entry: 4
+      Data: 264
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 115|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 2
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 2.75
+    - Name: salary
+      Entry: 4
+      Data: 667
+    - Name: costToHire
+      Entry: 4
+      Data: 1000
+    - Name: xpGain
+      Entry: 4
+      Data: 316
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 116|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 3
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 3.75
+    - Name: salary
+      Entry: 4
+      Data: 2333
+    - Name: costToHire
+      Entry: 4
+      Data: 3500
+    - Name: xpGain
+      Entry: 4
+      Data: 592
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 117|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 4
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 4.75
+    - Name: salary
+      Entry: 4
+      Data: 4000
+    - Name: costToHire
+      Entry: 4
+      Data: 6000
+    - Name: xpGain
+      Entry: 4
+      Data: 775
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Table6
+    - Name: $v
+      Entry: 7
+      Data: 118|System.Collections.Generic.List`1[[SO_TableBehavior, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 5
+    - Name: 
+      Entry: 7
+      Data: 119|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 0
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 1.5
+    - Name: salary
+      Entry: 4
+      Data: 167
+    - Name: costToHire
+      Entry: 4
+      Data: 250
+    - Name: xpGain
+      Entry: 4
+      Data: 158
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 120|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 1
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 2
+    - Name: salary
+      Entry: 4
+      Data: 467
+    - Name: costToHire
+      Entry: 4
+      Data: 700
+    - Name: xpGain
+      Entry: 4
+      Data: 264
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 121|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 2
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 2.75
+    - Name: salary
+      Entry: 4
+      Data: 667
+    - Name: costToHire
+      Entry: 4
+      Data: 1000
+    - Name: xpGain
+      Entry: 4
+      Data: 316
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 122|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 3
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 3.75
+    - Name: salary
+      Entry: 4
+      Data: 2333
+    - Name: costToHire
+      Entry: 4
+      Data: 3500
+    - Name: xpGain
+      Entry: 4
+      Data: 592
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 123|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 4
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 4.75
+    - Name: salary
+      Entry: 4
+      Data: 4000
+    - Name: costToHire
+      Entry: 4
+      Data: 6000
+    - Name: xpGain
+      Entry: 4
+      Data: 775
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Table7
+    - Name: $v
+      Entry: 7
+      Data: 124|System.Collections.Generic.List`1[[SO_TableBehavior, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 5
+    - Name: 
+      Entry: 7
+      Data: 125|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 0
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 1.5
+    - Name: salary
+      Entry: 4
+      Data: 167
+    - Name: costToHire
+      Entry: 4
+      Data: 250
+    - Name: xpGain
+      Entry: 4
+      Data: 158
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 126|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 1
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 2
+    - Name: salary
+      Entry: 4
+      Data: 467
+    - Name: costToHire
+      Entry: 4
+      Data: 700
+    - Name: xpGain
+      Entry: 4
+      Data: 264
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 127|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 2
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 2.75
+    - Name: salary
+      Entry: 4
+      Data: 667
+    - Name: costToHire
+      Entry: 4
+      Data: 1000
+    - Name: xpGain
+      Entry: 4
+      Data: 316
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 128|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 3
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 3.75
+    - Name: salary
+      Entry: 4
+      Data: 2333
+    - Name: costToHire
+      Entry: 4
+      Data: 3500
+    - Name: xpGain
+      Entry: 4
+      Data: 592
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 129|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 4
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 4.75
+    - Name: salary
+      Entry: 4
+      Data: 4000
+    - Name: costToHire
+      Entry: 4
+      Data: 6000
+    - Name: xpGain
+      Entry: 4
+      Data: 775
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Table8
+    - Name: $v
+      Entry: 7
+      Data: 130|System.Collections.Generic.List`1[[SO_TableBehavior, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 5
+    - Name: 
+      Entry: 7
+      Data: 131|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 0
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 1.5
+    - Name: salary
+      Entry: 4
+      Data: 167
+    - Name: costToHire
+      Entry: 4
+      Data: 250
+    - Name: xpGain
+      Entry: 4
+      Data: 158
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 132|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 1
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 2
+    - Name: salary
+      Entry: 4
+      Data: 467
+    - Name: costToHire
+      Entry: 4
+      Data: 700
+    - Name: xpGain
+      Entry: 4
+      Data: 264
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 133|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 2
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 2.75
+    - Name: salary
+      Entry: 4
+      Data: 667
+    - Name: costToHire
+      Entry: 4
+      Data: 1000
+    - Name: xpGain
+      Entry: 4
+      Data: 316
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 134|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 3
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 3.75
+    - Name: salary
+      Entry: 4
+      Data: 2333
+    - Name: costToHire
+      Entry: 4
+      Data: 3500
+    - Name: xpGain
+      Entry: 4
+      Data: 592
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 135|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 4
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 4.75
+    - Name: salary
+      Entry: 4
+      Data: 4000
+    - Name: costToHire
+      Entry: 4
+      Data: 6000
+    - Name: xpGain
+      Entry: 4
+      Data: 775
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Table9
+    - Name: $v
+      Entry: 7
+      Data: 136|System.Collections.Generic.List`1[[SO_TableBehavior, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 5
+    - Name: 
+      Entry: 7
+      Data: 137|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 0
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 1.5
+    - Name: salary
+      Entry: 4
+      Data: 167
+    - Name: costToHire
+      Entry: 4
+      Data: 250
+    - Name: xpGain
+      Entry: 4
+      Data: 158
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 138|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 1
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 2
+    - Name: salary
+      Entry: 4
+      Data: 467
+    - Name: costToHire
+      Entry: 4
+      Data: 700
+    - Name: xpGain
+      Entry: 4
+      Data: 264
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 139|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 2
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 2.75
+    - Name: salary
+      Entry: 4
+      Data: 667
+    - Name: costToHire
+      Entry: 4
+      Data: 1000
+    - Name: xpGain
+      Entry: 4
+      Data: 316
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 140|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 3
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 3.75
+    - Name: salary
+      Entry: 4
+      Data: 2333
+    - Name: costToHire
+      Entry: 4
+      Data: 3500
+    - Name: xpGain
+      Entry: 4
+      Data: 592
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 141|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 4
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 4.75
+    - Name: salary
+      Entry: 4
+      Data: 4000
+    - Name: costToHire
+      Entry: 4
+      Data: 6000
+    - Name: xpGain
+      Entry: 4
+      Data: 775
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Table10
+    - Name: $v
+      Entry: 7
+      Data: 142|System.Collections.Generic.List`1[[SO_TableBehavior, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 5
+    - Name: 
+      Entry: 7
+      Data: 143|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 0
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 1.5
+    - Name: salary
+      Entry: 4
+      Data: 167
+    - Name: costToHire
+      Entry: 4
+      Data: 250
+    - Name: xpGain
+      Entry: 4
+      Data: 158
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 144|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 1
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 2
+    - Name: salary
+      Entry: 4
+      Data: 467
+    - Name: costToHire
+      Entry: 4
+      Data: 700
+    - Name: xpGain
+      Entry: 4
+      Data: 264
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 145|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 2
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 2.75
+    - Name: salary
+      Entry: 4
+      Data: 667
+    - Name: costToHire
+      Entry: 4
+      Data: 1000
+    - Name: xpGain
+      Entry: 4
+      Data: 316
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 146|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 3
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 3.75
+    - Name: salary
+      Entry: 4
+      Data: 2333
+    - Name: costToHire
+      Entry: 4
+      Data: 3500
+    - Name: xpGain
+      Entry: 4
+      Data: 592
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 147|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 4
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 4.75
+    - Name: salary
+      Entry: 4
+      Data: 4000
+    - Name: costToHire
+      Entry: 4
+      Data: 6000
+    - Name: xpGain
+      Entry: 4
+      Data: 775
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Table11
+    - Name: $v
+      Entry: 7
+      Data: 148|System.Collections.Generic.List`1[[SO_TableBehavior, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 5
+    - Name: 
+      Entry: 7
+      Data: 149|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 0
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 1.5
+    - Name: salary
+      Entry: 4
+      Data: 167
+    - Name: costToHire
+      Entry: 4
+      Data: 250
+    - Name: xpGain
+      Entry: 4
+      Data: 158
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 150|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 1
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 2
+    - Name: salary
+      Entry: 4
+      Data: 467
+    - Name: costToHire
+      Entry: 4
+      Data: 700
+    - Name: xpGain
+      Entry: 4
+      Data: 264
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 151|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 2
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 2.75
+    - Name: salary
+      Entry: 4
+      Data: 667
+    - Name: costToHire
+      Entry: 4
+      Data: 1000
+    - Name: xpGain
+      Entry: 4
+      Data: 316
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 152|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 3
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 3.75
+    - Name: salary
+      Entry: 4
+      Data: 2333
+    - Name: costToHire
+      Entry: 4
+      Data: 3500
+    - Name: xpGain
+      Entry: 4
+      Data: 592
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 153|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 4
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 4.75
+    - Name: salary
+      Entry: 4
+      Data: 4000
+    - Name: costToHire
+      Entry: 4
+      Data: 6000
+    - Name: xpGain
+      Entry: 4
+      Data: 775
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
       Data: 
     - Name: 
       Entry: 13
@@ -7325,7 +11651,7 @@ MonoBehaviour:
       Data: Area5
     - Name: $v
       Entry: 7
-      Data: 16|System.Collections.Generic.List`1[[System.Collections.Generic.Dictionary`2[[System.String,
+      Data: 154|System.Collections.Generic.List`1[[System.Collections.Generic.Dictionary`2[[System.String,
         mscorlib],[System.Collections.Generic.List`1[[SO_TableBehavior, Assembly-CSharp]],
         mscorlib]], mscorlib]], mscorlib
     - Name: 
@@ -7333,14 +11659,18 @@ MonoBehaviour:
       Data: 1
     - Name: 
       Entry: 7
-      Data: 17|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Collections.Generic.List`1[[SO_TableBehavior,
+      Data: 155|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Collections.Generic.List`1[[SO_TableBehavior,
         Assembly-CSharp]], mscorlib]], mscorlib
     - Name: comparer
-      Entry: 9
-      Data: 1
+      Entry: 7
+      Data: 156|System.Collections.Generic.GenericEqualityComparer`1[[System.String,
+        mscorlib]], mscorlib
+    - Name: 
+      Entry: 8
+      Data: 
     - Name: 
       Entry: 12
-      Data: 1
+      Data: 17
     - Name: 
       Entry: 7
       Data: 
@@ -7349,11 +11679,3168 @@ MonoBehaviour:
       Data: Table1
     - Name: $v
       Entry: 7
-      Data: 18|System.Collections.Generic.List`1[[SO_TableBehavior, Assembly-CSharp]],
+      Data: 157|System.Collections.Generic.List`1[[SO_TableBehavior, Assembly-CSharp]],
         mscorlib
     - Name: 
       Entry: 12
+      Data: 5
+    - Name: 
+      Entry: 7
+      Data: 158|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
       Data: 0
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 1.5
+    - Name: salary
+      Entry: 4
+      Data: 167
+    - Name: costToHire
+      Entry: 4
+      Data: 250
+    - Name: xpGain
+      Entry: 4
+      Data: 158
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 159|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 1
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 2
+    - Name: salary
+      Entry: 4
+      Data: 467
+    - Name: costToHire
+      Entry: 4
+      Data: 700
+    - Name: xpGain
+      Entry: 4
+      Data: 264
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 160|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 2
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 2.75
+    - Name: salary
+      Entry: 4
+      Data: 667
+    - Name: costToHire
+      Entry: 4
+      Data: 1000
+    - Name: xpGain
+      Entry: 4
+      Data: 316
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 161|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 3
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 3.75
+    - Name: salary
+      Entry: 4
+      Data: 2333
+    - Name: costToHire
+      Entry: 4
+      Data: 3500
+    - Name: xpGain
+      Entry: 4
+      Data: 592
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 162|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 4
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 4.75
+    - Name: salary
+      Entry: 4
+      Data: 4000
+    - Name: costToHire
+      Entry: 4
+      Data: 6000
+    - Name: xpGain
+      Entry: 4
+      Data: 775
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Table2
+    - Name: $v
+      Entry: 7
+      Data: 163|System.Collections.Generic.List`1[[SO_TableBehavior, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 5
+    - Name: 
+      Entry: 7
+      Data: 164|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 0
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 1.5
+    - Name: salary
+      Entry: 4
+      Data: 167
+    - Name: costToHire
+      Entry: 4
+      Data: 250
+    - Name: xpGain
+      Entry: 4
+      Data: 158
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 165|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 1
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 2
+    - Name: salary
+      Entry: 4
+      Data: 467
+    - Name: costToHire
+      Entry: 4
+      Data: 700
+    - Name: xpGain
+      Entry: 4
+      Data: 264
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 166|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 2
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 2.75
+    - Name: salary
+      Entry: 4
+      Data: 667
+    - Name: costToHire
+      Entry: 4
+      Data: 1000
+    - Name: xpGain
+      Entry: 4
+      Data: 316
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 167|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 3
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 3.75
+    - Name: salary
+      Entry: 4
+      Data: 2333
+    - Name: costToHire
+      Entry: 4
+      Data: 3500
+    - Name: xpGain
+      Entry: 4
+      Data: 592
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 168|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 4
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 4.75
+    - Name: salary
+      Entry: 4
+      Data: 4000
+    - Name: costToHire
+      Entry: 4
+      Data: 6000
+    - Name: xpGain
+      Entry: 4
+      Data: 775
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Table3
+    - Name: $v
+      Entry: 7
+      Data: 169|System.Collections.Generic.List`1[[SO_TableBehavior, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 5
+    - Name: 
+      Entry: 7
+      Data: 170|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 0
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 1.5
+    - Name: salary
+      Entry: 4
+      Data: 167
+    - Name: costToHire
+      Entry: 4
+      Data: 250
+    - Name: xpGain
+      Entry: 4
+      Data: 158
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 171|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 1
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 2
+    - Name: salary
+      Entry: 4
+      Data: 467
+    - Name: costToHire
+      Entry: 4
+      Data: 700
+    - Name: xpGain
+      Entry: 4
+      Data: 264
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 172|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 2
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 2.75
+    - Name: salary
+      Entry: 4
+      Data: 667
+    - Name: costToHire
+      Entry: 4
+      Data: 1000
+    - Name: xpGain
+      Entry: 4
+      Data: 316
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 173|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 3
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 3.75
+    - Name: salary
+      Entry: 4
+      Data: 2333
+    - Name: costToHire
+      Entry: 4
+      Data: 3500
+    - Name: xpGain
+      Entry: 4
+      Data: 592
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 174|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 4
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 4.75
+    - Name: salary
+      Entry: 4
+      Data: 4000
+    - Name: costToHire
+      Entry: 4
+      Data: 6000
+    - Name: xpGain
+      Entry: 4
+      Data: 775
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Table4
+    - Name: $v
+      Entry: 7
+      Data: 175|System.Collections.Generic.List`1[[SO_TableBehavior, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 5
+    - Name: 
+      Entry: 7
+      Data: 176|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 0
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 1.5
+    - Name: salary
+      Entry: 4
+      Data: 167
+    - Name: costToHire
+      Entry: 4
+      Data: 250
+    - Name: xpGain
+      Entry: 4
+      Data: 158
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 177|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 1
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 2
+    - Name: salary
+      Entry: 4
+      Data: 467
+    - Name: costToHire
+      Entry: 4
+      Data: 700
+    - Name: xpGain
+      Entry: 4
+      Data: 264
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 178|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 2
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 2.75
+    - Name: salary
+      Entry: 4
+      Data: 667
+    - Name: costToHire
+      Entry: 4
+      Data: 1000
+    - Name: xpGain
+      Entry: 4
+      Data: 316
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 179|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 3
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 3.75
+    - Name: salary
+      Entry: 4
+      Data: 2333
+    - Name: costToHire
+      Entry: 4
+      Data: 3500
+    - Name: xpGain
+      Entry: 4
+      Data: 592
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 180|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 4
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 4.75
+    - Name: salary
+      Entry: 4
+      Data: 4000
+    - Name: costToHire
+      Entry: 4
+      Data: 6000
+    - Name: xpGain
+      Entry: 4
+      Data: 775
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Table5
+    - Name: $v
+      Entry: 7
+      Data: 181|System.Collections.Generic.List`1[[SO_TableBehavior, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 5
+    - Name: 
+      Entry: 7
+      Data: 182|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 0
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 1.5
+    - Name: salary
+      Entry: 4
+      Data: 167
+    - Name: costToHire
+      Entry: 4
+      Data: 250
+    - Name: xpGain
+      Entry: 4
+      Data: 158
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 183|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 1
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 2
+    - Name: salary
+      Entry: 4
+      Data: 467
+    - Name: costToHire
+      Entry: 4
+      Data: 700
+    - Name: xpGain
+      Entry: 4
+      Data: 264
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 184|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 2
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 2.75
+    - Name: salary
+      Entry: 4
+      Data: 667
+    - Name: costToHire
+      Entry: 4
+      Data: 1000
+    - Name: xpGain
+      Entry: 4
+      Data: 316
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 185|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 3
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 3.75
+    - Name: salary
+      Entry: 4
+      Data: 2333
+    - Name: costToHire
+      Entry: 4
+      Data: 3500
+    - Name: xpGain
+      Entry: 4
+      Data: 592
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 186|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 4
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 4.75
+    - Name: salary
+      Entry: 4
+      Data: 4000
+    - Name: costToHire
+      Entry: 4
+      Data: 6000
+    - Name: xpGain
+      Entry: 4
+      Data: 775
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Table6
+    - Name: $v
+      Entry: 7
+      Data: 187|System.Collections.Generic.List`1[[SO_TableBehavior, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 5
+    - Name: 
+      Entry: 7
+      Data: 188|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 0
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 1.5
+    - Name: salary
+      Entry: 4
+      Data: 167
+    - Name: costToHire
+      Entry: 4
+      Data: 250
+    - Name: xpGain
+      Entry: 4
+      Data: 158
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 189|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 1
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 2
+    - Name: salary
+      Entry: 4
+      Data: 467
+    - Name: costToHire
+      Entry: 4
+      Data: 700
+    - Name: xpGain
+      Entry: 4
+      Data: 264
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 190|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 2
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 2.75
+    - Name: salary
+      Entry: 4
+      Data: 667
+    - Name: costToHire
+      Entry: 4
+      Data: 1000
+    - Name: xpGain
+      Entry: 4
+      Data: 316
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 191|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 3
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 3.75
+    - Name: salary
+      Entry: 4
+      Data: 2333
+    - Name: costToHire
+      Entry: 4
+      Data: 3500
+    - Name: xpGain
+      Entry: 4
+      Data: 592
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 192|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 4
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 4.75
+    - Name: salary
+      Entry: 4
+      Data: 4000
+    - Name: costToHire
+      Entry: 4
+      Data: 6000
+    - Name: xpGain
+      Entry: 4
+      Data: 775
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Table7
+    - Name: $v
+      Entry: 7
+      Data: 193|System.Collections.Generic.List`1[[SO_TableBehavior, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 5
+    - Name: 
+      Entry: 7
+      Data: 194|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 0
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 1.5
+    - Name: salary
+      Entry: 4
+      Data: 167
+    - Name: costToHire
+      Entry: 4
+      Data: 250
+    - Name: xpGain
+      Entry: 4
+      Data: 158
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 195|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 1
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 2
+    - Name: salary
+      Entry: 4
+      Data: 467
+    - Name: costToHire
+      Entry: 4
+      Data: 700
+    - Name: xpGain
+      Entry: 4
+      Data: 264
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 196|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 2
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 2.75
+    - Name: salary
+      Entry: 4
+      Data: 667
+    - Name: costToHire
+      Entry: 4
+      Data: 1000
+    - Name: xpGain
+      Entry: 4
+      Data: 316
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 197|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 3
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 3.75
+    - Name: salary
+      Entry: 4
+      Data: 2333
+    - Name: costToHire
+      Entry: 4
+      Data: 3500
+    - Name: xpGain
+      Entry: 4
+      Data: 592
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 198|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 4
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 4.75
+    - Name: salary
+      Entry: 4
+      Data: 4000
+    - Name: costToHire
+      Entry: 4
+      Data: 6000
+    - Name: xpGain
+      Entry: 4
+      Data: 775
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Table8
+    - Name: $v
+      Entry: 7
+      Data: 199|System.Collections.Generic.List`1[[SO_TableBehavior, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 5
+    - Name: 
+      Entry: 7
+      Data: 200|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 0
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 1.5
+    - Name: salary
+      Entry: 4
+      Data: 167
+    - Name: costToHire
+      Entry: 4
+      Data: 250
+    - Name: xpGain
+      Entry: 4
+      Data: 158
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 201|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 1
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 2
+    - Name: salary
+      Entry: 4
+      Data: 467
+    - Name: costToHire
+      Entry: 4
+      Data: 700
+    - Name: xpGain
+      Entry: 4
+      Data: 264
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 202|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 2
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 2.75
+    - Name: salary
+      Entry: 4
+      Data: 667
+    - Name: costToHire
+      Entry: 4
+      Data: 1000
+    - Name: xpGain
+      Entry: 4
+      Data: 316
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 203|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 3
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 3.75
+    - Name: salary
+      Entry: 4
+      Data: 2333
+    - Name: costToHire
+      Entry: 4
+      Data: 3500
+    - Name: xpGain
+      Entry: 4
+      Data: 592
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 204|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 4
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 4.75
+    - Name: salary
+      Entry: 4
+      Data: 4000
+    - Name: costToHire
+      Entry: 4
+      Data: 6000
+    - Name: xpGain
+      Entry: 4
+      Data: 775
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Table9
+    - Name: $v
+      Entry: 7
+      Data: 205|System.Collections.Generic.List`1[[SO_TableBehavior, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 5
+    - Name: 
+      Entry: 7
+      Data: 206|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 0
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 1.5
+    - Name: salary
+      Entry: 4
+      Data: 167
+    - Name: costToHire
+      Entry: 4
+      Data: 250
+    - Name: xpGain
+      Entry: 4
+      Data: 158
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 207|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 1
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 2
+    - Name: salary
+      Entry: 4
+      Data: 467
+    - Name: costToHire
+      Entry: 4
+      Data: 700
+    - Name: xpGain
+      Entry: 4
+      Data: 264
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 208|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 2
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 2.75
+    - Name: salary
+      Entry: 4
+      Data: 667
+    - Name: costToHire
+      Entry: 4
+      Data: 1000
+    - Name: xpGain
+      Entry: 4
+      Data: 316
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 209|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 3
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 3.75
+    - Name: salary
+      Entry: 4
+      Data: 2333
+    - Name: costToHire
+      Entry: 4
+      Data: 3500
+    - Name: xpGain
+      Entry: 4
+      Data: 592
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 210|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 4
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 4.75
+    - Name: salary
+      Entry: 4
+      Data: 4000
+    - Name: costToHire
+      Entry: 4
+      Data: 6000
+    - Name: xpGain
+      Entry: 4
+      Data: 775
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Table10
+    - Name: $v
+      Entry: 7
+      Data: 211|System.Collections.Generic.List`1[[SO_TableBehavior, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 5
+    - Name: 
+      Entry: 7
+      Data: 212|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 0
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 1.5
+    - Name: salary
+      Entry: 4
+      Data: 167
+    - Name: costToHire
+      Entry: 4
+      Data: 250
+    - Name: xpGain
+      Entry: 4
+      Data: 158
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 213|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 1
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 2
+    - Name: salary
+      Entry: 4
+      Data: 467
+    - Name: costToHire
+      Entry: 4
+      Data: 700
+    - Name: xpGain
+      Entry: 4
+      Data: 264
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 214|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 2
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 2.75
+    - Name: salary
+      Entry: 4
+      Data: 667
+    - Name: costToHire
+      Entry: 4
+      Data: 1000
+    - Name: xpGain
+      Entry: 4
+      Data: 316
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 215|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 3
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 3.75
+    - Name: salary
+      Entry: 4
+      Data: 2333
+    - Name: costToHire
+      Entry: 4
+      Data: 3500
+    - Name: xpGain
+      Entry: 4
+      Data: 592
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 216|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 4
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 4.75
+    - Name: salary
+      Entry: 4
+      Data: 4000
+    - Name: costToHire
+      Entry: 4
+      Data: 6000
+    - Name: xpGain
+      Entry: 4
+      Data: 775
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Table11
+    - Name: $v
+      Entry: 7
+      Data: 217|System.Collections.Generic.List`1[[SO_TableBehavior, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 5
+    - Name: 
+      Entry: 7
+      Data: 218|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 0
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 1.5
+    - Name: salary
+      Entry: 4
+      Data: 167
+    - Name: costToHire
+      Entry: 4
+      Data: 250
+    - Name: xpGain
+      Entry: 4
+      Data: 158
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 219|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 1
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 2
+    - Name: salary
+      Entry: 4
+      Data: 467
+    - Name: costToHire
+      Entry: 4
+      Data: 700
+    - Name: xpGain
+      Entry: 4
+      Data: 264
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 220|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 2
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 2.75
+    - Name: salary
+      Entry: 4
+      Data: 667
+    - Name: costToHire
+      Entry: 4
+      Data: 1000
+    - Name: xpGain
+      Entry: 4
+      Data: 316
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 221|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 3
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 3.75
+    - Name: salary
+      Entry: 4
+      Data: 2333
+    - Name: costToHire
+      Entry: 4
+      Data: 3500
+    - Name: xpGain
+      Entry: 4
+      Data: 592
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 222|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 4
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 4.75
+    - Name: salary
+      Entry: 4
+      Data: 4000
+    - Name: costToHire
+      Entry: 4
+      Data: 6000
+    - Name: xpGain
+      Entry: 4
+      Data: 775
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Table12
+    - Name: $v
+      Entry: 7
+      Data: 223|System.Collections.Generic.List`1[[SO_TableBehavior, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 5
+    - Name: 
+      Entry: 7
+      Data: 224|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 0
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 1.5
+    - Name: salary
+      Entry: 4
+      Data: 167
+    - Name: costToHire
+      Entry: 4
+      Data: 250
+    - Name: xpGain
+      Entry: 4
+      Data: 158
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 225|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 1
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 2
+    - Name: salary
+      Entry: 4
+      Data: 467
+    - Name: costToHire
+      Entry: 4
+      Data: 700
+    - Name: xpGain
+      Entry: 4
+      Data: 264
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 226|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 2
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 2.75
+    - Name: salary
+      Entry: 4
+      Data: 667
+    - Name: costToHire
+      Entry: 4
+      Data: 1000
+    - Name: xpGain
+      Entry: 4
+      Data: 316
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 227|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 3
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 3.75
+    - Name: salary
+      Entry: 4
+      Data: 2333
+    - Name: costToHire
+      Entry: 4
+      Data: 3500
+    - Name: xpGain
+      Entry: 4
+      Data: 592
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 228|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 4
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 4.75
+    - Name: salary
+      Entry: 4
+      Data: 4000
+    - Name: costToHire
+      Entry: 4
+      Data: 6000
+    - Name: xpGain
+      Entry: 4
+      Data: 775
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Table13
+    - Name: $v
+      Entry: 7
+      Data: 229|System.Collections.Generic.List`1[[SO_TableBehavior, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 5
+    - Name: 
+      Entry: 7
+      Data: 230|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 0
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 1.5
+    - Name: salary
+      Entry: 4
+      Data: 167
+    - Name: costToHire
+      Entry: 4
+      Data: 250
+    - Name: xpGain
+      Entry: 4
+      Data: 158
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 231|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 1
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 2
+    - Name: salary
+      Entry: 4
+      Data: 467
+    - Name: costToHire
+      Entry: 4
+      Data: 700
+    - Name: xpGain
+      Entry: 4
+      Data: 264
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 232|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 2
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 2.75
+    - Name: salary
+      Entry: 4
+      Data: 667
+    - Name: costToHire
+      Entry: 4
+      Data: 1000
+    - Name: xpGain
+      Entry: 4
+      Data: 316
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 233|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 3
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 3.75
+    - Name: salary
+      Entry: 4
+      Data: 2333
+    - Name: costToHire
+      Entry: 4
+      Data: 3500
+    - Name: xpGain
+      Entry: 4
+      Data: 592
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 234|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 4
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 4.75
+    - Name: salary
+      Entry: 4
+      Data: 4000
+    - Name: costToHire
+      Entry: 4
+      Data: 6000
+    - Name: xpGain
+      Entry: 4
+      Data: 775
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Table14
+    - Name: $v
+      Entry: 7
+      Data: 235|System.Collections.Generic.List`1[[SO_TableBehavior, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 5
+    - Name: 
+      Entry: 7
+      Data: 236|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 0
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 1.5
+    - Name: salary
+      Entry: 4
+      Data: 167
+    - Name: costToHire
+      Entry: 4
+      Data: 250
+    - Name: xpGain
+      Entry: 4
+      Data: 158
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 237|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 1
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 2
+    - Name: salary
+      Entry: 4
+      Data: 467
+    - Name: costToHire
+      Entry: 4
+      Data: 700
+    - Name: xpGain
+      Entry: 4
+      Data: 264
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 238|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 2
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 2.75
+    - Name: salary
+      Entry: 4
+      Data: 667
+    - Name: costToHire
+      Entry: 4
+      Data: 1000
+    - Name: xpGain
+      Entry: 4
+      Data: 316
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 239|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 3
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 3.75
+    - Name: salary
+      Entry: 4
+      Data: 2333
+    - Name: costToHire
+      Entry: 4
+      Data: 3500
+    - Name: xpGain
+      Entry: 4
+      Data: 592
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 240|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 4
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 4.75
+    - Name: salary
+      Entry: 4
+      Data: 4000
+    - Name: costToHire
+      Entry: 4
+      Data: 6000
+    - Name: xpGain
+      Entry: 4
+      Data: 775
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Table15
+    - Name: $v
+      Entry: 7
+      Data: 241|System.Collections.Generic.List`1[[SO_TableBehavior, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 5
+    - Name: 
+      Entry: 7
+      Data: 242|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 0
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 1.5
+    - Name: salary
+      Entry: 4
+      Data: 167
+    - Name: costToHire
+      Entry: 4
+      Data: 250
+    - Name: xpGain
+      Entry: 4
+      Data: 158
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 243|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 1
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 2
+    - Name: salary
+      Entry: 4
+      Data: 467
+    - Name: costToHire
+      Entry: 4
+      Data: 700
+    - Name: xpGain
+      Entry: 4
+      Data: 264
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 244|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 2
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 2.75
+    - Name: salary
+      Entry: 4
+      Data: 667
+    - Name: costToHire
+      Entry: 4
+      Data: 1000
+    - Name: xpGain
+      Entry: 4
+      Data: 316
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 245|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 3
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 3.75
+    - Name: salary
+      Entry: 4
+      Data: 2333
+    - Name: costToHire
+      Entry: 4
+      Data: 3500
+    - Name: xpGain
+      Entry: 4
+      Data: 592
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 246|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 4
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 4.75
+    - Name: salary
+      Entry: 4
+      Data: 4000
+    - Name: costToHire
+      Entry: 4
+      Data: 6000
+    - Name: xpGain
+      Entry: 4
+      Data: 775
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Table16
+    - Name: $v
+      Entry: 7
+      Data: 247|System.Collections.Generic.List`1[[SO_TableBehavior, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 5
+    - Name: 
+      Entry: 7
+      Data: 248|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 0
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 1.5
+    - Name: salary
+      Entry: 4
+      Data: 167
+    - Name: costToHire
+      Entry: 4
+      Data: 250
+    - Name: xpGain
+      Entry: 4
+      Data: 158
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 249|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 1
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 2
+    - Name: salary
+      Entry: 4
+      Data: 467
+    - Name: costToHire
+      Entry: 4
+      Data: 700
+    - Name: xpGain
+      Entry: 4
+      Data: 264
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 250|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 2
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 2.75
+    - Name: salary
+      Entry: 4
+      Data: 667
+    - Name: costToHire
+      Entry: 4
+      Data: 1000
+    - Name: xpGain
+      Entry: 4
+      Data: 316
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 251|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 3
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 3.75
+    - Name: salary
+      Entry: 4
+      Data: 2333
+    - Name: costToHire
+      Entry: 4
+      Data: 3500
+    - Name: xpGain
+      Entry: 4
+      Data: 592
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 252|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 4
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 4.75
+    - Name: salary
+      Entry: 4
+      Data: 4000
+    - Name: costToHire
+      Entry: 4
+      Data: 6000
+    - Name: xpGain
+      Entry: 4
+      Data: 775
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Table17
+    - Name: $v
+      Entry: 7
+      Data: 253|System.Collections.Generic.List`1[[SO_TableBehavior, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 5
+    - Name: 
+      Entry: 7
+      Data: 254|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 0
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 1.5
+    - Name: salary
+      Entry: 4
+      Data: 167
+    - Name: costToHire
+      Entry: 4
+      Data: 250
+    - Name: xpGain
+      Entry: 4
+      Data: 158
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 255|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 1
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 2
+    - Name: salary
+      Entry: 4
+      Data: 467
+    - Name: costToHire
+      Entry: 4
+      Data: 700
+    - Name: xpGain
+      Entry: 4
+      Data: 264
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 256|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 2
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 2.75
+    - Name: salary
+      Entry: 4
+      Data: 667
+    - Name: costToHire
+      Entry: 4
+      Data: 1000
+    - Name: xpGain
+      Entry: 4
+      Data: 316
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 257|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 3
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 3.75
+    - Name: salary
+      Entry: 4
+      Data: 2333
+    - Name: costToHire
+      Entry: 4
+      Data: 3500
+    - Name: xpGain
+      Entry: 4
+      Data: 592
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 258|SO_TableBehavior, Assembly-CSharp
+    - Name: tableLevels
+      Entry: 3
+      Data: 4
+    - Name: staffProfile
+      Entry: 6
+      Data: 
+    - Name: treatmentCost
+      Entry: 4
+      Data: 4.75
+    - Name: salary
+      Entry: 4
+      Data: 4000
+    - Name: costToHire
+      Entry: 4
+      Data: 6000
+    - Name: xpGain
+      Entry: 4
+      Data: 775
+    - Name: notPurchased
+      Entry: 6
+      Data: 
+    - Name: purchasedMaterial
+      Entry: 6
+      Data: 
+    - Name: tableIsLocked
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
     - Name: 
       Entry: 13
       Data: 
@@ -7607,7 +15094,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fcea81cb8f68b41649391dfecd425766, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  so_TableBehavior: {fileID: 0}
   currencyEconomy: {fileID: 1297521480}
   buyBTN: {fileID: 1293725536}
   cancelBTN: {fileID: 1580017810}
@@ -7625,7 +15111,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f40ebf75bcae4b1aad98d07a360df9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  so_TableBehavior: []
+  tableInfo: {fileID: 0}
+  tableCategory: 
+  tableType: 
   currencyEconomy: {fileID: 1297521480}
   upgradeBTN: {fileID: 1293725536}
   cancelBTN: {fileID: 1580017810}
@@ -7770,12 +15258,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f40ebf75bcae4b1aad98d07a360df9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  so_TableBehavior:
-  - {fileID: 11400000, guid: c16815f202b1aa046ae8cf77de1d9661, type: 2}
-  - {fileID: 11400000, guid: 1c6c69a12ab2cc343830581b69722004, type: 2}
-  - {fileID: 11400000, guid: 6a9bc3a2dc2f1a44eb6cf0f0b0a0f81b, type: 2}
-  - {fileID: 11400000, guid: 3656d8aea46bf2e40b4e00ada10c687a, type: 2}
-  - {fileID: 11400000, guid: 2eff6efde2ae4bc479f6d03609f693c4, type: 2}
+  tableInfo: {fileID: 0}
+  tableCategory: 
+  tableType: 
   currencyEconomy: {fileID: 1297521480}
   upgradeBTN: {fileID: 1293725536}
   cancelBTN: {fileID: 1580017810}
@@ -7795,7 +15280,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fcea81cb8f68b41649391dfecd425766, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  so_TableBehavior: {fileID: 0}
   currencyEconomy: {fileID: 1297521480}
   buyBTN: {fileID: 1293725536}
   cancelBTN: {fileID: 1580017810}
@@ -8399,12 +15883,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f40ebf75bcae4b1aad98d07a360df9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  so_TableBehavior:
-  - {fileID: 11400000, guid: 948050c1f7e6ca1459d86d819e90f564, type: 2}
-  - {fileID: 11400000, guid: 516b99f970c075741b3e603101df238f, type: 2}
-  - {fileID: 11400000, guid: b4b02971f55211249ae3ba17bcbbc94e, type: 2}
-  - {fileID: 11400000, guid: 3cc8defb8d16e23488ef477e1efe5c6b, type: 2}
-  - {fileID: 11400000, guid: fb63126508c419b458b2bc870873ad1d, type: 2}
+  tableInfo: {fileID: 0}
+  tableCategory: 
+  tableType: 
   currencyEconomy: {fileID: 1297521480}
   upgradeBTN: {fileID: 1293725536}
   cancelBTN: {fileID: 1580017810}
@@ -8424,7 +15905,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fcea81cb8f68b41649391dfecd425766, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  so_TableBehavior: {fileID: 0}
   currencyEconomy: {fileID: 1297521480}
   buyBTN: {fileID: 1293725536}
   cancelBTN: {fileID: 1580017810}
@@ -8626,7 +16106,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fcea81cb8f68b41649391dfecd425766, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  so_TableBehavior: {fileID: 11400000, guid: 60b023d522e530f498a1d0510c074b10, type: 2}
   currencyEconomy: {fileID: 1297521480}
   buyBTN: {fileID: 174374007}
   cancelBTN: {fileID: 36951573}
@@ -8644,12 +16123,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f40ebf75bcae4b1aad98d07a360df9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  so_TableBehavior:
-  - {fileID: 11400000, guid: 60b023d522e530f498a1d0510c074b10, type: 2}
-  - {fileID: 11400000, guid: 9cc74e6e2906bdc44814833ba9e69c92, type: 2}
-  - {fileID: 11400000, guid: dce363c3343fa024cb3fedeb5e0d415d, type: 2}
-  - {fileID: 11400000, guid: 62d7cc09b30634940b41a999d9193a20, type: 2}
-  - {fileID: 11400000, guid: 30ec1336a09f6de478e5f5b46013ea5d, type: 2}
+  tableInfo: {fileID: 1297521486}
+  tableCategory: Area1
+  tableType: Table1
   currencyEconomy: {fileID: 1297521480}
   upgradeBTN: {fileID: 1293725536}
   cancelBTN: {fileID: 1580017810}
@@ -9112,7 +16588,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fcea81cb8f68b41649391dfecd425766, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  so_TableBehavior: {fileID: 0}
   currencyEconomy: {fileID: 1297521480}
   buyBTN: {fileID: 1293725536}
   cancelBTN: {fileID: 1580017810}
@@ -9130,7 +16605,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f40ebf75bcae4b1aad98d07a360df9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  so_TableBehavior: []
+  tableInfo: {fileID: 0}
+  tableCategory: 
+  tableType: 
   currencyEconomy: {fileID: 1297521480}
   upgradeBTN: {fileID: 1293725536}
   cancelBTN: {fileID: 1580017810}
@@ -9396,7 +16873,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fcea81cb8f68b41649391dfecd425766, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  so_TableBehavior: {fileID: 0}
   currencyEconomy: {fileID: 1297521480}
   buyBTN: {fileID: 1293725536}
   cancelBTN: {fileID: 1580017810}
@@ -9414,7 +16890,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f40ebf75bcae4b1aad98d07a360df9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  so_TableBehavior: []
+  tableInfo: {fileID: 0}
+  tableCategory: 
+  tableType: 
   currencyEconomy: {fileID: 1297521480}
   upgradeBTN: {fileID: 1293725536}
   cancelBTN: {fileID: 1580017810}
@@ -9633,7 +17111,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fcea81cb8f68b41649391dfecd425766, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  so_TableBehavior: {fileID: 11400000, guid: 60b023d522e530f498a1d0510c074b10, type: 2}
   currencyEconomy: {fileID: 1297521480}
   buyBTN: {fileID: 174374007}
   cancelBTN: {fileID: 36951573}
@@ -9651,12 +17128,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f40ebf75bcae4b1aad98d07a360df9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  so_TableBehavior:
-  - {fileID: 11400000, guid: 17d3e5673fba70d41aaea12fea531314, type: 2}
-  - {fileID: 11400000, guid: a1992ebbef4e3674a83961695d3da35e, type: 2}
-  - {fileID: 11400000, guid: dad090e97ee11e94ea3b6d14e8fafbe2, type: 2}
-  - {fileID: 11400000, guid: a9cb3bc97ffa07942bcf33a5a9569084, type: 2}
-  - {fileID: 11400000, guid: 089b1512d8aa0cf41a0186d336ea891b, type: 2}
+  tableInfo: {fileID: 1297521486}
+  tableCategory: Area1
+  tableType: Table3
   currencyEconomy: {fileID: 1297521480}
   upgradeBTN: {fileID: 1293725536}
   cancelBTN: {fileID: 1580017810}
@@ -9697,7 +17171,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fcea81cb8f68b41649391dfecd425766, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  so_TableBehavior: {fileID: 0}
   currencyEconomy: {fileID: 1297521480}
   buyBTN: {fileID: 1293725536}
   cancelBTN: {fileID: 1580017810}
@@ -9715,7 +17188,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f40ebf75bcae4b1aad98d07a360df9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  so_TableBehavior: []
+  tableInfo: {fileID: 0}
+  tableCategory: 
+  tableType: 
   currencyEconomy: {fileID: 1297521480}
   upgradeBTN: {fileID: 1293725536}
   cancelBTN: {fileID: 1580017810}
@@ -10060,7 +17535,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fcea81cb8f68b41649391dfecd425766, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  so_TableBehavior: {fileID: 0}
   currencyEconomy: {fileID: 1297521480}
   buyBTN: {fileID: 1293725536}
   cancelBTN: {fileID: 1580017810}
@@ -10078,7 +17552,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f40ebf75bcae4b1aad98d07a360df9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  so_TableBehavior: []
+  tableInfo: {fileID: 0}
+  tableCategory: 
+  tableType: 
   currencyEconomy: {fileID: 1297521480}
   upgradeBTN: {fileID: 1293725536}
   cancelBTN: {fileID: 1580017810}
@@ -10383,7 +17859,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fcea81cb8f68b41649391dfecd425766, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  so_TableBehavior: {fileID: 11400000, guid: 60b023d522e530f498a1d0510c074b10, type: 2}
   currencyEconomy: {fileID: 1297521480}
   buyBTN: {fileID: 174374007}
   cancelBTN: {fileID: 36951573}
@@ -10401,12 +17876,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f40ebf75bcae4b1aad98d07a360df9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  so_TableBehavior:
-  - {fileID: 11400000, guid: 1240a821de705be4c94476a771870985, type: 2}
-  - {fileID: 11400000, guid: 8af594055ee9c6641ac5357f92c88c41, type: 2}
-  - {fileID: 11400000, guid: f03d7fa5302f4af4e9985688bee62b0f, type: 2}
-  - {fileID: 11400000, guid: 7d3ea4a9c3bbb0947ba52d2558e4695f, type: 2}
-  - {fileID: 11400000, guid: 40701aeaf0c0f3544baf1bdaa2c78d81, type: 2}
+  tableInfo: {fileID: 1297521486}
+  tableCategory: Area1
+  tableType: Table2
   currencyEconomy: {fileID: 1297521480}
   upgradeBTN: {fileID: 1293725536}
   cancelBTN: {fileID: 1580017810}
@@ -10447,7 +17919,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fcea81cb8f68b41649391dfecd425766, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  so_TableBehavior: {fileID: 0}
   currencyEconomy: {fileID: 1297521480}
   buyBTN: {fileID: 1293725536}
   cancelBTN: {fileID: 1580017810}
@@ -10465,7 +17936,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f40ebf75bcae4b1aad98d07a360df9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  so_TableBehavior: []
+  tableInfo: {fileID: 0}
+  tableCategory: 
+  tableType: 
   currencyEconomy: {fileID: 1297521480}
   upgradeBTN: {fileID: 1293725536}
   cancelBTN: {fileID: 1580017810}
@@ -10595,7 +18068,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fcea81cb8f68b41649391dfecd425766, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  so_TableBehavior: {fileID: 0}
   currencyEconomy: {fileID: 1297521480}
   buyBTN: {fileID: 1293725536}
   cancelBTN: {fileID: 1580017810}
@@ -10613,7 +18085,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f40ebf75bcae4b1aad98d07a360df9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  so_TableBehavior: []
+  tableInfo: {fileID: 0}
+  tableCategory: 
+  tableType: 
   currencyEconomy: {fileID: 1297521480}
   upgradeBTN: {fileID: 1293725536}
   cancelBTN: {fileID: 1580017810}
@@ -10879,7 +18353,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fcea81cb8f68b41649391dfecd425766, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  so_TableBehavior: {fileID: 0}
   currencyEconomy: {fileID: 1297521480}
   buyBTN: {fileID: 1293725536}
   cancelBTN: {fileID: 1580017810}
@@ -10897,7 +18370,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f40ebf75bcae4b1aad98d07a360df9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  so_TableBehavior: []
+  tableInfo: {fileID: 0}
+  tableCategory: 
+  tableType: 
   currencyEconomy: {fileID: 1297521480}
   upgradeBTN: {fileID: 1293725536}
   cancelBTN: {fileID: 1580017810}
@@ -11116,12 +18591,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f40ebf75bcae4b1aad98d07a360df9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  so_TableBehavior:
-  - {fileID: 11400000, guid: 24bfe5f3fd65c4bef9370745de8be584, type: 2}
-  - {fileID: 11400000, guid: 8b90919d1d86d4b5e8579c245f9839a1, type: 2}
-  - {fileID: 11400000, guid: 3ac279db57e924ed6bc745c106f416ab, type: 2}
-  - {fileID: 11400000, guid: 66ff8766d5202417da4de1d68591853f, type: 2}
-  - {fileID: 11400000, guid: 9fcef930b48994eaa8b4a2dde18760ee, type: 2}
+  tableInfo: {fileID: 0}
+  tableCategory: 
+  tableType: 
   currencyEconomy: {fileID: 1297521480}
   upgradeBTN: {fileID: 1293725536}
   cancelBTN: {fileID: 1580017810}
@@ -11141,7 +18613,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fcea81cb8f68b41649391dfecd425766, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  so_TableBehavior: {fileID: 0}
   currencyEconomy: {fileID: 1297521480}
   buyBTN: {fileID: 174374007}
   cancelBTN: {fileID: 36951573}
@@ -11316,7 +18787,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fcea81cb8f68b41649391dfecd425766, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  so_TableBehavior: {fileID: 0}
   currencyEconomy: {fileID: 1297521480}
   buyBTN: {fileID: 1293725536}
   cancelBTN: {fileID: 1580017810}
@@ -11334,7 +18804,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f40ebf75bcae4b1aad98d07a360df9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  so_TableBehavior: []
+  tableInfo: {fileID: 0}
+  tableCategory: 
+  tableType: 
   currencyEconomy: {fileID: 1297521480}
   upgradeBTN: {fileID: 1293725536}
   cancelBTN: {fileID: 1580017810}
@@ -11464,7 +18936,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fcea81cb8f68b41649391dfecd425766, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  so_TableBehavior: {fileID: 0}
   currencyEconomy: {fileID: 1297521480}
   buyBTN: {fileID: 1293725536}
   cancelBTN: {fileID: 1580017810}
@@ -11482,7 +18953,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f40ebf75bcae4b1aad98d07a360df9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  so_TableBehavior: []
+  tableInfo: {fileID: 0}
+  tableCategory: 
+  tableType: 
   currencyEconomy: {fileID: 1297521480}
   upgradeBTN: {fileID: 1293725536}
   cancelBTN: {fileID: 1580017810}
@@ -11701,12 +19174,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f40ebf75bcae4b1aad98d07a360df9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  so_TableBehavior:
-  - {fileID: 11400000, guid: 5460d49873a174ffb9be6607a7df7703, type: 2}
-  - {fileID: 11400000, guid: a1743ab7a2ce64d56bf9ea3527c9712c, type: 2}
-  - {fileID: 11400000, guid: cc959cd20fe9d4c1ea46fb5b306fc39e, type: 2}
-  - {fileID: 11400000, guid: 69ebe24104d694f1799c93e74a57179e, type: 2}
-  - {fileID: 11400000, guid: 5ba80554dc3b54acaa892815c13b1d0a, type: 2}
+  tableInfo: {fileID: 0}
+  tableCategory: 
+  tableType: 
   currencyEconomy: {fileID: 1297521480}
   upgradeBTN: {fileID: 1293725536}
   cancelBTN: {fileID: 1580017810}
@@ -11726,7 +19196,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fcea81cb8f68b41649391dfecd425766, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  so_TableBehavior: {fileID: 0}
   currencyEconomy: {fileID: 1297521480}
   buyBTN: {fileID: 174374007}
   cancelBTN: {fileID: 36951573}
@@ -11765,7 +19234,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fcea81cb8f68b41649391dfecd425766, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  so_TableBehavior: {fileID: 0}
   currencyEconomy: {fileID: 1297521480}
   buyBTN: {fileID: 1293725536}
   cancelBTN: {fileID: 1580017810}
@@ -11783,7 +19251,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f40ebf75bcae4b1aad98d07a360df9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  so_TableBehavior: []
+  tableInfo: {fileID: 0}
+  tableCategory: 
+  tableType: 
   currencyEconomy: {fileID: 1297521480}
   upgradeBTN: {fileID: 1293725536}
   cancelBTN: {fileID: 1580017810}

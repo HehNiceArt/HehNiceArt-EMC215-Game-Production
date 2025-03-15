@@ -23,15 +23,27 @@ public class TableInteraction : MonoBehaviour
         tableUpgrade = GetComponent<TableUpgrade>();
         interactions = GetComponentInParent<Interactions>();
         meshRenderer = GetComponent<MeshRenderer>();
-        so_TableBehavior = tableUpgrade.so_TableBehavior[0];
+
+        buyBTN.onClick.AddListener(PurchaseTable);
+        cancelBTN.onClick.AddListener(OnCancel);
+    }
+
+    public void InitializeWithBehavior(SO_TableBehavior behavior)
+    {
+        so_TableBehavior = behavior;
         if (meshRenderer != null && so_TableBehavior != null)
         {
             meshRenderer.material = so_TableBehavior.tableIsLocked ? so_TableBehavior.notPurchased : meshRenderer.material;
             isTableLocked = so_TableBehavior.tableIsLocked;
         }
-        buyBTN.onClick.AddListener(PurchaseTable);
-        cancelBTN.onClick.AddListener(OnCancel);
     }
+
+    public void UpdateBehavior(SO_TableBehavior behavior)
+    {
+        so_TableBehavior = behavior;
+        so_TableBehavior.tableIsLocked = false;
+    }
+
     void Update()
     {
         if (!isTableLocked)

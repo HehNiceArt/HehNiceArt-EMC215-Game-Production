@@ -12,16 +12,14 @@ public class AreaMaintenance : MonoBehaviour
     private bool isUnderMaintenance = false;
     private CurrencyEconomy currencyEconomy; // Changed from GameEconomy
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+#pragma warning disable
         currencyEconomy = FindObjectOfType<CurrencyEconomy>();
         StartCoroutine(MaintenanceRoutine());
 
-        // Get reference to AreaMaintenance
         AreaMaintenance areaMaintenance = FindObjectOfType<AreaMaintenance>();
 
-        // Add an object to maintenance list
         GameObject[] tables = GameObject.FindGameObjectsWithTag("table");
         foreach (GameObject table in tables)
         {

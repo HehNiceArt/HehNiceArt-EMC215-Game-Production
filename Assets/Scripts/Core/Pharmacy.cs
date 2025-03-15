@@ -9,8 +9,8 @@ public class Pharmacy : MonoBehaviour
     [SerializeField] Transform patientWaitingArea;
     public Transform tellerArea;
     [SerializeField] SO_AreaDetails areaDetails;
-    [SerializeField] float tellerSpacing = 2f; // Space between tellers
-    [SerializeField] GameObject tellerPrefab; // Add this field
+    [SerializeField] float tellerSpacing = 2f;
+    [SerializeField] GameObject tellerPrefab;
 
     [Header("Settings")]
     [SerializeField] int numberOfTellers = 3;
@@ -237,6 +237,7 @@ public class Teller
             if (agent != null)
             {
                 agent.SetDestination(tellerPosition);
+#pragma warning disable
                 GameObject.FindObjectOfType<Pharmacy>().StartCoroutine(CheckPatientReachedTeller());
             }
         }

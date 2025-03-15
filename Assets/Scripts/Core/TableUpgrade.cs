@@ -1,12 +1,19 @@
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using System.Collections.Generic;
 
 public class TableUpgrade : MonoBehaviour
 {
-    public SO_TableBehavior[] so_TableBehavior;
+    public TableInfo tableInfo;
+    [SerializeField] private string tableCategory;
+    [SerializeField] private string tableType;
+    private List<SO_TableBehavior> currentTableBehaviors;
     TableInteraction tableInteraction;
     int currentTableLevel = 0;
+
+    public List<SO_TableBehavior> TableBehaviors => currentTableBehaviors;
+    public SO_TableBehavior CurrentBehavior => currentTableBehaviors != null && currentTableLevel < currentTableBehaviors.Count ? currentTableBehaviors[currentTableLevel] : null;
 
     [SerializeField] CurrencyEconomy currencyEconomy;
     [SerializeField] Button upgradeBTN;
@@ -21,13 +28,35 @@ public class TableUpgrade : MonoBehaviour
         tableInteraction = GetComponent<TableInteraction>();
         upgradeBTN.onClick.AddListener(UpgradeTable);
         cancelBTN.onClick.AddListener(OnCancel);
+
+#pragma warning disable
+        tableInfo = Object.FindObjectOfType<TableInfo>();
+        tableCategory = transform.parent.name;
+        tableType = transform.name;
+
+        if (tableInfo.tableBehaviors.ContainsKey(tableCategory))
+        {
+            foreach (var behaviorDict in tableInfo.tableBehaviors[tableCategory])
+            {
+                if (behaviorDict.ContainsKey(tableType))
+                {
+                    currentTableBehaviors = behaviorDict[tableType];
+                    if (currentTableBehaviors != null && currentTableBehaviors.Count > 0)
+                    {
+                        tableInteraction.InitializeWithBehavior(currentTableBehaviors[0]);
+                    }
+                    break;
+                }
+            }
+        }
     }
 
     void OnMouseUp()
     {
-        if (tableInteraction.isTableLocked)
+        if (tableInteraction.isTableLocked || currentTableBehaviors == null)
             return;
-        if (currentTableLevel == so_TableBehavior.Length - 1)
+
+        if (currentTableLevel == currentTableBehaviors.Count - 1)
         {
             upgradeUI.SetActive(true);
             upgradeString.text = "Max Level!";
@@ -42,21 +71,23 @@ public class TableUpgrade : MonoBehaviour
             upgradeBTN.gameObject.SetActive(true);
             costText.gameObject.SetActive(true);
             cost.gameObject.SetActive(true);
-            upgradeString.text = $"Upgrade to {so_TableBehavior[currentTableLevel + 1].tableLevels}?";
-            cost.text = so_TableBehavior[currentTableLevel + 1].costToHire.ToString();
+            upgradeString.text = $"Upgrade to {currentTableBehaviors[currentTableLevel + 1].tableLevels}?";
+            cost.text = currentTableBehaviors[currentTableLevel + 1].costToHire.ToString();
         }
     }
+
     public void UpgradeTable()
     {
-        if (currentTableLevel < so_TableBehavior.Length - 1 && currencyEconomy.CheckAreaPurchase(so_TableBehavior[currentTableLevel + 1].costToHire))
+        if (currentTableBehaviors == null) return;
+
+        if (currentTableLevel < currentTableBehaviors.Count - 1 && currencyEconomy.CheckAreaPurchase(currentTableBehaviors[currentTableLevel + 1].costToHire))
         {
-            float xpGain = so_TableBehavior[currentTableLevel + 1].xpGain;
+            float xpGain = currentTableBehaviors[currentTableLevel + 1].xpGain;
 #pragma warning disable
             FindObjectOfType<LevelExperience>()?.AddExperience(xpGain);
 #pragma warning restore
 
-            tableInteraction.so_TableBehavior = so_TableBehavior[currentTableLevel + 1];
-            tableInteraction.so_TableBehavior.tableIsLocked = false;
+            tableInteraction.UpdateBehavior(currentTableBehaviors[currentTableLevel + 1]);
             upgradeUI.SetActive(false);
             currentTableLevel++;
         }
@@ -65,6 +96,7 @@ public class TableUpgrade : MonoBehaviour
             upgradeString.text = "Not enough coins!";
         }
     }
+
     void OnCancel()
     {
         upgradeUI.SetActive(false);

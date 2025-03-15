@@ -18,7 +18,7 @@ public class SO_TableBehavior
     public float xpGain = 78;
     public Material notPurchased;
     public Material purchasedMaterial;
-    public bool tableIsLocked;
+    public bool tableIsLocked = true;
 
     public void UpdateValuesBasedOnLevel()
     {
