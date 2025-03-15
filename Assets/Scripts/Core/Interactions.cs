@@ -24,7 +24,7 @@ public class Interactions : MonoBehaviour
             isPressed = true;
             s_current_interaction = this;
             currencyEconomy.coinsUI.text = so_AreaDetails.costToUnlock.ToString();
-            currencyEconomy.DisplayConfirmPurchase(so_AreaDetails.isLocked, this.gameObject.name);
+            currencyEconomy.DisplayConfirmPurchase(so_AreaDetails.isLocked, this.gameObject.name, so_AreaDetails.playerLevelToUnlock);
         }
     }
     void OnButtonPressed()

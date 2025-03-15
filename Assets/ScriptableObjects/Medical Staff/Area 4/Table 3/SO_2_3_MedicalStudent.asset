@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: SO_2_3_MedicalStudent
   m_EditorClassIdentifier: 
   tableLevels: 0
-  staffProfile: []
+  staffProfile: {fileID: 0}
   treatmentCost: 1.5
   salary: 167
   costToHire: 250

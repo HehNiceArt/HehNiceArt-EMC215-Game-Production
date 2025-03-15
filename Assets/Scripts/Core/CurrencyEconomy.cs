@@ -6,6 +6,7 @@ public class CurrencyEconomy : MonoBehaviour
     [SerializeField] SO_PlayerDetails so_PlayerDetails;
     public GameObject purchaseUI;
     public TextMeshProUGUI purchaseString;
+    public TextMeshProUGUI lvlToUnlockUI;
     public TextMeshProUGUI coinsUI;
     PlayerStats playerStats;
 
@@ -37,12 +38,13 @@ public class CurrencyEconomy : MonoBehaviour
         }
     }
 
-    public void DisplayConfirmPurchase(bool isLocked, string areaName)
+    public void DisplayConfirmPurchase(bool isLocked, string areaName, float lvlToUnlock = 0)
     {
         if (isLocked)
         {
             purchaseUI.SetActive(true);
             purchaseString.text = $"Purchase {areaName}";
+            lvlToUnlockUI.text = lvlToUnlock.ToString();
         }
     }
 }

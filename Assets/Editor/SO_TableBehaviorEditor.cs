@@ -86,22 +86,6 @@ public class SO_TableBehaviorEditor : EditorWindow
             EditorGUILayout.ObjectField("Table Asset", table, typeof(SO_TableBehavior), false);
             EditorGUILayout.EnumPopup("Table Level", table.tableLevels);
 
-            showStaffProfiles = EditorGUILayout.Foldout(showStaffProfiles, "Staff Profiles");
-            if (showStaffProfiles && table.staffProfile != null)
-            {
-                EditorGUI.indentLevel++;
-                for (int i = 0; i < table.staffProfile.Length; i++)
-                {
-                    table.staffProfile[i] = (Texture2D)EditorGUILayout.ObjectField(
-                        $"Profile {i}",
-                        table.staffProfile[i],
-                        typeof(Texture2D),
-                        false
-                    );
-                }
-                EditorGUI.indentLevel--;
-            }
-
             EditorGUILayout.FloatField("Treatment Cost", table.treatmentCost);
             EditorGUILayout.FloatField("Salary", table.salary);
             EditorGUILayout.FloatField("Cost to Hire", table.costToHire);

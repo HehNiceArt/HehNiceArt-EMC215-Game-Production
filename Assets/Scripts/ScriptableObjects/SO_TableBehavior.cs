@@ -13,7 +13,7 @@ public enum TableLevels
 public class SO_TableBehavior : ScriptableObject
 {
     public TableLevels tableLevels;
-    public Texture2D[] staffProfile;
+    public GameObject staffProfile;
     public float treatmentCost = 1.5f;
     public float salary = 167;
     public float costToHire = 250;
