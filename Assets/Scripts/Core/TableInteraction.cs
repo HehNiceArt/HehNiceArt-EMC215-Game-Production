@@ -33,7 +33,6 @@ public class TableInteraction : MonoBehaviour
         so_TableBehavior = behavior;
         if (meshRenderer != null && so_TableBehavior != null)
         {
-            meshRenderer.material = so_TableBehavior.tableIsLocked ? so_TableBehavior.notPurchased : meshRenderer.material;
             isTableLocked = so_TableBehavior.tableIsLocked;
         }
     }
@@ -79,7 +78,6 @@ public class TableInteraction : MonoBehaviour
         {
             s_current_table.isTableLocked = false;
             s_current_table.so_TableBehavior.tableIsLocked = false;
-            s_current_table.meshRenderer.material = s_current_table.so_TableBehavior.purchasedMaterial;
 
             FindObjectOfType<LevelExperience>()?.AddExperience(so_TableBehavior.xpGain);
 #pragma warning restore

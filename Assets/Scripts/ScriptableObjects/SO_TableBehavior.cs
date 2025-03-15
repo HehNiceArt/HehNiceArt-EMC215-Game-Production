@@ -16,8 +16,6 @@ public class SO_TableBehavior
     public float salary = 167;
     public float costToHire = 250;
     public float xpGain = 78;
-    public Material notPurchased;
-    public Material purchasedMaterial;
     public bool tableIsLocked = true;
 
     public void UpdateValuesBasedOnLevel()

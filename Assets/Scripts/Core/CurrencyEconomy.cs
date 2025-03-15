@@ -44,7 +44,13 @@ public class CurrencyEconomy : MonoBehaviour
         {
             purchaseUI.SetActive(true);
             purchaseString.text = $"Purchase {areaName}";
-            lvlToUnlockUI.text = lvlToUnlock.ToString();
+            if (lvlToUnlock > 0)
+            {
+                lvlToUnlockUI.gameObject.SetActive(true);
+                lvlToUnlockUI.text = lvlToUnlock.ToString();
+            }
+            else
+                lvlToUnlockUI.gameObject.SetActive(false);
         }
     }
 }

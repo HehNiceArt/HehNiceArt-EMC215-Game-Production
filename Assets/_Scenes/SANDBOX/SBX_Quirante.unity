@@ -240,7 +240,7 @@ GameObject:
   - component: {fileID: 12685323}
   - component: {fileID: 12685322}
   - component: {fileID: 12685321}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Table10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -389,7 +389,7 @@ GameObject:
   - component: {fileID: 18240537}
   - component: {fileID: 18240536}
   - component: {fileID: 18240535}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Table3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -690,7 +690,7 @@ GameObject:
   - component: {fileID: 67849972}
   - component: {fileID: 67849971}
   - component: {fileID: 67849970}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Table2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -839,7 +839,7 @@ GameObject:
   - component: {fileID: 101893788}
   - component: {fileID: 101893787}
   - component: {fileID: 101893786}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Table8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1291,7 +1291,7 @@ GameObject:
   - component: {fileID: 146172812}
   - component: {fileID: 146172811}
   - component: {fileID: 146172810}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Table11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1440,7 +1440,7 @@ GameObject:
   - component: {fileID: 173584549}
   - component: {fileID: 173584548}
   - component: {fileID: 173584547}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Table11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1731,7 +1731,6 @@ RectTransform:
   - {fileID: 36951572}
   - {fileID: 508273321}
   - {fileID: 759897461}
-  - {fileID: 944595947}
   - {fileID: 629995845}
   m_Father: {fileID: 5627641}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1792,7 +1791,7 @@ GameObject:
   - component: {fileID: 229307019}
   - component: {fileID: 229307018}
   - component: {fileID: 229307017}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Table5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2295,7 +2294,7 @@ GameObject:
   - component: {fileID: 431271999}
   - component: {fileID: 431271998}
   - component: {fileID: 431271997}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Table5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2444,7 +2443,6 @@ GameObject:
   - component: {fileID: 452615437}
   - component: {fileID: 452615441}
   - component: {fileID: 452615442}
-  - component: {fileID: 452615443}
   m_Layer: 0
   m_Name: Area1
   m_TagString: Untagged
@@ -2584,38 +2582,6 @@ MonoBehaviour:
   patientsPerRow: 7
   maxWaitingPatients: 7
   pharmacy: {fileID: 0}
---- !u!114 &452615443
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 452615436}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SerializedVersion: 0
-  m_AgentTypeID: 0
-  m_CollectObjects: 0
-  m_Size: {x: 10, y: 10, z: 10}
-  m_Center: {x: 0, y: 2, z: 0}
-  m_LayerMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_UseGeometry: 0
-  m_DefaultArea: 0
-  m_GenerateLinks: 0
-  m_IgnoreNavMeshAgent: 1
-  m_IgnoreNavMeshObstacle: 1
-  m_OverrideTileSize: 0
-  m_TileSize: 256
-  m_OverrideVoxelSize: 0
-  m_VoxelSize: 0.16666667
-  m_MinRegionArea: 2
-  m_NavMeshData: {fileID: 23800000, guid: 6908c2f43c21e664fa4c2696fc950d9d, type: 2}
-  m_BuildHeightMesh: 0
 --- !u!1 &495136076
 GameObject:
   m_ObjectHideFlags: 0
@@ -3084,7 +3050,7 @@ Transform:
   m_GameObject: {fileID: 544662651}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.468, y: 0, z: -0.537}
+  m_LocalPosition: {x: 0.08, y: 0, z: -0.264}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3103,7 +3069,6 @@ GameObject:
   - component: {fileID: 583072579}
   - component: {fileID: 583072578}
   - component: {fileID: 583072576}
-  - component: {fileID: 583072582}
   - component: {fileID: 583072583}
   m_Layer: 0
   m_Name: Area3
@@ -3224,38 +3189,6 @@ Transform:
   - {fileID: 1952764552}
   m_Father: {fileID: 383424527}
   m_LocalEulerAnglesHint: {x: 0, y: 30, z: 0}
---- !u!114 &583072582
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 583072575}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SerializedVersion: 0
-  m_AgentTypeID: 0
-  m_CollectObjects: 0
-  m_Size: {x: 10, y: 10, z: 10}
-  m_Center: {x: 0, y: 2, z: 0}
-  m_LayerMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_UseGeometry: 0
-  m_DefaultArea: 0
-  m_GenerateLinks: 0
-  m_IgnoreNavMeshAgent: 1
-  m_IgnoreNavMeshObstacle: 1
-  m_OverrideTileSize: 0
-  m_TileSize: 256
-  m_OverrideVoxelSize: 0
-  m_VoxelSize: 0.16666667
-  m_MinRegionArea: 2
-  m_NavMeshData: {fileID: 23800000, guid: 60b1a79eb7f4cc6419236cab3d8ca98e, type: 2}
-  m_BuildHeightMesh: 0
 --- !u!114 &583072583
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3514,7 +3447,7 @@ GameObject:
   - component: {fileID: 620610962}
   - component: {fileID: 620610961}
   - component: {fileID: 620610960}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Table2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3814,7 +3747,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 944595947}
   m_Father: {fileID: 202661730}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -4071,7 +4005,7 @@ GameObject:
   - component: {fileID: 653097429}
   - component: {fileID: 653097428}
   - component: {fileID: 653097427}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Table17
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4369,7 +4303,7 @@ GameObject:
   - component: {fileID: 660912894}
   - component: {fileID: 660912893}
   - component: {fileID: 660912892}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Table15
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5150,7 +5084,7 @@ GameObject:
   - component: {fileID: 790044778}
   - component: {fileID: 790044777}
   - component: {fileID: 790044776}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Table13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5310,7 +5244,7 @@ Transform:
   m_GameObject: {fileID: 794987845}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0.70836216, z: -0, w: 0.7058491}
-  m_LocalPosition: {x: 0.143, y: 0, z: -0.15500003}
+  m_LocalPosition: {x: 0.194, y: 0, z: -0.151}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5330,7 +5264,7 @@ GameObject:
   - component: {fileID: 823036292}
   - component: {fileID: 823036291}
   - component: {fileID: 823036290}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Table6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5521,16 +5455,16 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 944595946}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 202661730}
+  m_Father: {fileID: 629995845}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -102.1, y: 3}
+  m_AnchoredPosition: {x: -148.40152, y: -0.00001859665}
   m_SizeDelta: {x: 93.797, y: 30.6137}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &944595948
@@ -5646,7 +5580,7 @@ GameObject:
   - component: {fileID: 959776298}
   - component: {fileID: 959776297}
   - component: {fileID: 959776296}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Table10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5944,7 +5878,7 @@ GameObject:
   - component: {fileID: 1027805172}
   - component: {fileID: 1027805171}
   - component: {fileID: 1027805170}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Table7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6093,7 +6027,7 @@ GameObject:
   - component: {fileID: 1077630738}
   - component: {fileID: 1077630737}
   - component: {fileID: 1077630736}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Table6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6242,7 +6176,7 @@ GameObject:
   - component: {fileID: 1099144998}
   - component: {fileID: 1099145003}
   - component: {fileID: 1099145002}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Table1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6538,7 +6472,7 @@ Transform:
   m_GameObject: {fileID: 1253904524}
   serializedVersion: 2
   m_LocalRotation: {x: 0.00062632747, y: 0.0023360997, z: -0.000058351143, w: 0.9999971}
-  m_LocalPosition: {x: 0.43262827, y: 0, z: -0.44264698}
+  m_LocalPosition: {x: 0.434, y: 0, z: -0.419}
   m_LocalScale: {x: 1.0000187, y: 1, z: 0.8864593}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7057,12 +6991,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 158
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -7090,12 +7018,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 264
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -7123,12 +7045,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 316
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -7156,12 +7072,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 592
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -7189,12 +7099,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 775
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -7244,12 +7148,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 158
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -7277,12 +7175,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 264
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -7310,12 +7202,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 316
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -7343,12 +7229,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 592
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -7376,12 +7256,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 775
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -7431,12 +7305,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 158
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -7464,12 +7332,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 264
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -7497,12 +7359,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 316
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -7530,12 +7386,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 592
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -7563,12 +7413,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 775
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -7657,12 +7501,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 158
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -7690,12 +7528,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 264
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -7723,12 +7555,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 316
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -7756,12 +7582,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 592
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -7789,12 +7609,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 775
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -7844,12 +7658,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 158
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -7877,12 +7685,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 264
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -7910,12 +7712,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 316
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -7943,12 +7739,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 592
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -7976,12 +7766,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 775
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -8031,12 +7815,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 158
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -8064,12 +7842,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 264
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -8097,12 +7869,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 316
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -8130,12 +7896,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 592
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -8163,12 +7923,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 775
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -8218,12 +7972,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 158
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -8251,12 +7999,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 264
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -8284,12 +8026,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 316
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -8317,12 +8053,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 592
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -8350,12 +8080,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 775
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -8405,12 +8129,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 158
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -8438,12 +8156,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 264
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -8471,12 +8183,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 316
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -8504,12 +8210,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 592
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -8537,12 +8237,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 775
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -8631,12 +8325,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 158
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -8664,12 +8352,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 264
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -8697,12 +8379,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 316
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -8730,12 +8406,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 592
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -8763,12 +8433,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 775
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -8818,12 +8482,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 158
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -8851,12 +8509,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 264
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -8884,12 +8536,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 316
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -8917,12 +8563,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 592
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -8950,12 +8590,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 775
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -9005,12 +8639,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 158
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -9038,12 +8666,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 264
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -9071,12 +8693,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 316
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -9104,12 +8720,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 592
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -9137,12 +8747,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 775
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -9192,12 +8796,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 158
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -9225,12 +8823,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 264
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -9258,12 +8850,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 316
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -9291,12 +8877,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 592
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -9324,12 +8904,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 775
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -9379,12 +8953,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 158
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -9412,12 +8980,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 264
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -9445,12 +9007,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 316
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -9478,12 +9034,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 592
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -9511,12 +9061,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 775
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -9605,12 +9149,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 158
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -9638,12 +9176,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 264
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -9671,12 +9203,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 316
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -9704,12 +9230,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 592
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -9737,12 +9257,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 775
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -9792,12 +9306,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 158
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -9825,12 +9333,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 264
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -9858,12 +9360,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 316
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -9891,12 +9387,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 592
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -9924,12 +9414,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 775
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -9979,12 +9463,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 158
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -10012,12 +9490,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 264
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -10045,12 +9517,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 316
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -10078,12 +9544,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 592
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -10111,12 +9571,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 775
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -10166,12 +9620,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 158
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -10199,12 +9647,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 264
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -10232,12 +9674,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 316
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -10265,12 +9701,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 592
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -10298,12 +9728,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 775
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -10353,12 +9777,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 158
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -10386,12 +9804,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 264
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -10419,12 +9831,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 316
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -10452,12 +9858,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 592
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -10485,12 +9885,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 775
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -10540,12 +9934,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 158
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -10573,12 +9961,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 264
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -10606,12 +9988,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 316
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -10639,12 +10015,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 592
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -10672,12 +10042,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 775
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -10727,12 +10091,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 158
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -10760,12 +10118,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 264
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -10793,12 +10145,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 316
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -10826,12 +10172,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 592
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -10859,12 +10199,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 775
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -10914,12 +10248,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 158
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -10947,12 +10275,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 264
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -10980,12 +10302,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 316
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -11013,12 +10329,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 592
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -11046,12 +10356,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 775
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -11101,12 +10405,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 158
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -11134,12 +10432,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 264
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -11167,12 +10459,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 316
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -11200,12 +10486,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 592
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -11233,12 +10513,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 775
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -11288,12 +10562,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 158
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -11321,12 +10589,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 264
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -11354,12 +10616,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 316
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -11387,12 +10643,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 592
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -11420,12 +10670,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 775
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -11475,12 +10719,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 158
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -11508,12 +10746,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 264
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -11541,12 +10773,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 316
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -11574,12 +10800,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 592
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -11607,12 +10827,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 775
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -11705,12 +10919,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 158
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -11738,12 +10946,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 264
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -11771,12 +10973,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 316
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -11804,12 +11000,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 592
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -11837,12 +11027,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 775
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -11892,12 +11076,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 158
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -11925,12 +11103,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 264
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -11958,12 +11130,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 316
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -11991,12 +11157,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 592
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -12024,12 +11184,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 775
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -12079,12 +11233,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 158
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -12112,12 +11260,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 264
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -12145,12 +11287,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 316
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -12178,12 +11314,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 592
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -12211,12 +11341,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 775
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -12266,12 +11390,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 158
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -12299,12 +11417,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 264
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -12332,12 +11444,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 316
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -12365,12 +11471,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 592
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -12398,12 +11498,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 775
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -12453,12 +11547,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 158
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -12486,12 +11574,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 264
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -12519,12 +11601,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 316
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -12552,12 +11628,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 592
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -12585,12 +11655,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 775
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -12640,12 +11704,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 158
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -12673,12 +11731,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 264
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -12706,12 +11758,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 316
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -12739,12 +11785,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 592
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -12772,12 +11812,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 775
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -12827,12 +11861,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 158
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -12860,12 +11888,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 264
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -12893,12 +11915,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 316
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -12926,12 +11942,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 592
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -12959,12 +11969,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 775
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -13014,12 +12018,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 158
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -13047,12 +12045,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 264
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -13080,12 +12072,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 316
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -13113,12 +12099,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 592
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -13146,12 +12126,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 775
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -13201,12 +12175,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 158
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -13234,12 +12202,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 264
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -13267,12 +12229,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 316
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -13300,12 +12256,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 592
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -13333,12 +12283,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 775
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -13388,12 +12332,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 158
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -13421,12 +12359,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 264
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -13454,12 +12386,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 316
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -13487,12 +12413,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 592
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -13520,12 +12440,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 775
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -13575,12 +12489,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 158
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -13608,12 +12516,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 264
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -13641,12 +12543,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 316
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -13674,12 +12570,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 592
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -13707,12 +12597,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 775
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -13762,12 +12646,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 158
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -13795,12 +12673,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 264
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -13828,12 +12700,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 316
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -13861,12 +12727,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 592
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -13894,12 +12754,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 775
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -13949,12 +12803,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 158
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -13982,12 +12830,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 264
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -14015,12 +12857,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 316
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -14048,12 +12884,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 592
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -14081,12 +12911,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 775
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -14136,12 +12960,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 158
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -14169,12 +12987,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 264
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -14202,12 +13014,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 316
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -14235,12 +13041,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 592
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -14268,12 +13068,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 775
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -14323,12 +13117,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 158
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -14356,12 +13144,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 264
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -14389,12 +13171,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 316
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -14422,12 +13198,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 592
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -14455,12 +13225,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 775
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -14510,12 +13274,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 158
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -14543,12 +13301,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 264
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -14576,12 +13328,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 316
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -14609,12 +13355,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 592
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -14642,12 +13382,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 775
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -14697,12 +13431,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 158
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -14730,12 +13458,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 264
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -14763,12 +13485,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 316
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -14796,12 +13512,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 592
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -14829,12 +13539,6 @@ MonoBehaviour:
     - Name: xpGain
       Entry: 4
       Data: 775
-    - Name: notPurchased
-      Entry: 6
-      Data: 
-    - Name: purchasedMaterial
-      Entry: 6
-      Data: 
     - Name: tableIsLocked
       Entry: 5
       Data: true
@@ -15075,7 +13779,7 @@ GameObject:
   - component: {fileID: 1400447333}
   - component: {fileID: 1400447332}
   - component: {fileID: 1400447331}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Table16
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15451,7 +14155,6 @@ GameObject:
   - component: {fileID: 1472521263}
   - component: {fileID: 1472521262}
   - component: {fileID: 1472521260}
-  - component: {fileID: 1472521266}
   - component: {fileID: 1472521267}
   m_Layer: 0
   m_Name: Area2
@@ -15575,38 +14278,6 @@ Transform:
   - {fileID: 658178619}
   m_Father: {fileID: 383424527}
   m_LocalEulerAnglesHint: {x: 0, y: 30, z: 0}
---- !u!114 &1472521266
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1472521259}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SerializedVersion: 0
-  m_AgentTypeID: 0
-  m_CollectObjects: 0
-  m_Size: {x: 10, y: 10, z: 10}
-  m_Center: {x: 0, y: 2, z: 0}
-  m_LayerMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_UseGeometry: 0
-  m_DefaultArea: 0
-  m_GenerateLinks: 0
-  m_IgnoreNavMeshAgent: 1
-  m_IgnoreNavMeshObstacle: 1
-  m_OverrideTileSize: 0
-  m_TileSize: 256
-  m_OverrideVoxelSize: 0
-  m_VoxelSize: 0.16666667
-  m_MinRegionArea: 2
-  m_NavMeshData: {fileID: 23800000, guid: 89f5acf17a8dfbb4390d6c8a58ba8d9b, type: 2}
-  m_BuildHeightMesh: 0
 --- !u!114 &1472521267
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15644,7 +14315,6 @@ GameObject:
   - component: {fileID: 1515145238}
   - component: {fileID: 1515145237}
   - component: {fileID: 1515145235}
-  - component: {fileID: 1515145241}
   - component: {fileID: 1515145242}
   m_Layer: 0
   m_Name: Area4
@@ -15773,38 +14443,6 @@ Transform:
   - {fileID: 544662652}
   m_Father: {fileID: 383424527}
   m_LocalEulerAnglesHint: {x: 0, y: 30, z: 0}
---- !u!114 &1515145241
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1515145234}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SerializedVersion: 0
-  m_AgentTypeID: 0
-  m_CollectObjects: 0
-  m_Size: {x: 10, y: 10, z: 10}
-  m_Center: {x: 0, y: 2, z: 0}
-  m_LayerMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_UseGeometry: 0
-  m_DefaultArea: 0
-  m_GenerateLinks: 0
-  m_IgnoreNavMeshAgent: 1
-  m_IgnoreNavMeshObstacle: 1
-  m_OverrideTileSize: 0
-  m_TileSize: 256
-  m_OverrideVoxelSize: 0
-  m_VoxelSize: 0.16666667
-  m_MinRegionArea: 2
-  m_NavMeshData: {fileID: 23800000, guid: f468c48277f48f84faf6587612b80e8e, type: 2}
-  m_BuildHeightMesh: 0
 --- !u!114 &1515145242
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15833,7 +14471,7 @@ MonoBehaviour:
   areaDetails: {fileID: 11400000, guid: ff9d8ed8cd84849d0bc98f3b53af2f99, type: 2}
   spaceBetweenPatients: 1.5
   patientsPerRow: 8
-  maxWaitingPatients: 16
+  maxWaitingPatients: 24
   pharmacy: {fileID: 1870939417}
 --- !u!1 &1518147730
 GameObject:
@@ -16299,7 +14937,7 @@ Transform:
   m_GameObject: {fileID: 1555496936}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.2588191, z: -0, w: 0.9659258}
-  m_LocalPosition: {x: -1.2716684, y: 0, z: 6.5119567}
+  m_LocalPosition: {x: -3.4, y: 0, z: 10.2}
   m_LocalScale: {x: 10, y: 10, z: 10}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -16324,7 +14962,7 @@ MonoBehaviour:
   m_Center: {x: 0, y: 2, z: 0}
   m_LayerMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 183
   m_UseGeometry: 0
   m_DefaultArea: 0
   m_GenerateLinks: 0
@@ -16523,38 +15161,18 @@ PrefabInstance:
       value: Floorplan
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b52163c721a5cc6449fb7e8143f5bcc9, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b52163c721a5cc6449fb7e8143f5bcc9, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: b52163c721a5cc6449fb7e8143f5bcc9, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1602999770}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b52163c721a5cc6449fb7e8143f5bcc9, type: 3}
---- !u!1 &1602999769 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: b52163c721a5cc6449fb7e8143f5bcc9, type: 3}
-  m_PrefabInstance: {fileID: 1602999768}
-  m_PrefabAsset: {fileID: 0}
---- !u!208 &1602999770
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1602999769}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 1
-  m_Extents: {x: 0.058000002, y: 0.061000004, z: 0.0050000004}
-  m_MoveThreshold: 0.1
-  m_Carve: 1
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0.042000003, y: 0.045, z: 0.0050000004}
-  m_TimeToStationary: 0.5
 --- !u!1 &1682543422
 GameObject:
   m_ObjectHideFlags: 0
@@ -16569,7 +15187,7 @@ GameObject:
   - component: {fileID: 1682543425}
   - component: {fileID: 1682543424}
   - component: {fileID: 1682543423}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Table3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16854,7 +15472,7 @@ GameObject:
   - component: {fileID: 1690184652}
   - component: {fileID: 1690184651}
   - component: {fileID: 1690184650}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Table9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17152,7 +15770,7 @@ GameObject:
   - component: {fileID: 1729388360}
   - component: {fileID: 1729388359}
   - component: {fileID: 1729388358}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Table1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17300,7 +15918,6 @@ GameObject:
   - component: {fileID: 1731341209}
   - component: {fileID: 1731341208}
   - component: {fileID: 1731341206}
-  - component: {fileID: 1731341212}
   - component: {fileID: 1731341213}
   m_Layer: 0
   m_Name: Area5
@@ -17434,38 +16051,6 @@ Transform:
   - {fileID: 293270971}
   m_Father: {fileID: 383424527}
   m_LocalEulerAnglesHint: {x: 0, y: 30, z: 0}
---- !u!114 &1731341212
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1731341205}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SerializedVersion: 0
-  m_AgentTypeID: 0
-  m_CollectObjects: 0
-  m_Size: {x: 10, y: 10, z: 10}
-  m_Center: {x: 0, y: 2, z: 0}
-  m_LayerMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_UseGeometry: 0
-  m_DefaultArea: 0
-  m_GenerateLinks: 0
-  m_IgnoreNavMeshAgent: 1
-  m_IgnoreNavMeshObstacle: 1
-  m_OverrideTileSize: 0
-  m_TileSize: 256
-  m_OverrideVoxelSize: 0
-  m_VoxelSize: 0.16666667
-  m_MinRegionArea: 2
-  m_NavMeshData: {fileID: 23800000, guid: 0de260b859c221c4483d6d90b3ace1c0, type: 2}
-  m_BuildHeightMesh: 0
 --- !u!114 &1731341213
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17516,7 +16101,7 @@ GameObject:
   - component: {fileID: 1774948543}
   - component: {fileID: 1774948542}
   - component: {fileID: 1774948541}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Table14
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17767,7 +16352,7 @@ Transform:
   m_GameObject: {fileID: 1883924475}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.02251283, y: 0.75, z: 0.35773274}
+  m_LocalPosition: {x: -0.022512808, y: 0.75, z: 0.35773274}
   m_LocalScale: {x: 0.13, y: 6.500001, z: 0.08142384}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -17900,7 +16485,7 @@ GameObject:
   - component: {fileID: 1917730019}
   - component: {fileID: 1917730018}
   - component: {fileID: 1917730017}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Table4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18049,7 +16634,7 @@ GameObject:
   - component: {fileID: 1930822858}
   - component: {fileID: 1930822857}
   - component: {fileID: 1930822856}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Table8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18334,7 +16919,7 @@ GameObject:
   - component: {fileID: 1943949215}
   - component: {fileID: 1943949214}
   - component: {fileID: 1943949213}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Table4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18484,7 +17069,7 @@ GameObject:
   - component: {fileID: 1952764557}
   - component: {fileID: 1952764556}
   m_Layer: 6
-  m_Name: Bed 2
+  m_Name: Table5
   m_TagString: table
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18768,7 +17353,7 @@ GameObject:
   - component: {fileID: 1966847268}
   - component: {fileID: 1966847267}
   - component: {fileID: 1966847266}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Table9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18917,7 +17502,7 @@ GameObject:
   - component: {fileID: 1967155054}
   - component: {fileID: 1967155053}
   - component: {fileID: 1967155052}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Table7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19067,7 +17652,7 @@ GameObject:
   - component: {fileID: 1990847548}
   - component: {fileID: 1990847547}
   m_Layer: 6
-  m_Name: Bed 1
+  m_Name: Table4
   m_TagString: table
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19215,7 +17800,7 @@ GameObject:
   - component: {fileID: 2003937311}
   - component: {fileID: 2003937310}
   - component: {fileID: 2003937309}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Table12
   m_TagString: Untagged
   m_Icon: {fileID: 0}

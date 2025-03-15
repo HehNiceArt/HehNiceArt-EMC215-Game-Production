@@ -9,9 +9,12 @@ public class PatientSpawn : MonoBehaviour
     [SerializeField] float baseSpawnRate = 30f;
     [SerializeField] float[] spawnWeights = new float[] { 50, 25, 15, 7, 3 };
 
-    void Start()
+    void Update()
     {
-        StartCoroutine(SpawnPatients());
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            StartCoroutine(SpawnPatients());
+        }
     }
     float GetSpawnRateMultiplier()
     {
