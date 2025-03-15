@@ -1,19 +1,10 @@
-using System;
 using System.Collections.Generic;
 using UnityEngine;
+using Sirenix.OdinInspector;
+using System;
 
-public class TableInfo : MonoBehaviour
+[CreateAssetMenu(fileName = "SO_TableInfo", menuName = "Hospital Cats/SO_TableInfo")]
+public class TableInfo : SerializedMonoBehaviour
 {
-    [SerializeField]
-    TableInfoDictionary[] tableInfoDictionaries;
-
-}
-
-[Serializable]
-public class TableInfoDictionary
-{
-    [SerializeField]
-    string areaTable;
-    [SerializeField]
-    List<SO_TableBehavior> tableBehaviors;
+    public Dictionary<string, List<Dictionary<string, List<SO_TableBehavior>>>> tableBehaviors = new Dictionary<string, List<Dictionary<string, List<SO_TableBehavior>>>>();
 }
