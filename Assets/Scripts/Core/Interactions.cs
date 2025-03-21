@@ -24,20 +24,18 @@ public class Interactions : MonoBehaviour
             isPressed = true;
             s_current_interaction = this;
             currencyEconomy.coinsUI.text = so_AreaDetails.costToUnlock.ToString();
+            currencyEconomy.lvlToUnlockUI.text = so_AreaDetails.playerLevelToUnlock.ToString();
             currencyEconomy.DisplayConfirmPurchase(so_AreaDetails.isLocked, this.gameObject.name, so_AreaDetails.playerLevelToUnlock);
         }
     }
     void OnButtonPressed()
     {
-        if (s_current_interaction != null && currencyEconomy.CheckAreaPurchase(s_current_interaction.so_AreaDetails.costToUnlock))
+        if (s_current_interaction != null && currencyEconomy.CheckAreaPurchase(s_current_interaction.so_AreaDetails.costToUnlock, s_current_interaction.so_AreaDetails.playerLevelToUnlock))
         {
             s_current_interaction.so_AreaDetails.isLocked = false;
 #pragma warning disable
             FindObjectOfType<LevelExperience>()?.AddExperience(s_current_interaction.so_AreaDetails.xpGain);
 
-            MeshRenderer meshRenderer = s_current_interaction.GetComponent<MeshRenderer>();
-            if (meshRenderer != null)
-                meshRenderer.material = changeMat;
             currencyEconomy.purchaseUI.SetActive(false);
             s_current_interaction = null;
             isPressed = false;

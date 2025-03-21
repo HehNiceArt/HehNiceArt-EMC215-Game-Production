@@ -19,4 +19,9 @@ public class PlayerStats : MonoBehaviour
         so_PlayerDetails.coins += updateCoins;
         coinsUI.text = so_PlayerDetails.coins.ToString();
     }
+    public void UpdatePlalerLevel(float lvl)
+    {
+        so_PlayerDetails.playerLevel += lvl;
+        levelUI.text = so_PlayerDetails.playerLevel.ToString();
+    }
 }
