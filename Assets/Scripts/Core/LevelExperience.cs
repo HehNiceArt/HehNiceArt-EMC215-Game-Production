@@ -5,7 +5,6 @@ public class LevelExperience : MonoBehaviour
 {
     [SerializeField] SO_PlayerDetails playerDetails;
     [SerializeField] TextMeshProUGUI levelUI;
-    [SerializeField] TextMeshProUGUI xpToLevelUp;
     [SerializeField] TextMeshProUGUI reputationUI;
     public float currentXP = 0f;
 
@@ -24,7 +23,6 @@ public class LevelExperience : MonoBehaviour
     void UpdateLevel()
     {
         float requiredXP = GetRequiredXPForLevel(playerDetails.playerLevel + 1);
-        xpToLevelUp.text = currentXP.ToString();
 
         if (currentXP >= requiredXP)
         {
