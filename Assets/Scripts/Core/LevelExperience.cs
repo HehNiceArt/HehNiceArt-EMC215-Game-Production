@@ -44,15 +44,6 @@ public class LevelExperience : MonoBehaviour
             else
                 repText = playerDetails.reputation.ToString("F0");
             reputationUI.text = repText;
-
-            if (playerDetails.reputation >= SO_PlayerDetails.REPUTATION_TIER_4)
-                reputationUI.color = Color.green;
-            else if (playerDetails.reputation >= 0)
-                reputationUI.color = Color.white;
-            else if (playerDetails.reputation > SO_PlayerDetails.MIN_REPUTATION)
-                reputationUI.color = new Color(1f, 0.5f, 0.5f); // Light red
-            else
-                reputationUI.color = Color.red;
         }
     }
     public void UpdateReputation(float change)
@@ -61,13 +52,11 @@ public class LevelExperience : MonoBehaviour
         UpdateReputationUI();
     }
 
-    // Helper method to calculate required XP for a specific level
     public float GetRequiredXPForLevel(float level)
     {
         return 100 + (50f * level) + 2 * (level * level);
     }
 
-    // Helper method to get current XP progress towards next level
     public float GetProgressToNextLevel()
     {
         float currentLevel = playerDetails.playerLevel;

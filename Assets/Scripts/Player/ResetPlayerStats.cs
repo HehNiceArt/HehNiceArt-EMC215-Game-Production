@@ -6,7 +6,7 @@ public class ResetPlayerStats : MonoBehaviour
 
     public void ResetCoins()
     {
-        sO_PlayerDetails.coins = 1500f;
+        sO_PlayerDetails.coins = 1250f;
     }
     public void ResetReputation()
     {
