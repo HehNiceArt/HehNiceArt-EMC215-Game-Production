@@ -2,19 +2,18 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 using System.Collections.Generic;
+using Sirenix.OdinInspector;
 
-public class TableUpgrade : MonoBehaviour
+public class TableUpgrade : SerializedMonoBehaviour
 {
     public TableInfo tableInfo;
-    [SerializeField] private string tableCategory;
-    [SerializeField] private string tableType;
-    private List<SO_TableBehavior> currentTableBehaviors;
+    [HideInInspector] private string tableCategory;
+    [HideInInspector] private string tableType;
+    [SerializeField] List<TableBehavior> currentTableBehaviors;
     TableInteraction tableInteraction;
     int currentTableLevel = 0;
 
-    public List<SO_TableBehavior> TableBehaviors => currentTableBehaviors;
-    public SO_TableBehavior CurrentBehavior => currentTableBehaviors != null && currentTableLevel < currentTableBehaviors.Count ? currentTableBehaviors[currentTableLevel] : null;
-
+    [Space(10)]
     [SerializeField] CurrencyEconomy currencyEconomy;
     [SerializeField] Button upgradeBTN;
     [SerializeField] Button cancelBTN;
@@ -43,7 +42,7 @@ public class TableUpgrade : MonoBehaviour
                     currentTableBehaviors = behaviorDict[tableType];
                     if (currentTableBehaviors != null && currentTableBehaviors.Count > 0)
                     {
-                        tableInteraction.InitializeWithBehavior(currentTableBehaviors[0]);
+                        tableInteraction.InitializeBehavior(currentTableBehaviors[0]);
                     }
                     break;
                 }
@@ -82,14 +81,20 @@ public class TableUpgrade : MonoBehaviour
 
         if (currentTableLevel < currentTableBehaviors.Count - 1 && currencyEconomy.CheckAreaPurchase(currentTableBehaviors[currentTableLevel + 1].costToHire))
         {
-            float xpGain = currentTableBehaviors[currentTableLevel + 1].xpGain;
-#pragma warning disable
-            FindObjectOfType<LevelExperience>()?.AddExperience(xpGain);
-#pragma warning restore
-
-            tableInteraction.UpdateBehavior(currentTableBehaviors[currentTableLevel + 1]);
-            upgradeUI.SetActive(false);
             currentTableLevel++;
+
+            TableBehavior behaviorToUpdate = currentTableBehaviors[currentTableLevel];
+
+            behaviorToUpdate.UpdateValuesBasedOnLevel();
+
+            Debug.Log($"Before upgrade: {tableInteraction.so_TableBehavior.tableLevels}");
+
+            tableInteraction.InitializeBehavior(behaviorToUpdate);
+
+            Debug.Log($"After upgrade: {tableInteraction.so_TableBehavior.tableLevels}");
+
+
+            upgradeUI.SetActive(false);
         }
         else
         {

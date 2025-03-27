@@ -5,7 +5,7 @@ using System;
 
 public class TableInfo : SerializedMonoBehaviour
 {
-    public Dictionary<string, List<Dictionary<string, List<SO_TableBehavior>>>> tableBehaviors = new Dictionary<string, List<Dictionary<string, List<SO_TableBehavior>>>>();
+    public Dictionary<string, List<Dictionary<string, List<TableBehavior>>>> tableBehaviors = new Dictionary<string, List<Dictionary<string, List<TableBehavior>>>>();
 
     private void OnValidate()
     {
