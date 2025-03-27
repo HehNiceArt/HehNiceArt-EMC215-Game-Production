@@ -2999,7 +2999,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0.2588191, y: 0, z: 0, w: 0.9659258}
-  m_LocalPosition: {x: 1.7, y: 27.75, z: -34.43}
+  m_LocalPosition: {x: 1.7, y: 34.26, z: -54.6}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3018,7 +3018,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 20
-  movementBounds: {x: 20, y: 15.8}
+  movementBounds: {x: 20, y: 15.47}
   mousePanSpeed: 2
   zoomSpeed: 50
   minZoom: 2
@@ -6616,6 +6616,7 @@ GameObject:
   - component: {fileID: 1297521484}
   - component: {fileID: 1297521485}
   - component: {fileID: 1297521486}
+  - component: {fileID: 1297521487}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -6721,7 +6722,6 @@ MonoBehaviour:
   - {fileID: 2508585973224514720, guid: 94967da6fc551304bbd85f01c8a706c8, type: 3}
   patientSpawnPoint: {fileID: 938495627}
   playerDetails: {fileID: 11400000, guid: ccfcf005a25e6492488d0de429ae0381, type: 2}
-  baseSpawnRate: 10
   spawnWeights:
   - 50
   - 25
@@ -13438,6 +13438,33 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
+--- !u!114 &1297521487
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1297521476}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16bfd1f6ccf154a7fb4d4b9663bf3cee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  so_PlayerDetails: {fileID: 11400000, guid: ccfcf005a25e6492488d0de429ae0381, type: 2}
+  spawnRates:
+  - 0
+  - 27
+  - 23
+  - 19
+  - 15
+  - 9
+  - 5
+  - 2
+  rateupRates:
+  - 0
+  - 2
+  - 4
+  - 6
 --- !u!1 &1334419134
 GameObject:
   m_ObjectHideFlags: 0
