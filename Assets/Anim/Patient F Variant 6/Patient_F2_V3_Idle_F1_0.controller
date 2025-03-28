@@ -65,7 +65,7 @@ AnimatorStateTransition:
   m_PrefabAsset: {fileID: 0}
   m_Name: 
   m_Conditions:
-  - m_ConditionMode: 2
+  - m_ConditionMode: 1
     m_ConditionEvent: facingFront
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
@@ -276,7 +276,7 @@ AnimatorStateTransition:
   m_PrefabAsset: {fileID: 0}
   m_Name: 
   m_Conditions:
-  - m_ConditionMode: 1
+  - m_ConditionMode: 2
     m_ConditionEvent: facingFront
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
@@ -569,7 +569,7 @@ AnimatorStateTransition:
   m_PrefabAsset: {fileID: 0}
   m_Name: 
   m_Conditions:
-  - m_ConditionMode: 1
+  - m_ConditionMode: 2
     m_ConditionEvent: facingFront
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
@@ -1197,7 +1197,7 @@ AnimatorStateTransition:
   m_PrefabAsset: {fileID: 0}
   m_Name: 
   m_Conditions:
-  - m_ConditionMode: 2
+  - m_ConditionMode: 1
     m_ConditionEvent: facingFront
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
@@ -1251,7 +1251,7 @@ AnimatorStateTransition:
   m_PrefabAsset: {fileID: 0}
   m_Name: 
   m_Conditions:
-  - m_ConditionMode: 1
+  - m_ConditionMode: 2
     m_ConditionEvent: facingFront
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
@@ -1292,7 +1292,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: f16a280232f73da40bedf7cab54c4668, type: 2}
+  m_Motion: {fileID: 7400000, guid: bf526c1e9b56704408b3708a7e99f5f3, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -1902,7 +1902,7 @@ AnimatorStateTransition:
   m_PrefabAsset: {fileID: 0}
   m_Name: 
   m_Conditions:
-  - m_ConditionMode: 2
+  - m_ConditionMode: 1
     m_ConditionEvent: facingFront
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
@@ -2309,7 +2309,7 @@ AnimatorStateTransition:
   m_PrefabAsset: {fileID: 0}
   m_Name: 
   m_Conditions:
-  - m_ConditionMode: 1
+  - m_ConditionMode: 2
     m_ConditionEvent: facingFront
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
@@ -3352,7 +3352,7 @@ AnimatorStateTransition:
   m_PrefabAsset: {fileID: 0}
   m_Name: 
   m_Conditions:
-  - m_ConditionMode: 2
+  - m_ConditionMode: 1
     m_ConditionEvent: facingFront
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
@@ -3462,7 +3462,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: isWalking
+    m_ConditionEvent: facingFront
     m_EventTreshold: 0
   - m_ConditionMode: 1
     m_ConditionEvent: isSitting
@@ -3855,7 +3855,7 @@ AnimatorStateTransition:
   m_PrefabAsset: {fileID: 0}
   m_Name: 
   m_Conditions:
-  - m_ConditionMode: 2
+  - m_ConditionMode: 1
     m_ConditionEvent: facingFront
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
@@ -3880,7 +3880,7 @@ AnimatorStateTransition:
   m_PrefabAsset: {fileID: 0}
   m_Name: 
   m_Conditions:
-  - m_ConditionMode: 1
+  - m_ConditionMode: 2
     m_ConditionEvent: facingFront
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
@@ -3986,7 +3986,7 @@ AnimatorStateTransition:
   m_PrefabAsset: {fileID: 0}
   m_Name: 
   m_Conditions:
-  - m_ConditionMode: 1
+  - m_ConditionMode: 2
     m_ConditionEvent: facingFront
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
@@ -4067,7 +4067,7 @@ AnimatorStateTransition:
   m_PrefabAsset: {fileID: 0}
   m_Name: 
   m_Conditions:
-  - m_ConditionMode: 2
+  - m_ConditionMode: 1
     m_ConditionEvent: facingFront
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
