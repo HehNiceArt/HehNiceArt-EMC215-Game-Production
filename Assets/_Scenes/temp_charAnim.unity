@@ -130,6 +130,7 @@ GameObject:
   - component: {fileID: 19052750}
   - component: {fileID: 19052749}
   - component: {fileID: 19052748}
+  - component: {fileID: 19052751}
   m_Layer: 0
   m_Name: Patient_F3_V1_Idle_F1_0
   m_TagString: Untagged
@@ -229,6 +230,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &19052751
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 19052747}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73c2b1dcb54fc1649b95c74e3e503b34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &251794694
 GameObject:
   m_ObjectHideFlags: 0
@@ -240,6 +253,7 @@ GameObject:
   - component: {fileID: 251794697}
   - component: {fileID: 251794696}
   - component: {fileID: 251794695}
+  - component: {fileID: 251794698}
   m_Layer: 0
   m_Name: Patient_F2_V2_Idle_F1_0
   m_TagString: Untagged
@@ -339,6 +353,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &251794698
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 251794694}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73c2b1dcb54fc1649b95c74e3e503b34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &269817436
 GameObject:
   m_ObjectHideFlags: 0
@@ -487,6 +513,7 @@ GameObject:
   - component: {fileID: 506194231}
   - component: {fileID: 506194230}
   - component: {fileID: 506194229}
+  - component: {fileID: 506194232}
   m_Layer: 0
   m_Name: Patient_F3_V2_Idle_F1_0
   m_TagString: Untagged
@@ -586,6 +613,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &506194232
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 506194228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73c2b1dcb54fc1649b95c74e3e503b34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &661872594
 GameObject:
   m_ObjectHideFlags: 0
@@ -597,6 +636,7 @@ GameObject:
   - component: {fileID: 661872596}
   - component: {fileID: 661872595}
   - component: {fileID: 661872597}
+  - component: {fileID: 661872598}
   m_Layer: 0
   m_Name: medStaff_V1_LVL1_Idle_F1_0
   m_TagString: Untagged
@@ -696,6 +736,18 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &661872598
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 661872594}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73c2b1dcb54fc1649b95c74e3e503b34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &708604694
 GameObject:
   m_ObjectHideFlags: 0
@@ -707,6 +759,7 @@ GameObject:
   - component: {fileID: 708604697}
   - component: {fileID: 708604696}
   - component: {fileID: 708604695}
+  - component: {fileID: 708604698}
   m_Layer: 0
   m_Name: Patient_M3_V2_Idle_F1_0
   m_TagString: Untagged
@@ -806,6 +859,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &708604698
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 708604694}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73c2b1dcb54fc1649b95c74e3e503b34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &848237848
 GameObject:
   m_ObjectHideFlags: 0
@@ -817,6 +882,7 @@ GameObject:
   - component: {fileID: 848237851}
   - component: {fileID: 848237850}
   - component: {fileID: 848237849}
+  - component: {fileID: 848237852}
   m_Layer: 0
   m_Name: Patient_M2_V2_Idle_F1_0
   m_TagString: Untagged
@@ -916,6 +982,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &848237852
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 848237848}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73c2b1dcb54fc1649b95c74e3e503b34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &921491917
 GameObject:
   m_ObjectHideFlags: 0
@@ -927,6 +1005,7 @@ GameObject:
   - component: {fileID: 921491920}
   - component: {fileID: 921491919}
   - component: {fileID: 921491918}
+  - component: {fileID: 921491921}
   m_Layer: 0
   m_Name: Patient_M3_V1_Idle_F1_0
   m_TagString: Untagged
@@ -1026,6 +1105,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &921491921
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 921491917}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73c2b1dcb54fc1649b95c74e3e503b34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &961258796
 GameObject:
   m_ObjectHideFlags: 0
@@ -1037,6 +1128,7 @@ GameObject:
   - component: {fileID: 961258799}
   - component: {fileID: 961258798}
   - component: {fileID: 961258797}
+  - component: {fileID: 961258800}
   m_Layer: 0
   m_Name: Patient_F3_V3_Idle_F1_0
   m_TagString: Untagged
@@ -1136,6 +1228,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &961258800
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 961258796}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73c2b1dcb54fc1649b95c74e3e503b34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1229097117
 GameObject:
   m_ObjectHideFlags: 0
@@ -1270,6 +1374,7 @@ GameObject:
   - component: {fileID: 1285399222}
   - component: {fileID: 1285399221}
   - component: {fileID: 1285399220}
+  - component: {fileID: 1285399223}
   m_Layer: 0
   m_Name: Patient_M2_V3_Idle_F1_0
   m_TagString: Untagged
@@ -1369,6 +1474,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1285399223
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1285399219}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73c2b1dcb54fc1649b95c74e3e503b34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1337655091
 GameObject:
   m_ObjectHideFlags: 0
@@ -1477,6 +1594,7 @@ GameObject:
   - component: {fileID: 1510006389}
   - component: {fileID: 1510006388}
   - component: {fileID: 1510006387}
+  - component: {fileID: 1510006390}
   m_Layer: 0
   m_Name: Patient_F2_V3_Idle_F1_0
   m_TagString: Untagged
@@ -1576,6 +1694,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1510006390
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1510006386}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73c2b1dcb54fc1649b95c74e3e503b34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1658794578
 GameObject:
   m_ObjectHideFlags: 0
@@ -1587,6 +1717,7 @@ GameObject:
   - component: {fileID: 1658794581}
   - component: {fileID: 1658794580}
   - component: {fileID: 1658794579}
+  - component: {fileID: 1658794582}
   m_Layer: 0
   m_Name: Patient_M2_V1_Idle_F1_0
   m_TagString: Untagged
@@ -1686,6 +1817,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1658794582
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1658794578}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73c2b1dcb54fc1649b95c74e3e503b34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1702984671
 GameObject:
   m_ObjectHideFlags: 0
@@ -1820,6 +1963,7 @@ GameObject:
   - component: {fileID: 1728012500}
   - component: {fileID: 1728012499}
   - component: {fileID: 1728012498}
+  - component: {fileID: 1728012501}
   m_Layer: 0
   m_Name: Patient_F1_V3_Idle_F1_0
   m_TagString: Untagged
@@ -1919,6 +2063,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1728012501
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1728012497}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73c2b1dcb54fc1649b95c74e3e503b34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1750481836
 GameObject:
   m_ObjectHideFlags: 0
@@ -1930,6 +2086,7 @@ GameObject:
   - component: {fileID: 1750481839}
   - component: {fileID: 1750481838}
   - component: {fileID: 1750481837}
+  - component: {fileID: 1750481840}
   m_Layer: 0
   m_Name: Patient_M1_V1_Idle_F1_0
   m_TagString: Untagged
@@ -2029,6 +2186,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1750481840
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1750481836}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73c2b1dcb54fc1649b95c74e3e503b34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1792421264
 GameObject:
   m_ObjectHideFlags: 0
@@ -2040,6 +2209,7 @@ GameObject:
   - component: {fileID: 1792421267}
   - component: {fileID: 1792421266}
   - component: {fileID: 1792421265}
+  - component: {fileID: 1792421268}
   m_Layer: 0
   m_Name: medStaff_V2_LVL1_Idle_F1_0
   m_TagString: Untagged
@@ -2139,6 +2309,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1792421268
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1792421264}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73c2b1dcb54fc1649b95c74e3e503b34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1865363405
 GameObject:
   m_ObjectHideFlags: 0
@@ -2150,6 +2332,7 @@ GameObject:
   - component: {fileID: 1865363408}
   - component: {fileID: 1865363407}
   - component: {fileID: 1865363406}
+  - component: {fileID: 1865363409}
   m_Layer: 0
   m_Name: Patient_F2_V1_Idle_F1_0
   m_TagString: Untagged
@@ -2249,6 +2432,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1865363409
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1865363405}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73c2b1dcb54fc1649b95c74e3e503b34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1937824300
 GameObject:
   m_ObjectHideFlags: 0
@@ -2260,6 +2455,7 @@ GameObject:
   - component: {fileID: 1937824303}
   - component: {fileID: 1937824302}
   - component: {fileID: 1937824301}
+  - component: {fileID: 1937824304}
   m_Layer: 0
   m_Name: Patient_M1_V2_Idle_F1_0
   m_TagString: Untagged
@@ -2359,6 +2555,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1937824304
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1937824300}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73c2b1dcb54fc1649b95c74e3e503b34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2096503701
 GameObject:
   m_ObjectHideFlags: 0
@@ -2370,6 +2578,7 @@ GameObject:
   - component: {fileID: 2096503704}
   - component: {fileID: 2096503703}
   - component: {fileID: 2096503702}
+  - component: {fileID: 2096503705}
   m_Layer: 0
   m_Name: Patient_M1_V3_Idle_F1_0
   m_TagString: Untagged
@@ -2469,6 +2678,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2096503705
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2096503701}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73c2b1dcb54fc1649b95c74e3e503b34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2129193193
 GameObject:
   m_ObjectHideFlags: 0
@@ -2480,6 +2701,7 @@ GameObject:
   - component: {fileID: 2129193196}
   - component: {fileID: 2129193195}
   - component: {fileID: 2129193194}
+  - component: {fileID: 2129193197}
   m_Layer: 0
   m_Name: Patient_M3_V3_Idle_F1_0
   m_TagString: Untagged
@@ -2579,6 +2801,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2129193197
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2129193193}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73c2b1dcb54fc1649b95c74e3e503b34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
