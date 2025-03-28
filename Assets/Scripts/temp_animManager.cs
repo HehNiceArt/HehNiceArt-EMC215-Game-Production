@@ -27,10 +27,10 @@ public class temp_animManager : MonoBehaviour
         {
             anim.SetBool("facingFront", true);
             Debug.Log("Facing Front.");
-        } else if (Input.GetKeyDown(KeyCode.D))
+        } else if (Input.GetKeyDown(KeyCode.A))
         {
             sr.flipX = false;
-        } else if (Input.GetKeyDown(KeyCode.A))
+        } else if (Input.GetKeyDown(KeyCode.D))
         {
             sr.flipX = true;
         }

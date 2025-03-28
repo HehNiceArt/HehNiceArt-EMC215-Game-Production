@@ -1697,6 +1697,7 @@ GameObject:
   - component: {fileID: 1702984674}
   - component: {fileID: 1702984673}
   - component: {fileID: 1702984672}
+  - component: {fileID: 1702984675}
   m_Layer: 0
   m_Name: Patient_F1_V2_Idle_F1_0
   m_TagString: Untagged
@@ -1714,7 +1715,7 @@ Animator:
   m_GameObject: {fileID: 1702984671}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: d595387c280267d45867debc9397c050, type: 2}
+  m_Controller: {fileID: 9100000, guid: acba16b4af9ed5a468ee6d2c5a51ae80, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -1796,6 +1797,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1702984675
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1702984671}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73c2b1dcb54fc1649b95c74e3e503b34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1728012497
 GameObject:
   m_ObjectHideFlags: 0

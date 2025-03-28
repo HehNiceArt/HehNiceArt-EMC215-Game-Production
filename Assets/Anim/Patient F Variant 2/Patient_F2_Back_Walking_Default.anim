@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Patient_F1_Back_Idle_LVL5
+  m_Name: Patient_F2_Back_Walking_Default
   serializedVersion: 7
   m_Legacy: 0
   m_Compressed: 0
@@ -21,11 +21,15 @@ AnimationClip:
   - serializedVersion: 2
     curve:
     - time: 0
-      value: {fileID: -1306672717, guid: da7cf8b939a116f4597e0dd5a168fa47, type: 3}
-    - time: 0.25
-      value: {fileID: -1206212108, guid: e8dbe3c7627239f42af8f70230d3df24, type: 3}
+      value: {fileID: -1185656298, guid: d27f9cb87c9f0e14bb2a93d477dbc73e, type: 3}
+    - time: 0.16666667
+      value: {fileID: 448070740, guid: f4c2b2a8bdd864a458e004f13f2eaa6a, type: 3}
+    - time: 0.33333334
+      value: {fileID: -821756827, guid: 7d6a7242aac931b4696ce32c351a7c4e, type: 3}
     - time: 0.5
-      value: {fileID: -1306672717, guid: da7cf8b939a116f4597e0dd5a168fa47, type: 3}
+      value: {fileID: -993098714, guid: 2b9bbd6bdfad82b47817e121ec16b2cb, type: 3}
+    - time: 0.6666667
+      value: {fileID: -1185656298, guid: d27f9cb87c9f0e14bb2a93d477dbc73e, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -48,15 +52,17 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     pptrCurveMapping:
-    - {fileID: -1306672717, guid: da7cf8b939a116f4597e0dd5a168fa47, type: 3}
-    - {fileID: -1206212108, guid: e8dbe3c7627239f42af8f70230d3df24, type: 3}
-    - {fileID: -1306672717, guid: da7cf8b939a116f4597e0dd5a168fa47, type: 3}
+    - {fileID: -1185656298, guid: d27f9cb87c9f0e14bb2a93d477dbc73e, type: 3}
+    - {fileID: 448070740, guid: f4c2b2a8bdd864a458e004f13f2eaa6a, type: 3}
+    - {fileID: -821756827, guid: 7d6a7242aac931b4696ce32c351a7c4e, type: 3}
+    - {fileID: -993098714, guid: 2b9bbd6bdfad82b47817e121ec16b2cb, type: 3}
+    - {fileID: -1185656298, guid: d27f9cb87c9f0e14bb2a93d477dbc73e, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.51666665
+    m_StopTime: 0.68333334
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
