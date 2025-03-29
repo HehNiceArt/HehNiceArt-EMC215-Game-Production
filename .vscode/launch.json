@@ -1,10 +1,18 @@
 {
-    "version": "0.2.0",
-    "configurations": [
-        {
-            "name": "Attach to Unity",
-            "type": "vstuc",
-            "request": "attach"
-        }
-     ]
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Attach to Unity",
+      "type": "vstuc",
+      "request": "attach"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/adbq/Documents/GitHub/EMC215-Game-Production",
+      "program": "/Users/adbq/Documents/GitHub/EMC215-Game-Production/build/Debug/outDebug"
+    }
+  ]
 }
