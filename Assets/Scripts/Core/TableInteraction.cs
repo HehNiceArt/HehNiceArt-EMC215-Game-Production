@@ -1,10 +1,12 @@
 using UnityEngine;
 using UnityEngine.UI;
+using Sirenix.OdinInspector;
+
 
 [RequireComponent(typeof(TableUpgrade))]
-public class TableInteraction : MonoBehaviour
+public class TableInteraction : SerializedMonoBehaviour
 {
-    [HideInInspector] public SO_TableBehavior so_TableBehavior;
+    public TableBehavior so_TableBehavior;
     [SerializeField] private CurrencyEconomy currencyEconomy;
     [SerializeField] private Button buyBTN;
     [SerializeField] private Button cancelBTN;
@@ -12,32 +14,24 @@ public class TableInteraction : MonoBehaviour
     float salaryTimer = 0f;
     const float SALARY_INTERVAL = 300f;
 
-    private MeshRenderer meshRenderer;
     public bool isTableLocked = true;
     public bool isOccupied = false;
     private static TableInteraction s_current_table;
-    TableUpgrade tableUpgrade;
 
     void Start()
     {
-        tableUpgrade = GetComponent<TableUpgrade>();
         interactions = GetComponentInParent<Interactions>();
-        meshRenderer = GetComponent<MeshRenderer>();
 
         buyBTN.onClick.AddListener(PurchaseTable);
         cancelBTN.onClick.AddListener(OnCancel);
     }
 
-    public void InitializeWithBehavior(SO_TableBehavior behavior)
+    public void InitializeBehavior(TableBehavior behavior)
     {
         so_TableBehavior = behavior;
-        if (meshRenderer != null && so_TableBehavior != null)
-        {
-            isTableLocked = so_TableBehavior.tableIsLocked;
-        }
+        so_TableBehavior.tableIsLocked = true;
     }
-
-    public void UpdateBehavior(SO_TableBehavior behavior)
+    public void UpdateBehavior(TableBehavior behavior)
     {
         so_TableBehavior = behavior;
         so_TableBehavior.tableIsLocked = false;
@@ -80,7 +74,6 @@ public class TableInteraction : MonoBehaviour
             s_current_table.so_TableBehavior.tableIsLocked = false;
 
             FindObjectOfType<LevelExperience>()?.AddExperience(so_TableBehavior.xpGain);
-#pragma warning restore
             currencyEconomy.purchaseUI.SetActive(false);
             s_current_table = null;
         }
@@ -91,4 +84,6 @@ public class TableInteraction : MonoBehaviour
         currencyEconomy.purchaseUI.SetActive(false);
         s_current_table = null;
     }
+
 }
+

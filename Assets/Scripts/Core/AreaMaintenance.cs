@@ -31,15 +31,12 @@ public class AreaMaintenance : MonoBehaviour
     {
         while (true)
         {
-            // Wait for maintenance interval
             yield return new WaitForSeconds(maintenanceInterval);
 
-            // Use CheckAreaPurchase instead of CanSpendCoins
             if (currencyEconomy.CheckAreaPurchase(maintenanceCost))
             {
                 StartMaintenance();
 
-                // Wait for maintenance duration
                 yield return new WaitForSeconds(maintenanceDuration);
 
                 EndMaintenance();
@@ -55,13 +52,11 @@ public class AreaMaintenance : MonoBehaviour
     {
         isUnderMaintenance = true;
 
-        // Disable all affected objects
         foreach (GameObject obj in affectedObjects)
         {
             obj.SetActive(false);
         }
 
-        // Notify players about maintenance
         Debug.Log("Area maintenance started");
     }
 
@@ -69,7 +64,6 @@ public class AreaMaintenance : MonoBehaviour
     {
         isUnderMaintenance = false;
 
-        // Re-enable all affected objects
         foreach (GameObject obj in affectedObjects)
         {
             obj.SetActive(true);
@@ -78,7 +72,6 @@ public class AreaMaintenance : MonoBehaviour
         Debug.Log("Area maintenance completed");
     }
 
-    // Method to add objects that should be affected by maintenance
     public void AddAffectedObject(GameObject obj)
     {
         if (!affectedObjects.Contains(obj))
@@ -90,11 +83,5 @@ public class AreaMaintenance : MonoBehaviour
     public bool IsUnderMaintenance()
     {
         return isUnderMaintenance;
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
     }
 }

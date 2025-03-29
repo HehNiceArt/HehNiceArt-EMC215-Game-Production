@@ -2,19 +2,18 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 using System.Collections.Generic;
+using Sirenix.OdinInspector;
 
-public class TableUpgrade : MonoBehaviour
+public class TableUpgrade : SerializedMonoBehaviour
 {
     public TableInfo tableInfo;
-    [SerializeField] private string tableCategory;
-    [SerializeField] private string tableType;
-    private List<SO_TableBehavior> currentTableBehaviors;
+    [HideInInspector] private string tableCategory;
+    [HideInInspector] private string tableType;
+    [SerializeField] List<TableBehavior> currentTableBehaviors;
     TableInteraction tableInteraction;
     int currentTableLevel = 0;
 
-    public List<SO_TableBehavior> TableBehaviors => currentTableBehaviors;
-    public SO_TableBehavior CurrentBehavior => currentTableBehaviors != null && currentTableLevel < currentTableBehaviors.Count ? currentTableBehaviors[currentTableLevel] : null;
-
+    [Space(10)]
     [SerializeField] CurrencyEconomy currencyEconomy;
     [SerializeField] Button upgradeBTN;
     [SerializeField] Button cancelBTN;
@@ -23,17 +22,27 @@ public class TableUpgrade : MonoBehaviour
     [SerializeField] TextMeshProUGUI cost;
     [SerializeField] TextMeshProUGUI costText;
 
+    private static TableUpgrade selectedTable;
+
     void Start()
     {
         tableInteraction = GetComponent<TableInteraction>();
-        upgradeBTN.onClick.AddListener(UpgradeTable);
+        upgradeBTN.onClick.AddListener(() =>
+        {
+            if (selectedTable == this)
+                UpgradeTable();
+        });
         cancelBTN.onClick.AddListener(OnCancel);
 
-#pragma warning disable
-        tableInfo = Object.FindObjectOfType<TableInfo>();
         tableCategory = transform.parent.name;
-        tableType = transform.name;
+        tableType = this.name;
 
+        tableInfo = Object.FindAnyObjectByType<TableInfo>();
+        InitializeTableBehaviors();
+    }
+
+    void InitializeTableBehaviors()
+    {
         if (tableInfo.tableBehaviors.ContainsKey(tableCategory))
         {
             foreach (var behaviorDict in tableInfo.tableBehaviors[tableCategory])
@@ -43,7 +52,7 @@ public class TableUpgrade : MonoBehaviour
                     currentTableBehaviors = behaviorDict[tableType];
                     if (currentTableBehaviors != null && currentTableBehaviors.Count > 0)
                     {
-                        tableInteraction.InitializeWithBehavior(currentTableBehaviors[0]);
+                        tableInteraction.InitializeBehavior(currentTableBehaviors[0]);
                     }
                     break;
                 }
@@ -56,6 +65,7 @@ public class TableUpgrade : MonoBehaviour
         if (tableInteraction.isTableLocked || currentTableBehaviors == null)
             return;
 
+        selectedTable = this;
         if (currentTableLevel == currentTableBehaviors.Count - 1)
         {
             upgradeUI.SetActive(true);
@@ -79,17 +89,25 @@ public class TableUpgrade : MonoBehaviour
     public void UpgradeTable()
     {
         if (currentTableBehaviors == null) return;
+        Debug.Log($"Attempting to upgrade table: {tableCategory}/{tableType}");
+        Debug.Log($"Current level: {currentTableLevel}, Max level: {currentTableBehaviors.Count - 1}");
 
-        if (currentTableLevel < currentTableBehaviors.Count - 1 && currencyEconomy.CheckAreaPurchase(currentTableBehaviors[currentTableLevel + 1].costToHire))
+        if (currentTableLevel < currentTableBehaviors.Count - 1 && currencyEconomy.CheckAreaPurchase(this.currentTableBehaviors[currentTableLevel + 1].costToHire))
         {
-            float xpGain = currentTableBehaviors[currentTableLevel + 1].xpGain;
-#pragma warning disable
-            FindObjectOfType<LevelExperience>()?.AddExperience(xpGain);
-#pragma warning restore
-
-            tableInteraction.UpdateBehavior(currentTableBehaviors[currentTableLevel + 1]);
-            upgradeUI.SetActive(false);
             currentTableLevel++;
+
+            TableBehavior behaviorToUpdate = currentTableBehaviors[currentTableLevel];
+            behaviorToUpdate.tableIsLocked = false;
+            behaviorToUpdate.UpdateValuesBasedOnLevel();
+
+#pragma warning disable
+            FindObjectOfType<LevelExperience>()?.AddExperience(behaviorToUpdate.xpGain);
+
+            Debug.Log($"{tableCategory} {tableType} Before upgrade: {tableInteraction.so_TableBehavior.tableLevels}");
+
+            tableInteraction.InitializeBehavior(behaviorToUpdate);
+
+            upgradeUI.SetActive(false);
         }
         else
         {
@@ -100,5 +118,11 @@ public class TableUpgrade : MonoBehaviour
     void OnCancel()
     {
         upgradeUI.SetActive(false);
+        selectedTable = null;
+    }
+    void OnDisable()
+    {
+        if (selectedTable == this)
+            selectedTable = null;
     }
 }

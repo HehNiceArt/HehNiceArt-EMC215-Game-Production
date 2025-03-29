@@ -8,7 +8,7 @@ public enum TableLevels
     fellow,
     attendingPhysician
 }
-public class SO_TableBehavior
+public class TableBehavior
 {
     public TableLevels tableLevels;
     public GameObject staffProfile;
