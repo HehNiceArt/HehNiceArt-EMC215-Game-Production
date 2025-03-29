@@ -22,10 +22,16 @@ public class TableUpgrade : SerializedMonoBehaviour
     [SerializeField] TextMeshProUGUI cost;
     [SerializeField] TextMeshProUGUI costText;
 
+    private static TableUpgrade selectedTable;
+
     void Start()
     {
         tableInteraction = GetComponent<TableInteraction>();
-        upgradeBTN.onClick.AddListener(UpgradeTable);
+        upgradeBTN.onClick.AddListener(() =>
+        {
+            if (selectedTable == this)
+                UpgradeTable();
+        });
         cancelBTN.onClick.AddListener(OnCancel);
 
         tableCategory = transform.parent.name;
@@ -59,6 +65,7 @@ public class TableUpgrade : SerializedMonoBehaviour
         if (tableInteraction.isTableLocked || currentTableBehaviors == null)
             return;
 
+        selectedTable = this;
         if (currentTableLevel == currentTableBehaviors.Count - 1)
         {
             upgradeUI.SetActive(true);
@@ -90,7 +97,11 @@ public class TableUpgrade : SerializedMonoBehaviour
             currentTableLevel++;
 
             TableBehavior behaviorToUpdate = currentTableBehaviors[currentTableLevel];
+            behaviorToUpdate.tableIsLocked = false;
             behaviorToUpdate.UpdateValuesBasedOnLevel();
+
+#pragma warning disable
+            FindObjectOfType<LevelExperience>()?.AddExperience(behaviorToUpdate.xpGain);
 
             Debug.Log($"{tableCategory} {tableType} Before upgrade: {tableInteraction.so_TableBehavior.tableLevels}");
 
@@ -107,5 +118,11 @@ public class TableUpgrade : SerializedMonoBehaviour
     void OnCancel()
     {
         upgradeUI.SetActive(false);
+        selectedTable = null;
+    }
+    void OnDisable()
+    {
+        if (selectedTable == this)
+            selectedTable = null;
     }
 }

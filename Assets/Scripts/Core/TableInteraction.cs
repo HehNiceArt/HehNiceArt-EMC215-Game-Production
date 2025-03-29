@@ -31,6 +31,11 @@ public class TableInteraction : SerializedMonoBehaviour
         so_TableBehavior = behavior;
         so_TableBehavior.tableIsLocked = true;
     }
+    public void UpdateBehavior(TableBehavior behavior)
+    {
+        so_TableBehavior = behavior;
+        so_TableBehavior.tableIsLocked = false;
+    }
 
     void Update()
     {
