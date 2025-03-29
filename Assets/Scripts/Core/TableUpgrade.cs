@@ -28,11 +28,15 @@ public class TableUpgrade : SerializedMonoBehaviour
         upgradeBTN.onClick.AddListener(UpgradeTable);
         cancelBTN.onClick.AddListener(OnCancel);
 
-#pragma warning disable
-        tableInfo = Object.FindObjectOfType<TableInfo>();
         tableCategory = transform.parent.name;
-        tableType = transform.name;
+        tableType = this.name;
 
+        tableInfo = Object.FindAnyObjectByType<TableInfo>();
+        InitializeTableBehaviors();
+    }
+
+    void InitializeTableBehaviors()
+    {
         if (tableInfo.tableBehaviors.ContainsKey(tableCategory))
         {
             foreach (var behaviorDict in tableInfo.tableBehaviors[tableCategory])
@@ -78,21 +82,19 @@ public class TableUpgrade : SerializedMonoBehaviour
     public void UpgradeTable()
     {
         if (currentTableBehaviors == null) return;
+        Debug.Log($"Attempting to upgrade table: {tableCategory}/{tableType}");
+        Debug.Log($"Current level: {currentTableLevel}, Max level: {currentTableBehaviors.Count - 1}");
 
-        if (currentTableLevel < currentTableBehaviors.Count - 1 && currencyEconomy.CheckAreaPurchase(currentTableBehaviors[currentTableLevel + 1].costToHire))
+        if (currentTableLevel < currentTableBehaviors.Count - 1 && currencyEconomy.CheckAreaPurchase(this.currentTableBehaviors[currentTableLevel + 1].costToHire))
         {
             currentTableLevel++;
 
             TableBehavior behaviorToUpdate = currentTableBehaviors[currentTableLevel];
-
             behaviorToUpdate.UpdateValuesBasedOnLevel();
 
-            Debug.Log($"Before upgrade: {tableInteraction.so_TableBehavior.tableLevels}");
+            Debug.Log($"{tableCategory} {tableType} Before upgrade: {tableInteraction.so_TableBehavior.tableLevels}");
 
             tableInteraction.InitializeBehavior(behaviorToUpdate);
-
-            Debug.Log($"After upgrade: {tableInteraction.so_TableBehavior.tableLevels}");
-
 
             upgradeUI.SetActive(false);
         }

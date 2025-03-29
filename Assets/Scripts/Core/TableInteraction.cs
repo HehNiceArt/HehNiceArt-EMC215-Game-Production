@@ -29,7 +29,7 @@ public class TableInteraction : SerializedMonoBehaviour
     public void InitializeBehavior(TableBehavior behavior)
     {
         so_TableBehavior = behavior;
-        so_TableBehavior.tableIsLocked = false;
+        so_TableBehavior.tableIsLocked = true;
     }
 
     void Update()
