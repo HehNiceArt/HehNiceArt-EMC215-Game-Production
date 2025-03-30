@@ -14,12 +14,12 @@ public class Patient : MonoBehaviour
     LevelExperience levelExperience;
     Pharmacy currentPharmacy;
 
-    bool isWaiting = false;
+    public bool isWaiting = false;
     float actualTreatmentDuration;
-    bool hasReachedTable = false;
+    public bool hasReachedTable = false;
     public float waitingTimer = 0f;
     public bool hasStartedWaiting = false;
-    private bool hasReachedPharmacyPosition = false;
+    public bool hasReachedPharmacyPosition = false;
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
