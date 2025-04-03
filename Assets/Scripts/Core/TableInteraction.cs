@@ -12,7 +12,7 @@ public class TableInteraction : SerializedMonoBehaviour
     [SerializeField] private Button cancelBTN;
     Interactions interactions;
     float salaryTimer = 0f;
-    const float SALARY_INTERVAL = 300f;
+    const float SALARY_INTERVAL = 300;
 
     public bool isTableLocked = true;
     public bool isOccupied = false;
@@ -52,6 +52,7 @@ public class TableInteraction : SerializedMonoBehaviour
 #pragma warning disable
     void PayStaffSalary()
     {
+        Debug.Log("Paid staff salary!");
         FindObjectOfType<PlayerStats>()?.UpdatePlayerDetail(-so_TableBehavior.salary);
     }
     public void OccupyTable() => isOccupied = true;

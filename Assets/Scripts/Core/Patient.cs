@@ -142,8 +142,13 @@ public class Patient : MonoBehaviour
             assignedTable.VacateTable();
             if (levelExperience != null)
             {
-                levelExperience.UpdateReputation(patientDetails.reputation);
-                FindObjectOfType<PlayerStats>()?.UpdatePlayerDetail(patientDetails.coinDrops);
+                float reputationGain = patientDetails.reputation;
+                if (patientDetails.patientType == PatientType.highProfile)
+                    reputationGain *= 1.5f;
+                levelExperience.UpdateReputation(reputationGain);
+                ReputationManager reputationManager = FindObjectOfType<ReputationManager>();
+                Debug.Log($"Rate Up Applied! {reputationManager.RateupMultiplier()}");
+                FindObjectOfType<PlayerStats>()?.UpdatePlayerDetail(patientDetails.coinDrops * reputationManager.RateupMultiplier());
                 levelExperience.AddExperience(patientDetails.xpDrop);
             }
 #pragma warning restore
