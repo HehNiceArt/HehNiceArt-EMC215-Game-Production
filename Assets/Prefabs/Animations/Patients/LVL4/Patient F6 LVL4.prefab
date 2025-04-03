@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 2882348053940081295}
   - component: {fileID: 1071124284816341254}
   - component: {fileID: 229268509872577534}
+  - component: {fileID: -2047361764724020071}
   m_Layer: 0
   m_Name: Patient F6 LVL4
   m_TagString: Untagged
@@ -110,3 +111,17 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &-2047361764724020071
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8384296394532807008}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf37b464493a8de4fbff364d5ee95f5e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  agent: {fileID: 9027561993011231001, guid: b2ea9c4458367364b9567c07da3f87c4, type: 3}
+  LVL: 0

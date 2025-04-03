@@ -10,7 +10,7 @@ public class Patient_animManager : MonoBehaviour
     Patient patient; // to access >> isWaiting, hasReachedTable
     Animator anim;
     SpriteRenderer sprite;
-    [SerializeField] private int LVL = 0; // <0> default value | values : < 0 - 5 >
+    //[SerializeField] private int LVL = 0; // <0> default value | values : < 0 - 5 >
 
     void Start()
     {
@@ -23,7 +23,7 @@ public class Patient_animManager : MonoBehaviour
 
     void Update()
     {
-        SetLevel(LVL);
+        
         Vector2 direction = GetDirection();
         SetAnim(direction);
     }
@@ -80,13 +80,13 @@ public class Patient_animManager : MonoBehaviour
         }
     }
 
-    void SetLevel(int level)
+    /*void SetLevel(int level)
     {
         if (LVL == level) return;
 
         LVL = level;
         anim.SetInteger("Level", level);
-    }
+    }*/
 
     void SetState(string state)
     {
