@@ -11,6 +11,7 @@ public class TableUpgrade : SerializedMonoBehaviour
     [HideInInspector] private string tableCategory;
     [HideInInspector] private string tableType;
     [SerializeField] List<TableBehavior> currentTableBehaviors;
+    [SerializeField] List<GameObject> tableLevelGO;
     TableInteraction tableInteraction;
     int currentTableLevel = 0;
 
@@ -24,10 +25,12 @@ public class TableUpgrade : SerializedMonoBehaviour
     [SerializeField] TextMeshProUGUI costText;
 
     private static TableUpgrade selectedTable;
+    MedStaff_animManager animManager;
 
     void Start()
     {
         tableInteraction = GetComponent<TableInteraction>();
+        animManager = GetComponentInChildren<MedStaff_animManager>();
         upgradeBTN.onClick.AddListener(() =>
         {
             if (selectedTable == this)
@@ -37,6 +40,7 @@ public class TableUpgrade : SerializedMonoBehaviour
 
         tableCategory = transform.parent.name;
         tableType = this.name;
+
 
         tableInfo = Object.FindAnyObjectByType<TableInfo>();
         InitializeTableBehaviors();
@@ -100,7 +104,11 @@ public class TableUpgrade : SerializedMonoBehaviour
 
         if (currentTableLevel < currentTableBehaviors.Count - 1 && currencyEconomy.CheckAreaPurchase(this.currentTableBehaviors[currentTableLevel + 1].costToHire))
         {
+            tableLevelGO[currentTableLevel].SetActive(false);
             currentTableLevel++;
+            int lvl = animManager.LVL + 1;
+            animManager.SetLevel(lvl);
+            tableLevelGO[currentTableLevel].SetActive(true);
 
             TableBehavior behaviorToUpdate = currentTableBehaviors[currentTableLevel];
             behaviorToUpdate.tableIsLocked = false;

@@ -6,7 +6,7 @@ public class MedStaff_animManager : MonoBehaviour
     Animator anim;
     // TableBehavior tableBehavior;
     TableInteraction tableInteraction;
-    [SerializeField] private int LVL = 1; // <1> default value | values : < 1 - 5 >
+    public int LVL = 1; // <1> default value | values : < 1 - 5 >
 
     void Start()
     {
@@ -39,7 +39,7 @@ public class MedStaff_animManager : MonoBehaviour
         anim.SetBool("facingFront", false);
     }*/
 
-    void SetLevel(int level)
+    public void SetLevel(int level)
     {
         if (LVL == level) return;
 

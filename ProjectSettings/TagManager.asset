@@ -47,17 +47,20 @@ TagManager:
   - name: Front
     uniqueID: 2409130403
     locked: 0
-  - name: Patient
-    uniqueID: 1406282537
-    locked: 0
-  - name: Wall
-    uniqueID: 2654209711
+  - name: Floor
+    uniqueID: 2390110471
     locked: 0
   - name: Doctors
     uniqueID: 990060545
     locked: 0
   - name: Tables
     uniqueID: 2420653837
+    locked: 0
+  - name: Patient
+    uniqueID: 1406282537
+    locked: 0
+  - name: Wall
+    uniqueID: 2654209711
     locked: 0
   m_RenderingLayers:
   - Default
