@@ -8,6 +8,7 @@ public class TableInteraction : SerializedMonoBehaviour
 {
     public TableBehavior so_TableBehavior;
     [SerializeField] private CurrencyEconomy currencyEconomy;
+    [SerializeField] private GameObject staff;
     [SerializeField] private Button buyBTN;
     [SerializeField] private Button cancelBTN;
     Interactions interactions;
@@ -24,6 +25,8 @@ public class TableInteraction : SerializedMonoBehaviour
 
         buyBTN.onClick.AddListener(PurchaseTable);
         cancelBTN.onClick.AddListener(OnCancel);
+        if (staff != null)
+            staff.SetActive(false);
     }
 
     public void InitializeBehavior(TableBehavior behavior)
@@ -73,6 +76,9 @@ public class TableInteraction : SerializedMonoBehaviour
         {
             s_current_table.isTableLocked = false;
             s_current_table.so_TableBehavior.tableIsLocked = false;
+
+            if (s_current_table.staff != null)
+                s_current_table.staff.SetActive(true);
 
             FindObjectOfType<LevelExperience>()?.AddExperience(so_TableBehavior.xpGain);
             currencyEconomy.purchaseUI.SetActive(false);

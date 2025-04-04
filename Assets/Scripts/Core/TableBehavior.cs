@@ -11,7 +11,6 @@ public enum TableLevels
 public class TableBehavior
 {
     public TableLevels tableLevels;
-    public GameObject staffProfile;
     public float treatmentCost = 1.5f;
     public float salary = 167;
     public float costToHire = 250;

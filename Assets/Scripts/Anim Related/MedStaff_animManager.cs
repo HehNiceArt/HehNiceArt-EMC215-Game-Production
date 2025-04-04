@@ -10,6 +10,7 @@ public class MedStaff_animManager : MonoBehaviour
 
     void Start()
     {
+        tableInteraction = GetComponentInParent<TableInteraction>();
         anim = GetComponent<Animator>();
     }
 
@@ -20,7 +21,8 @@ public class MedStaff_animManager : MonoBehaviour
         if (tableInteraction.isOccupied)
         {
             SetState("working");
-        } else
+        }
+        else
         {
             SetState("idle");
         }

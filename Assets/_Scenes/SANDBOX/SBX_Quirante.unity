@@ -272,6 +272,7 @@ MonoBehaviour:
       Entry: 6
       Data: 
   currencyEconomy: {fileID: 1297521480}
+  staff: {fileID: 0}
   buyBTN: {fileID: 1293725536}
   cancelBTN: {fileID: 1580017810}
   isTableLocked: 1
@@ -443,6 +444,7 @@ MonoBehaviour:
       Entry: 6
       Data: 
   currencyEconomy: {fileID: 1297521480}
+  staff: {fileID: 0}
   buyBTN: {fileID: 1293725536}
   cancelBTN: {fileID: 1580017810}
   isTableLocked: 1
@@ -766,6 +768,7 @@ MonoBehaviour:
       Entry: 6
       Data: 
   currencyEconomy: {fileID: 1297521480}
+  staff: {fileID: 0}
   buyBTN: {fileID: 1293725536}
   cancelBTN: {fileID: 1580017810}
   isTableLocked: 1
@@ -937,6 +940,7 @@ MonoBehaviour:
       Entry: 6
       Data: 
   currencyEconomy: {fileID: 1297521480}
+  staff: {fileID: 0}
   buyBTN: {fileID: 1293725536}
   cancelBTN: {fileID: 1580017810}
   isTableLocked: 1
@@ -1513,6 +1517,7 @@ MonoBehaviour:
       Entry: 6
       Data: 
   currencyEconomy: {fileID: 1297521480}
+  staff: {fileID: 0}
   buyBTN: {fileID: 1293725536}
   cancelBTN: {fileID: 1580017810}
   isTableLocked: 1
@@ -1669,6 +1674,7 @@ MonoBehaviour:
       Entry: 6
       Data: 
   currencyEconomy: {fileID: 1297521480}
+  staff: {fileID: 0}
   buyBTN: {fileID: 1293725536}
   cancelBTN: {fileID: 1580017810}
   isTableLocked: 1
@@ -1840,6 +1846,7 @@ MonoBehaviour:
       Entry: 6
       Data: 
   currencyEconomy: {fileID: 1297521480}
+  staff: {fileID: 0}
   buyBTN: {fileID: 1293725536}
   cancelBTN: {fileID: 1580017810}
   isTableLocked: 1
@@ -2213,6 +2220,7 @@ MonoBehaviour:
       Entry: 6
       Data: 
   currencyEconomy: {fileID: 1297521480}
+  staff: {fileID: 0}
   buyBTN: {fileID: 1293725536}
   cancelBTN: {fileID: 1580017810}
   isTableLocked: 1
@@ -2486,6 +2494,7 @@ MonoBehaviour:
       Entry: 6
       Data: 
   currencyEconomy: {fileID: 1297521480}
+  staff: {fileID: 0}
   buyBTN: {fileID: 1293725536}
   cancelBTN: {fileID: 1580017810}
   isTableLocked: 1
@@ -2898,6 +2907,7 @@ MonoBehaviour:
       Entry: 6
       Data: 
   currencyEconomy: {fileID: 1297521480}
+  staff: {fileID: 0}
   buyBTN: {fileID: 174374007}
   cancelBTN: {fileID: 36951573}
   isTableLocked: 1
@@ -2922,7 +2932,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &378961809
 Transform:
   m_ObjectHideFlags: 0
@@ -2995,6 +3005,7 @@ MonoBehaviour:
       Entry: 6
       Data: 
   currencyEconomy: {fileID: 1297521480}
+  staff: {fileID: 0}
   buyBTN: {fileID: 1293725536}
   cancelBTN: {fileID: 1580017810}
   isTableLocked: 1
@@ -3190,6 +3201,7 @@ MonoBehaviour:
       Entry: 6
       Data: 
   currencyEconomy: {fileID: 1297521480}
+  staff: {fileID: 0}
   buyBTN: {fileID: 1293725536}
   cancelBTN: {fileID: 1580017810}
   isTableLocked: 1
@@ -3425,6 +3437,10 @@ Transform:
   m_Children:
   - {fileID: 413862580}
   - {fileID: 1547066339}
+  - {fileID: 6988719993327249777}
+  - {fileID: 1356236494}
+  - {fileID: 1248344789}
+  - {fileID: 836398947}
   - {fileID: 1883924476}
   - {fileID: 1710539565}
   m_Father: {fileID: 383424527}
@@ -3459,9 +3475,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   treatmentTables:
-  - {fileID: 1547066343}
-  - {fileID: 1883924480}
-  - {fileID: 1710539569}
+  - {fileID: 1356236496}
+  - {fileID: 1248344791}
+  - {fileID: 836398949}
   patientWaitingArea: {fileID: 413862580}
   areaDetails: {fileID: 11400000, guid: 84ec580aedd0e48c4ac4950a6a40158e, type: 2}
   spaceBetweenPatients: 1.59
@@ -4331,7 +4347,7 @@ MonoBehaviour:
   m_Intensity: 1
   m_LightVolumeIntensity: 1
   m_LightVolumeEnabled: 0
-  m_ApplyToSortingLayers: 00000000af06349e292bd253a369988f
+  m_ApplyToSortingLayers: 00000000af06349e292bd253a369988f0d3f48900120033b
   m_LightCookieSprite: {fileID: 0}
   m_DeprecatedPointLightCookieSprite: {fileID: 0}
   m_LightOrder: 0
@@ -4424,6 +4440,7 @@ MonoBehaviour:
       Entry: 6
       Data: 
   currencyEconomy: {fileID: 1297521480}
+  staff: {fileID: 0}
   buyBTN: {fileID: 1293725536}
   cancelBTN: {fileID: 1580017810}
   isTableLocked: 1
@@ -4868,6 +4885,7 @@ MonoBehaviour:
       Entry: 6
       Data: 
   currencyEconomy: {fileID: 1297521480}
+  staff: {fileID: 0}
   buyBTN: {fileID: 1293725536}
   cancelBTN: {fileID: 1580017810}
   isTableLocked: 1
@@ -5039,6 +5057,7 @@ MonoBehaviour:
       Entry: 6
       Data: 
   currencyEconomy: {fileID: 1297521480}
+  staff: {fileID: 0}
   buyBTN: {fileID: 1293725536}
   cancelBTN: {fileID: 1580017810}
   isTableLocked: 1
@@ -5407,6 +5426,7 @@ MonoBehaviour:
       Entry: 6
       Data: 
   currencyEconomy: {fileID: 1297521480}
+  staff: {fileID: 0}
   buyBTN: {fileID: 174374007}
   cancelBTN: {fileID: 36951573}
   isTableLocked: 1
@@ -5503,6 +5523,7 @@ MonoBehaviour:
       Entry: 6
       Data: 
   currencyEconomy: {fileID: 1297521480}
+  staff: {fileID: 0}
   buyBTN: {fileID: 1293725536}
   cancelBTN: {fileID: 1580017810}
   isTableLocked: 1
@@ -5633,7 +5654,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &697186276
 Transform:
   m_ObjectHideFlags: 0
@@ -5706,6 +5727,7 @@ MonoBehaviour:
       Entry: 6
       Data: 
   currencyEconomy: {fileID: 1297521480}
+  staff: {fileID: 0}
   buyBTN: {fileID: 1293725536}
   cancelBTN: {fileID: 1580017810}
   isTableLocked: 1
@@ -6107,7 +6129,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &761422161
 Transform:
   m_ObjectHideFlags: 0
@@ -6180,6 +6202,7 @@ MonoBehaviour:
       Entry: 6
       Data: 
   currencyEconomy: {fileID: 1297521480}
+  staff: {fileID: 0}
   buyBTN: {fileID: 1293725536}
   cancelBTN: {fileID: 1580017810}
   isTableLocked: 1
@@ -6391,6 +6414,7 @@ MonoBehaviour:
       Entry: 6
       Data: 
   currencyEconomy: {fileID: 1297521480}
+  staff: {fileID: 0}
   buyBTN: {fileID: 1293725536}
   cancelBTN: {fileID: 1580017810}
   isTableLocked: 1
@@ -6593,6 +6617,7 @@ MonoBehaviour:
       Entry: 6
       Data: 
   currencyEconomy: {fileID: 1297521480}
+  staff: {fileID: 0}
   buyBTN: {fileID: 1293725536}
   cancelBTN: {fileID: 1580017810}
   isTableLocked: 1
@@ -6718,6 +6743,151 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1515145240}
   m_LocalEulerAnglesHint: {x: 0, y: 30, z: 0}
+--- !u!1001 &836398946
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 452615440}
+    m_Modifications:
+    - target: {fileID: 960977196782577043, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1958398378103929737, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: cost
+      value: 
+      objectReference: {fileID: 726079538}
+    - target: {fileID: 1958398378103929737, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: costText
+      value: 
+      objectReference: {fileID: 1335490477}
+    - target: {fileID: 1958398378103929737, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: cancelBTN
+      value: 
+      objectReference: {fileID: 1580017810}
+    - target: {fileID: 1958398378103929737, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: tableInfo
+      value: 
+      objectReference: {fileID: 1297521486}
+    - target: {fileID: 1958398378103929737, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: upgradeUI
+      value: 
+      objectReference: {fileID: 305418998}
+    - target: {fileID: 1958398378103929737, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: upgradeBTN
+      value: 
+      objectReference: {fileID: 1293725536}
+    - target: {fileID: 1958398378103929737, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: upgradeString
+      value: 
+      objectReference: {fileID: 627738469}
+    - target: {fileID: 1958398378103929737, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: currencyEconomy
+      value: 
+      objectReference: {fileID: 1297521480}
+    - target: {fileID: 1958398378103929737, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: serializationData.Prefab
+      value: 
+      objectReference: {fileID: 1958398378103929737, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+    - target: {fileID: 2537152845262831473, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3034972253616240502, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4200107207254594559, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: m_Name
+      value: Table3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7098915677017103150, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7440986876256755917, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.285
+      objectReference: {fileID: 0}
+    - target: {fileID: 7440986876256755917, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.6494117
+      objectReference: {fileID: 0}
+    - target: {fileID: 7440986876256755917, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.224
+      objectReference: {fileID: 0}
+    - target: {fileID: 7440986876256755917, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7440986876256755917, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7440986876256755917, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7440986876256755917, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7440986876256755917, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7440986876256755917, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7440986876256755917, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7960342892581610638, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8801237286540028527, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: buyBTN
+      value: 
+      objectReference: {fileID: 174374007}
+    - target: {fileID: 8801237286540028527, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: cancelBTN
+      value: 
+      objectReference: {fileID: 36951573}
+    - target: {fileID: 8801237286540028527, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: currencyEconomy
+      value: 
+      objectReference: {fileID: 1297521480}
+    - target: {fileID: 8801237286540028527, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: serializationData.Prefab
+      value: 
+      objectReference: {fileID: 8801237286540028527, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+--- !u!4 &836398947 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7440986876256755917, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+  m_PrefabInstance: {fileID: 836398946}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &836398949 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8801237286540028527, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+  m_PrefabInstance: {fileID: 836398946}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcea81cb8f68b41649391dfecd425766, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &839568136
 GameObject:
   m_ObjectHideFlags: 0
@@ -6993,6 +7163,7 @@ MonoBehaviour:
       Entry: 6
       Data: 
   currencyEconomy: {fileID: 1297521480}
+  staff: {fileID: 0}
   buyBTN: {fileID: 1293725536}
   cancelBTN: {fileID: 1580017810}
   isTableLocked: 1
@@ -7285,6 +7456,7 @@ MonoBehaviour:
       Entry: 6
       Data: 
   currencyEconomy: {fileID: 1297521480}
+  staff: {fileID: 0}
   buyBTN: {fileID: 174374007}
   cancelBTN: {fileID: 36951573}
   isTableLocked: 1
@@ -7335,6 +7507,7 @@ MonoBehaviour:
       Entry: 6
       Data: 
   currencyEconomy: {fileID: 1297521480}
+  staff: {fileID: 0}
   buyBTN: {fileID: 1293725536}
   cancelBTN: {fileID: 1580017810}
   isTableLocked: 1
@@ -7506,6 +7679,7 @@ MonoBehaviour:
       Entry: 6
       Data: 
   currencyEconomy: {fileID: 1297521480}
+  staff: {fileID: 0}
   buyBTN: {fileID: 1293725536}
   cancelBTN: {fileID: 1580017810}
   isTableLocked: 1
@@ -7766,6 +7940,7 @@ MonoBehaviour:
       Entry: 6
       Data: 
   currencyEconomy: {fileID: 1297521480}
+  staff: {fileID: 0}
   buyBTN: {fileID: 1293725536}
   cancelBTN: {fileID: 1580017810}
   isTableLocked: 1
@@ -7802,6 +7977,132 @@ MonoBehaviour:
   upgradeString: {fileID: 627738469}
   cost: {fileID: 726079538}
   costText: {fileID: 1335490477}
+--- !u!1001 &1176778019
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1472521265}
+    m_Modifications:
+    - target: {fileID: 1958398378103929737, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: cost
+      value: 
+      objectReference: {fileID: 726079538}
+    - target: {fileID: 1958398378103929737, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: costText
+      value: 
+      objectReference: {fileID: 1335490477}
+    - target: {fileID: 1958398378103929737, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: cancelBTN
+      value: 
+      objectReference: {fileID: 1580017810}
+    - target: {fileID: 1958398378103929737, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: tableInfo
+      value: 
+      objectReference: {fileID: 1297521486}
+    - target: {fileID: 1958398378103929737, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: upgradeUI
+      value: 
+      objectReference: {fileID: 305418998}
+    - target: {fileID: 1958398378103929737, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: upgradeBTN
+      value: 
+      objectReference: {fileID: 1293725536}
+    - target: {fileID: 1958398378103929737, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: upgradeString
+      value: 
+      objectReference: {fileID: 627738469}
+    - target: {fileID: 1958398378103929737, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: currencyEconomy
+      value: 
+      objectReference: {fileID: 1297521480}
+    - target: {fileID: 1958398378103929737, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: serializationData.Prefab
+      value: 
+      objectReference: {fileID: 1958398378103929737, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+    - target: {fileID: 4200107207254594559, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: m_Name
+      value: Table1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7440986876256755917, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.03773562
+      objectReference: {fileID: 0}
+    - target: {fileID: 7440986876256755917, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 3.380365
+      objectReference: {fileID: 0}
+    - target: {fileID: 7440986876256755917, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.013325193
+      objectReference: {fileID: 0}
+    - target: {fileID: 7440986876256755917, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.09531558
+      objectReference: {fileID: 0}
+    - target: {fileID: 7440986876256755917, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.3862404
+      objectReference: {fileID: 0}
+    - target: {fileID: 7440986876256755917, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.2109425
+      objectReference: {fileID: 0}
+    - target: {fileID: 7440986876256755917, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7440986876256755917, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7440986876256755917, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7440986876256755917, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7440986876256755917, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7440986876256755917, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7440986876256755917, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8801237286540028527, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: buyBTN
+      value: 
+      objectReference: {fileID: 174374007}
+    - target: {fileID: 8801237286540028527, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: cancelBTN
+      value: 
+      objectReference: {fileID: 36951573}
+    - target: {fileID: 8801237286540028527, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: currencyEconomy
+      value: 
+      objectReference: {fileID: 1297521480}
+    - target: {fileID: 8801237286540028527, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: serializationData.Prefab
+      value: 
+      objectReference: {fileID: 8801237286540028527, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+--- !u!4 &1176778020 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7440986876256755917, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+  m_PrefabInstance: {fileID: 1176778019}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1196801195
 GameObject:
   m_ObjectHideFlags: 0
@@ -7890,6 +8191,153 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1196801195}
   m_Mesh: {fileID: -7830893341442216976, guid: e28fc136e41d9f94791fed637675fcdd, type: 3}
+--- !u!1001 &1202534922
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1472521265}
+    m_Modifications:
+    - target: {fileID: 1958398378103929737, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: cost
+      value: 
+      objectReference: {fileID: 726079538}
+    - target: {fileID: 1958398378103929737, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: costText
+      value: 
+      objectReference: {fileID: 1335490477}
+    - target: {fileID: 1958398378103929737, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: cancelBTN
+      value: 
+      objectReference: {fileID: 1580017810}
+    - target: {fileID: 1958398378103929737, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: tableInfo
+      value: 
+      objectReference: {fileID: 1297521486}
+    - target: {fileID: 1958398378103929737, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: upgradeUI
+      value: 
+      objectReference: {fileID: 305418998}
+    - target: {fileID: 1958398378103929737, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: upgradeBTN
+      value: 
+      objectReference: {fileID: 1293725536}
+    - target: {fileID: 1958398378103929737, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: upgradeString
+      value: 
+      objectReference: {fileID: 627738469}
+    - target: {fileID: 1958398378103929737, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: currencyEconomy
+      value: 
+      objectReference: {fileID: 1297521480}
+    - target: {fileID: 1958398378103929737, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: serializationData.Prefab
+      value: 
+      objectReference: {fileID: 1958398378103929737, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+    - target: {fileID: 4200107207254594559, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: m_Name
+      value: Table4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7440986876256755917, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.03773562
+      objectReference: {fileID: 0}
+    - target: {fileID: 7440986876256755917, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 3.380365
+      objectReference: {fileID: 0}
+    - target: {fileID: 7440986876256755917, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.013325193
+      objectReference: {fileID: 0}
+    - target: {fileID: 7440986876256755917, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.13
+      objectReference: {fileID: 0}
+    - target: {fileID: 7440986876256755917, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.3862404
+      objectReference: {fileID: 0}
+    - target: {fileID: 7440986876256755917, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.0545
+      objectReference: {fileID: 0}
+    - target: {fileID: 7440986876256755917, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7440986876256755917, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7440986876256755917, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7440986876256755917, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7440986876256755917, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7440986876256755917, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7440986876256755917, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8801237286540028527, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: buyBTN
+      value: 
+      objectReference: {fileID: 174374007}
+    - target: {fileID: 8801237286540028527, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: cancelBTN
+      value: 
+      objectReference: {fileID: 36951573}
+    - target: {fileID: 8801237286540028527, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: currencyEconomy
+      value: 
+      objectReference: {fileID: 1297521480}
+    - target: {fileID: 8801237286540028527, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: serializationData.Prefab
+      value: 
+      objectReference: {fileID: 8801237286540028527, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+--- !u!4 &1202534923 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7440986876256755917, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+  m_PrefabInstance: {fileID: 1202534922}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1206179560
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4000766090151393030}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 4.531847, y: 3.458909, z: 2.4260335}
+  m_Center: {x: 0.10890785, y: -1.2294545, z: -1.3867157}
 --- !u!1 &1241153139
 GameObject:
   m_ObjectHideFlags: 0
@@ -8028,6 +8476,151 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1241153139}
   m_CullTransparentMesh: 1
+--- !u!1001 &1248344788
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 452615440}
+    m_Modifications:
+    - target: {fileID: 960977196782577043, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1958398378103929737, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: cost
+      value: 
+      objectReference: {fileID: 726079538}
+    - target: {fileID: 1958398378103929737, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: costText
+      value: 
+      objectReference: {fileID: 1335490477}
+    - target: {fileID: 1958398378103929737, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: cancelBTN
+      value: 
+      objectReference: {fileID: 1580017810}
+    - target: {fileID: 1958398378103929737, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: tableInfo
+      value: 
+      objectReference: {fileID: 1297521486}
+    - target: {fileID: 1958398378103929737, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: upgradeUI
+      value: 
+      objectReference: {fileID: 305418998}
+    - target: {fileID: 1958398378103929737, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: upgradeBTN
+      value: 
+      objectReference: {fileID: 1293725536}
+    - target: {fileID: 1958398378103929737, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: upgradeString
+      value: 
+      objectReference: {fileID: 627738469}
+    - target: {fileID: 1958398378103929737, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: currencyEconomy
+      value: 
+      objectReference: {fileID: 1297521480}
+    - target: {fileID: 1958398378103929737, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: serializationData.Prefab
+      value: 
+      objectReference: {fileID: 1958398378103929737, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+    - target: {fileID: 2537152845262831473, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3034972253616240502, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4200107207254594559, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: m_Name
+      value: Table2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7098915677017103150, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7440986876256755917, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.002
+      objectReference: {fileID: 0}
+    - target: {fileID: 7440986876256755917, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.6494117
+      objectReference: {fileID: 0}
+    - target: {fileID: 7440986876256755917, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.218
+      objectReference: {fileID: 0}
+    - target: {fileID: 7440986876256755917, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7440986876256755917, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7440986876256755917, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7440986876256755917, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7440986876256755917, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7440986876256755917, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7440986876256755917, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7960342892581610638, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8801237286540028527, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: buyBTN
+      value: 
+      objectReference: {fileID: 174374007}
+    - target: {fileID: 8801237286540028527, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: cancelBTN
+      value: 
+      objectReference: {fileID: 36951573}
+    - target: {fileID: 8801237286540028527, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: currencyEconomy
+      value: 
+      objectReference: {fileID: 1297521480}
+    - target: {fileID: 8801237286540028527, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: serializationData.Prefab
+      value: 
+      objectReference: {fileID: 8801237286540028527, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+--- !u!4 &1248344789 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7440986876256755917, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+  m_PrefabInstance: {fileID: 1248344788}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1248344791 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8801237286540028527, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+  m_PrefabInstance: {fileID: 1248344788}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcea81cb8f68b41649391dfecd425766, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1253904524
 GameObject:
   m_ObjectHideFlags: 0
@@ -8636,9 +9229,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 0
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 1.5
@@ -8663,9 +9253,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 1
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 2
@@ -8690,9 +9277,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 2
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 2.75
@@ -8717,9 +9301,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 3
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 3.75
@@ -8744,9 +9325,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 4
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 4.75
@@ -8793,9 +9371,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 0
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 1.5
@@ -8820,9 +9395,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 1
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 2
@@ -8847,9 +9419,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 2
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 2.75
@@ -8874,9 +9443,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 3
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 3.75
@@ -8901,9 +9467,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 4
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 4.75
@@ -8950,9 +9513,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 0
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 1.5
@@ -8977,9 +9537,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 1
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 2
@@ -9004,9 +9561,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 2
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 2.75
@@ -9031,9 +9585,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 3
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 3.75
@@ -9058,9 +9609,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 4
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 4.75
@@ -9146,9 +9694,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 0
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 1.5
@@ -9173,9 +9718,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 1
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 2
@@ -9200,9 +9742,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 2
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 2.75
@@ -9227,9 +9766,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 3
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 3.75
@@ -9254,9 +9790,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 4
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 4.75
@@ -9303,9 +9836,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 0
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 1.5
@@ -9330,9 +9860,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 1
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 2
@@ -9357,9 +9884,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 2
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 2.75
@@ -9384,9 +9908,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 3
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 3.75
@@ -9411,9 +9932,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 4
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 4.75
@@ -9460,9 +9978,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 0
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 1.5
@@ -9487,9 +10002,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 1
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 2
@@ -9514,9 +10026,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 2
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 2.75
@@ -9541,9 +10050,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 3
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 3.75
@@ -9568,9 +10074,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 4
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 4.75
@@ -9617,9 +10120,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 0
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 1.5
@@ -9644,9 +10144,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 1
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 2
@@ -9671,9 +10168,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 2
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 2.75
@@ -9698,9 +10192,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 3
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 3.75
@@ -9725,9 +10216,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 4
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 4.75
@@ -9774,9 +10262,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 0
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 1.5
@@ -9801,9 +10286,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 1
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 2
@@ -9828,9 +10310,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 2
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 2.75
@@ -9855,9 +10334,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 3
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 3.75
@@ -9882,9 +10358,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 4
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 4.75
@@ -9970,9 +10443,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 0
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 1.5
@@ -9997,9 +10467,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 1
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 2
@@ -10024,9 +10491,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 2
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 2.75
@@ -10051,9 +10515,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 3
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 3.75
@@ -10078,9 +10539,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 4
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 4.75
@@ -10127,9 +10585,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 0
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 1.5
@@ -10154,9 +10609,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 1
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 2
@@ -10181,9 +10633,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 2
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 2.75
@@ -10208,9 +10657,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 3
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 3.75
@@ -10235,9 +10681,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 4
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 4.75
@@ -10284,9 +10727,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 0
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 1.5
@@ -10311,9 +10751,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 1
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 2
@@ -10338,9 +10775,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 2
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 2.75
@@ -10365,9 +10799,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 3
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 3.75
@@ -10392,9 +10823,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 4
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 4.75
@@ -10441,9 +10869,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 0
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 1.5
@@ -10468,9 +10893,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 1
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 2
@@ -10495,9 +10917,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 2
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 2.75
@@ -10522,9 +10941,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 3
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 3.75
@@ -10549,9 +10965,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 4
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 4.75
@@ -10598,9 +11011,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 0
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 1.5
@@ -10625,9 +11035,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 1
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 2
@@ -10652,9 +11059,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 2
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 2.75
@@ -10679,9 +11083,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 3
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 3.75
@@ -10706,9 +11107,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 4
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 4.75
@@ -10794,9 +11192,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 0
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 1.5
@@ -10821,9 +11216,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 1
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 2
@@ -10848,9 +11240,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 2
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 2.75
@@ -10875,9 +11264,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 3
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 3.75
@@ -10902,9 +11288,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 4
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 4.75
@@ -10951,9 +11334,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 0
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 1.5
@@ -10978,9 +11358,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 1
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 2
@@ -11005,9 +11382,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 2
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 2.75
@@ -11032,9 +11406,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 3
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 3.75
@@ -11059,9 +11430,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 4
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 4.75
@@ -11108,9 +11476,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 0
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 1.5
@@ -11135,9 +11500,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 1
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 2
@@ -11162,9 +11524,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 2
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 2.75
@@ -11189,9 +11548,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 3
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 3.75
@@ -11216,9 +11572,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 4
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 4.75
@@ -11265,9 +11618,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 0
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 1.5
@@ -11292,9 +11642,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 1
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 2
@@ -11319,9 +11666,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 2
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 2.75
@@ -11346,9 +11690,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 3
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 3.75
@@ -11373,9 +11714,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 4
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 4.75
@@ -11422,9 +11760,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 0
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 1.5
@@ -11449,9 +11784,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 1
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 2
@@ -11476,9 +11808,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 2
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 2.75
@@ -11503,9 +11832,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 3
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 3.75
@@ -11530,9 +11856,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 4
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 4.75
@@ -11579,9 +11902,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 0
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 1.5
@@ -11606,9 +11926,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 1
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 2
@@ -11633,9 +11950,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 2
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 2.75
@@ -11660,9 +11974,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 3
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 3.75
@@ -11687,9 +11998,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 4
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 4.75
@@ -11736,9 +12044,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 0
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 1.5
@@ -11763,9 +12068,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 1
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 2
@@ -11790,9 +12092,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 2
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 2.75
@@ -11817,9 +12116,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 3
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 3.75
@@ -11844,9 +12140,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 4
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 4.75
@@ -11893,9 +12186,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 0
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 1.5
@@ -11920,9 +12210,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 1
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 2
@@ -11947,9 +12234,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 2
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 2.75
@@ -11974,9 +12258,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 3
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 3.75
@@ -12001,9 +12282,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 4
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 4.75
@@ -12050,9 +12328,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 0
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 1.5
@@ -12077,9 +12352,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 1
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 2
@@ -12104,9 +12376,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 2
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 2.75
@@ -12131,9 +12400,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 3
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 3.75
@@ -12158,9 +12424,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 4
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 4.75
@@ -12207,9 +12470,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 0
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 1.5
@@ -12234,9 +12494,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 1
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 2
@@ -12261,9 +12518,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 2
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 2.75
@@ -12288,9 +12542,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 3
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 3.75
@@ -12315,9 +12566,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 4
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 4.75
@@ -12364,9 +12612,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 0
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 1.5
@@ -12391,9 +12636,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 1
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 2
@@ -12418,9 +12660,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 2
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 2.75
@@ -12445,9 +12684,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 3
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 3.75
@@ -12472,9 +12708,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 4
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 4.75
@@ -12564,9 +12797,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 0
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 1.5
@@ -12591,9 +12821,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 1
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 2
@@ -12618,9 +12845,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 2
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 2.75
@@ -12645,9 +12869,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 3
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 3.75
@@ -12672,9 +12893,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 4
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 4.75
@@ -12721,9 +12939,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 0
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 1.5
@@ -12748,9 +12963,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 1
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 2
@@ -12775,9 +12987,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 2
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 2.75
@@ -12802,9 +13011,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 3
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 3.75
@@ -12829,9 +13035,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 4
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 4.75
@@ -12878,9 +13081,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 0
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 1.5
@@ -12905,9 +13105,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 1
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 2
@@ -12932,9 +13129,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 2
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 2.75
@@ -12959,9 +13153,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 3
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 3.75
@@ -12986,9 +13177,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 4
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 4.75
@@ -13035,9 +13223,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 0
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 1.5
@@ -13062,9 +13247,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 1
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 2
@@ -13089,9 +13271,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 2
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 2.75
@@ -13116,9 +13295,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 3
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 3.75
@@ -13143,9 +13319,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 4
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 4.75
@@ -13192,9 +13365,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 0
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 1.5
@@ -13219,9 +13389,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 1
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 2
@@ -13246,9 +13413,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 2
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 2.75
@@ -13273,9 +13437,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 3
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 3.75
@@ -13300,9 +13461,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 4
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 4.75
@@ -13349,9 +13507,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 0
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 1.5
@@ -13376,9 +13531,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 1
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 2
@@ -13403,9 +13555,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 2
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 2.75
@@ -13430,9 +13579,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 3
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 3.75
@@ -13457,9 +13603,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 4
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 4.75
@@ -13506,9 +13649,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 0
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 1.5
@@ -13533,9 +13673,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 1
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 2
@@ -13560,9 +13697,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 2
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 2.75
@@ -13587,9 +13721,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 3
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 3.75
@@ -13614,9 +13745,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 4
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 4.75
@@ -13663,9 +13791,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 0
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 1.5
@@ -13690,9 +13815,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 1
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 2
@@ -13717,9 +13839,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 2
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 2.75
@@ -13744,9 +13863,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 3
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 3.75
@@ -13771,9 +13887,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 4
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 4.75
@@ -13820,9 +13933,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 0
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 1.5
@@ -13847,9 +13957,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 1
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 2
@@ -13874,9 +13981,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 2
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 2.75
@@ -13901,9 +14005,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 3
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 3.75
@@ -13928,9 +14029,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 4
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 4.75
@@ -13977,9 +14075,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 0
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 1.5
@@ -14004,9 +14099,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 1
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 2
@@ -14031,9 +14123,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 2
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 2.75
@@ -14058,9 +14147,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 3
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 3.75
@@ -14085,9 +14171,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 4
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 4.75
@@ -14134,9 +14217,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 0
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 1.5
@@ -14161,9 +14241,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 1
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 2
@@ -14188,9 +14265,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 2
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 2.75
@@ -14215,9 +14289,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 3
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 3.75
@@ -14242,9 +14313,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 4
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 4.75
@@ -14291,9 +14359,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 0
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 1.5
@@ -14318,9 +14383,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 1
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 2
@@ -14345,9 +14407,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 2
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 2.75
@@ -14372,9 +14431,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 3
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 3.75
@@ -14399,9 +14455,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 4
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 4.75
@@ -14448,9 +14501,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 0
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 1.5
@@ -14475,9 +14525,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 1
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 2
@@ -14502,9 +14549,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 2
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 2.75
@@ -14529,9 +14573,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 3
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 3.75
@@ -14556,9 +14597,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 4
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 4.75
@@ -14605,9 +14643,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 0
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 1.5
@@ -14632,9 +14667,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 1
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 2
@@ -14659,9 +14691,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 2
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 2.75
@@ -14686,9 +14715,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 3
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 3.75
@@ -14713,9 +14739,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 4
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 4.75
@@ -14762,9 +14785,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 0
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 1.5
@@ -14789,9 +14809,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 1
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 2
@@ -14816,9 +14833,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 2
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 2.75
@@ -14843,9 +14857,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 3
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 3.75
@@ -14870,9 +14881,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 4
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 4.75
@@ -14919,9 +14927,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 0
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 1.5
@@ -14946,9 +14951,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 1
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 2
@@ -14973,9 +14975,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 2
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 2.75
@@ -15000,9 +14999,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 3
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 3.75
@@ -15027,9 +15023,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 4
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 4.75
@@ -15076,9 +15069,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 0
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 1.5
@@ -15103,9 +15093,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 1
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 2
@@ -15130,9 +15117,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 2
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 2.75
@@ -15157,9 +15141,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 3
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 3.75
@@ -15184,9 +15165,6 @@ MonoBehaviour:
     - Name: tableLevels
       Entry: 3
       Data: 4
-    - Name: staffProfile
-      Entry: 6
-      Data: 
     - Name: treatmentCost
       Entry: 4
       Data: 4.75
@@ -15262,6 +15240,132 @@ MonoBehaviour:
   - 2
   - 4
   - 6
+--- !u!1001 &1322925802
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1472521265}
+    m_Modifications:
+    - target: {fileID: 1958398378103929737, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: cost
+      value: 
+      objectReference: {fileID: 726079538}
+    - target: {fileID: 1958398378103929737, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: costText
+      value: 
+      objectReference: {fileID: 1335490477}
+    - target: {fileID: 1958398378103929737, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: cancelBTN
+      value: 
+      objectReference: {fileID: 1580017810}
+    - target: {fileID: 1958398378103929737, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: tableInfo
+      value: 
+      objectReference: {fileID: 1297521486}
+    - target: {fileID: 1958398378103929737, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: upgradeUI
+      value: 
+      objectReference: {fileID: 305418998}
+    - target: {fileID: 1958398378103929737, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: upgradeBTN
+      value: 
+      objectReference: {fileID: 1293725536}
+    - target: {fileID: 1958398378103929737, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: upgradeString
+      value: 
+      objectReference: {fileID: 627738469}
+    - target: {fileID: 1958398378103929737, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: currencyEconomy
+      value: 
+      objectReference: {fileID: 1297521480}
+    - target: {fileID: 1958398378103929737, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: serializationData.Prefab
+      value: 
+      objectReference: {fileID: 1958398378103929737, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+    - target: {fileID: 4200107207254594559, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: m_Name
+      value: Table2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7440986876256755917, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.03773562
+      objectReference: {fileID: 0}
+    - target: {fileID: 7440986876256755917, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 3.380365
+      objectReference: {fileID: 0}
+    - target: {fileID: 7440986876256755917, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.013325193
+      objectReference: {fileID: 0}
+    - target: {fileID: 7440986876256755917, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 7440986876256755917, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.3862404
+      objectReference: {fileID: 0}
+    - target: {fileID: 7440986876256755917, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.2101
+      objectReference: {fileID: 0}
+    - target: {fileID: 7440986876256755917, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7440986876256755917, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7440986876256755917, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7440986876256755917, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7440986876256755917, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7440986876256755917, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7440986876256755917, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8801237286540028527, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: buyBTN
+      value: 
+      objectReference: {fileID: 174374007}
+    - target: {fileID: 8801237286540028527, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: cancelBTN
+      value: 
+      objectReference: {fileID: 36951573}
+    - target: {fileID: 8801237286540028527, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: currencyEconomy
+      value: 
+      objectReference: {fileID: 1297521480}
+    - target: {fileID: 8801237286540028527, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: serializationData.Prefab
+      value: 
+      objectReference: {fileID: 8801237286540028527, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+--- !u!4 &1322925803 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7440986876256755917, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+  m_PrefabInstance: {fileID: 1322925802}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1334419134
 GameObject:
   m_ObjectHideFlags: 0
@@ -16619,6 +16723,257 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1335490475}
   m_CullTransparentMesh: 1
+--- !u!1001 &1356236493
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 452615440}
+    m_Modifications:
+    - target: {fileID: 1958398378103929737, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: cost
+      value: 
+      objectReference: {fileID: 726079538}
+    - target: {fileID: 1958398378103929737, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: costText
+      value: 
+      objectReference: {fileID: 1335490477}
+    - target: {fileID: 1958398378103929737, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: cancelBTN
+      value: 
+      objectReference: {fileID: 1580017810}
+    - target: {fileID: 1958398378103929737, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: tableInfo
+      value: 
+      objectReference: {fileID: 1297521486}
+    - target: {fileID: 1958398378103929737, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: upgradeUI
+      value: 
+      objectReference: {fileID: 305418998}
+    - target: {fileID: 1958398378103929737, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: upgradeBTN
+      value: 
+      objectReference: {fileID: 1293725536}
+    - target: {fileID: 1958398378103929737, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: upgradeString
+      value: 
+      objectReference: {fileID: 627738469}
+    - target: {fileID: 1958398378103929737, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: currencyEconomy
+      value: 
+      objectReference: {fileID: 1297521480}
+    - target: {fileID: 1958398378103929737, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: serializationData.Prefab
+      value: 
+      objectReference: {fileID: 1958398378103929737, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+    - target: {fileID: 4200107207254594559, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: m_Name
+      value: Table1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7440986876256755917, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.2957641
+      objectReference: {fileID: 0}
+    - target: {fileID: 7440986876256755917, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.6494117
+      objectReference: {fileID: 0}
+    - target: {fileID: 7440986876256755917, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.22040235
+      objectReference: {fileID: 0}
+    - target: {fileID: 7440986876256755917, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7440986876256755917, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7440986876256755917, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7440986876256755917, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7440986876256755917, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7440986876256755917, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7440986876256755917, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8801237286540028527, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: buyBTN
+      value: 
+      objectReference: {fileID: 174374007}
+    - target: {fileID: 8801237286540028527, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: cancelBTN
+      value: 
+      objectReference: {fileID: 36951573}
+    - target: {fileID: 8801237286540028527, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: currencyEconomy
+      value: 
+      objectReference: {fileID: 1297521480}
+    - target: {fileID: 8801237286540028527, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: serializationData.Prefab
+      value: 
+      objectReference: {fileID: 8801237286540028527, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+--- !u!4 &1356236494 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7440986876256755917, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+  m_PrefabInstance: {fileID: 1356236493}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1356236496 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8801237286540028527, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+  m_PrefabInstance: {fileID: 1356236493}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcea81cb8f68b41649391dfecd425766, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1001 &1356410722
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1472521265}
+    m_Modifications:
+    - target: {fileID: 1958398378103929737, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: cost
+      value: 
+      objectReference: {fileID: 726079538}
+    - target: {fileID: 1958398378103929737, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: costText
+      value: 
+      objectReference: {fileID: 1335490477}
+    - target: {fileID: 1958398378103929737, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: cancelBTN
+      value: 
+      objectReference: {fileID: 1580017810}
+    - target: {fileID: 1958398378103929737, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: tableInfo
+      value: 
+      objectReference: {fileID: 1297521486}
+    - target: {fileID: 1958398378103929737, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: upgradeUI
+      value: 
+      objectReference: {fileID: 305418998}
+    - target: {fileID: 1958398378103929737, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: upgradeBTN
+      value: 
+      objectReference: {fileID: 1293725536}
+    - target: {fileID: 1958398378103929737, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: upgradeString
+      value: 
+      objectReference: {fileID: 627738469}
+    - target: {fileID: 1958398378103929737, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: currencyEconomy
+      value: 
+      objectReference: {fileID: 1297521480}
+    - target: {fileID: 1958398378103929737, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: serializationData.Prefab
+      value: 
+      objectReference: {fileID: 1958398378103929737, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+    - target: {fileID: 4200107207254594559, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: m_Name
+      value: Table3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7440986876256755917, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.03773562
+      objectReference: {fileID: 0}
+    - target: {fileID: 7440986876256755917, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 3.380365
+      objectReference: {fileID: 0}
+    - target: {fileID: 7440986876256755917, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.013325193
+      objectReference: {fileID: 0}
+    - target: {fileID: 7440986876256755917, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.09
+      objectReference: {fileID: 0}
+    - target: {fileID: 7440986876256755917, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.3862404
+      objectReference: {fileID: 0}
+    - target: {fileID: 7440986876256755917, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.0535
+      objectReference: {fileID: 0}
+    - target: {fileID: 7440986876256755917, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7440986876256755917, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7440986876256755917, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7440986876256755917, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7440986876256755917, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7440986876256755917, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7440986876256755917, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8801237286540028527, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: buyBTN
+      value: 
+      objectReference: {fileID: 174374007}
+    - target: {fileID: 8801237286540028527, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: cancelBTN
+      value: 
+      objectReference: {fileID: 36951573}
+    - target: {fileID: 8801237286540028527, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: currencyEconomy
+      value: 
+      objectReference: {fileID: 1297521480}
+    - target: {fileID: 8801237286540028527, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: serializationData.Prefab
+      value: 
+      objectReference: {fileID: 8801237286540028527, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+--- !u!4 &1356410723 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7440986876256755917, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+  m_PrefabInstance: {fileID: 1356410722}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1400447330
 GameObject:
   m_ObjectHideFlags: 0
@@ -16665,6 +17020,7 @@ MonoBehaviour:
       Entry: 6
       Data: 
   currencyEconomy: {fileID: 1297521480}
+  staff: {fileID: 0}
   buyBTN: {fileID: 1293725536}
   cancelBTN: {fileID: 1580017810}
   isTableLocked: 1
@@ -17173,6 +17529,11 @@ Transform:
   - {fileID: 1334419135}
   - {fileID: 1548776677}
   - {fileID: 761422161}
+  - {fileID: 1176778020}
+  - {fileID: 1322925803}
+  - {fileID: 1356410723}
+  - {fileID: 1202534923}
+  - {fileID: 1844815736}
   - {fileID: 1518147731}
   - {fileID: 697186276}
   - {fileID: 2103823338}
@@ -17191,12 +17552,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 096076a646fb01e4e80d462ed2272e73, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  treatmentTables:
-  - {fileID: 761422163}
-  - {fileID: 1518147733}
-  - {fileID: 697186278}
-  - {fileID: 2103823340}
-  - {fileID: 378961811}
+  treatmentTables: []
   patientWaitingArea: {fileID: 1552310025}
   areaDetails: {fileID: 11400000, guid: d1f8a47d6d0b64535839aee7dc087b38, type: 2}
   spaceBetweenPatients: 1.36
@@ -17398,7 +17754,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1518147731
 Transform:
   m_ObjectHideFlags: 0
@@ -17471,6 +17827,7 @@ MonoBehaviour:
       Entry: 6
       Data: 
   currencyEconomy: {fileID: 1297521480}
+  staff: {fileID: 0}
   buyBTN: {fileID: 1293725536}
   cancelBTN: {fileID: 1580017810}
   isTableLocked: 1
@@ -17561,15 +17918,13 @@ GameObject:
   - component: {fileID: 1547066342}
   - component: {fileID: 1547066341}
   - component: {fileID: 1547066340}
-  - component: {fileID: 1547066343}
-  - component: {fileID: 1547066344}
   m_Layer: 6
   m_Name: Table1
   m_TagString: table
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1547066339
 Transform:
   m_ObjectHideFlags: 0
@@ -17659,67 +18014,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1547066338}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1547066343
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1547066338}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fcea81cb8f68b41649391dfecd425766, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  serializationData:
-    SerializedFormat: 2
-    SerializedBytes: 
-    ReferencedUnityObjects: []
-    SerializedBytesString: 
-    Prefab: {fileID: 0}
-    PrefabModificationsReferencedUnityObjects: []
-    PrefabModifications: []
-    SerializationNodes:
-    - Name: so_TableBehavior
-      Entry: 6
-      Data: 
-  currencyEconomy: {fileID: 1297521480}
-  buyBTN: {fileID: 174374007}
-  cancelBTN: {fileID: 36951573}
-  isTableLocked: 1
-  isOccupied: 0
---- !u!114 &1547066344
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1547066338}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1f40ebf75bcae4b1aad98d07a360df9b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  serializationData:
-    SerializedFormat: 2
-    SerializedBytes: 
-    ReferencedUnityObjects: []
-    SerializedBytesString: 
-    Prefab: {fileID: 0}
-    PrefabModificationsReferencedUnityObjects: []
-    PrefabModifications: []
-    SerializationNodes:
-    - Name: currentTableBehaviors
-      Entry: 6
-      Data: 
-  tableInfo: {fileID: 1297521486}
-  currencyEconomy: {fileID: 1297521480}
-  upgradeBTN: {fileID: 1293725536}
-  cancelBTN: {fileID: 1580017810}
-  upgradeUI: {fileID: 305418998}
-  upgradeString: {fileID: 627738469}
-  cost: {fileID: 726079538}
-  costText: {fileID: 1335490477}
 --- !u!1 &1548776676
 GameObject:
   m_ObjectHideFlags: 0
@@ -18260,6 +18554,7 @@ MonoBehaviour:
       Entry: 6
       Data: 
   currencyEconomy: {fileID: 1297521480}
+  staff: {fileID: 0}
   buyBTN: {fileID: 1293725536}
   cancelBTN: {fileID: 1580017810}
   isTableLocked: 1
@@ -18567,6 +18862,7 @@ MonoBehaviour:
       Entry: 6
       Data: 
   currencyEconomy: {fileID: 1297521480}
+  staff: {fileID: 0}
   buyBTN: {fileID: 1293725536}
   cancelBTN: {fileID: 1580017810}
   isTableLocked: 1
@@ -18834,7 +19130,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1710539565
 Transform:
   m_ObjectHideFlags: 0
@@ -18949,6 +19245,7 @@ MonoBehaviour:
       Entry: 6
       Data: 
   currencyEconomy: {fileID: 1297521480}
+  staff: {fileID: 0}
   buyBTN: {fileID: 174374007}
   cancelBTN: {fileID: 36951573}
   isTableLocked: 1
@@ -19031,6 +19328,7 @@ MonoBehaviour:
       Entry: 6
       Data: 
   currencyEconomy: {fileID: 1297521480}
+  staff: {fileID: 0}
   buyBTN: {fileID: 1293725536}
   cancelBTN: {fileID: 1580017810}
   isTableLocked: 1
@@ -19386,6 +19684,7 @@ MonoBehaviour:
       Entry: 6
       Data: 
   currencyEconomy: {fileID: 1297521480}
+  staff: {fileID: 0}
   buyBTN: {fileID: 1293725536}
   cancelBTN: {fileID: 1580017810}
   isTableLocked: 1
@@ -19618,6 +19917,132 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1805331489}
   m_CullTransparentMesh: 1
+--- !u!1001 &1844815735
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1472521265}
+    m_Modifications:
+    - target: {fileID: 1958398378103929737, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: cost
+      value: 
+      objectReference: {fileID: 726079538}
+    - target: {fileID: 1958398378103929737, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: costText
+      value: 
+      objectReference: {fileID: 1335490477}
+    - target: {fileID: 1958398378103929737, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: cancelBTN
+      value: 
+      objectReference: {fileID: 1580017810}
+    - target: {fileID: 1958398378103929737, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: tableInfo
+      value: 
+      objectReference: {fileID: 1297521486}
+    - target: {fileID: 1958398378103929737, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: upgradeUI
+      value: 
+      objectReference: {fileID: 305418998}
+    - target: {fileID: 1958398378103929737, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: upgradeBTN
+      value: 
+      objectReference: {fileID: 1293725536}
+    - target: {fileID: 1958398378103929737, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: upgradeString
+      value: 
+      objectReference: {fileID: 627738469}
+    - target: {fileID: 1958398378103929737, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: currencyEconomy
+      value: 
+      objectReference: {fileID: 1297521480}
+    - target: {fileID: 1958398378103929737, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: serializationData.Prefab
+      value: 
+      objectReference: {fileID: 1958398378103929737, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+    - target: {fileID: 4200107207254594559, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: m_Name
+      value: Table5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7440986876256755917, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.03773562
+      objectReference: {fileID: 0}
+    - target: {fileID: 7440986876256755917, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 3.380365
+      objectReference: {fileID: 0}
+    - target: {fileID: 7440986876256755917, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.013325193
+      objectReference: {fileID: 0}
+    - target: {fileID: 7440986876256755917, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.344
+      objectReference: {fileID: 0}
+    - target: {fileID: 7440986876256755917, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.3862404
+      objectReference: {fileID: 0}
+    - target: {fileID: 7440986876256755917, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.2106
+      objectReference: {fileID: 0}
+    - target: {fileID: 7440986876256755917, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7440986876256755917, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7440986876256755917, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7440986876256755917, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7440986876256755917, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7440986876256755917, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7440986876256755917, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8801237286540028527, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: buyBTN
+      value: 
+      objectReference: {fileID: 174374007}
+    - target: {fileID: 8801237286540028527, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: cancelBTN
+      value: 
+      objectReference: {fileID: 36951573}
+    - target: {fileID: 8801237286540028527, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: currencyEconomy
+      value: 
+      objectReference: {fileID: 1297521480}
+    - target: {fileID: 8801237286540028527, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: serializationData.Prefab
+      value: 
+      objectReference: {fileID: 8801237286540028527, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+--- !u!4 &1844815736 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7440986876256755917, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+  m_PrefabInstance: {fileID: 1844815735}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1870939415
 GameObject:
   m_ObjectHideFlags: 0
@@ -19692,7 +20117,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1883924476
 Transform:
   m_ObjectHideFlags: 0
@@ -19807,6 +20232,7 @@ MonoBehaviour:
       Entry: 6
       Data: 
   currencyEconomy: {fileID: 1297521480}
+  staff: {fileID: 0}
   buyBTN: {fileID: 174374007}
   cancelBTN: {fileID: 36951573}
   isTableLocked: 1
@@ -19889,6 +20315,7 @@ MonoBehaviour:
       Entry: 6
       Data: 
   currencyEconomy: {fileID: 1297521480}
+  staff: {fileID: 0}
   buyBTN: {fileID: 1293725536}
   cancelBTN: {fileID: 1580017810}
   isTableLocked: 1
@@ -20198,6 +20625,7 @@ MonoBehaviour:
       Entry: 6
       Data: 
   currencyEconomy: {fileID: 1297521480}
+  staff: {fileID: 0}
   buyBTN: {fileID: 1293725536}
   cancelBTN: {fileID: 1580017810}
   isTableLocked: 1
@@ -20505,6 +20933,7 @@ MonoBehaviour:
       Entry: 6
       Data: 
   currencyEconomy: {fileID: 1297521480}
+  staff: {fileID: 0}
   buyBTN: {fileID: 1293725536}
   cancelBTN: {fileID: 1580017810}
   isTableLocked: 1
@@ -20797,6 +21226,7 @@ MonoBehaviour:
       Entry: 6
       Data: 
   currencyEconomy: {fileID: 1297521480}
+  staff: {fileID: 0}
   buyBTN: {fileID: 174374007}
   cancelBTN: {fileID: 36951573}
   isTableLocked: 1
@@ -20983,6 +21413,7 @@ MonoBehaviour:
       Entry: 6
       Data: 
   currencyEconomy: {fileID: 1297521480}
+  staff: {fileID: 0}
   buyBTN: {fileID: 1293725536}
   cancelBTN: {fileID: 1580017810}
   isTableLocked: 1
@@ -21154,6 +21585,7 @@ MonoBehaviour:
       Entry: 6
       Data: 
   currencyEconomy: {fileID: 1297521480}
+  staff: {fileID: 0}
   buyBTN: {fileID: 1293725536}
   cancelBTN: {fileID: 1580017810}
   isTableLocked: 1
@@ -21446,6 +21878,7 @@ MonoBehaviour:
       Entry: 6
       Data: 
   currencyEconomy: {fileID: 1297521480}
+  staff: {fileID: 0}
   buyBTN: {fileID: 174374007}
   cancelBTN: {fileID: 36951573}
   isTableLocked: 1
@@ -21496,6 +21929,7 @@ MonoBehaviour:
       Entry: 6
       Data: 
   currencyEconomy: {fileID: 1297521480}
+  staff: {fileID: 0}
   buyBTN: {fileID: 1293725536}
   cancelBTN: {fileID: 1580017810}
   isTableLocked: 1
@@ -21641,7 +22075,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2103823338
 Transform:
   m_ObjectHideFlags: 0
@@ -21714,6 +22148,7 @@ MonoBehaviour:
       Entry: 6
       Data: 
   currencyEconomy: {fileID: 1297521480}
+  staff: {fileID: 0}
   buyBTN: {fileID: 1293725536}
   cancelBTN: {fileID: 1580017810}
   isTableLocked: 1
@@ -21792,11 +22227,267 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2103823337}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!210 &131574763535021961
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6107919159506667187}
+  m_Enabled: 1
+  m_SortingLayerID: -1874313459
+  m_SortingLayer: 5
+  m_SortingOrder: 0
+  m_SortAtRoot: 0
 --- !u!4 &543450652398696547 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: e28fc136e41d9f94791fed637675fcdd, type: 3}
   m_PrefabInstance: {fileID: 1334894472}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &1347259571356151447
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5377021634354874796}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.5669, y: 0.5669, z: 0.5669}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6988719993327249777}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1490364115430342794
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5377021634354874796}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 749894800, guid: 2b874155d300cd24b9a43fa6dbb2b6d8, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 5.74, y: 8.06}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!1 &4000766090151393030
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6988719993327249777}
+  - component: {fileID: 1206179560}
+  m_Layer: 0
+  m_Name: Table1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!210 &4228866073503365206
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5377021634354874796}
+  m_Enabled: 1
+  m_SortingLayerID: 990060545
+  m_SortingLayer: 4
+  m_SortingOrder: 0
+  m_SortAtRoot: 0
+--- !u!114 &4950606888484808494
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5377021634354874796}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6c36cac83d241646adcc80ef8d2e34f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LVL: 1
+--- !u!1 &5377021634354874796
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1347259571356151447}
+  - component: {fileID: 1490364115430342794}
+  - component: {fileID: 5414583918285246745}
+  - component: {fileID: 4950606888484808494}
+  - component: {fileID: 4228866073503365206}
+  m_Layer: 0
+  m_Name: MedStaff V1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!95 &5414583918285246745
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5377021634354874796}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 4fbd1ec06f723d6469a6deb927a987f2, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!23 &5747521582597482342
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6107919159506667187}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: -7184819803674296287, guid: 5f9ff4479118b1147a7d27b89ad7dce6, type: 3}
+  - {fileID: -7268501363748857628, guid: 5f9ff4479118b1147a7d27b89ad7dce6, type: 3}
+  - {fileID: 6197864568910777306, guid: 5f9ff4479118b1147a7d27b89ad7dce6, type: 3}
+  - {fileID: -4578000112227511891, guid: 5f9ff4479118b1147a7d27b89ad7dce6, type: 3}
+  - {fileID: 7118842234376612076, guid: 5f9ff4479118b1147a7d27b89ad7dce6, type: 3}
+  - {fileID: -3337121236067890131, guid: 5f9ff4479118b1147a7d27b89ad7dce6, type: 3}
+  - {fileID: -2156655831811897154, guid: 5f9ff4479118b1147a7d27b89ad7dce6, type: 3}
+  - {fileID: 6795775692839751146, guid: 5f9ff4479118b1147a7d27b89ad7dce6, type: 3}
+  - {fileID: 3721573117254044294, guid: 5f9ff4479118b1147a7d27b89ad7dce6, type: 3}
+  - {fileID: 3567050066865257616, guid: 5f9ff4479118b1147a7d27b89ad7dce6, type: 3}
+  - {fileID: 709522256437886939, guid: 5f9ff4479118b1147a7d27b89ad7dce6, type: 3}
+  - {fileID: 4603001012297159876, guid: 5f9ff4479118b1147a7d27b89ad7dce6, type: 3}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &6107919159506667187
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6883858347276295177}
+  - component: {fileID: 7505173069872092076}
+  - component: {fileID: 5747521582597482342}
+  - component: {fileID: 131574763535021961}
+  m_Layer: 0
+  m_Name: lvl1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6883858347276295177
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6107919159506667187}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071067}
+  m_LocalPosition: {x: 0, y: -2.9, z: -1.43}
+  m_LocalScale: {x: 100, y: 99.999985, z: 99.999985}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6988719993327249777}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &6944215634982880796 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6944215633950054804, guid: e28fc136e41d9f94791fed637675fcdd, type: 3}
@@ -21814,6 +22505,31 @@ SortingGroup:
   m_SortingLayer: 3
   m_SortingOrder: 65
   m_SortAtRoot: 0
+--- !u!4 &6988719993327249777
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4000766090151393030}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.3016, y: 9.3, z: 0.356}
+  m_LocalScale: {x: 0.040401477, y: 5, z: 0.089528166}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 6883858347276295177}
+  - {fileID: 1347259571356151447}
+  m_Father: {fileID: 452615440}
+  m_LocalEulerAnglesHint: {x: 0, y: 30, z: 0}
+--- !u!33 &7505173069872092076
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6107919159506667187}
+  m_Mesh: {fileID: -5853399327137953234, guid: 5f9ff4479118b1147a7d27b89ad7dce6, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
