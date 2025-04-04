@@ -3,6 +3,7 @@ using UnityEngine.UI;
 using TMPro;
 using System.Collections.Generic;
 using Sirenix.OdinInspector;
+using System.Text.RegularExpressions;
 
 public class TableUpgrade : SerializedMonoBehaviour
 {
@@ -81,7 +82,12 @@ public class TableUpgrade : SerializedMonoBehaviour
             upgradeBTN.gameObject.SetActive(true);
             costText.gameObject.SetActive(true);
             cost.gameObject.SetActive(true);
-            upgradeString.text = $"Upgrade to {currentTableBehaviors[currentTableLevel + 1].tableLevels}?";
+
+            string nextLevel = currentTableBehaviors[currentTableLevel + 1].tableLevels.ToString();
+            Match match = Regex.Match(nextLevel, "\"?(Medical_Student|Intern_Doctor|Resident|Fellow|Attending_Physician)\"?");
+            string title = match.Success ? match.Groups[1].Value.Replace('_', ' ') : nextLevel.Replace('_', ' ');
+
+            upgradeString.text = $"Upgrade to {title}?";
             cost.text = currentTableBehaviors[currentTableLevel + 1].costToHire.ToString();
         }
     }
