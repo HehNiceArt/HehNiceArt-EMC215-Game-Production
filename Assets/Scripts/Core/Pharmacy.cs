@@ -10,7 +10,6 @@ public class Pharmacy : MonoBehaviour
     public Transform tellerArea;
     [SerializeField] SO_AreaDetails areaDetails;
     [SerializeField] float tellerSpacing = 2f;
-    [SerializeField] GameObject tellerPrefab;
 
     [Header("Settings")]
     [SerializeField] int numberOfTellers = 3;
@@ -45,12 +44,7 @@ public class Pharmacy : MonoBehaviour
         for (int i = 0; i < numberOfTellers; i++)
         {
             Vector3 tellerPosition = tellerArea.position + tellerArea.right * (i - (numberOfTellers - 1) / 2f) * tellerSpacing;
-
-            // Instantiate teller prefab
-            GameObject tellerObject = Instantiate(tellerPrefab, tellerPosition, tellerArea.rotation, tellerArea);
-            tellerObject.name = $"Teller_{i + 1}";
-
-            tellers[i] = new Teller(tellerPosition, tellerObject);
+            tellers[i] = new Teller(tellerPosition);
         }
     }
 
@@ -217,12 +211,10 @@ public class Teller
     private Patient currentPatient;
     private bool patientReachedCounter = false;
     private Vector3 tellerPosition;
-    private GameObject tellerObject; // Add this field
 
-    public Teller(Vector3 position, GameObject tellerObj)
+    public Teller(Vector3 position)
     {
         tellerPosition = position;
-        tellerObject = tellerObj;
     }
 
     public void ServePatient(Patient patient)

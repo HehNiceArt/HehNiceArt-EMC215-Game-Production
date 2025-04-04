@@ -1222,7 +1222,7 @@ Transform:
   m_GameObject: {fileID: 109324153}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.09, y: 7.87, z: 0.23}
+  m_LocalPosition: {x: -3.2, y: 7.87, z: -1.24}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2644,7 +2644,7 @@ MonoBehaviour:
   patientWaitingArea: {fileID: 30593409}
   tellerArea: {fileID: 679454065}
   areaDetails: {fileID: 11400000, guid: 8ca699ea7805c4d309356ee5abdfdd10, type: 2}
-  tellerSpacing: 1
+  tellerSpacing: 2
   tellerPrefab: {fileID: 7092390114610965426, guid: 1fba30ac37dc56940a6ad258cce70e23, type: 3}
   numberOfTellers: 3
   incomePerPatient: 200
@@ -3711,7 +3711,7 @@ Camera:
   far clip plane: 1000
   field of view: 34
   orthographic: 1
-  orthographic size: 9
+  orthographic size: 17.58
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -3735,13 +3735,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.2588191, y: 0, z: 0, w: 0.9659258}
-  m_LocalPosition: {x: 1.7, y: 56.7, z: -84.6}
+  m_LocalRotation: {x: 0.3335441, y: -0, z: -0, w: 0.9427345}
+  m_LocalPosition: {x: 1.7, y: 77.6, z: -84.6}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 30, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 38.968, y: 0, z: 0}
 --- !u!114 &519420033
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3759,7 +3759,7 @@ MonoBehaviour:
   mousePanSpeed: 2
   zoomSpeed: 50
   minZoom: 2
-  maxZoom: 15
+  maxZoom: 20
   currencyEconomy: {fileID: 1297521480}
   tableUpgrade: []
 --- !u!1 &544662651
@@ -14950,7 +14950,8 @@ Transform:
   m_LocalPosition: {x: 0.69848263, y: 0, z: -0.39073607}
   m_LocalScale: {x: 0.08975568, y: 10.179982, z: 0.07049094}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1794582983}
   m_Father: {fileID: 1472521265}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1334419136
@@ -14968,7 +14969,7 @@ MonoBehaviour:
   patientWaitingArea: {fileID: 1548776677}
   tellerArea: {fileID: 1794582983}
   areaDetails: {fileID: 11400000, guid: d1f8a47d6d0b64535839aee7dc087b38, type: 2}
-  tellerSpacing: 3
+  tellerSpacing: 2
   tellerPrefab: {fileID: 7092390114610965426, guid: 1fba30ac37dc56940a6ad258cce70e23, type: 3}
   numberOfTellers: 3
   incomePerPatient: 50
@@ -16815,7 +16816,6 @@ Transform:
   m_Children:
   - {fileID: 1552310025}
   - {fileID: 1334419135}
-  - {fileID: 1794582983}
   - {fileID: 1548776677}
   - {fileID: 761422161}
   - {fileID: 1518147731}
@@ -18805,7 +18805,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 94a974a7c5f51481dbeaee95d9a6751c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  so_AreaDetails: {fileID: 11400000, guid: d1f8a47d6d0b64535839aee7dc087b38, type: 2}
+  so_AreaDetails: {fileID: 11400000, guid: 8ca699ea7805c4d309356ee5abdfdd10, type: 2}
   currencyEconomy: {fileID: 1297521480}
   buyBTN: {fileID: 174374007}
   cancelBTN: {fileID: 36951573}
@@ -19151,12 +19151,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1794582982}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0.6896828, z: -0, w: 0.7241117}
-  m_LocalPosition: {x: 0.421, y: 0, z: -0.262}
-  m_LocalScale: {x: 0.08093136, y: 10.179982, z: 0.07576233}
+  m_LocalRotation: {x: -0, y: -0.47876847, z: -0, w: 0.87794125}
+  m_LocalPosition: {x: -1.9601984, y: 0, z: 3.5498185}
+  m_LocalScale: {x: 1.0656995, y: 1, z: 0.90480065}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1472521265}
+  m_Father: {fileID: 1334419135}
   m_LocalEulerAnglesHint: {x: 0, y: -57.21, z: 0}
 --- !u!1 &1870939415
 GameObject:

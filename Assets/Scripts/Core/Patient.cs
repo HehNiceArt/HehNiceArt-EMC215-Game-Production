@@ -96,6 +96,7 @@ public class Patient : MonoBehaviour
             int rand = Random.Range(0, availableRooms.Count);
             currentRoom = availableRooms[rand];
             currentRoom.AddPatientToQueue(gameObject);
+            Debug.Log($"{this.gameObject.name} is assigned to {currentRoom.name}");
             isWaiting = true;
         }
         else

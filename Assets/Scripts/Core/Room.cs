@@ -54,7 +54,7 @@ public class Room : MonoBehaviour
         if (areaDetails != null && areaDetails.whichArea == WhichArea.secondArea || areaDetails.whichArea == WhichArea.fourthArea || areaDetails.whichArea == WhichArea.fifthArea)
             if (ShouldVisitPharmacy())
             {
-                Debug.Log("wdawd");
+                //Debug.Log("wdawd");
                 if (pharmacy != null && pharmacy.CanAcceptPatient())
                 {
                     patient.AssignToPharmacy(pharmacy);
