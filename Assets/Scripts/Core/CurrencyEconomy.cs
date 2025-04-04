@@ -55,11 +55,14 @@ public class CurrencyEconomy : MonoBehaviour
         {
             purchaseUI.SetActive(true);
 
-            Match match = Regex.Match(areaName, "\"?(Area)(\\d+)\"?");
+            /*
 
-            string p1 = match.Groups[1].Value;
-            string p2 = match.Groups[2].Value;
-            purchaseString.text = $"Purchase {p1} {p2}";
+                        Match match = Regex.Match(areaName, "\"?(Area)(\\d+)\"?");
+
+                        string p1 = match.Groups[1].Value;
+                        string p2 = match.Groups[2].Value;
+            */
+            purchaseString.text = $"Purchase {areaName} ";
             lvlToUnlockUI.gameObject.SetActive(true);
             lvlToUnlockUI.text = lvlToUnlock.ToString();
         }

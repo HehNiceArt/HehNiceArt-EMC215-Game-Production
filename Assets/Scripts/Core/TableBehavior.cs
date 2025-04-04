@@ -2,11 +2,11 @@ using UnityEngine;
 
 public enum TableLevels
 {
-    medicalStudent,
-    internDoctor,
-    resident,
-    fellow,
-    attendingPhysician
+    Medical_Student,
+    Intern_Doctor,
+    Resident,
+    Fellow,
+    Attending_Physician
 }
 public class TableBehavior
 {
@@ -22,31 +22,31 @@ public class TableBehavior
     {
         switch (tableLevels)
         {
-            case TableLevels.medicalStudent:
+            case TableLevels.Medical_Student:
                 treatmentCost = 1.5f;
                 salary = 167f;
                 costToHire = 250f;
                 xpGain = 158f;
                 break;
-            case TableLevels.internDoctor:
+            case TableLevels.Intern_Doctor:
                 treatmentCost = 2f;
                 salary = 467f;
                 costToHire = 700f;
                 xpGain = 264f;
                 break;
-            case TableLevels.resident:
+            case TableLevels.Resident:
                 treatmentCost = 2.75f;
                 salary = 667f;
                 costToHire = 1000f;
                 xpGain = 316f;
                 break;
-            case TableLevels.fellow:
+            case TableLevels.Fellow:
                 treatmentCost = 3.75f;
                 salary = 2333f;
                 costToHire = 3500f;
                 xpGain = 592f;
                 break;
-            case TableLevels.attendingPhysician:
+            case TableLevels.Attending_Physician:
                 treatmentCost = 4.75f;
                 salary = 4000f;
                 costToHire = 6000f;
