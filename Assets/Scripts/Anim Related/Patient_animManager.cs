@@ -25,9 +25,17 @@ public class Patient_animManager : MonoBehaviour
 
     void Update()
     {
-
-        Vector2 direction = GetDirection();
-        SetAnim(direction);
+        if (!patient.hasReachedTable)
+        {
+            Vector2 direction = GetDirection();
+            SetAnim(direction);
+        }
+        else
+        {
+            SetState("sit");
+            anim.SetBool("facingFront", false);
+            agent.updateRotation = false;
+        }
     }
 
 
@@ -45,6 +53,7 @@ public class Patient_animManager : MonoBehaviour
             if (patient.isWaiting || patient.hasReachedTable)
             {
                 SetState("sit");
+                anim.SetBool("facingFront", false);
             }
             else
             {
