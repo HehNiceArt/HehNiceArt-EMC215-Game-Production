@@ -1260,7 +1260,7 @@ Transform:
   m_LocalScale: {x: 92.712, y: 122.57726, z: 100}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1545485096}
+  m_Father: {fileID: 543450652398696547}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!23 &115449360
 MeshRenderer:
@@ -2369,7 +2369,7 @@ Transform:
   m_LocalScale: {x: 122.72711, y: 90.17569, z: 100}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1545485096}
+  m_Father: {fileID: 543450652398696547}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!23 &232858583
 MeshRenderer:
@@ -3104,7 +3104,7 @@ Transform:
   m_Children:
   - {fileID: 1708952467}
   - {fileID: 1602999773}
-  - {fileID: 1545485096}
+  - {fileID: 543450652398696547}
   - {fileID: 1555496940}
   - {fileID: 452615440}
   - {fileID: 1472521265}
@@ -3735,13 +3735,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.465749, y: -0, z: -0, w: 0.88491684}
-  m_LocalPosition: {x: 1.7, y: 77.6, z: -46.4}
+  m_LocalRotation: {x: 0.46564546, y: -0, z: -0, w: 0.8849714}
+  m_LocalPosition: {x: 1.7, y: 80.1, z: -46.4}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 55.517, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 55.504, y: 0, z: 0}
 --- !u!114 &519420033
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3754,7 +3754,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e0197b463d9845cabc65b6c82fb4210, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 20
+  moveSpeed: 30
   movementBounds: {x: 47, y: 55}
   mousePanSpeed: 2
   zoomSpeed: 50
@@ -4117,7 +4117,7 @@ Transform:
   m_LocalScale: {x: 92.712, y: 122.57726, z: 100}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1545485096}
+  m_Father: {fileID: 543450652398696547}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!23 &590225158
 MeshRenderer:
@@ -4331,7 +4331,7 @@ MonoBehaviour:
   m_Intensity: 1
   m_LightVolumeIntensity: 1
   m_LightVolumeEnabled: 0
-  m_ApplyToSortingLayers: 00000000
+  m_ApplyToSortingLayers: 00000000af06349e292bd253a369988f
   m_LightCookieSprite: {fileID: 0}
   m_DeprecatedPointLightCookieSprite: {fileID: 0}
   m_LightOrder: 0
@@ -6289,7 +6289,7 @@ Transform:
   m_LocalScale: {x: 92.712, y: 122.57726, z: 100}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1545485096}
+  m_Father: {fileID: 543450652398696547}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!23 &773478264
 MeshRenderer:
@@ -6743,7 +6743,7 @@ Transform:
   m_GameObject: {fileID: 839568136}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 39.8, y: 2, z: -32.2}
+  m_LocalPosition: {x: -7.3, y: 2, z: -68.8}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6774,7 +6774,7 @@ Transform:
   m_GameObject: {fileID: 877064682}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -35.1, y: 2, z: -45.1}
+  m_LocalPosition: {x: -45.1, y: 2, z: -56.8}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6805,7 +6805,7 @@ Transform:
   m_GameObject: {fileID: 938495626}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -68.8, y: 2, z: -13.4}
+  m_LocalPosition: {x: -68.8, y: -4.1, z: -31.3}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7833,7 +7833,7 @@ Transform:
   m_LocalScale: {x: 100, y: 100, z: 100}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1545485096}
+  m_Father: {fileID: 543450652398696547}
   m_LocalEulerAnglesHint: {x: -180, y: 90, z: 0}
 --- !u!23 &1196801197
 MeshRenderer:
@@ -15744,6 +15744,14 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: 1.62
       objectReference: {fileID: 0}
+    - target: {fileID: -2727719373775845737, guid: e28fc136e41d9f94791fed637675fcdd, type: 3}
+      propertyPath: m_CastShadows
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -2727719373775845737, guid: e28fc136e41d9f94791fed637675fcdd, type: 3}
+      propertyPath: m_RenderingLayerMask
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: -2635035215229158131, guid: e28fc136e41d9f94791fed637675fcdd, type: 3}
       propertyPath: m_Name
       value: Bookshelf 2nd
@@ -16236,6 +16244,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Patient Dextrose Implants
       objectReference: {fileID: 0}
+    - target: {fileID: 6944215633950054804, guid: e28fc136e41d9f94791fed637675fcdd, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 6961647703926770328, guid: e28fc136e41d9f94791fed637675fcdd, type: 3}
       propertyPath: m_Name
       value: Bed Curtains
@@ -16466,7 +16478,10 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: e28fc136e41d9f94791fed637675fcdd, type: 3}
       insertIndex: -1
       addedObject: {fileID: 773478263}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6944215633950054804, guid: e28fc136e41d9f94791fed637675fcdd, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6944215634982880797}
   m_SourcePrefab: {fileID: 100100000, guid: e28fc136e41d9f94791fed637675fcdd, type: 3}
 --- !u!1 &1335490475
 GameObject:
@@ -16806,7 +16821,7 @@ Transform:
   m_LocalScale: {x: 100.000015, y: 100.000015, z: 100}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1545485096}
+  m_Father: {fileID: 543450652398696547}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &1426009968
 MeshRenderer:
@@ -16894,7 +16909,7 @@ Transform:
   m_LocalScale: {x: 122.72711, y: 89.458595, z: 100}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1545485096}
+  m_Father: {fileID: 543450652398696547}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!23 &1426597818
 MeshRenderer:
@@ -17534,11 +17549,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1518147730}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!4 &1545485096 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: e28fc136e41d9f94791fed637675fcdd, type: 3}
-  m_PrefabInstance: {fileID: 1334894472}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1547066338
 GameObject:
   m_ObjectHideFlags: 0
@@ -18066,7 +18076,7 @@ Transform:
   m_LocalScale: {x: 122.72711, y: 83.58074, z: 100}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1545485096}
+  m_Father: {fileID: 543450652398696547}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!23 &1592052564
 MeshRenderer:
@@ -18713,7 +18723,7 @@ Transform:
   m_LocalScale: {x: 100, y: 100, z: 100}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1545485096}
+  m_Father: {fileID: 543450652398696547}
   m_LocalEulerAnglesHint: {x: -180, y: 90, z: 0}
 --- !u!23 &1691876277
 MeshRenderer:
@@ -21782,6 +21792,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2103823337}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &543450652398696547 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: e28fc136e41d9f94791fed637675fcdd, type: 3}
+  m_PrefabInstance: {fileID: 1334894472}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &6944215634982880796 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6944215633950054804, guid: e28fc136e41d9f94791fed637675fcdd, type: 3}
+  m_PrefabInstance: {fileID: 1334894472}
+  m_PrefabAsset: {fileID: 0}
+--- !u!210 &6944215634982880797
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6944215634982880796}
+  m_Enabled: 1
+  m_SortingLayerID: -1640757585
+  m_SortingLayer: 3
+  m_SortingOrder: 65
+  m_SortAtRoot: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

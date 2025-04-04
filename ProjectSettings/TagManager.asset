@@ -6,6 +6,7 @@ TagManager:
   tags:
   - table
   - PatientSpawnPoint
+  - Wall
   layers:
   - Default
   - TransparentFX
@@ -16,7 +17,7 @@ TagManager:
   - table
   - wall
   - 
-  - 
+  - Patients
   - 
   - 
   - 
@@ -43,5 +44,16 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Front
+    uniqueID: 2409130403
+    locked: 0
+  - name: Patient
+    uniqueID: 1406282537
+    locked: 0
+  - name: Wall
+    uniqueID: 2654209711
+    locked: 0
   m_RenderingLayers:
   - Default
+  - Patients
+  - Wall

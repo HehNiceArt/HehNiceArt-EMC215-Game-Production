@@ -14,7 +14,8 @@ GameObject:
   - component: {fileID: 2484497397568380917}
   - component: {fileID: 2343224467368235472}
   - component: {fileID: 96943195757105979}
-  m_Layer: 0
+  - component: {fileID: -5456948256876158856}
+  m_Layer: 9
   m_Name: Lowest Patient
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -158,6 +159,18 @@ NavMeshAgent:
   m_BaseOffset: 1
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 1
+--- !u!210 &-5456948256876158856
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6224452945722829814}
+  m_Enabled: 1
+  m_SortingLayerID: 1406282537
+  m_SortingLayer: 2
+  m_SortingOrder: 0
+  m_SortAtRoot: 0
 --- !u!1 &7717008190604236124
 GameObject:
   m_ObjectHideFlags: 0
@@ -169,7 +182,7 @@ GameObject:
   - component: {fileID: 3333851604232521409}
   - component: {fileID: 4646867844944842497}
   - component: {fileID: 2659078636223537545}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: GFX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
