@@ -8237,7 +8237,10 @@ MonoBehaviour:
   - {fileID: 5423191905721959656, guid: 9c9e6ef39ff8e834a9b079f22ebe1d93, type: 3}
   - {fileID: 9133255308565591095, guid: b2ea9c4458367364b9567c07da3f87c4, type: 3}
   - {fileID: 2508585973224514720, guid: 94967da6fc551304bbd85f01c8a706c8, type: 3}
-  patientSpawnPoint: {fileID: 938495627}
+  patientSpawnPoints:
+  - {fileID: 938495627}
+  - {fileID: 877064683}
+  - {fileID: 839568137}
   playerDetails: {fileID: 11400000, guid: ccfcf005a25e6492488d0de429ae0381, type: 2}
   spawnWeights:
   - 50
