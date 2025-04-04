@@ -211,6 +211,7 @@ MonoBehaviour:
   waitingTimer: 0
   hasStartedWaiting: 0
   hasReachedPharmacyPosition: 0
+  patientSpawnPoints: []
 --- !u!195 &9027561993011231001
 NavMeshAgent:
   m_ObjectHideFlags: 0

@@ -1,6 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
-using UnityEditor;
+using System.Linq;
 using UnityEngine;
 using UnityEngine.AI;
 
@@ -20,9 +20,11 @@ public class Patient : MonoBehaviour
     public float waitingTimer = 0f;
     public bool hasStartedWaiting = false;
     public bool hasReachedPharmacyPosition = false;
+    public Transform[] patientSpawnPoints;
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
+        patientSpawnPoints = GameObject.FindGameObjectsWithTag("PatientSpawnPoint").Select(go => go.transform).ToArray();
 
 #pragma warning disable
         levelExperience = FindObjectOfType<LevelExperience>();
@@ -56,7 +58,7 @@ public class Patient : MonoBehaviour
         }
 
         // Handle patient leaving
-        Destroy(gameObject);
+        ReturnToSpawn();
     }
     public void OnReachedPharmacyPosition()
     {
@@ -75,8 +77,15 @@ public class Patient : MonoBehaviour
             FindObjectOfType<PlayerStats>()?.UpdatePlayerDetail(-patientDetails.coinDrops / 2);
             levelExperience?.UpdateReputation(-(patientDetails.reputation / 1.25f));
         }
-        //TODO create a func where the patient leaves after/failure of treatment
-        Destroy(gameObject);
+        ReturnToSpawn();
+    }
+
+    void ReturnToSpawn()
+    {
+        int rand = Random.Range(0, patientSpawnPoints.Length);
+        agent.SetDestination(patientSpawnPoints[rand].position);
+        if (agent.remainingDistance <= agent.stoppingDistance && !agent.pathPending)
+            Destroy(gameObject);
     }
     void FindAvailableRoom()
     {
@@ -155,6 +164,6 @@ public class Patient : MonoBehaviour
             }
 #pragma warning restore
         }
-        Destroy(gameObject);
+        ReturnToSpawn();
     }
 }
