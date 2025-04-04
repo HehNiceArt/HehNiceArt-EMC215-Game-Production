@@ -2645,7 +2645,6 @@ MonoBehaviour:
   tellerArea: {fileID: 679454065}
   areaDetails: {fileID: 11400000, guid: 8ca699ea7805c4d309356ee5abdfdd10, type: 2}
   tellerSpacing: 2
-  tellerPrefab: {fileID: 7092390114610965426, guid: 1fba30ac37dc56940a6ad258cce70e23, type: 3}
   numberOfTellers: 3
   incomePerPatient: 200
   spaceBetweenPatients: 1.5
@@ -3102,7 +3101,7 @@ Transform:
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 938495627}
+  - {fileID: 1708952467}
   - {fileID: 1602999773}
   - {fileID: 1545485096}
   - {fileID: 1555496940}
@@ -6521,6 +6520,68 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1515145240}
   m_LocalEulerAnglesHint: {x: 0, y: 30, z: 0}
+--- !u!1 &839568136
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 839568137}
+  m_Layer: 0
+  m_Name: patientSpawnPoint (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &839568137
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 839568136}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 39.8, y: 2, z: -32.2}
+  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1708952467}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &877064682
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 877064683}
+  m_Layer: 0
+  m_Name: patientSpawnPoint (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &877064683
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 877064682}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -35.1, y: 2, z: -45.1}
+  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1708952467}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &938495626
 GameObject:
   m_ObjectHideFlags: 0
@@ -6546,11 +6607,11 @@ Transform:
   m_GameObject: {fileID: 938495626}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -7.18, y: 1.0569412, z: -5.2380433}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -68.8, y: 2, z: -13.4}
+  m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 383424527}
+  m_Father: {fileID: 1708952467}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &944595946
 GameObject:
@@ -14970,7 +15031,6 @@ MonoBehaviour:
   tellerArea: {fileID: 1794582983}
   areaDetails: {fileID: 11400000, guid: d1f8a47d6d0b64535839aee7dc087b38, type: 2}
   tellerSpacing: 2
-  tellerPrefab: {fileID: 7092390114610965426, guid: 1fba30ac37dc56940a6ad258cce70e23, type: 3}
   numberOfTellers: 3
   incomePerPatient: 50
   spaceBetweenPatients: 1.7
@@ -18430,6 +18490,40 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1691876275}
   m_Mesh: {fileID: -7830893341442216976, guid: e28fc136e41d9f94791fed637675fcdd, type: 3}
+--- !u!1 &1708952466
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1708952467}
+  m_Layer: 0
+  m_Name: PatientSpawnPoints
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1708952467
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1708952466}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1.2716684, y: 0.056941167, z: 6.5119567}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 938495627}
+  - {fileID: 877064683}
+  - {fileID: 839568137}
+  m_Father: {fileID: 383424527}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1710539564
 GameObject:
   m_ObjectHideFlags: 0
@@ -19207,7 +19301,6 @@ MonoBehaviour:
   tellerArea: {fileID: 109324154}
   areaDetails: {fileID: 11400000, guid: ff9d8ed8cd84849d0bc98f3b53af2f99, type: 2}
   tellerSpacing: 2
-  tellerPrefab: {fileID: 7092390114610965426, guid: 1fba30ac37dc56940a6ad258cce70e23, type: 3}
   numberOfTellers: 5
   incomePerPatient: 100
   spaceBetweenPatients: 2

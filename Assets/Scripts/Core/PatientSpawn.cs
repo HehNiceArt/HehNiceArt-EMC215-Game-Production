@@ -4,7 +4,7 @@ using UnityEngine;
 public class PatientSpawn : MonoBehaviour
 {
     [SerializeField] GameObject[] patientPrefab;
-    [SerializeField] Transform patientSpawnPoint;
+    [SerializeField] Transform[] patientSpawnPoints;
     [SerializeField] SO_PlayerDetails playerDetails;
     [SerializeField] float[] spawnWeights = new float[] { 50, 25, 15, 7, 3 };
 
@@ -27,7 +27,7 @@ public class PatientSpawn : MonoBehaviour
         while (true)
         {
             float patientSpawnRate = reputationManager.GetPatientSpawnRate();
-            yield return new WaitForSeconds(5);
+            yield return new WaitForSeconds(1);
             SpawnPatient();
         }
     }
@@ -51,12 +51,13 @@ public class PatientSpawn : MonoBehaviour
             currentWeight += spawnWeights[i];
             if (randomPoint <= currentWeight)
             {
-                Instantiate(patientPrefab[i], patientSpawnPoint.position, Quaternion.identity);
+                int rand = Random.Range(0, patientSpawnPoints.Length);
+                Instantiate(patientPrefab[i], patientSpawnPoints[rand].position, Quaternion.identity);
                 return;
             }
         }
 
         // Fallback in case of floating-point precision issues
-        Instantiate(patientPrefab[spawnWeights.Length - 1], patientSpawnPoint.position, Quaternion.identity);
+        Instantiate(patientPrefab[spawnWeights.Length - 1], patientSpawnPoints[0].position, Quaternion.identity);
     }
 }
