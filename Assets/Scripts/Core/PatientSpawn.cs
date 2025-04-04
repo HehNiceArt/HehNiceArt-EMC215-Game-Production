@@ -11,6 +11,8 @@ public class PatientSpawn : MonoBehaviour
     [SerializeField] Room firstRoom;
 
     ReputationManager reputationManager;
+    private float currentSpawnRate;
+    private bool isTimeAttackActive = false;
 
     void Start()
     {
@@ -35,7 +37,7 @@ public class PatientSpawn : MonoBehaviour
     {
         while (true)
         {
-            float patientSpawnRate = reputationManager.GetPatientSpawnRate();
+            float patientSpawnRate = isTimeAttackActive ? currentSpawnRate : reputationManager.GetPatientSpawnRate();
             yield return new WaitForSeconds(patientSpawnRate);
             SpawnPatient();
         }
@@ -68,5 +70,11 @@ public class PatientSpawn : MonoBehaviour
 
         // Fallback in case of floating-point precision issues
         Instantiate(patientPrefab[spawnWeights.Length - 1], patientSpawnPoints[0].position, Quaternion.identity);
+    }
+
+    public void SetFastSpawnRate(float newSpawnRate)
+    {
+        isTimeAttackActive = true;
+        currentSpawnRate = newSpawnRate;
     }
 }

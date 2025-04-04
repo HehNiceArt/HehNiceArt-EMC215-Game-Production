@@ -24,12 +24,9 @@ public class SettingsUI : MonoBehaviour
     [SerializeField] private TextMeshProUGUI mousePanSpeedText;
     [SerializeField] private TextMeshProUGUI zoomSpeedText;
 
-    private Canvas mainCanvas;
 
     void Awake()
     {
-        mainCanvas = GetComponentInParent<Canvas>();
-        canvasRaycaster = mainCanvas.GetComponent<GraphicRaycaster>();
 
         if (settingsPanel != null)
         {

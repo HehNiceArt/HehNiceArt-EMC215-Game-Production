@@ -14828,6 +14828,7 @@ GameObject:
   - component: {fileID: 1297521486}
   - component: {fileID: 1297521487}
   - component: {fileID: 1297521488}
+  - component: {fileID: 1297521489}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -21229,6 +21230,19 @@ MonoBehaviour:
   moveSpeedText: {fileID: 607271393}
   mousePanSpeedText: {fileID: 1479627938}
   zoomSpeedText: {fileID: 288278041}
+--- !u!114 &1297521489
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1297521476}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49d5df90a6d05e0408169884ab3f792f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  patientSpawnManager: {fileID: 1297521483}
 --- !u!1 &1298734128
 GameObject:
   m_ObjectHideFlags: 0
