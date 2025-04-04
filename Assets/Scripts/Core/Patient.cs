@@ -69,7 +69,6 @@ public class Patient : MonoBehaviour
             levelExperience.AddExperience(patientDetails.xpDrop);
         }
 
-        // Handle patient leaving
         ReturnToSpawn();
     }
     public void OnReachedPharmacyPosition()
@@ -86,7 +85,7 @@ public class Patient : MonoBehaviour
         if (currentRoom != null)
         {
             currentRoom.RemovePatientFromQueue(gameObject);
-            FindObjectOfType<PlayerStats>()?.UpdatePlayerDetail(-patientDetails.coinDrops / 2);
+            FindObjectOfType<PlayerStats>()?.UpdatePlayerDetail((float)Mathf.Floor(-patientDetails.coinDrops / 2));
             levelExperience?.UpdateReputation(-(patientDetails.reputation / 1.25f));
         }
         ReturnToSpawn();
