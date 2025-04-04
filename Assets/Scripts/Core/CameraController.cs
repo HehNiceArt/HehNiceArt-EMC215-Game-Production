@@ -4,12 +4,12 @@ using UnityEngine.InputSystem;
 public class CameraController : MonoBehaviour
 {
     [Header("Movement Settings")]
-    [SerializeField] private float moveSpeed = 20f;
+    [SerializeField] float moveSpeed = 20f;
     [SerializeField] private Vector2 movementBounds = new Vector2(50f, 50f);
-    [SerializeField] private float mousePanSpeed = 0.5f;
+    [SerializeField] float mousePanSpeed = 0.5f;
 
     [Header("Zoom Settings")]
-    [SerializeField] private float zoomSpeed = 5f;
+    [SerializeField] float zoomSpeed = 5f;
     [SerializeField] private float minZoom = 2f;
     [SerializeField] private float maxZoom = 15f;
     [Space(10f)]
@@ -20,6 +20,24 @@ public class CameraController : MonoBehaviour
     private Vector3 boundsCenter;
     private Vector2 lastMousePosition;
     private bool isMousePanning;
+
+    public float MoveSpeed
+    {
+        get => moveSpeed;
+        set => moveSpeed = value;
+    }
+
+    public float MousePanSpeed
+    {
+        get => mousePanSpeed;
+        set => mousePanSpeed = value;
+    }
+
+    public float ZoomSpeed
+    {
+        get => zoomSpeed;
+        set => zoomSpeed = value;
+    }
 
     private void Awake()
     {
@@ -40,6 +58,9 @@ public class CameraController : MonoBehaviour
     }
     private void Update()
     {
+        // If the component is disabled, don't process any input
+        if (!enabled) return;
+
         if (currencyEconomy.purchaseUI.activeSelf)
             return;
 
