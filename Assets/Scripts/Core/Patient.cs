@@ -75,6 +75,7 @@ public class Patient : MonoBehaviour
             FindObjectOfType<PlayerStats>()?.UpdatePlayerDetail(-patientDetails.coinDrops / 2);
             levelExperience?.UpdateReputation(-(patientDetails.reputation / 1.25f));
         }
+        //TODO create a func where the patient leaves after/failure of treatment
         Destroy(gameObject);
     }
     void FindAvailableRoom()
