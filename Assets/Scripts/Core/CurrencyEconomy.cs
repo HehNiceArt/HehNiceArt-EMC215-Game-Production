@@ -1,3 +1,4 @@
+using System.Text.RegularExpressions;
 using TMPro;
 using UnityEngine;
 
@@ -53,7 +54,12 @@ public class CurrencyEconomy : MonoBehaviour
         if (isLocked)
         {
             purchaseUI.SetActive(true);
-            purchaseString.text = $"Purchase {areaName}";
+
+            Match match = Regex.Match(areaName, "\"?(Area)(\\d+)\"?");
+
+            string p1 = match.Groups[1].Value;
+            string p2 = match.Groups[2].Value;
+            purchaseString.text = $"Purchase {p1} {p2}";
             lvlToUnlockUI.gameObject.SetActive(true);
             lvlToUnlockUI.text = lvlToUnlock.ToString();
         }
