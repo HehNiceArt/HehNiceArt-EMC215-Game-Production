@@ -1,5 +1,82 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5644548985099330457
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1662045456821649007}
+  - component: {fileID: 8869116605543712024}
+  - component: {fileID: 7231545637775650941}
+  m_Layer: 0
+  m_Name: GFX
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1662045456821649007
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5644548985099330457}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.4, y: 0.4, z: 0.4}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7396734936223827973}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8869116605543712024
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5644548985099330457}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c5f73a24a0d0c24ebf972fc9d8418d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefabs:
+  - {fileID: 8692876057781986631, guid: da3f1f6647d7d0344bf0f26e3a04b8f6, type: 3}
+  - {fileID: 5295604189546526767, guid: 2b64d1cae358aa442b50cfb3370433fe, type: 3}
+  - {fileID: 157993109099033912, guid: 608621186852cd8499789dcbacf2dcff, type: 3}
+  - {fileID: 8271615023991151552, guid: 7a2be0e33f241364d928f751d4d3a5bf, type: 3}
+  - {fileID: 7310577997677213907, guid: ba0ff959197726d459c68304272067da, type: 3}
+  - {fileID: 8384296394532807008, guid: d26be93b8ad95d64383b2c1f3a738678, type: 3}
+  - {fileID: 7639880687053003942, guid: 527487d02d78d2b49aa8f48c2ee5d7a7, type: 3}
+  - {fileID: 6693487275483219842, guid: 7dfbff7f4439f1f4cbc8f4cf1ef937c3, type: 3}
+  - {fileID: 4419227157876057451, guid: 6ea8ad926d382cb489217d2154bcd4f3, type: 3}
+  - {fileID: 3103312581299832321, guid: 3f544442312432a44bfeae15ea14d71f, type: 3}
+  - {fileID: 4793209519641501436, guid: 20253ff2cc2482f45b4b0751298ff976, type: 3}
+  - {fileID: 2688315423892583749, guid: 77a16551690a45b4789028f7bdb95625, type: 3}
+  - {fileID: 1852974760069683395, guid: 07bbb7a427112ff47bb47b9dfd5a2753, type: 3}
+  - {fileID: 4910695792827258394, guid: b72dc338769ed7848a26fc815acfb670, type: 3}
+  - {fileID: 3352582132633411066, guid: 5e34dfcde596f704685eb819ffcc5ffd, type: 3}
+  - {fileID: 3359958944150193243, guid: 4287dd5caf9dc2045956be2b90e2fc08, type: 3}
+  - {fileID: 3230705964026595130, guid: 2206a8d80a407c44e9b9fecb045f4bae, type: 3}
+  - {fileID: 3726835615640411730, guid: 8bad839a5d1ec39459299f8e7da9c89c, type: 3}
+--- !u!114 &7231545637775650941
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5644548985099330457}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfd854f457faae94da5067c8cc6fc9db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  child: {fileID: 0}
 --- !u!1 &9133255308565591095
 GameObject:
   m_ObjectHideFlags: 0
@@ -33,7 +110,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1662045456821649007}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &2581299708103239465
@@ -128,8 +206,11 @@ MonoBehaviour:
   assignedTable: {fileID: 0}
   patientDetails: {fileID: 11400000, guid: 3db11b064c7c38f4dac14848a5bdc1e7, type: 2}
   sO_PlayerDetails: {fileID: 11400000, guid: ccfcf005a25e6492488d0de429ae0381, type: 2}
+  isWaiting: 0
+  hasReachedTable: 0
   waitingTimer: 0
   hasStartedWaiting: 0
+  hasReachedPharmacyPosition: 0
 --- !u!195 &9027561993011231001
 NavMeshAgent:
   m_ObjectHideFlags: 0

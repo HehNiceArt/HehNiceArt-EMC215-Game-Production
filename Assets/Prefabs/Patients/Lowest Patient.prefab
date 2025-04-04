@@ -33,7 +33,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 3333851604232521409}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &7940743165691582269
@@ -128,8 +129,11 @@ MonoBehaviour:
   assignedTable: {fileID: 0}
   patientDetails: {fileID: 11400000, guid: 48855b04237b24476a71facf6b7c950e, type: 2}
   sO_PlayerDetails: {fileID: 11400000, guid: ccfcf005a25e6492488d0de429ae0381, type: 2}
+  isWaiting: 0
+  hasReachedTable: 0
   waitingTimer: 0
   hasStartedWaiting: 0
+  hasReachedPharmacyPosition: 0
 --- !u!195 &96943195757105979
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -152,3 +156,80 @@ NavMeshAgent:
   m_BaseOffset: 1
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 1
+--- !u!1 &7717008190604236124
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3333851604232521409}
+  - component: {fileID: 4646867844944842497}
+  - component: {fileID: 2659078636223537545}
+  m_Layer: 0
+  m_Name: GFX
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3333851604232521409
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7717008190604236124}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.4, y: 0.4, z: 0.4}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8203289149287871990}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4646867844944842497
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7717008190604236124}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c5f73a24a0d0c24ebf972fc9d8418d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefabs:
+  - {fileID: 7169492847686518022, guid: d659d12524461d0469729442898bf5c6, type: 3}
+  - {fileID: 2754797749528934837, guid: 50737c0c0b70c8a409bf34e8d7c1e524, type: 3}
+  - {fileID: 8799672237042549296, guid: cd870fbb25b265f40ba62c30e36a3d26, type: 3}
+  - {fileID: 5419918266845018251, guid: ee337435a203a6a4eadb995563331880, type: 3}
+  - {fileID: 4544356071014045863, guid: 2bfdefb5045194b4883d4891cf6e8c69, type: 3}
+  - {fileID: 6783141551386610338, guid: 7428b473708294e42897a41353500829, type: 3}
+  - {fileID: 2794698816999345839, guid: b9c6560fb3b12814c8ca86e1a748ecd4, type: 3}
+  - {fileID: 5724912568225001561, guid: dfb949b388452e847a262f3b11906cd8, type: 3}
+  - {fileID: 7566461351444867177, guid: 3f20e2fcc7e3c174b8f080e224fbf07e, type: 3}
+  - {fileID: 3435731444649809757, guid: 4f721ff58fbf3f3469f3db12e876eac4, type: 3}
+  - {fileID: 210811888304689039, guid: f9609706b5a7b5d49963d5f6e3ca4ae3, type: 3}
+  - {fileID: 3512012504312473493, guid: 02d728014fdb99849939feb5dc359c3b, type: 3}
+  - {fileID: 6670387258945647548, guid: 0e26346347ea1c3469b88908d1efaca5, type: 3}
+  - {fileID: 1990648253885883110, guid: 7706441db7a33fa4897b497c5d5866f9, type: 3}
+  - {fileID: 4855367823540377772, guid: 9d93e2f1a9ec0044fa7df249da802a8e, type: 3}
+  - {fileID: 8267972343075058358, guid: c3a802b3ae982f1458ed86b0ce294964, type: 3}
+  - {fileID: 8769627881273293939, guid: 46b2c0f8686fd164887af7d1e0fd4182, type: 3}
+  - {fileID: 6366039493655246425, guid: 1b6fbbd8d48b39149bf153a668ee450d, type: 3}
+--- !u!114 &2659078636223537545
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7717008190604236124}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfd854f457faae94da5067c8cc6fc9db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  child: {fileID: 0}
