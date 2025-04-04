@@ -6,7 +6,7 @@ using UnityEngine.AI;
 public class Patient_animManager : MonoBehaviour
 {
     [SerializeField] NavMeshAgent agent;
-    
+
     Patient patient; // to access >> isWaiting, hasReachedTable
     Animator anim;
     SpriteRenderer sprite;
@@ -18,22 +18,24 @@ public class Patient_animManager : MonoBehaviour
         anim = GetComponent<Animator>();
         sprite = GetComponent<SpriteRenderer>();
         patient = GetComponentInParent<Patient>();
+        agent.angularSpeed = 720f;  // Increase rotation speed (default is 120)
+        agent.acceleration = 4f;
     }
 
 
     void Update()
     {
-        
+
         Vector2 direction = GetDirection();
         SetAnim(direction);
     }
 
-    
+
 
     Vector2 GetDirection()
     {
         Vector3 velocity = agent.velocity;
-        return new Vector2 (velocity.x, velocity.z).normalized;
+        return new Vector2(velocity.x, velocity.z).normalized;
     }
 
     void SetAnim(Vector2 direction)
@@ -43,12 +45,14 @@ public class Patient_animManager : MonoBehaviour
             if (patient.isWaiting || patient.hasReachedTable)
             {
                 SetState("sit");
-            } else
+            }
+            else
             {
                 SetState("idle");
             }
-            
-        } else
+
+        }
+        else
         {
             SetState("walk");
         }
@@ -59,7 +63,7 @@ public class Patient_animManager : MonoBehaviour
             if (direction.x > 0)
             {
                 sprite.flipX = true;
-            } 
+            }
             else
             {
                 sprite.flipX = false;
@@ -74,7 +78,7 @@ public class Patient_animManager : MonoBehaviour
             }
             else
             {
-                
+
                 sprite.flipX = false;
             }
         }

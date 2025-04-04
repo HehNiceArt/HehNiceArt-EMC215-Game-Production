@@ -52,7 +52,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2508585973224514720}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -134,6 +134,8 @@ MonoBehaviour:
   waitingTimer: 0
   hasStartedWaiting: 0
   hasReachedPharmacyPosition: 0
+  hasDecidedToLeave: 0
+  patientSpawnPoints: []
 --- !u!195 &6246974571365792760
 NavMeshAgent:
   m_ObjectHideFlags: 0

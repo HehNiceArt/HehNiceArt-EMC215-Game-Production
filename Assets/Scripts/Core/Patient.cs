@@ -114,7 +114,7 @@ public class Patient : MonoBehaviour
         List<Room> availableRooms = new List<Room>();
         foreach (Room room in rooms)
         {
-            if (room.CanAcceptPatient())
+            if (room.CanAcceptPatient() && room.areaDetails != null)
             {
                 availableRooms.Add(room);
             }
