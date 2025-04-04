@@ -6,9 +6,9 @@ using System.Linq;
 
 public class Room : MonoBehaviour
 {
-    [SerializeField] List<TableInteraction> treatmentTables = new List<TableInteraction>();
+    public List<TableInteraction> treatmentTables = new List<TableInteraction>();
     [SerializeField] Transform patientWaitingArea;
-    [SerializeField] SO_AreaDetails areaDetails;
+    public SO_AreaDetails areaDetails;
     [SerializeField] float spaceBetweenPatients = 1.5f;
     [SerializeField] int patientsPerRow = 3;
     [SerializeField] int maxWaitingPatients = 6;

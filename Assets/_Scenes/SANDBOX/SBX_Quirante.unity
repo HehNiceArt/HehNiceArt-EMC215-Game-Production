@@ -3711,7 +3711,7 @@ Camera:
   far clip plane: 1000
   field of view: 34
   orthographic: 1
-  orthographic size: 25
+  orthographic size: 20
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -3735,13 +3735,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.3335441, y: -0, z: -0, w: 0.9427345}
-  m_LocalPosition: {x: 1.7, y: 77.6, z: -84.6}
+  m_LocalRotation: {x: 0.465749, y: -0, z: -0, w: 0.88491684}
+  m_LocalPosition: {x: 1.7, y: 77.6, z: -46.4}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 38.968, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 55.517, y: 0, z: 0}
 --- !u!114 &519420033
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3755,7 +3755,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 20
-  movementBounds: {x: 47, y: 25}
+  movementBounds: {x: 47, y: 55}
   mousePanSpeed: 2
   zoomSpeed: 50
   minZoom: 2
@@ -8524,6 +8524,7 @@ MonoBehaviour:
   - 15
   - 7
   - 3
+  firstRoom: {fileID: 452615442}
 --- !u!114 &1297521484
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -1,4 +1,5 @@
 using System.Collections;
+using System.Linq;
 using UnityEngine;
 
 public class PatientSpawn : MonoBehaviour
@@ -7,21 +8,29 @@ public class PatientSpawn : MonoBehaviour
     [SerializeField] Transform[] patientSpawnPoints;
     [SerializeField] SO_PlayerDetails playerDetails;
     [SerializeField] float[] spawnWeights = new float[] { 50, 25, 15, 7, 3 };
+    [SerializeField] Room firstRoom;
 
     ReputationManager reputationManager;
 
     void Start()
     {
         reputationManager = GetComponent<ReputationManager>();
+        StartCoroutine(CheckFirstAreaAndTable());
     }
-    void Update()
+    IEnumerator CheckFirstAreaAndTable()
     {
-        //TODO when purchasing area 1 table 1, starts spawning patients
-        if (Input.GetKeyDown(KeyCode.Space))
+        while (true)
         {
-            StartCoroutine(SpawnPatients());
+            if (!firstRoom.areaDetails.isLocked && firstRoom.treatmentTables.Any(table => !table.isTableLocked))
+            {
+                Debug.Log("Start patient spawn!");
+                StartCoroutine(SpawnPatients());
+                yield break;
+            }
+            yield return new WaitForSeconds(3f);
         }
     }
+
     IEnumerator SpawnPatients()
     {
         while (true)
