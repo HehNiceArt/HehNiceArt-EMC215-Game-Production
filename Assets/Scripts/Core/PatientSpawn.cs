@@ -27,7 +27,7 @@ public class PatientSpawn : MonoBehaviour
         while (true)
         {
             float patientSpawnRate = reputationManager.GetPatientSpawnRate();
-            yield return new WaitForSeconds(1);
+            yield return new WaitForSeconds(patientSpawnRate);
             SpawnPatient();
         }
     }
