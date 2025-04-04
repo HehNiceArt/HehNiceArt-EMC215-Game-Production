@@ -20,6 +20,7 @@ public class Patient : MonoBehaviour
     public float waitingTimer = 0f;
     public bool hasStartedWaiting = false;
     public bool hasReachedPharmacyPosition = false;
+    public bool hasDecidedToLeave = false;
     public Transform[] patientSpawnPoints;
     void Start()
     {
@@ -33,12 +34,23 @@ public class Patient : MonoBehaviour
     }
     void Update()
     {
-        if (isWaiting && hasStartedWaiting && !hasReachedTable && currentPharmacy == null)
+        if (isWaiting && !hasReachedTable && currentPharmacy == null && !hasDecidedToLeave)
         {
-            waitingTimer += Time.deltaTime;
-            if (waitingTimer >= patientDetails.waitingPeriod)
+            // If we're close enough to our waiting position, start the timer
+            if (!hasStartedWaiting && agent != null && agent.remainingDistance <= agent.stoppingDistance)
             {
-                LeaveHospital();
+                hasStartedWaiting = true;
+                waitingTimer = 0f;
+            }
+
+            if (hasStartedWaiting)
+            {
+                waitingTimer += Time.deltaTime;
+                if (waitingTimer >= patientDetails.waitingPeriod)
+                {
+                    hasDecidedToLeave = true;
+                    LeaveHospital();
+                }
             }
         }
     }
@@ -84,8 +96,16 @@ public class Patient : MonoBehaviour
     {
         int rand = Random.Range(0, patientSpawnPoints.Length);
         agent.SetDestination(patientSpawnPoints[rand].position);
-        if (agent.remainingDistance <= agent.stoppingDistance && !agent.pathPending)
-            Destroy(gameObject);
+        StartCoroutine(WaitForReturnToSpawn());
+    }
+
+    private IEnumerator WaitForReturnToSpawn()
+    {
+        while (agent.remainingDistance > agent.stoppingDistance || agent.pathPending)
+        {
+            yield return new WaitForSeconds(0.1f);
+        }
+        Destroy(gameObject);
     }
     void FindAvailableRoom()
     {
@@ -107,6 +127,8 @@ public class Patient : MonoBehaviour
             currentRoom.AddPatientToQueue(gameObject);
             Debug.Log($"{this.gameObject.name} is assigned to {currentRoom.name}");
             isWaiting = true;
+            hasStartedWaiting = false;
+            waitingTimer = 0;
         }
         else
         {

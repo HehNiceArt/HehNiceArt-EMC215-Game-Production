@@ -86,14 +86,22 @@ public class Room : MonoBehaviour
 
         if (patient.TryGetComponent<NavMeshAgent>(out NavMeshAgent agent))
         {
-            agent.SetDestination(CalculateWaitingPosition(spotIndex));
+            Vector3 waitPos = CalculateWaitingPosition(spotIndex);
+            agent.SetDestination(waitPos);
+            StartCoroutine(CheckPatientReachWaitingPos(patient, waitPos));
         }
 
-        if (patient.TryGetComponent<Patient>(out Patient patientComponent))
-        {
-            patientComponent.hasStartedWaiting = true;
-            patientComponent.waitingTimer = 0f;
-        }
+    }
+    private IEnumerator CheckPatientReachWaitingPos(Patient patient, Vector3 waitPos)
+    {
+        NavMeshAgent agent = patient.GetComponent<NavMeshAgent>();
+        if (agent == null) yield break;
+
+        while (Vector3.Distance(patient.transform.position, waitPos) > agent.stoppingDistance)
+            yield return new WaitForSeconds(1f);
+
+        patient.hasStartedWaiting = true;
+        patient.waitingTimer = 0f;
     }
     bool ShouldVisitPharmacy()
     {
