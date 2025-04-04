@@ -75,6 +75,7 @@ public class Patient : MonoBehaviour
             FindObjectOfType<PlayerStats>()?.UpdatePlayerDetail(-patientDetails.coinDrops / 2);
             levelExperience?.UpdateReputation(-(patientDetails.reputation / 1.25f));
         }
+        //TODO create a func where the patient leaves after/failure of treatment
         Destroy(gameObject);
     }
     void FindAvailableRoom()
@@ -142,8 +143,13 @@ public class Patient : MonoBehaviour
             assignedTable.VacateTable();
             if (levelExperience != null)
             {
-                levelExperience.UpdateReputation(patientDetails.reputation);
-                FindObjectOfType<PlayerStats>()?.UpdatePlayerDetail(patientDetails.coinDrops);
+                float reputationGain = patientDetails.reputation;
+                if (patientDetails.patientType == PatientType.highProfile)
+                    reputationGain *= 1.5f;
+                levelExperience.UpdateReputation(reputationGain);
+                ReputationManager reputationManager = FindObjectOfType<ReputationManager>();
+                Debug.Log($"Rate Up Applied! {reputationManager.RateupMultiplier()}");
+                FindObjectOfType<PlayerStats>()?.UpdatePlayerDetail(patientDetails.coinDrops * reputationManager.RateupMultiplier());
                 levelExperience.AddExperience(patientDetails.xpDrop);
             }
 #pragma warning restore

@@ -16,6 +16,7 @@ public class PatientSpawn : MonoBehaviour
     }
     void Update()
     {
+        //TODO when purchasing area 1 table 1, starts spawning patients
         if (Input.GetKeyDown(KeyCode.Space))
         {
             StartCoroutine(SpawnPatients());
