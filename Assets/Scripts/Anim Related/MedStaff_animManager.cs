@@ -1,0 +1,55 @@
+using UnityEngine;
+using Sirenix.OdinInspector;
+
+public class MedStaff_animManager : MonoBehaviour
+{
+    Animator anim;
+    // TableBehavior tableBehavior;
+    TableInteraction tableInteraction;
+    [SerializeField] private int LVL = 1; // <1> default value | values : < 1 - 5 >
+
+    void Start()
+    {
+        anim = GetComponent<Animator>();
+    }
+
+    // TODO : Change anim >> SetLVL(LVL) based on the table upgrade
+
+    private void Update()
+    {
+        if (tableInteraction.isOccupied)
+        {
+            SetState("working");
+        } else
+        {
+            SetState("idle");
+        }
+    }
+
+
+    /*void ToggleFront()
+    {
+        anim.SetBool("facingFront", true);
+    }
+
+    void ToggleBack()
+    {
+        anim.SetBool("facingFront", false);
+    }*/
+
+    void SetLevel(int level)
+    {
+        if (LVL == level) return;
+
+        LVL = level;
+        anim.SetInteger("Level", level);
+    }
+
+    void SetState(string state)
+    {
+        anim.SetBool("isIdle", state == "idle");
+        anim.SetBool("isWorking", state == "working");
+        Debug.Log("State set to: " + state);
+    }
+
+}

@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 3028463826736697694}
   - component: {fileID: 3178407720623046467}
   - component: {fileID: 8327535995645865680}
+  - component: {fileID: 8935484723221911783}
   m_Layer: 0
   m_Name: MedStaff V1
   m_TagString: Untagged
@@ -110,3 +111,16 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &8935484723221911783
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8226433914139276901}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6c36cac83d241646adcc80ef8d2e34f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LVL: 1
