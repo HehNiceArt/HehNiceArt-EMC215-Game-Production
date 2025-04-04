@@ -40,7 +40,7 @@ public class LevelExperience : MonoBehaviour
         {
             string repText;
             if (playerDetails.reputation >= 0)
-                repText = $"+{playerDetails.reputation:F0}";
+                repText = $"{playerDetails.reputation:F0}";
             else
                 repText = playerDetails.reputation.ToString("F0");
             reputationUI.text = repText;
