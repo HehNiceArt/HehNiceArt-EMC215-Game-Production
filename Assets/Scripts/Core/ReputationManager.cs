@@ -3,9 +3,22 @@ using UnityEngine;
 public class ReputationManager : MonoBehaviour
 {
     [SerializeField] SO_PlayerDetails so_PlayerDetails;
+    [SerializeField] GameObject gameOverUI;
     [SerializeField] float[] spawnRates = new float[] { 0, 27, 23, 19, 15, 9, 5, 2 };
     [SerializeField] float[] rateupMultiplier = new float[] { 1, 2, 4, 6 };
 
+    void Update()
+    {
+        GameOver();
+    }
+    void GameOver()
+    {
+        if (so_PlayerDetails.reputation <= -100)
+        {
+            gameOverUI.SetActive(true);
+            Time.timeScale = 0;
+        }
+    }
     public float GetPatientSpawnRate()
     {
         float reputation = so_PlayerDetails.reputation;
