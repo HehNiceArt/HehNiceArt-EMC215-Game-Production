@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 8627310414993258774}
   - component: {fileID: 6882264170785795833}
   - component: {fileID: 4530719076994831064}
+  - component: {fileID: 9208667224489002509}
   m_Layer: 0
   m_Name: MedStaff V2
   m_TagString: Untagged
@@ -28,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 5522810631546245189}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.741891, y: -15.349241, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -124,3 +125,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LVL: 1
+--- !u!210 &9208667224489002509
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5522810631546245189}
+  m_Enabled: 1
+  m_SortingLayerID: 990060545
+  m_SortingLayer: 3
+  m_SortingOrder: 0
+  m_SortAtRoot: 0
