@@ -21,6 +21,7 @@ public class Patient : MonoBehaviour
     public bool hasStartedWaiting = false;
     public bool hasReachedPharmacyPosition = false;
     public bool hasDecidedToLeave = false;
+    public bool hasBeenTreated = false;
     public Transform[] patientSpawnPoints;
     void Start()
     {
@@ -171,6 +172,7 @@ public class Patient : MonoBehaviour
 
         if (assignedTable != null && assignedTable.so_TableBehavior != null)
         {
+            GetComponentInChildren<Patient_animManager>()?.SetHealedState();
             assignedTable.VacateTable();
             if (levelExperience != null)
             {
@@ -181,6 +183,7 @@ public class Patient : MonoBehaviour
                 ReputationManager reputationManager = FindObjectOfType<ReputationManager>();
                 Debug.Log($"Rate Up Applied! {reputationManager.RateupMultiplier()}");
                 FindObjectOfType<PlayerStats>()?.UpdatePlayerDetail(patientDetails.coinDrops * reputationManager.RateupMultiplier());
+                hasBeenTreated = true;
                 levelExperience.AddExperience(patientDetails.xpDrop);
             }
 #pragma warning restore

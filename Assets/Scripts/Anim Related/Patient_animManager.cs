@@ -35,7 +35,12 @@ public class Patient_animManager : MonoBehaviour
         {
             SetState("sit");
             anim.SetBool("facingFront", false);
-            agent.updateRotation = false;
+        }
+
+        if (patient.hasBeenTreated)
+        {
+            SetState("walk");
+            anim.SetBool("facingFront", true);
         }
 
         // TODO : Check if patient is done with treatment so it changes to healed state
@@ -43,6 +48,10 @@ public class Patient_animManager : MonoBehaviour
         {
             SetState("healed");
         }*/
+    }
+    public void SetHealedState()
+    {
+        SetState("healed");
     }
 
 
