@@ -5174,7 +5174,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &299898956
 RectTransform:
   m_ObjectHideFlags: 0
@@ -7065,6 +7065,7 @@ MonoBehaviour:
   buyBTN: {fileID: 174374007}
   cancelBTN: {fileID: 36951573}
   blackout: {fileID: 2143387280}
+  room: {fileID: 0}
 --- !u!114 &452615442
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8399,6 +8400,7 @@ MonoBehaviour:
   buyBTN: {fileID: 174374007}
   cancelBTN: {fileID: 36951573}
   blackout: {fileID: 1738622013}
+  room: {fileID: 0}
 --- !u!65 &583072578
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -28893,6 +28895,7 @@ MonoBehaviour:
   buyBTN: {fileID: 174374007}
   cancelBTN: {fileID: 36951573}
   blackout: {fileID: 882313038}
+  room: {fileID: 0}
 --- !u!65 &1472521262
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -29480,6 +29483,7 @@ MonoBehaviour:
   buyBTN: {fileID: 174374007}
   cancelBTN: {fileID: 36951573}
   blackout: {fileID: 1405940907}
+  room: {fileID: 0}
 --- !u!65 &1515145237
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -33001,6 +33005,7 @@ MonoBehaviour:
   buyBTN: {fileID: 174374007}
   cancelBTN: {fileID: 36951573}
   blackout: {fileID: 691509976}
+  room: {fileID: 0}
 --- !u!65 &1731341208
 BoxCollider:
   m_ObjectHideFlags: 0
