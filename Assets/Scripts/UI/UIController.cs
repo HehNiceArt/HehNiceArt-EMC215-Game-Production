@@ -24,7 +24,7 @@ public class UIController : MonoBehaviour
     }
     void Update()
     {
-        if (Input.GetKeyUp(KeyCode.Space))
+        if (Input.GetKeyUp(KeyCode.Space) && tutorialUI.activeSelf)
         {
             isActive = !isActive;
             StopCoroutine(TutShow());
