@@ -12,6 +12,8 @@ public class MedStaff_animManager : MonoBehaviour
     {
         tableInteraction = GetComponentInParent<TableInteraction>();
         anim = GetComponent<Animator>();
+
+        anim.SetBool("facingFront", true);
     }
 
     // TODO : Change anim >> SetLVL(LVL) based on the table upgrade

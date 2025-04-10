@@ -3,16 +3,16 @@ using UnityEngine;
 public class rotattest : MonoBehaviour
 {
     public Transform child;
-    private Camera mc;
+    public Transform target;
 
     private void Start()
     {
-        mc = Camera.main;
-
         if (transform.childCount > 0)
         {
             child = transform.GetChild(0);
         }
+
+        target = GameObject.Find("Screen")?.transform;
     }
 
     private void Update()
@@ -25,7 +25,7 @@ public class rotattest : MonoBehaviour
             }
         }
 
-        if ( child != null)
+        if ( child != null && target != null)
         {
             handleOrientation();
         }
@@ -33,16 +33,16 @@ public class rotattest : MonoBehaviour
 
     void handleOrientation()
     {
-        Vector3 directionToCam = mc.transform.position - child.position;
-        directionToCam.y = 0;
+        Vector3 directionToTarget = target.transform.position - child.position;
+        directionToTarget.y = 0;
 
         //child.forward = directionToCam.normalized;
-        Quaternion targetRotation = Quaternion.LookRotation(-directionToCam);
+        Quaternion targetRotation = Quaternion.LookRotation(directionToTarget.normalized);
         child.rotation = targetRotation * Quaternion.Euler(0, 0, 0);
     }
 
-    public void AssignChild(Transform newChild)
+    /*public void AssignChild(Transform newChild)
     {
         child = newChild;
-    }
+    }*/
 }

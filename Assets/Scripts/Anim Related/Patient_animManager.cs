@@ -8,9 +8,9 @@ public class Patient_animManager : MonoBehaviour
     [SerializeField] NavMeshAgent agent;
 
     Patient patient; // to access >> isWaiting, hasReachedTable
+    //TableInteraction tableInteraction; // to access >> isOccupied
     Animator anim;
     SpriteRenderer sprite;
-    //[SerializeField] private int LVL = 0; // <0> default value | values : < 0 - 5 >
 
     void Start()
     {
@@ -18,6 +18,7 @@ public class Patient_animManager : MonoBehaviour
         anim = GetComponent<Animator>();
         sprite = GetComponent<SpriteRenderer>();
         patient = GetComponentInParent<Patient>();
+        //tableInteraction = GetComponent<TableInteraction>();
         agent.angularSpeed = 720f;  // Increase rotation speed (default is 120)
         agent.acceleration = 4f;
     }
@@ -36,6 +37,12 @@ public class Patient_animManager : MonoBehaviour
             anim.SetBool("facingFront", false);
             agent.updateRotation = false;
         }
+
+        // TODO : Check if patient is done with treatment so it changes to healed state
+        /*if (!tableInteraction.isOccupied)
+        {
+            SetState("healed");
+        }*/
     }
 
 
@@ -50,7 +57,7 @@ public class Patient_animManager : MonoBehaviour
     {
         if (direction.magnitude < 0.1f)
         {
-            if (patient.isWaiting || patient.hasReachedTable)
+            if (patient.isWaiting && patient.hasReachedTable)
             {
                 SetState("sit");
                 anim.SetBool("facingFront", false);
@@ -106,7 +113,7 @@ public class Patient_animManager : MonoBehaviour
         anim.SetBool("isWalking", state == "walk");
         anim.SetBool("isSitting", state == "sit");
         anim.SetBool("isIdle", state == "idle");
-        //anim.SetBool("isWorking", state == "working");
+        anim.SetBool("isHealed", state == "healed");
         //Debug.Log("State set to: " + state);
     }
 }
