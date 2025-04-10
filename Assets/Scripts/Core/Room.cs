@@ -28,9 +28,18 @@ public class Room : MonoBehaviour
         {
             treatmentTables.AddRange(GetComponentsInChildren<TableInteraction>());
         }
+
         waitingSpots = new bool[maxWaitingPatients];
         StartCoroutine(CheckWaitingPatients());
-
+        SetTreatmentTablesActive(false);
+    }
+    public void SetTreatmentTablesActive(bool active)
+    {
+        foreach (TableInteraction table in treatmentTables)
+        {
+            if (table != null)
+                table.gameObject.SetActive(active);
+        }
     }
     public bool CanAcceptPatient()
     {

@@ -8,11 +8,13 @@ public class Interactions : MonoBehaviour
     [SerializeField] Button buyBTN;
     [SerializeField] Button cancelBTN;
     private static Interactions s_current_interaction;
-    [SerializeField] Material changeMat;
     static bool isPressed = false;
+    [SerializeField] GameObject blackout;
+    [SerializeField] Room room;
 
     private void Start()
     {
+        room = GetComponent<Room>();
         buyBTN.onClick.AddListener(OnButtonPressed);
         cancelBTN.onClick.AddListener(OnCancel);
     }
@@ -35,6 +37,8 @@ public class Interactions : MonoBehaviour
             s_current_interaction.so_AreaDetails.isLocked = false;
 #pragma warning disable
             FindObjectOfType<LevelExperience>()?.AddExperience(s_current_interaction.so_AreaDetails.xpGain);
+            blackout.SetActive(false);
+            room.SetTreatmentTablesActive(true);
 
             currencyEconomy.purchaseUI.SetActive(false);
             s_current_interaction = null;
