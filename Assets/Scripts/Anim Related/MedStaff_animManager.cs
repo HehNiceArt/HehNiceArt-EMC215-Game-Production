@@ -53,7 +53,6 @@ public class MedStaff_animManager : MonoBehaviour
     {
         anim.SetBool("isIdle", state == "idle");
         anim.SetBool("isWorking", state == "working");
-        Debug.Log("State set to: " + state);
     }
 
 }

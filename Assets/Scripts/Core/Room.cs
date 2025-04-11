@@ -30,12 +30,15 @@ public class Room : MonoBehaviour
         }
 
         waitingSpots = new bool[maxWaitingPatients];
-        StartCoroutine(CheckWaitingPatients());
         SetTreatmentTablesActive(false);
     }
-    public void SetTreatmentTablesActive( bool active)
+    void Update()
     {
-        
+
+    }
+    public void SetTreatmentTablesActive(bool active)
+    {
+
         foreach (TableInteraction table in treatmentTables)
         {
             if (table != null)
@@ -58,22 +61,39 @@ public class Room : MonoBehaviour
     {
         if (patientWaitingArea == null) return;
 
+        StartCoroutine(CheckWaitingPatients());
         Patient patient = patientObj.GetComponent<Patient>();
         if (patient == null) return;
 
-        if (areaDetails != null && areaDetails.whichArea == WhichArea.secondArea || areaDetails.whichArea == WhichArea.fourthArea || areaDetails.whichArea == WhichArea.fifthArea)
-            if (ShouldVisitPharmacy())
+        if (areaDetails != null && (areaDetails.whichArea == WhichArea.secondArea ||
+        areaDetails.whichArea == WhichArea.fourthArea ||
+        areaDetails.whichArea == WhichArea.fifthArea) && ShouldVisitPharmacy())
+        {
+            //Debug.Log("wdawd");
+            if (pharmacy != null && pharmacy.CanAcceptPatient())
             {
-                //Debug.Log("wdawd");
-                if (pharmacy != null && pharmacy.CanAcceptPatient())
-                {
-                    patient.AssignToPharmacy(pharmacy);
-                    return;
-                }
+                patient.AssignToPharmacy(pharmacy);
+                return;
             }
+        }
+
+        bool tableFound = false;
+        foreach (TableInteraction table in treatmentTables)
+        {
+            if (table != null && !table.isTableLocked && !table.isOccupied)
+            {
+                patient.AssignToTable(table);
+                tableFound = true;
+                break;
+            }
+        }
+
+        if (tableFound) return;
+
+        /*
+
         if (waitingPatients.Count == 0)
         {
-            bool tableFound = false;
             foreach (TableInteraction table in treatmentTables)
             {
                 if (table != null && !table.isTableLocked && !table.isOccupied)
@@ -85,6 +105,7 @@ public class Room : MonoBehaviour
             }
             if (tableFound) return;
         }
+        */
 
         // If no table availbale or there are waiting patients, add to waiting area
         int spotIndex = FindFirstAvailableSpot();
@@ -158,25 +179,48 @@ public class Room : MonoBehaviour
 
     IEnumerator CheckWaitingPatients()
     {
+        Debug.Log("thists");
         while (true)
         {
             yield return new WaitForSeconds(1f);
             if (waitingPatients.Count > 0)
             {
+                Debug.Log($"Checking {waitingPatients.Count} waiting patients");
                 foreach (TableInteraction table in treatmentTables)
                 {
                     if (table != null && !table.isTableLocked && !table.isOccupied)
                     {
-                        GameObject patient = waitingPatients.Peek();
-                        if (patient != null)
+                        Debug.Log($"Found available table: {table.name}");
+                        GameObject patientObj = waitingPatients.Peek();
+                        if (patientObj != null)
                         {
+                            Patient patient = patientObj.GetComponent<Patient>();
+                            if (patient != null)
+                            {
+                                Debug.Log($"Processing patient: {patient.name}");
+                                patient.isWaiting = false;
+                                patient.hasStartedWaiting = false;
+                                patient.waitingTimer = 0f;
+
+                                // Remove from waiting area
+                                int spotIndex = patientPositions[patientObj];
+                                waitingSpots[spotIndex] = false;
+                                patientPositions.Remove(patientObj);
+                                waitingPatients.Dequeue();
+
+                                // Assign to table
+                                patient.AssignToTable(table);
+                                Debug.Log($"Moving patient from waiting area to table {table.name}");
+                                break;
+                            }
+                            /*
                             int spotIndex = patientPositions[patient];
                             waitingSpots[spotIndex] = false;
                             patientPositions.Remove(patient);
                             waitingPatients.Dequeue();
                             patient.GetComponent<Patient>()?.AssignToTable(table);
+                            */
                         }
-                        break;
                     }
                 }
             }
