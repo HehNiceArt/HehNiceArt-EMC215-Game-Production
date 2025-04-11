@@ -11,6 +11,7 @@ public class Interactions : MonoBehaviour
     static bool isPressed = false;
     [SerializeField] GameObject blackout;
     [SerializeField] Room room;
+    [SerializeField] GameObject locks;
 
     private void Start()
     {
@@ -39,6 +40,7 @@ public class Interactions : MonoBehaviour
             FindObjectOfType<LevelExperience>()?.AddExperience(s_current_interaction.so_AreaDetails.xpGain);
             s_current_interaction.blackout.SetActive(false);
             s_current_interaction.room.SetTreatmentTablesActive(true);
+            s_current_interaction.locks.SetActive(false);
 
             currencyEconomy.purchaseUI.SetActive(false);
             s_current_interaction = null;

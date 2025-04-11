@@ -7,7 +7,8 @@ public class UIController : MonoBehaviour
     [SerializeField] GameObject tutorialUI;
     [SerializeField] Sprite single, doubleTime;
     [SerializeField] Button doubleTimeButton;
-
+    [SerializeField] GameObject[] locks;
+    [SerializeField] GameObject[] gears;
     bool isActive = false;
     bool isDoubleTime = false;
 

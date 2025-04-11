@@ -7112,6 +7112,7 @@ MonoBehaviour:
   cancelBTN: {fileID: 36951573}
   blackout: {fileID: 2143387280}
   room: {fileID: 0}
+  locks: {fileID: 601069088}
 --- !u!114 &452615442
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8530,6 +8531,7 @@ MonoBehaviour:
   cancelBTN: {fileID: 36951573}
   blackout: {fileID: 1738622013}
   room: {fileID: 0}
+  locks: {fileID: 1610220236}
 --- !u!65 &583072578
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8881,6 +8883,11 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 590225156}
   m_Mesh: {fileID: 3442743277407081125, guid: e28fc136e41d9f94791fed637675fcdd, type: 3}
+--- !u!1 &601069088 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1338206709699736000, guid: ac77a292a2b6c44ffaa8469a41a30aaf, type: 3}
+  m_PrefabInstance: {fileID: 920146376}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &605512680
 GameObject:
   m_ObjectHideFlags: 0
@@ -15216,6 +15223,11 @@ GameObject:
 Transform:
   m_CorrespondingSourceObject: {fileID: 1389632769434543847, guid: f86aa09f68547e847bc6c90d795deffa, type: 3}
   m_PrefabInstance: {fileID: 1957082157}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1026751617 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1338206709699736000, guid: ac77a292a2b6c44ffaa8469a41a30aaf, type: 3}
+  m_PrefabInstance: {fileID: 812721802}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1028613823
 GameObject:
@@ -24537,6 +24549,8 @@ MonoBehaviour:
   single: {fileID: 2123588914, guid: 29c4002ec1c1a214691bbf81782b0b3b, type: 3}
   doubleTime: {fileID: -958479323, guid: 29c4002ec1c1a214691bbf81782b0b3b, type: 3}
   doubleTimeButton: {fileID: 396274742}
+  locks: []
+  gears: []
 --- !u!1 &1298734128
 GameObject:
   m_ObjectHideFlags: 0
@@ -25269,6 +25283,11 @@ GameObject:
 GameObject:
   m_CorrespondingSourceObject: {fileID: 627335054650572715, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
   m_PrefabInstance: {fileID: 1322925802}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1333332873 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1338206709699736000, guid: ac77a292a2b6c44ffaa8469a41a30aaf, type: 3}
+  m_PrefabInstance: {fileID: 678531481}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1334419134
 GameObject:
@@ -28781,6 +28800,7 @@ MonoBehaviour:
   cancelBTN: {fileID: 36951573}
   blackout: {fileID: 882313038}
   room: {fileID: 0}
+  locks: {fileID: 1629940062}
 --- !u!65 &1472521262
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -29369,6 +29389,7 @@ MonoBehaviour:
   cancelBTN: {fileID: 36951573}
   blackout: {fileID: 1405940907}
   room: {fileID: 0}
+  locks: {fileID: 1333332873}
 --- !u!65 &1515145237
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -30872,6 +30893,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fcea81cb8f68b41649391dfecd425766, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1610220236 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1338206709699736000, guid: ac77a292a2b6c44ffaa8469a41a30aaf, type: 3}
+  m_PrefabInstance: {fileID: 926620350}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &1627394730 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8801237286540028527, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
@@ -30883,6 +30909,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fcea81cb8f68b41649391dfecd425766, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1629940062 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1338206709699736000, guid: ac77a292a2b6c44ffaa8469a41a30aaf, type: 3}
+  m_PrefabInstance: {fileID: 350330904}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1635658006
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -32674,6 +32705,7 @@ MonoBehaviour:
   cancelBTN: {fileID: 36951573}
   blackout: {fileID: 691509976}
   room: {fileID: 0}
+  locks: {fileID: 1026751617}
 --- !u!65 &1731341208
 BoxCollider:
   m_ObjectHideFlags: 0
