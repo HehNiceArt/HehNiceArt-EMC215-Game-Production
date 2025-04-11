@@ -12,13 +12,40 @@ public class Interactions : MonoBehaviour
     [SerializeField] GameObject blackout;
     [SerializeField] Room room;
     [SerializeField] GameObject locks;
+    [SerializeField] GameObject purchaseable;
 
     private void Start()
     {
         room = GetComponent<Room>();
         buyBTN.onClick.AddListener(OnButtonPressed);
         cancelBTN.onClick.AddListener(OnCancel);
+        purchaseable.SetActive(false);
     }
+
+    void Update()
+    {
+        CheckIfPurchaseable();
+    }
+
+    void CheckIfPurchaseable()
+    {
+        if (!so_AreaDetails.isLocked)
+        {
+            purchaseable.SetActive(false);
+            locks.SetActive(false);
+        }
+        else if (currencyEconomy.so_PlayerDetails.playerLevel >= so_AreaDetails.playerLevelToUnlock)
+        {
+            locks.SetActive(false);
+            purchaseable.SetActive(true);
+        }
+        else
+        {
+            locks.SetActive(true);
+            purchaseable.SetActive(false);
+        }
+    }
+
     private void OnMouseUp()
     {
         if (isPressed) return;
@@ -41,6 +68,8 @@ public class Interactions : MonoBehaviour
             s_current_interaction.blackout.SetActive(false);
             s_current_interaction.room.SetTreatmentTablesActive(true);
             s_current_interaction.locks.SetActive(false);
+
+            s_current_interaction.purchaseable.SetActive(false);
 
             currencyEconomy.purchaseUI.SetActive(false);
             s_current_interaction = null;

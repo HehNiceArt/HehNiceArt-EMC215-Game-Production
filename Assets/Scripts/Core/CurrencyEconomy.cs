@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CurrencyEconomy : MonoBehaviour
 {
-    [SerializeField] SO_PlayerDetails so_PlayerDetails;
+    public SO_PlayerDetails so_PlayerDetails;
     public GameObject purchaseUI;
     public TextMeshProUGUI purchaseString;
     public TextMeshProUGUI lvlToUnlockUI;

@@ -8,6 +8,7 @@ public class PlayerStats : MonoBehaviour
     [SerializeField] TextMeshProUGUI coinsUI;
     [SerializeField] TextMeshProUGUI levelUI;
 
+
     private void Start()
     {
         coinsUI.text = so_PlayerDetails.coins.ToString();
