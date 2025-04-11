@@ -6,7 +6,7 @@ public class TimeAttack : MonoBehaviour
     [SerializeField] GameObject timeAttackUI;
     [SerializeField] GameObject timeAttackToolTip;
     private float timeElapsed = 0f;
-    private float timeThreshold = 10f; // 3 minutes in seconds
+    private float timeThreshold = 180f; // 3 minutes in seconds
     private float fastSpawnRate = 5f; // 5 seconds spawn rate
 
     bool isPressed = false;

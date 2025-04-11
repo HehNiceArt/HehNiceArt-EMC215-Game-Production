@@ -18,6 +18,7 @@ public class TableInteraction : SerializedMonoBehaviour
     public bool isTableLocked = true;
     public bool isOccupied = false;
     private static TableInteraction s_current_table;
+    public ParticleSystem coinsParticle;
 
     void Start()
     {
@@ -26,7 +27,7 @@ public class TableInteraction : SerializedMonoBehaviour
         buyBTN.onClick.AddListener(PurchaseTable);
         cancelBTN.onClick.AddListener(OnCancel);
         if (staff == null) return;
-            staff.SetActive(false);
+        staff.SetActive(false);
     }
 
     public void InitializeBehavior(TableBehavior behavior)

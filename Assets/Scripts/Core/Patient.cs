@@ -181,6 +181,7 @@ public class Patient : MonoBehaviour
                     reputationGain *= 1.5f;
                 levelExperience.UpdateReputation(reputationGain);
                 ReputationManager reputationManager = FindObjectOfType<ReputationManager>();
+                assignedTable.coinsParticle.Play();
                 Debug.Log($"Rate Up Applied! {reputationManager.RateupMultiplier()}");
                 FindObjectOfType<PlayerStats>()?.UpdatePlayerDetail(patientDetails.coinDrops * reputationManager.RateupMultiplier());
                 hasBeenTreated = true;
