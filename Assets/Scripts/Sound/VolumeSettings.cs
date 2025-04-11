@@ -1,33 +1,20 @@
-using System;
 using UnityEngine;
 using UnityEngine.Audio;
-using UnityEngine.UI;
 
 public class VolumeSettings : MonoBehaviour
 {
     [SerializeField] private AudioMixer audioMixer;
-    [SerializeField] private Slider musicSlider;
 
     private void Start()
     {
-        if (PlayerPrefs.HasKey("musicVolume"))
-        {
-            LoadVolume();
-        }
-        else
-        {
-            SetMusicVolume();
-        }
+        // Load and apply saved volume on game start
+        float savedVolume = PlayerPrefs.GetFloat("musicVolume", 2f);
+        SetMusicVolume(savedVolume);
     }
-    public void SetMusicVolume()
+
+    public void SetMusicVolume(float volume)
     {
-        float volume = musicSlider.value;
         audioMixer.SetFloat("Music", Mathf.Log10(volume) * 20);
         PlayerPrefs.SetFloat("musicVolume", volume);
-    }
-    private void LoadVolume()
-    {
-        musicSlider.value = PlayerPrefs.GetFloat("musicVolume");
-        SetMusicVolume();
     }
 }
