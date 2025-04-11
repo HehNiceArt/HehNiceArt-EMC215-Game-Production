@@ -19,15 +19,23 @@ public class TableInteraction : SerializedMonoBehaviour
     public bool isOccupied = false;
     private static TableInteraction s_current_table;
     public ParticleSystem coinsParticle;
+    [SerializeField] GameObject blackout;
 
     void Start()
     {
         interactions = GetComponentInParent<Interactions>();
-
         buyBTN.onClick.AddListener(PurchaseTable);
         cancelBTN.onClick.AddListener(OnCancel);
         if (staff == null) return;
         staff.SetActive(false);
+        foreach (Transform child in transform.GetComponentsInChildren<Transform>())
+        {
+            if (child.CompareTag("Blackout"))
+            {
+                blackout = child.gameObject;
+                break;
+            }
+        }
     }
 
     public void InitializeBehavior(TableBehavior behavior)
@@ -77,6 +85,7 @@ public class TableInteraction : SerializedMonoBehaviour
         {
             s_current_table.isTableLocked = false;
             s_current_table.so_TableBehavior.tableIsLocked = false;
+            s_current_table.blackout.SetActive(false);
 
             if (s_current_table.staff != null)
                 s_current_table.staff.SetActive(true);
