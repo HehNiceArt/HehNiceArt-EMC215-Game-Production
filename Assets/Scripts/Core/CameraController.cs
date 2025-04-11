@@ -142,7 +142,7 @@ public class CameraController : MonoBehaviour
         {
             if (mainCamera.orthographic)
             {
-                float newSize = mainCamera.orthographicSize - (scrollValue * zoomSpeed * Time.deltaTime);
+                float newSize = mainCamera.orthographicSize - (scrollValue * zoomSpeed * 2 * Time.deltaTime);
                 mainCamera.orthographicSize = Mathf.Clamp(newSize, minZoom, maxZoom);
             }
             else
