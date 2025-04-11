@@ -351,12 +351,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 21788223}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 0.7071065, z: -0, w: 0.7071072}
-  m_LocalPosition: {x: 1.26, y: 1.1067277, z: -25.75}
-  m_LocalScale: {x: 6.6886554, y: 2.1433172, z: 1.7161251}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.02908313, y: 1.1067277, z: -0.26329988}
+  m_LocalScale: {x: 4.425715, y: 2.143317, z: 2.5936089}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1834249023}
+  m_Father: {fileID: 14135842}
   m_LocalEulerAnglesHint: {x: 0, y: 30, z: 0}
 --- !u!1001 &29589368
 PrefabInstance:
@@ -1681,6 +1681,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 174374007}
     - target: {fileID: 8801237286540028527, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: blackout
+      value: 
+      objectReference: {fileID: 1173331234}
+    - target: {fileID: 8801237286540028527, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
       propertyPath: cancelBTN
       value: 
       objectReference: {fileID: 36951573}
@@ -2473,6 +2477,10 @@ PrefabInstance:
       propertyPath: buyBTN
       value: 
       objectReference: {fileID: 174374007}
+    - target: {fileID: 8801237286540028527, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: blackout
+      value: 
+      objectReference: {fileID: 360318456}
     - target: {fileID: 8801237286540028527, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
       propertyPath: cancelBTN
       value: 
@@ -3643,6 +3651,85 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1389632769434543847, guid: f86aa09f68547e847bc6c90d795deffa, type: 3}
   m_PrefabInstance: {fileID: 64432647}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &169915043
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1844815736}
+    m_Modifications:
+    - target: {fileID: 5368751057427739023, guid: 47d632a393939704c9eed7d01fcd7213, type: 3}
+      propertyPath: m_Name
+      value: Coins Particle (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7202998119475483918, guid: 47d632a393939704c9eed7d01fcd7213, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.4192299
+      objectReference: {fileID: 0}
+    - target: {fileID: 7202998119475483918, guid: 47d632a393939704c9eed7d01fcd7213, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.740943
+      objectReference: {fileID: 0}
+    - target: {fileID: 7202998119475483918, guid: 47d632a393939704c9eed7d01fcd7213, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.5057524
+      objectReference: {fileID: 0}
+    - target: {fileID: 7202998119475483918, guid: 47d632a393939704c9eed7d01fcd7213, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.46157023
+      objectReference: {fileID: 0}
+    - target: {fileID: 7202998119475483918, guid: 47d632a393939704c9eed7d01fcd7213, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7202998119475483918, guid: 47d632a393939704c9eed7d01fcd7213, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.79889643
+      objectReference: {fileID: 0}
+    - target: {fileID: 7202998119475483918, guid: 47d632a393939704c9eed7d01fcd7213, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.6830127
+      objectReference: {fileID: 0}
+    - target: {fileID: 7202998119475483918, guid: 47d632a393939704c9eed7d01fcd7213, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.6830127
+      objectReference: {fileID: 0}
+    - target: {fileID: 7202998119475483918, guid: 47d632a393939704c9eed7d01fcd7213, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.18301275
+      objectReference: {fileID: 0}
+    - target: {fileID: 7202998119475483918, guid: 47d632a393939704c9eed7d01fcd7213, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.18301275
+      objectReference: {fileID: 0}
+    - target: {fileID: 7202998119475483918, guid: 47d632a393939704c9eed7d01fcd7213, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 7202998119475483918, guid: 47d632a393939704c9eed7d01fcd7213, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7202998119475483918, guid: 47d632a393939704c9eed7d01fcd7213, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 47d632a393939704c9eed7d01fcd7213, type: 3}
+--- !u!4 &169915044 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7202998119475483918, guid: 47d632a393939704c9eed7d01fcd7213, type: 3}
+  m_PrefabInstance: {fileID: 169915043}
+  m_PrefabAsset: {fileID: 0}
+--- !u!198 &169915045 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 2483611551748892036, guid: 47d632a393939704c9eed7d01fcd7213, type: 3}
+  m_PrefabInstance: {fileID: 169915043}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &174374005
 GameObject:
   m_ObjectHideFlags: 0
@@ -4742,6 +4829,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 174374007}
     - target: {fileID: 8801237286540028527, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: blackout
+      value: 
+      objectReference: {fileID: 1070360918}
+    - target: {fileID: 8801237286540028527, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
       propertyPath: cancelBTN
       value: 
       objectReference: {fileID: 36951573}
@@ -5186,6 +5277,10 @@ PrefabInstance:
       propertyPath: buyBTN
       value: 
       objectReference: {fileID: 174374007}
+    - target: {fileID: 8801237286540028527, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: blackout
+      value: 
+      objectReference: {fileID: 1813913108}
     - target: {fileID: 8801237286540028527, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
       propertyPath: cancelBTN
       value: 
@@ -9570,6 +9665,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 174374007}
     - target: {fileID: 8801237286540028527, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: blackout
+      value: 
+      objectReference: {fileID: 733428409}
+    - target: {fileID: 8801237286540028527, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
       propertyPath: cancelBTN
       value: 
       objectReference: {fileID: 36951573}
@@ -10051,6 +10150,10 @@ PrefabInstance:
       propertyPath: buyBTN
       value: 
       objectReference: {fileID: 174374007}
+    - target: {fileID: 8801237286540028527, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: blackout
+      value: 
+      objectReference: {fileID: 453843352}
     - target: {fileID: 8801237286540028527, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
       propertyPath: cancelBTN
       value: 
@@ -12943,6 +13046,10 @@ PrefabInstance:
       propertyPath: buyBTN
       value: 
       objectReference: {fileID: 174374007}
+    - target: {fileID: 8801237286540028527, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: blackout
+      value: 
+      objectReference: {fileID: 1647531058}
     - target: {fileID: 8801237286540028527, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
       propertyPath: cancelBTN
       value: 
@@ -17886,6 +17993,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 174374007}
     - target: {fileID: 8801237286540028527, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: blackout
+      value: 
+      objectReference: {fileID: 1661246629}
+    - target: {fileID: 8801237286540028527, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
       propertyPath: cancelBTN
       value: 
       objectReference: {fileID: 36951573}
@@ -18868,6 +18979,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 174374007}
     - target: {fileID: 8801237286540028527, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: blackout
+      value: 
+      objectReference: {fileID: 453629528}
+    - target: {fileID: 8801237286540028527, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
       propertyPath: cancelBTN
       value: 
       objectReference: {fileID: 36951573}
@@ -19163,12 +19278,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1094962790}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 0.71336085, z: -0, w: 0.70079696}
-  m_LocalPosition: {x: -17, y: 1.1067277, z: -2.3}
-  m_LocalScale: {x: 6.685608, y: 2.1433172, z: 1.7166436}
+  m_LocalRotation: {x: -0, y: 0.99996054, z: -0, w: -0.008883505}
+  m_LocalPosition: {x: -0.08765106, y: 1.1067277, z: -0.013662246}
+  m_LocalScale: {x: 4.4248843, y: 2.143317, z: 2.5936966}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 14135842}
+  m_Father: {fileID: 1834249023}
   m_LocalEulerAnglesHint: {x: 0, y: 91.018, z: 0}
 --- !u!114 &1111423498 stripped
 MonoBehaviour:
@@ -19912,6 +20027,10 @@ PrefabInstance:
       propertyPath: buyBTN
       value: 
       objectReference: {fileID: 174374007}
+    - target: {fileID: 8801237286540028527, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: blackout
+      value: 
+      objectReference: {fileID: 1928604598}
     - target: {fileID: 8801237286540028527, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
       propertyPath: cancelBTN
       value: 
@@ -21514,6 +21633,10 @@ PrefabInstance:
       propertyPath: buyBTN
       value: 
       objectReference: {fileID: 174374007}
+    - target: {fileID: 8801237286540028527, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: blackout
+      value: 
+      objectReference: {fileID: 1828954551}
     - target: {fileID: 8801237286540028527, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
       propertyPath: cancelBTN
       value: 
@@ -28571,6 +28694,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 174374007}
     - target: {fileID: 8801237286540028527, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: blackout
+      value: 
+      objectReference: {fileID: 1652785581}
+    - target: {fileID: 8801237286540028527, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
       propertyPath: cancelBTN
       value: 
       objectReference: {fileID: 36951573}
@@ -28836,6 +28963,10 @@ PrefabInstance:
       propertyPath: buyBTN
       value: 
       objectReference: {fileID: 174374007}
+    - target: {fileID: 8801237286540028527, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: blackout
+      value: 
+      objectReference: {fileID: 1580453767}
     - target: {fileID: 8801237286540028527, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
       propertyPath: cancelBTN
       value: 
@@ -29104,6 +29235,10 @@ PrefabInstance:
       propertyPath: buyBTN
       value: 
       objectReference: {fileID: 174374007}
+    - target: {fileID: 8801237286540028527, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: blackout
+      value: 
+      objectReference: {fileID: 155049938}
     - target: {fileID: 8801237286540028527, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
       propertyPath: cancelBTN
       value: 
@@ -31813,6 +31948,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 174374007}
     - target: {fileID: 8801237286540028527, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: blackout
+      value: 
+      objectReference: {fileID: 1441914341}
+    - target: {fileID: 8801237286540028527, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
       propertyPath: cancelBTN
       value: 
       objectReference: {fileID: 36951573}
@@ -32662,6 +32801,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 174374007}
     - target: {fileID: 8801237286540028527, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: blackout
+      value: 
+      objectReference: {fileID: 1094962790}
+    - target: {fileID: 8801237286540028527, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
       propertyPath: cancelBTN
       value: 
       objectReference: {fileID: 36951573}
@@ -32686,10 +32829,10 @@ PrefabInstance:
       addedObject: {fileID: 725962130}
     - targetCorrespondingSourceObject: {fileID: 7440986876256755917, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 864801473}
+      addedObject: {fileID: 1094962795}
     - targetCorrespondingSourceObject: {fileID: 7440986876256755917, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 21788228}
+      addedObject: {fileID: 864801473}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
 --- !u!1 &1442097388 stripped
@@ -33458,6 +33601,10 @@ PrefabInstance:
       propertyPath: buyBTN
       value: 
       objectReference: {fileID: 174374007}
+    - target: {fileID: 8801237286540028527, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: blackout
+      value: 
+      objectReference: {fileID: 2141933540}
     - target: {fileID: 8801237286540028527, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
       propertyPath: cancelBTN
       value: 
@@ -35747,6 +35894,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 174374007}
     - target: {fileID: 8801237286540028527, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: blackout
+      value: 
+      objectReference: {fileID: 21788223}
+    - target: {fileID: 8801237286540028527, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
       propertyPath: cancelBTN
       value: 
       objectReference: {fileID: 36951573}
@@ -35771,10 +35922,10 @@ PrefabInstance:
       addedObject: {fileID: 330173022}
     - targetCorrespondingSourceObject: {fileID: 7440986876256755917, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1344154424}
+      addedObject: {fileID: 21788228}
     - targetCorrespondingSourceObject: {fileID: 7440986876256755917, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1094962795}
+      addedObject: {fileID: 1344154424}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
 --- !u!1 &1643659799 stripped
@@ -36790,6 +36941,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 174374007}
     - target: {fileID: 8801237286540028527, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: blackout
+      value: 
+      objectReference: {fileID: 710851098}
+    - target: {fileID: 8801237286540028527, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
       propertyPath: cancelBTN
       value: 
       objectReference: {fileID: 36951573}
@@ -37716,6 +37871,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1772143030}
   m_LocalEulerAnglesHint: {x: 0, y: 30, z: 0}
+--- !u!1 &1761425853 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7725797084331626481, guid: 7ec2e64973898428db7bcd593bbc7114, type: 3}
+  m_PrefabInstance: {fileID: 1387051478}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1764087408
 GameObject:
   m_ObjectHideFlags: 0
@@ -38880,9 +39040,17 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 174374007}
     - target: {fileID: 8801237286540028527, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: blackout
+      value: 
+      objectReference: {fileID: 1404905586}
+    - target: {fileID: 8801237286540028527, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
       propertyPath: cancelBTN
       value: 
       objectReference: {fileID: 36951573}
+    - target: {fileID: 8801237286540028527, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: coinsParticle
+      value: 
+      objectReference: {fileID: 169915045}
     - target: {fileID: 8801237286540028527, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
       propertyPath: currencyEconomy
       value: 
@@ -38895,6 +39063,9 @@ PrefabInstance:
     m_RemovedGameObjects:
     - {fileID: 7207343842662364157, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
     m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 7440986876256755917, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      insertIndex: 0
+      addedObject: {fileID: 169915044}
     - targetCorrespondingSourceObject: {fileID: 7440986876256755917, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
       insertIndex: -1
       addedObject: {fileID: 851085119}
@@ -39606,6 +39777,10 @@ PrefabInstance:
       propertyPath: buyBTN
       value: 
       objectReference: {fileID: 174374007}
+    - target: {fileID: 8801237286540028527, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: blackout
+      value: 
+      objectReference: {fileID: 1116570072}
     - target: {fileID: 8801237286540028527, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
       propertyPath: cancelBTN
       value: 
@@ -40872,6 +41047,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 174374007}
     - target: {fileID: 8801237286540028527, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: blackout
+      value: 
+      objectReference: {fileID: 1146941065}
+    - target: {fileID: 8801237286540028527, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
       propertyPath: cancelBTN
       value: 
       objectReference: {fileID: 36951573}
@@ -41406,6 +41585,10 @@ PrefabInstance:
       propertyPath: buyBTN
       value: 
       objectReference: {fileID: 174374007}
+    - target: {fileID: 8801237286540028527, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: blackout
+      value: 
+      objectReference: {fileID: 341272083}
     - target: {fileID: 8801237286540028527, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
       propertyPath: cancelBTN
       value: 
@@ -42304,6 +42487,10 @@ PrefabInstance:
       propertyPath: buyBTN
       value: 
       objectReference: {fileID: 174374007}
+    - target: {fileID: 8801237286540028527, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
+      propertyPath: blackout
+      value: 
+      objectReference: {fileID: 2065269478}
     - target: {fileID: 8801237286540028527, guid: 20a5f55eedee7a54e9a8dac62331efe3, type: 3}
       propertyPath: cancelBTN
       value: 
@@ -44456,7 +44643,7 @@ MonoBehaviour:
   tableLevelGO:
   - {fileID: 879936470}
   - {fileID: 68059922}
-  - {fileID: 0}
+  - {fileID: 1761425853}
   - {fileID: 1419808034}
   - {fileID: 1190057051}
   currencyEconomy: {fileID: 1297521480}
@@ -45355,7 +45542,7 @@ MonoBehaviour:
   isTableLocked: 1
   isOccupied: 0
   coinsParticle: {fileID: 1140360765}
-  blackout: {fileID: 0}
+  blackout: {fileID: 50908783}
 --- !u!114 &8801237285006822186
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45387,7 +45574,7 @@ MonoBehaviour:
   isTableLocked: 1
   isOccupied: 0
   coinsParticle: {fileID: 1827933927}
-  blackout: {fileID: 0}
+  blackout: {fileID: 781616386}
 --- !u!114 &8801237285339166502
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45419,7 +45606,7 @@ MonoBehaviour:
   isTableLocked: 1
   isOccupied: 0
   coinsParticle: {fileID: 1947043908}
-  blackout: {fileID: 0}
+  blackout: {fileID: 397231706}
 --- !u!114 &8801237285590339685
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45451,7 +45638,7 @@ MonoBehaviour:
   isTableLocked: 1
   isOccupied: 0
   coinsParticle: {fileID: 1566010109}
-  blackout: {fileID: 0}
+  blackout: {fileID: 738916116}
 --- !u!114 &8801237285630464713
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45483,7 +45670,7 @@ MonoBehaviour:
   isTableLocked: 1
   isOccupied: 0
   coinsParticle: {fileID: 896338420}
-  blackout: {fileID: 0}
+  blackout: {fileID: 384299807}
 --- !u!114 &8801237285640147563
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45515,7 +45702,7 @@ MonoBehaviour:
   isTableLocked: 1
   isOccupied: 0
   coinsParticle: {fileID: 157279518}
-  blackout: {fileID: 0}
+  blackout: {fileID: 1447032767}
 --- !u!114 &8801237285748933901
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45547,7 +45734,7 @@ MonoBehaviour:
   isTableLocked: 1
   isOccupied: 0
   coinsParticle: {fileID: 149306899}
-  blackout: {fileID: 0}
+  blackout: {fileID: 280483132}
 --- !u!114 &8801237285774857145
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45579,7 +45766,7 @@ MonoBehaviour:
   isTableLocked: 1
   isOccupied: 0
   coinsParticle: {fileID: 858047977}
-  blackout: {fileID: 0}
+  blackout: {fileID: 1599244810}
 --- !u!114 &8801237286087935926
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45611,7 +45798,7 @@ MonoBehaviour:
   isTableLocked: 1
   isOccupied: 0
   coinsParticle: {fileID: 118370213}
-  blackout: {fileID: 0}
+  blackout: {fileID: 77029768}
 --- !u!114 &8801237286787207287
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45643,7 +45830,7 @@ MonoBehaviour:
   isTableLocked: 1
   isOccupied: 0
   coinsParticle: {fileID: 2079610639}
-  blackout: {fileID: 0}
+  blackout: {fileID: 283501443}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
