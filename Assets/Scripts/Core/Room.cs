@@ -33,8 +33,9 @@ public class Room : MonoBehaviour
         StartCoroutine(CheckWaitingPatients());
         SetTreatmentTablesActive(false);
     }
-    public void SetTreatmentTablesActive(bool active)
+    public void SetTreatmentTablesActive( bool active)
     {
+        
         foreach (TableInteraction table in treatmentTables)
         {
             if (table != null)

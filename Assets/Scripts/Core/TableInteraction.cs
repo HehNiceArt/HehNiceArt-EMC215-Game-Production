@@ -25,7 +25,7 @@ public class TableInteraction : SerializedMonoBehaviour
 
         buyBTN.onClick.AddListener(PurchaseTable);
         cancelBTN.onClick.AddListener(OnCancel);
-        if (staff != null)
+        if (staff == null) return;
             staff.SetActive(false);
     }
 

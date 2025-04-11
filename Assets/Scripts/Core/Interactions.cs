@@ -37,8 +37,8 @@ public class Interactions : MonoBehaviour
             s_current_interaction.so_AreaDetails.isLocked = false;
 #pragma warning disable
             FindObjectOfType<LevelExperience>()?.AddExperience(s_current_interaction.so_AreaDetails.xpGain);
-            blackout.SetActive(false);
-            room.SetTreatmentTablesActive(true);
+            s_current_interaction.blackout.SetActive(false);
+            s_current_interaction.room.SetTreatmentTablesActive(true);
 
             currencyEconomy.purchaseUI.SetActive(false);
             s_current_interaction = null;
