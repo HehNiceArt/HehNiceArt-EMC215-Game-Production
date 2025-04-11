@@ -8,9 +8,11 @@ public class SettingsUI : MonoBehaviour
     [SerializeField] private GameObject settingsPanel;
     [SerializeField] private Button settingsButton;
     [SerializeField] private GraphicRaycaster canvasRaycaster;
+    [SerializeField] private GameObject help, doubleTime;
 
     [Header("References")]
     [SerializeField] private CameraController cameraController;
+    [SerializeField] private LayerMask uiLayer;
 
     [Header("Movement Settings")]
     [SerializeField] private Slider moveSpeedSlider;
@@ -28,10 +30,9 @@ public class SettingsUI : MonoBehaviour
     void Awake()
     {
 
-        if (settingsPanel != null)
-        {
-            settingsPanel.SetActive(false);
-        }
+        gameObject.layer = LayerMask.NameToLayer("UI");
+        foreach (Transform child in transform)
+            child.gameObject.layer = LayerMask.NameToLayer("UI");
 
         if (settingsButton != null)
             settingsButton.onClick.AddListener(ToggleSettings);
@@ -43,6 +44,8 @@ public class SettingsUI : MonoBehaviour
         {
             bool isActive = !settingsPanel.activeSelf;
             settingsPanel.SetActive(isActive);
+            help.SetActive(!isActive);
+            doubleTime.SetActive(!isActive);
 
             // Disable camera controls and other interactions when settings are open
             if (cameraController != null)

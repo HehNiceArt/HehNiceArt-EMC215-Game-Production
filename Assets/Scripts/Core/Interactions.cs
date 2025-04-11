@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
 public class Interactions : MonoBehaviour
@@ -13,6 +14,7 @@ public class Interactions : MonoBehaviour
     [SerializeField] Room room;
     [SerializeField] GameObject locks;
     [SerializeField] GameObject purchaseable;
+    [SerializeField] GameObject setting, help, doubleTime;
 
     private void Start()
     {
@@ -48,6 +50,7 @@ public class Interactions : MonoBehaviour
 
     private void OnMouseUp()
     {
+        if (EventSystem.current.IsPointerOverGameObject()) return;
         if (isPressed) return;
         if (so_AreaDetails.isLocked)
         {
@@ -56,6 +59,9 @@ public class Interactions : MonoBehaviour
             currencyEconomy.coinsUI.text = so_AreaDetails.costToUnlock.ToString();
             currencyEconomy.lvlToUnlockUI.text = so_AreaDetails.playerLevelToUnlock.ToString();
             currencyEconomy.DisplayConfirmPurchase(so_AreaDetails.isLocked, this.gameObject.name, so_AreaDetails.playerLevelToUnlock);
+            setting.SetActive(false);
+            help.SetActive(false);
+            doubleTime.SetActive(false);
         }
     }
     void OnButtonPressed()
@@ -70,6 +76,9 @@ public class Interactions : MonoBehaviour
             s_current_interaction.locks.SetActive(false);
 
             s_current_interaction.purchaseable.SetActive(false);
+            setting.SetActive(true);
+            help.SetActive(true);
+            doubleTime.SetActive(true);
 
             currencyEconomy.purchaseUI.SetActive(false);
             s_current_interaction = null;
@@ -81,5 +90,8 @@ public class Interactions : MonoBehaviour
         currencyEconomy.purchaseUI.SetActive(false);
         s_current_interaction = null;
         isPressed = false;
+        setting.SetActive(true);
+        help.SetActive(true);
+        doubleTime.SetActive(true);
     }
 }

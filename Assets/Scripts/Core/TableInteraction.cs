@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 using Sirenix.OdinInspector;
+using UnityEngine.EventSystems;
 
 
 [RequireComponent(typeof(TableUpgrade))]
@@ -72,6 +73,7 @@ public class TableInteraction : SerializedMonoBehaviour
 
     private void OnMouseUp()
     {
+        if (EventSystem.current.IsPointerOverGameObject()) return;
         if (!isTableLocked) return;
         if (interactions.so_AreaDetails.isLocked) return;
 

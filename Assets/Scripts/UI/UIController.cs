@@ -11,6 +11,8 @@ public class UIController : MonoBehaviour
     [SerializeField] GameObject[] gears;
     bool isActive = false;
     bool isDoubleTime = false;
+    [SerializeField] GameObject[] areas;
+
 
     void Start()
     {
@@ -20,16 +22,28 @@ public class UIController : MonoBehaviour
     IEnumerator TutShow()
     {
         tutorialUI.SetActive(true);
+        for (int i = 0; i < areas.Length; i++)
+        {
+            areas[i].SetActive(false);
+        }
         yield return new WaitForSeconds(10f);
         tutorialUI.SetActive(false);
+        for (int i = 0; i < areas.Length; i++)
+        {
+            areas[i].SetActive(true);
+        }
     }
     void Update()
     {
         if ((Input.GetKeyUp(KeyCode.Space) || Input.GetMouseButtonUp(1)) && tutorialUI.activeSelf)
         {
             isActive = !isActive;
-            StopCoroutine(TutShow());
             tutorialUI.SetActive(isActive);
+            StopCoroutine(TutShow());
+            for (int i = 0; i < areas.Length; i++)
+            {
+                areas[i].SetActive(true);
+            }
         }
     }
     public void ShowTutorial()
