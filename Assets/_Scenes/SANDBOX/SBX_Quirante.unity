@@ -266,7 +266,7 @@ SortingGroup:
   m_GameObject: {fileID: 21788223}
   m_Enabled: 1
   m_SortingLayerID: -1270215341
-  m_SortingLayer: 7
+  m_SortingLayer: 8
   m_SortingOrder: 0
   m_SortAtRoot: 0
 --- !u!65 &21788225
@@ -819,7 +819,7 @@ SortingGroup:
   m_GameObject: {fileID: 50908783}
   m_Enabled: 1
   m_SortingLayerID: -1270215341
-  m_SortingLayer: 7
+  m_SortingLayer: 8
   m_SortingOrder: 0
   m_SortAtRoot: 0
 --- !u!65 &50908785
@@ -1774,7 +1774,7 @@ SortingGroup:
   m_GameObject: {fileID: 77029768}
   m_Enabled: 1
   m_SortingLayerID: -1270215341
-  m_SortingLayer: 7
+  m_SortingLayer: 8
   m_SortingOrder: 0
   m_SortAtRoot: 0
 --- !u!65 &77029770
@@ -1876,15 +1876,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 8260857626184280092, guid: 8102d6efc4c154915a21a9fb9c89e5d8, type: 3}
       propertyPath: m_LocalScale.x
-      value: 166.46304
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 8260857626184280092, guid: 8102d6efc4c154915a21a9fb9c89e5d8, type: 3}
       propertyPath: m_LocalScale.y
-      value: 147.92026
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 8260857626184280092, guid: 8102d6efc4c154915a21a9fb9c89e5d8, type: 3}
       propertyPath: m_LocalScale.z
-      value: 166.37047
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 8260857626184280092, guid: 8102d6efc4c154915a21a9fb9c89e5d8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1928,7 +1928,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8260857626184280092, guid: 8102d6efc4c154915a21a9fb9c89e5d8, type: 3}
       propertyPath: m_ConstrainProportionsScale
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8786424546811589286, guid: 8102d6efc4c154915a21a9fb9c89e5d8, type: 3}
       propertyPath: m_Name
@@ -2323,6 +2323,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 109324154}
+  - component: {fileID: 109324155}
   m_Layer: 0
   m_Name: teller
   m_TagString: Untagged
@@ -2345,6 +2346,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1870939416}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!210 &109324155
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 109324153}
+  m_Enabled: 1
+  m_SortingLayerID: -1885836893
+  m_SortingLayer: 1
+  m_SortingOrder: 0
+  m_SortAtRoot: 0
 --- !u!1001 &109546386
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3397,7 +3410,7 @@ SortingGroup:
   m_GameObject: {fileID: 155049938}
   m_Enabled: 1
   m_SortingLayerID: -1270215341
-  m_SortingLayer: 7
+  m_SortingLayer: 8
   m_SortingOrder: 0
   m_SortAtRoot: 0
 --- !u!65 &155049940
@@ -5047,7 +5060,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7725797084331626481, guid: 7ec2e64973898428db7bcd593bbc7114, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5567,15 +5580,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 8260857626184280092, guid: 8102d6efc4c154915a21a9fb9c89e5d8, type: 3}
       propertyPath: m_LocalScale.x
-      value: 166.46304
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 8260857626184280092, guid: 8102d6efc4c154915a21a9fb9c89e5d8, type: 3}
       propertyPath: m_LocalScale.y
-      value: 147.92026
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 8260857626184280092, guid: 8102d6efc4c154915a21a9fb9c89e5d8, type: 3}
       propertyPath: m_LocalScale.z
-      value: 166.37047
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 8260857626184280092, guid: 8102d6efc4c154915a21a9fb9c89e5d8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5619,7 +5632,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8260857626184280092, guid: 8102d6efc4c154915a21a9fb9c89e5d8, type: 3}
       propertyPath: m_ConstrainProportionsScale
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8786424546811589286, guid: 8102d6efc4c154915a21a9fb9c89e5d8, type: 3}
       propertyPath: m_Name
@@ -5627,7 +5640,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8786424546811589286, guid: 8102d6efc4c154915a21a9fb9c89e5d8, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5673,7 +5686,7 @@ SortingGroup:
   m_GameObject: {fileID: 280483132}
   m_Enabled: 1
   m_SortingLayerID: -1270215341
-  m_SortingLayer: 7
+  m_SortingLayer: 8
   m_SortingOrder: 0
   m_SortAtRoot: 0
 --- !u!65 &280483134
@@ -5794,7 +5807,7 @@ SortingGroup:
   m_GameObject: {fileID: 283501443}
   m_Enabled: 1
   m_SortingLayerID: -1270215341
-  m_SortingLayer: 7
+  m_SortingLayer: 8
   m_SortingOrder: 0
   m_SortAtRoot: 0
 --- !u!65 &283501445
@@ -6428,7 +6441,7 @@ SortingGroup:
   m_GameObject: {fileID: 301614702}
   m_Enabled: 1
   m_SortingLayerID: -1270215341
-  m_SortingLayer: 7
+  m_SortingLayer: 8
   m_SortingOrder: 0
   m_SortAtRoot: 0
 --- !u!65 &301614704
@@ -7086,7 +7099,7 @@ SortingGroup:
   m_GameObject: {fileID: 341272083}
   m_Enabled: 1
   m_SortingLayerID: -1270215341
-  m_SortingLayer: 7
+  m_SortingLayer: 8
   m_SortingOrder: 0
   m_SortAtRoot: 0
 --- !u!65 &341272085
@@ -7281,7 +7294,7 @@ SortingGroup:
   m_GameObject: {fileID: 360318456}
   m_Enabled: 1
   m_SortingLayerID: -1270215341
-  m_SortingLayer: 7
+  m_SortingLayer: 8
   m_SortingOrder: 0
   m_SortAtRoot: 0
 --- !u!65 &360318458
@@ -7652,7 +7665,7 @@ SortingGroup:
   m_GameObject: {fileID: 384299807}
   m_Enabled: 1
   m_SortingLayerID: -1270215341
-  m_SortingLayer: 7
+  m_SortingLayer: 8
   m_SortingOrder: 0
   m_SortAtRoot: 0
 --- !u!65 &384299809
@@ -8109,7 +8122,7 @@ SortingGroup:
   m_GameObject: {fileID: 397231706}
   m_Enabled: 1
   m_SortingLayerID: -1270215341
-  m_SortingLayer: 7
+  m_SortingLayer: 8
   m_SortingOrder: 0
   m_SortAtRoot: 0
 --- !u!65 &397231708
@@ -9002,7 +9015,7 @@ SortingGroup:
   m_GameObject: {fileID: 453629528}
   m_Enabled: 1
   m_SortingLayerID: -1270215341
-  m_SortingLayer: 7
+  m_SortingLayer: 8
   m_SortingOrder: 0
   m_SortAtRoot: 0
 --- !u!65 &453629530
@@ -9123,7 +9136,7 @@ SortingGroup:
   m_GameObject: {fileID: 453843352}
   m_Enabled: 1
   m_SortingLayerID: -1270215341
-  m_SortingLayer: 7
+  m_SortingLayer: 8
   m_SortingOrder: 0
   m_SortAtRoot: 0
 --- !u!65 &453843354
@@ -9443,7 +9456,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8786424546811589286, guid: 8102d6efc4c154915a21a9fb9c89e5d8, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -11637,7 +11650,7 @@ MonoBehaviour:
   m_Intensity: 1
   m_LightVolumeIntensity: 1
   m_LightVolumeEnabled: 0
-  m_ApplyToSortingLayers: 00000000af06349e292bd253a369988f0d3f48900120033b0731768e530d4ab4
+  m_ApplyToSortingLayers: 00000000af06349e292bd253a369988f0d3f48900120033b0731768e530d4ab47d4f6a9a
   m_LightCookieSprite: {fileID: 0}
   m_DeprecatedPointLightCookieSprite: {fileID: 0}
   m_LightOrder: 0
@@ -13141,7 +13154,7 @@ SortingGroup:
   m_GameObject: {fileID: 691509976}
   m_Enabled: 1
   m_SortingLayerID: -1270215341
-  m_SortingLayer: 7
+  m_SortingLayer: 8
   m_SortingOrder: 0
   m_SortAtRoot: 0
 --- !u!64 &691509978
@@ -13395,7 +13408,7 @@ SortingGroup:
   m_GameObject: {fileID: 710851098}
   m_Enabled: 1
   m_SortingLayerID: -1270215341
-  m_SortingLayer: 7
+  m_SortingLayer: 8
   m_SortingOrder: 0
   m_SortAtRoot: 0
 --- !u!65 &710851100
@@ -13899,7 +13912,7 @@ SortingGroup:
   m_GameObject: {fileID: 733428409}
   m_Enabled: 1
   m_SortingLayerID: -1270215341
-  m_SortingLayer: 7
+  m_SortingLayer: 8
   m_SortingOrder: 0
   m_SortAtRoot: 0
 --- !u!65 &733428411
@@ -14020,7 +14033,7 @@ SortingGroup:
   m_GameObject: {fileID: 738916116}
   m_Enabled: 1
   m_SortingLayerID: -1270215341
-  m_SortingLayer: 7
+  m_SortingLayer: 8
   m_SortingOrder: 0
   m_SortAtRoot: 0
 --- !u!65 &738916118
@@ -14943,7 +14956,7 @@ SortingGroup:
   m_GameObject: {fileID: 781616386}
   m_Enabled: 1
   m_SortingLayerID: -1270215341
-  m_SortingLayer: 7
+  m_SortingLayer: 8
   m_SortingOrder: 0
   m_SortAtRoot: 0
 --- !u!65 &781616388
@@ -15046,6 +15059,10 @@ PrefabInstance:
     - target: {fileID: 8336158977232912187, guid: b209262f4ae3e4b42a33497e4b948be7, type: 3}
       propertyPath: m_Name
       value: 1st-Level Hospital Bed (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8336158977232912187, guid: b209262f4ae3e4b42a33497e4b948be7, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8711136786137933185, guid: b209262f4ae3e4b42a33497e4b948be7, type: 3}
       propertyPath: m_LocalScale.x
@@ -15943,7 +15960,7 @@ SortingGroup:
   m_GameObject: {fileID: 846323215}
   m_Enabled: 1
   m_SortingLayerID: -1270215341
-  m_SortingLayer: 7
+  m_SortingLayer: 8
   m_SortingOrder: 0
   m_SortAtRoot: 0
 --- !u!65 &846323217
@@ -16551,7 +16568,7 @@ SortingGroup:
   m_GameObject: {fileID: 882313038}
   m_Enabled: 1
   m_SortingLayerID: -1270215341
-  m_SortingLayer: 7
+  m_SortingLayer: 8
   m_SortingOrder: 0
   m_SortAtRoot: 0
 --- !u!64 &882313040
@@ -17668,6 +17685,10 @@ PrefabInstance:
     - target: {fileID: 8336158977232912187, guid: b209262f4ae3e4b42a33497e4b948be7, type: 3}
       propertyPath: m_Name
       value: 1st-Level Hospital Bed
+      objectReference: {fileID: 0}
+    - target: {fileID: 8336158977232912187, guid: b209262f4ae3e4b42a33497e4b948be7, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8711136786137933185, guid: b209262f4ae3e4b42a33497e4b948be7, type: 3}
       propertyPath: m_LocalScale.x
@@ -19073,7 +19094,7 @@ SortingGroup:
   m_GameObject: {fileID: 1070360918}
   m_Enabled: 1
   m_SortingLayerID: -1270215341
-  m_SortingLayer: 7
+  m_SortingLayer: 8
   m_SortingOrder: 0
   m_SortAtRoot: 0
 --- !u!65 &1070360920
@@ -19194,7 +19215,7 @@ SortingGroup:
   m_GameObject: {fileID: 1094962790}
   m_Enabled: 1
   m_SortingLayerID: -1270215341
-  m_SortingLayer: 7
+  m_SortingLayer: 8
   m_SortingOrder: 0
   m_SortAtRoot: 0
 --- !u!65 &1094962792
@@ -19326,7 +19347,7 @@ SortingGroup:
   m_GameObject: {fileID: 1116570072}
   m_Enabled: 1
   m_SortingLayerID: -1270215341
-  m_SortingLayer: 7
+  m_SortingLayer: 8
   m_SortingOrder: 0
   m_SortAtRoot: 0
 --- !u!65 &1116570074
@@ -19526,7 +19547,7 @@ SortingGroup:
   m_GameObject: {fileID: 1146941065}
   m_Enabled: 1
   m_SortingLayerID: -1270215341
-  m_SortingLayer: 7
+  m_SortingLayer: 8
   m_SortingOrder: 0
   m_SortAtRoot: 0
 --- !u!65 &1146941067
@@ -19804,7 +19825,7 @@ SortingGroup:
   m_GameObject: {fileID: 1173331234}
   m_Enabled: 1
   m_SortingLayerID: -1270215341
-  m_SortingLayer: 7
+  m_SortingLayer: 8
   m_SortingOrder: 0
   m_SortAtRoot: 0
 --- !u!65 &1173331236
@@ -20118,47 +20139,47 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 7440986875257264839}
+    m_TransformParent: {fileID: 1734700183}
     m_Modifications:
     - target: {fileID: 1534577869485848992, guid: 4e9ead04194ed44b9ba5b4190e8969a2, type: 3}
       propertyPath: m_LocalScale.x
-      value: 166.46304
+      value: 0.005564874
       objectReference: {fileID: 0}
     - target: {fileID: 1534577869485848992, guid: 4e9ead04194ed44b9ba5b4190e8969a2, type: 3}
       propertyPath: m_LocalScale.y
-      value: 147.92026
+      value: 0.004473188
       objectReference: {fileID: 0}
     - target: {fileID: 1534577869485848992, guid: 4e9ead04194ed44b9ba5b4190e8969a2, type: 3}
       propertyPath: m_LocalScale.z
-      value: 166.37047
+      value: 0.0059656743
       objectReference: {fileID: 0}
     - target: {fileID: 1534577869485848992, guid: 4e9ead04194ed44b9ba5b4190e8969a2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.22099084
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1534577869485848992, guid: 4e9ead04194ed44b9ba5b4190e8969a2, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.12039982
+      value: 0.0011207218
       objectReference: {fileID: 0}
     - target: {fileID: 1534577869485848992, guid: 4e9ead04194ed44b9ba5b4190e8969a2, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.6874698
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1534577869485848992, guid: 4e9ead04194ed44b9ba5b4190e8969a2, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.9999182
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1534577869485848992, guid: 4e9ead04194ed44b9ba5b4190e8969a2, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: -0.7071053
       objectReference: {fileID: 0}
     - target: {fileID: 1534577869485848992, guid: 4e9ead04194ed44b9ba5b4190e8969a2, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.012792379
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 1534577869485848992, guid: 4e9ead04194ed44b9ba5b4190e8969a2, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0.7071083
       objectReference: {fileID: 0}
     - target: {fileID: 1534577869485848992, guid: 4e9ead04194ed44b9ba5b4190e8969a2, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -20174,7 +20195,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1534577869485848992, guid: 4e9ead04194ed44b9ba5b4190e8969a2, type: 3}
       propertyPath: m_ConstrainProportionsScale
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2161792544354165530, guid: 4e9ead04194ed44b9ba5b4190e8969a2, type: 3}
       propertyPath: m_Name
@@ -21321,7 +21342,7 @@ SortingGroup:
   m_GameObject: {fileID: 1262886143}
   m_Enabled: 1
   m_SortingLayerID: -1270215341
-  m_SortingLayer: 7
+  m_SortingLayer: 8
   m_SortingOrder: 0
   m_SortAtRoot: 0
 --- !u!1 &1263120649
@@ -31661,7 +31682,7 @@ SortingGroup:
   m_GameObject: {fileID: 1404905586}
   m_Enabled: 1
   m_SortingLayerID: -1270215341
-  m_SortingLayer: 7
+  m_SortingLayer: 8
   m_SortingOrder: 0
   m_SortAtRoot: 0
 --- !u!65 &1404905588
@@ -31782,7 +31803,7 @@ SortingGroup:
   m_GameObject: {fileID: 1405940907}
   m_Enabled: 1
   m_SortingLayerID: -1270215341
-  m_SortingLayer: 7
+  m_SortingLayer: 8
   m_SortingOrder: 0
   m_SortAtRoot: 0
 --- !u!64 &1405940909
@@ -32721,7 +32742,7 @@ SortingGroup:
   m_GameObject: {fileID: 1441914341}
   m_Enabled: 1
   m_SortingLayerID: -1270215341
-  m_SortingLayer: 7
+  m_SortingLayer: 8
   m_SortingOrder: 0
   m_SortAtRoot: 0
 --- !u!65 &1441914343
@@ -33034,7 +33055,7 @@ SortingGroup:
   m_GameObject: {fileID: 1447032767}
   m_Enabled: 1
   m_SortingLayerID: -1270215341
-  m_SortingLayer: 7
+  m_SortingLayer: 8
   m_SortingOrder: 0
   m_SortAtRoot: 0
 --- !u!65 &1447032769
@@ -34836,7 +34857,7 @@ SortingGroup:
   m_GameObject: {fileID: 1580453767}
   m_Enabled: 1
   m_SortingLayerID: -1270215341
-  m_SortingLayer: 7
+  m_SortingLayer: 8
   m_SortingOrder: 0
   m_SortAtRoot: 0
 --- !u!65 &1580453769
@@ -35092,7 +35113,7 @@ SortingGroup:
   m_GameObject: {fileID: 1599244810}
   m_Enabled: 1
   m_SortingLayerID: -1270215341
-  m_SortingLayer: 7
+  m_SortingLayer: 8
   m_SortingOrder: 0
   m_SortAtRoot: 0
 --- !u!65 &1599244812
@@ -36127,7 +36148,7 @@ SortingGroup:
   m_GameObject: {fileID: 1647531058}
   m_Enabled: 1
   m_SortingLayerID: -1270215341
-  m_SortingLayer: 7
+  m_SortingLayer: 8
   m_SortingOrder: 0
   m_SortAtRoot: 0
 --- !u!65 &1647531060
@@ -36248,7 +36269,7 @@ SortingGroup:
   m_GameObject: {fileID: 1652785581}
   m_Enabled: 1
   m_SortingLayerID: -1270215341
-  m_SortingLayer: 7
+  m_SortingLayer: 8
   m_SortingOrder: 0
   m_SortAtRoot: 0
 --- !u!65 &1652785583
@@ -36525,7 +36546,7 @@ SortingGroup:
   m_GameObject: {fileID: 1661246629}
   m_Enabled: 1
   m_SortingLayerID: -1270215341
-  m_SortingLayer: 7
+  m_SortingLayer: 8
   m_SortingOrder: 0
   m_SortAtRoot: 0
 --- !u!65 &1661246631
@@ -37817,15 +37838,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6952532184203105611, guid: 7ec2e64973898428db7bcd593bbc7114, type: 3}
       propertyPath: m_LocalScale.x
-      value: 251.43845
+      value: 0.17
       objectReference: {fileID: 0}
     - target: {fileID: 6952532184203105611, guid: 7ec2e64973898428db7bcd593bbc7114, type: 3}
       propertyPath: m_LocalScale.y
-      value: 223.55417
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 6952532184203105611, guid: 7ec2e64973898428db7bcd593bbc7114, type: 3}
       propertyPath: m_LocalScale.z
-      value: 251.57796
+      value: 0.17
       objectReference: {fileID: 0}
     - target: {fileID: 6952532184203105611, guid: 7ec2e64973898428db7bcd593bbc7114, type: 3}
       propertyPath: m_LocalPosition.x
@@ -37869,7 +37890,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6952532184203105611, guid: 7ec2e64973898428db7bcd593bbc7114, type: 3}
       propertyPath: m_ConstrainProportionsScale
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7725797084331626481, guid: 7ec2e64973898428db7bcd593bbc7114, type: 3}
       propertyPath: m_Name
@@ -37881,7 +37902,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 6952532184203105611, guid: 7ec2e64973898428db7bcd593bbc7114, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1178182341}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7ec2e64973898428db7bcd593bbc7114, type: 3}
 --- !u!4 &1734700183 stripped
@@ -37923,7 +37947,7 @@ SortingGroup:
   m_GameObject: {fileID: 1738622013}
   m_Enabled: 1
   m_SortingLayerID: -1270215341
-  m_SortingLayer: 7
+  m_SortingLayer: 8
   m_SortingOrder: 0
   m_SortAtRoot: 0
 --- !u!64 &1738622015
@@ -38423,6 +38447,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1794582983}
+  - component: {fileID: 1794582984}
   m_Layer: 0
   m_Name: TellerArea
   m_TagString: Untagged
@@ -38445,6 +38470,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1334419135}
   m_LocalEulerAnglesHint: {x: 0, y: -57.21, z: 0}
+--- !u!210 &1794582984
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1794582982}
+  m_Enabled: 1
+  m_SortingLayerID: -1885836893
+  m_SortingLayer: 1
+  m_SortingOrder: 0
+  m_SortAtRoot: 0
 --- !u!1 &1795536995 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3365895943568034675, guid: f86aa09f68547e847bc6c90d795deffa, type: 3}
@@ -38586,7 +38623,7 @@ SortingGroup:
   m_GameObject: {fileID: 1813913108}
   m_Enabled: 1
   m_SortingLayerID: -1270215341
-  m_SortingLayer: 7
+  m_SortingLayer: 8
   m_SortingOrder: 0
   m_SortAtRoot: 0
 --- !u!65 &1813913110
@@ -38744,7 +38781,7 @@ SortingGroup:
   m_GameObject: {fileID: 1825649677}
   m_Enabled: 1
   m_SortingLayerID: -1270215341
-  m_SortingLayer: 7
+  m_SortingLayer: 8
   m_SortingOrder: 0
   m_SortAtRoot: 0
 --- !u!65 &1825649679
@@ -38944,7 +38981,7 @@ SortingGroup:
   m_GameObject: {fileID: 1828954551}
   m_Enabled: 1
   m_SortingLayerID: -1270215341
-  m_SortingLayer: 7
+  m_SortingLayer: 8
   m_SortingOrder: 0
   m_SortAtRoot: 0
 --- !u!65 &1828954553
@@ -39531,15 +39568,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 568613127802829654, guid: af80b112343d64d609bcbeef38ba9d82, type: 3}
       propertyPath: m_LocalScale.x
-      value: 166.46304
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 568613127802829654, guid: af80b112343d64d609bcbeef38ba9d82, type: 3}
       propertyPath: m_LocalScale.y
-      value: 147.92032
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 568613127802829654, guid: af80b112343d64d609bcbeef38ba9d82, type: 3}
       propertyPath: m_LocalScale.z
-      value: 166.37047
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 568613127802829654, guid: af80b112343d64d609bcbeef38ba9d82, type: 3}
       propertyPath: m_LocalPosition.x
@@ -39583,7 +39620,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 568613127802829654, guid: af80b112343d64d609bcbeef38ba9d82, type: 3}
       propertyPath: m_ConstrainProportionsScale
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 914175800649966060, guid: af80b112343d64d609bcbeef38ba9d82, type: 3}
       propertyPath: m_Name
@@ -40885,7 +40922,7 @@ SortingGroup:
   m_GameObject: {fileID: 1928604598}
   m_Enabled: 1
   m_SortingLayerID: -1270215341
-  m_SortingLayer: 7
+  m_SortingLayer: 8
   m_SortingOrder: 0
   m_SortAtRoot: 0
 --- !u!65 &1928604600
@@ -41280,7 +41317,7 @@ SortingGroup:
   m_GameObject: {fileID: 1936013280}
   m_Enabled: 1
   m_SortingLayerID: -1270215341
-  m_SortingLayer: 7
+  m_SortingLayer: 8
   m_SortingOrder: 0
   m_SortAtRoot: 0
 --- !u!65 &1936013282
@@ -42423,15 +42460,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 568613127802829654, guid: af80b112343d64d609bcbeef38ba9d82, type: 3}
       propertyPath: m_LocalScale.x
-      value: 166.46304
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 568613127802829654, guid: af80b112343d64d609bcbeef38ba9d82, type: 3}
       propertyPath: m_LocalScale.y
-      value: 147.92032
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 568613127802829654, guid: af80b112343d64d609bcbeef38ba9d82, type: 3}
       propertyPath: m_LocalScale.z
-      value: 166.37047
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 568613127802829654, guid: af80b112343d64d609bcbeef38ba9d82, type: 3}
       propertyPath: m_LocalPosition.x
@@ -42475,7 +42512,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 568613127802829654, guid: af80b112343d64d609bcbeef38ba9d82, type: 3}
       propertyPath: m_ConstrainProportionsScale
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 914175800649966060, guid: af80b112343d64d609bcbeef38ba9d82, type: 3}
       propertyPath: m_Name
@@ -42914,7 +42951,7 @@ SortingGroup:
   m_GameObject: {fileID: 2053108954}
   m_Enabled: 1
   m_SortingLayerID: -1270215341
-  m_SortingLayer: 7
+  m_SortingLayer: 8
   m_SortingOrder: 0
   m_SortAtRoot: 0
 --- !u!65 &2053108956
@@ -43035,7 +43072,7 @@ SortingGroup:
   m_GameObject: {fileID: 2065269478}
   m_Enabled: 1
   m_SortingLayerID: -1270215341
-  m_SortingLayer: 7
+  m_SortingLayer: 8
   m_SortingOrder: 0
   m_SortAtRoot: 0
 --- !u!65 &2065269480
@@ -43517,6 +43554,10 @@ PrefabInstance:
     - target: {fileID: 8336158977232912187, guid: b209262f4ae3e4b42a33497e4b948be7, type: 3}
       propertyPath: m_Name
       value: 1st-Level Hospital Bed
+      objectReference: {fileID: 0}
+    - target: {fileID: 8336158977232912187, guid: b209262f4ae3e4b42a33497e4b948be7, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8711136786137933185, guid: b209262f4ae3e4b42a33497e4b948be7, type: 3}
       propertyPath: m_LocalScale.x
@@ -44484,7 +44525,7 @@ SortingGroup:
   m_GameObject: {fileID: 2141933540}
   m_Enabled: 1
   m_SortingLayerID: -1270215341
-  m_SortingLayer: 7
+  m_SortingLayer: 8
   m_SortingOrder: 0
   m_SortAtRoot: 0
 --- !u!65 &2141933542
@@ -44605,7 +44646,7 @@ SortingGroup:
   m_GameObject: {fileID: 2143387280}
   m_Enabled: 1
   m_SortingLayerID: -1270215341
-  m_SortingLayer: 7
+  m_SortingLayer: 8
   m_SortingOrder: 0
   m_SortAtRoot: 0
 --- !u!64 &2143387282
@@ -45497,7 +45538,7 @@ SortingGroup:
   m_GameObject: {fileID: 6944215634982880796}
   m_Enabled: 1
   m_SortingLayerID: -1640757585
-  m_SortingLayer: 6
+  m_SortingLayer: 7
   m_SortingOrder: 65
   m_SortAtRoot: 0
 --- !u!1001 &7105014127310734653
@@ -45630,7 +45671,6 @@ Transform:
   - {fileID: 1566010110}
   - {fileID: 266652899}
   - {fileID: 2016754312}
-  - {fileID: 1178182341}
   - {fileID: 1734700183}
   - {fileID: 786120637}
   m_Father: {fileID: 1472521265}
