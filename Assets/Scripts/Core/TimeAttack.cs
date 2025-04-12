@@ -8,6 +8,9 @@ public class TimeAttack : MonoBehaviour
     private float timeElapsed = 0f;
     private float timeThreshold = 180f; // 3 minutes in seconds
     private float fastSpawnRate = 5f; // 5 seconds spawn rate
+    private float timeAttackDuration = 60f;
+    float normalSpawnRate;
+    bool isTimeAttackActive = false;
 
     bool isPressed = false;
 
@@ -19,6 +22,7 @@ public class TimeAttack : MonoBehaviour
             patientSpawnManager = FindObjectOfType<PatientSpawn>();
         }
         timeAttackUI.SetActive(false);
+        normalSpawnRate = patientSpawnManager.GetSpawnRate();
     }
     public void ShowToolTip()
     {
@@ -30,14 +34,36 @@ public class TimeAttack : MonoBehaviour
     {
         timeElapsed += Time.deltaTime;
 
-        if (timeElapsed >= timeThreshold)
+        if (!isTimeAttackActive && timeElapsed >= timeThreshold)
         {
-
+            /*
             timeAttackUI.SetActive(true);
             patientSpawnManager.SetFastSpawnRate(fastSpawnRate);
 
             Debug.Log($"Time Attack activated! Spawn rate increased to {fastSpawnRate} seconds");
             timeElapsed = 0f;
+            */
+            StartTimeAttack();
         }
+        else if (isTimeAttackActive && timeElapsed >= timeAttackDuration)
+        {
+            EndTimeAttack();
+        }
+    }
+    void StartTimeAttack()
+    {
+        isTimeAttackActive = true;
+        timeElapsed = 0f;
+        timeAttackUI.SetActive(true);
+        patientSpawnManager.SetFastSpawnRate(fastSpawnRate);
+        Debug.Log($"Time attack activated! {fastSpawnRate} seconds");
+    }
+    void EndTimeAttack()
+    {
+        isTimeAttackActive = false;
+        timeElapsed = 0f;
+        timeAttackUI.SetActive(false);
+        patientSpawnManager.SetFastSpawnRate(normalSpawnRate);
+        Debug.Log($"Time attack ended! Spawn rate reset to {normalSpawnRate} seconds");
     }
 }

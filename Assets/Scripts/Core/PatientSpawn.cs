@@ -17,6 +17,7 @@ public class PatientSpawn : MonoBehaviour
     void Start()
     {
         reputationManager = GetComponent<ReputationManager>();
+        currentSpawnRate = reputationManager.GetPatientSpawnRate();
         StartCoroutine(CheckFirstAreaAndTable());
     }
     IEnumerator CheckFirstAreaAndTable()
@@ -42,9 +43,9 @@ public class PatientSpawn : MonoBehaviour
             SpawnPatient();
         }
     }
-    void GameOver()
+    public float GetSpawnRate()
     {
-        Debug.Log("Game Over - The Hospital has declared bankruptcy!");
+        return isTimeAttackActive ? currentSpawnRate : reputationManager.GetPatientSpawnRate();
     }
     void SpawnPatient()
     {
