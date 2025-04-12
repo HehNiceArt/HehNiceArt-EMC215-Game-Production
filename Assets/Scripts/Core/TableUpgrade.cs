@@ -99,8 +99,6 @@ public class TableUpgrade : SerializedMonoBehaviour
     public void UpgradeTable()
     {
         if (currentTableBehaviors == null) return;
-        Debug.Log($"Attempting to upgrade table: {tableCategory}/{tableType}");
-        Debug.Log($"Current level: {currentTableLevel}, Max level: {currentTableBehaviors.Count - 1}");
 
         if (currentTableLevel < currentTableBehaviors.Count - 1 && currencyEconomy.CheckAreaPurchase(this.currentTableBehaviors[currentTableLevel + 1].costToHire))
         {
@@ -109,6 +107,7 @@ public class TableUpgrade : SerializedMonoBehaviour
             if (animManager != null)
             {
                 int lvl = animManager.LVL + 1;
+                Debug.Log($"Current level: {lvl}");
                 animManager.SetLevel(lvl);
                 Debug.Log(lvl);
             }
