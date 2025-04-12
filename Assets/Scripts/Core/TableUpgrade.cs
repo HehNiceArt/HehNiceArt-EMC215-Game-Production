@@ -30,7 +30,8 @@ public class TableUpgrade : SerializedMonoBehaviour
     void Start()
     {
         tableInteraction = GetComponent<TableInteraction>();
-        animManager = GetComponentInChildren<MedStaff_animManager>(true);
+
+        //animManager = GetComponentInChildren<MedStaff_animManager>(true);
         upgradeBTN.onClick.AddListener(() =>
         {
             if (selectedTable == this)
@@ -73,6 +74,7 @@ public class TableUpgrade : SerializedMonoBehaviour
         selectedTable = this;
         if (currentTableLevel == currentTableBehaviors.Count - 1)
         {
+            animManager = GetComponentInChildren<MedStaff_animManager>(true);
             upgradeUI.SetActive(true);
             upgradeString.text = "Max Level!";
             upgradeBTN.gameObject.SetActive(false);
@@ -103,6 +105,8 @@ public class TableUpgrade : SerializedMonoBehaviour
         if (currentTableLevel < currentTableBehaviors.Count - 1 && currencyEconomy.CheckAreaPurchase(this.currentTableBehaviors[currentTableLevel + 1].costToHire))
         {
             tableLevelGO[currentTableLevel].SetActive(false);
+            //animManager = tableLevelGO[currentTableLevel].GetComponentInChildren<MedStaff_animManager>(true);
+            animManager = GetComponentInChildren<MedStaff_animManager>(true);
             currentTableLevel++;
             if (animManager != null)
             {
