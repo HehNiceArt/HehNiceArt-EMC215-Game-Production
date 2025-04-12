@@ -110,11 +110,9 @@ public class TableUpgrade : SerializedMonoBehaviour
             {
                 int lvl = animManager.LVL + 1;
                 animManager.SetLevel(lvl);
+                Debug.Log(lvl);
             }
-            else
-            {
-                tableLevelGO[currentTableLevel].SetActive(true);
-            }
+            tableLevelGO[currentTableLevel].SetActive(true);
 
             TableBehavior behaviorToUpdate = currentTableBehaviors[currentTableLevel];
             behaviorToUpdate.tableIsLocked = false;
