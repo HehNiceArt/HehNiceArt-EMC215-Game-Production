@@ -25,12 +25,12 @@ public class TableUpgrade : SerializedMonoBehaviour
     [SerializeField] TextMeshProUGUI costText;
 
     private static TableUpgrade selectedTable;
-    MedStaff_animManager animManager;
+    [SerializeField] MedStaff_animManager animManager;
 
     void Start()
     {
         tableInteraction = GetComponent<TableInteraction>();
-        animManager = GetComponentInChildren<MedStaff_animManager>();
+        animManager = GetComponentInChildren<MedStaff_animManager>(true);
         upgradeBTN.onClick.AddListener(() =>
         {
             if (selectedTable == this)
