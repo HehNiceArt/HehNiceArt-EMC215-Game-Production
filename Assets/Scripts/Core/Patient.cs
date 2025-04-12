@@ -7,6 +7,9 @@ using UnityEngine.AI;
 public class Patient : MonoBehaviour
 {
     NavMeshAgent agent;
+    [SerializeField] float avoidanceRadius = 0.5f;
+    [SerializeField] float avoidanceHeight = 2f;
+
     public Room currentRoom;
     public TableInteraction assignedTable;
     [SerializeField] SO_PatientDetails patientDetails;
@@ -26,6 +29,7 @@ public class Patient : MonoBehaviour
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
+        ConfigureNavMeshAgent();
         patientSpawnPoints = GameObject.FindGameObjectsWithTag("PatientSpawnPoint").Select(go => go.transform).ToArray();
 
 #pragma warning disable
@@ -33,8 +37,47 @@ public class Patient : MonoBehaviour
 
         FindAvailableRoom();
     }
+    void ConfigureNavMeshAgent()
+    {
+        agent.radius = avoidanceRadius;
+        agent.height = avoidanceHeight;
+        agent.avoidancePriority = Random.Range(0, 100);
+        agent.obstacleAvoidanceType = ObstacleAvoidanceType.HighQualityObstacleAvoidance;
+        agent.autoTraverseOffMeshLink = true;
+        agent.autoRepath = true;
+    }
+    Vector3 GetAvoidanceDirection()
+    {
+        Collider[] nearbyColliders = Physics.OverlapSphere(transform.position, avoidanceRadius * 2f);
+        Vector3 avoidanceDirection = Vector3.zero;
+
+        foreach (Collider col in nearbyColliders)
+        {
+            if (col.gameObject != gameObject && col.GetComponent<NavMeshAgent>() != null)
+            {
+                Vector3 directionToAgent = transform.position - col.transform.position;
+                float distance = directionToAgent.magnitude;
+                avoidanceDirection += directionToAgent.normalized / distance;
+            }
+        }
+
+        return avoidanceDirection.normalized;
+
+    }
     void Update()
     {
+        if (agent != null && agent.isOnNavMesh && !agent.isStopped)
+        {
+            Vector3 avoidanceDirection = GetAvoidanceDirection();
+            if (avoidanceDirection != Vector3.zero)
+            {
+                Vector3 newDestination = transform.position + avoidanceDirection * avoidanceRadius;
+                if (NavMesh.SamplePosition(newDestination, out NavMeshHit hit, avoidanceRadius, NavMesh.AllAreas))
+                {
+                    agent.SetDestination(hit.position);
+                }
+            }
+        }
         if (isWaiting && !hasReachedTable && currentPharmacy == null && !hasDecidedToLeave)
         {
             // If we're close enough to our waiting position, start the timer

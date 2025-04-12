@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 2343224467368235472}
   - component: {fileID: 96943195757105979}
   - component: {fileID: -5456948256876158856}
+  - component: {fileID: 4208164909201457048}
   m_Layer: 9
   m_Name: Lowest Patient
   m_TagString: Untagged
@@ -136,6 +137,7 @@ MonoBehaviour:
   hasStartedWaiting: 0
   hasReachedPharmacyPosition: 0
   hasDecidedToLeave: 0
+  hasBeenTreated: 0
   patientSpawnPoints: []
 --- !u!195 &96943195757105979
 NavMeshAgent:
@@ -171,6 +173,22 @@ SortingGroup:
   m_SortingLayer: 5
   m_SortingOrder: 0
   m_SortAtRoot: 0
+--- !u!208 &4208164909201457048
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6224452945722829814}
+  m_Enabled: 0
+  serializedVersion: 3
+  m_Shape: 0
+  m_Extents: {x: 0.5, y: 1, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &7717008190604236124
 GameObject:
   m_ObjectHideFlags: 0
